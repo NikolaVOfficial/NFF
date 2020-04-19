@@ -1,0 +1,2450 @@
+(((((OOC)))))Tue Aug 14 00:32:00 2012:Hyuuga, dsfsdgf' says, test
+(((((OOC)))))Tue Aug 14 00:32:00 2012:Hyuuga, dsfsdgf' says, hahaha
+(((((OOC)))))Tue Aug 14 00:32:32 2012:Hyuuga, dsfsdgf' says, test
+(((((OOC)))))Mon Sep 10 04:14:24 2012:Hyuuga, dsfsdgf' says, 
+(((((OOC)))))Thu Dec 13 22:05:52 2012:Toko says, I have 100% vit 
+(((((OOC)))))Tue Dec 25 00:55:28 2012:Toko says, CheckWorldMap
+(((((OOC)))))Tue Dec 25 00:55:28 2012:Toko says, CheckMap
+(((((OOC)))))Tue Dec 25 00:55:28 2012:Toko says, ooc 
+(((((OOC)))))Fri Mar 01 15:47:44 2013:Iwazuka, Sasuna says, .click Harmattan
+(((((OOC)))))Fri Mar 01 15:47:44 2013:Iwazuka, Sasuna says, test
+(((((OOC)))))Wed Mar 13 19:57:10 2013:Uchiha, IsOP says, dev ooc
+(((((OOC)))))Wed Mar 13 19:57:10 2013:Uchah, Sasnan says, wow hi
+(((((OOC)))))Wed Mar 13 19:57:10 2013:Uchah, Sasnan says, just had to disable my
+(((((OOC)))))Wed Mar 13 19:57:10 2013:Uchah, Sasnan says, AVG
+(((((OOC)))))Wed Mar 13 19:57:36 2013:Uchiha, IsOP says, I know I already sent like 5000 viruses
+(((((OOC)))))Wed Mar 13 19:57:36 2013:Uchiha, IsOP says, to your pc
+(((((OOC)))))Wed Mar 13 19:58:01 2013:Uchah, Sasnan says, could use quite a buff
+(((((OOC)))))Wed Mar 13 19:58:01 2013:Uchiha, IsOP says, quite the nerf
+(((((OOC)))))Wed Mar 13 19:58:27 2013:Uchiha, IsOP says, just made sure to test
+(((((OOC)))))Wed Mar 13 19:58:27 2013:Uchiha, IsOP says, that I couldnt blow them up too
+(((((OOC)))))Wed Mar 13 19:58:27 2013:Uchah, Sasnan says, LOL
+(((((OOC)))))Wed Mar 13 19:58:52 2013:Uchiha, IsOP says, You were hit by the explosion for 703.75 stamina damage! (Protected from 0 damage) You were hit by the explosion for 450 vitality damage! (Protected from 0%)
+(((((OOC)))))Wed Mar 13 19:58:52 2013:Uchiha, IsOP says, stam damage from explosions is % based?
+(((((OOC)))))Wed Mar 13 19:58:52 2013:Uchiha, IsOP says, op
+(((((OOC)))))Wed Mar 13 19:59:18 2013:Uchah, Sasnan says, fixed tajuu explosion gg
+(((((OOC)))))Wed Mar 13 19:59:44 2013:Uchah, Sasnan says, yeah so see this server works
+(((((OOC)))))Wed Mar 13 19:59:44 2013:Uchah, Sasnan says, but when I connec tto the acutal
+(((((OOC)))))Wed Mar 13 19:59:44 2013:Uchah, Sasnan says, server
+(((((OOC)))))Wed Mar 13 19:59:44 2013:Uchah, Sasnan says, it doesn&#39;t work
+(((((OOC)))))Wed Mar 13 19:59:44 2013:Uchah, Sasnan says, all the icons get bugged
+(((((OOC)))))Wed Mar 13 19:59:44 2013:Uchiha, IsOP says, lol
+(((((OOC)))))Wed Mar 13 20:00:09 2013:Uchiha, IsOP says, what do those even do
+(((((OOC)))))Wed Mar 13 20:00:09 2013:Uchah, Sasnan says, They damage you.
+(((((OOC)))))Wed Mar 13 20:00:09 2013:Uchiha, IsOP says, oh so its
+(((((OOC)))))Wed Mar 13 20:00:35 2013:Uchiha, IsOP says, crows with dif icon
+(((((OOC)))))Wed Mar 13 20:00:35 2013:Uchah, Sasnan says, No
+(((((OOC)))))Wed Mar 13 20:00:35 2013:Uchah, Sasnan says, this is more like a flame thrower spread like
+(((((OOC)))))Wed Mar 13 20:00:35 2013:Uchiha, IsOP says, Yeah I thought that was cool
+(((((OOC)))))Wed Mar 13 20:01:00 2013:Uchiha, IsOP says, shoot at me again
+(((((OOC)))))Wed Mar 13 20:01:00 2013:Uchiha, IsOP says, im not taking damage
+(((((OOC)))))Wed Mar 13 20:01:00 2013:Uchiha, IsOP says, spread is too linear at first
+(((((OOC)))))Wed Mar 13 20:01:00 2013:Uchah, Sasnan says, fuck..I think they have to land on you
+(((((OOC)))))Wed Mar 13 20:01:26 2013:Uchiha, IsOP says, try to add pixel movement like on dai endan
+(((((OOC)))))Wed Mar 13 20:01:26 2013:Uchiha, IsOP says, or wait
+(((((OOC)))))Wed Mar 13 20:01:52 2013:Uchiha, IsOP says, its already there isnt it
+(((((OOC)))))Wed Mar 13 20:01:52 2013:Uchiha, IsOP says, just doesn&#39;t spread soon enough
+(((((OOC)))))Wed Mar 13 20:01:52 2013:Uchiha, IsOP says, they weren&#39;t spreading til liek right here
+(((((OOC)))))Wed Mar 13 20:02:43 2013:Uchah, Sasnan says, yeah can fix
+(((((OOC)))))Wed Mar 13 20:02:43 2013:Uchiha, IsOP says, can you add palms to my jutsus
+(((((OOC)))))Wed Mar 13 20:03:08 2013:Uchiha, IsOP says, wait dont have bnyakugan
+(((((OOC)))))Wed Mar 13 20:03:08 2013:Uchiha, IsOP says, nvm
+(((((OOC)))))Wed Mar 13 20:03:34 2013:Uchiha, IsOP says, multiple papers are stacking in one spot
+(((((OOC)))))Wed Mar 13 20:03:34 2013:Uchiha, IsOP says, I got hit by like 10 explosions
+(((((OOC)))))Wed Mar 13 20:03:34 2013:Uchiha, IsOP says, raped my WP
+(((((OOC)))))Wed Mar 13 20:03:34 2013:Uchah, Sasnan says, you got hit my bultiple
+(((((OOC)))))Wed Mar 13 20:03:34 2013:Uchah, Sasnan says, multiple
+(((((OOC)))))Wed Mar 13 20:03:34 2013:Uchah, Sasnan says, because that was an unlucky chain
+(((((OOC)))))Wed Mar 13 20:03:34 2013:Uchah, Sasnan says, lucky*
+(((((OOC)))))Wed Mar 13 20:04:00 2013:Uchiha, IsOP says, that jutsu is way too OP
+(((((OOC)))))Wed Mar 13 20:04:00 2013:Uchah, Sasnan says, Yeah I know
+(((((OOC)))))Wed Mar 13 20:04:00 2013:Uchah, Sasnan says, goign to make a own explosion obj for it
+(((((OOC)))))Wed Mar 13 20:04:25 2013:Uchiha, IsOP says, way too easy to hit with
+(((((OOC)))))Wed Mar 13 20:04:25 2013:Uchah, Sasnan says, don&#39;t worry it&#39;s not accessible by normal players yet
+(((((OOC)))))Wed Mar 13 20:04:25 2013:Uchah, Sasnan says, I&#39;ve learned from that
+(((((OOC)))))Wed Mar 13 20:04:25 2013:Uchah, Sasnan says, want to make sure
+(((((OOC)))))Wed Mar 13 20:04:51 2013:Uchah, Sasnan says, I test it
+(((((OOC)))))Wed Mar 13 20:04:51 2013:Uchah, Sasnan says, before
+(((((OOC)))))Wed Mar 13 20:05:16 2013:Uchiha, IsOP says, i did not get sharingan age 10
+(((((OOC)))))Wed Mar 13 20:05:16 2013:Uchiha, IsOP says, shamer
+(((((OOC)))))Wed Mar 13 20:18:56 2013:Uchah, Sasnan says, smfh
+(((((OOC)))))Wed Mar 13 20:19:21 2013:Uchiha, IsOP says, lololol
+(((((OOC)))))Wed Mar 13 20:20:12 2013:Uchiha, IsOP says, oh
+(((((OOC)))))Wed Mar 13 20:20:38 2013:Uchiha, IsOP says, since you ficed hoshis not gainign chakra from clones/crows/create dobjects etcc
+(((((OOC)))))Wed Mar 13 20:20:38 2013:Uchiha, IsOP says, they can&#39;t destroy clones using samehada
+(((((OOC)))))Wed Mar 13 20:21:04 2013:Uchah, Sasnan says, yeah i know
+(((((OOC)))))Wed Mar 13 20:21:04 2013:Uchiha, IsOP says, ok
+(((((OOC)))))Wed Mar 13 20:21:04 2013:Uchah, Sasnan says, Demon been QQin
+(((((OOC)))))Wed Mar 13 20:21:29 2013:Uchiha, IsOP says, Why not just kick them gone
+(((((OOC)))))Wed Mar 13 20:21:29 2013:Uchiha, IsOP says, until its fixed... lol
+(((((OOC)))))Wed Mar 13 20:21:29 2013:Uchiha, IsOP says, he just mad no infinite chakra
+(((((OOC)))))Wed Mar 13 20:21:55 2013:Uchiha, IsOP says, I haven&#39;t been on at all the past 2 days.. but when I was on 
+(((((OOC)))))Wed Mar 13 20:21:55 2013:Uchiha, IsOP says, haven&#39;t seen Makellos
+(((((OOC)))))Wed Mar 13 20:21:55 2013:Uchiha, IsOP says, ~
+(((((OOC)))))Wed Mar 13 20:21:55 2013:Uchah, Sasnan says, LOL
+(((((OOC)))))Wed Mar 13 20:22:20 2013:Uchiha, IsOP says, the moment it was fixed he was already trying to exploit infinite chakra again
+(((((OOC)))))Wed Mar 13 20:22:20 2013:Uchiha, IsOP says, with clones instead of crows
+(((((OOC)))))Wed Mar 13 20:22:46 2013:Uchiha, IsOP says, If I was still enforcer I woulda banned him maybe, because he refused to believe it was an exploit/bug and then tried to do it again in another way
+(((((OOC)))))Wed Mar 13 20:22:46 2013:Uchah, Sasnan says, you should&#39;ve
+(((((OOC)))))Wed Mar 13 20:22:46 2013:Uchah, Sasnan says, if it gets fixed
+(((((OOC)))))Wed Mar 13 20:23:12 2013:Uchiha, IsOP says, Not a GM
+(((((OOC)))))Wed Mar 13 20:23:12 2013:Uchah, Sasnan says, that obvoilsy means its not meant to be
+(((((OOC)))))Wed Mar 13 20:23:12 2013:Uchiha, IsOP says, I have staff tab
+(((((OOC)))))Wed Mar 13 20:23:12 2013:Uchiha, IsOP says, with only Dev OOC
+(((((OOC)))))Wed Mar 13 20:23:12 2013:Uchiha, IsOP says, lol
+(((((OOC)))))Wed Mar 13 20:23:37 2013:Uchiha, IsOP says, Argon removed me, remember?
+(((((OOC)))))Wed Mar 13 20:23:37 2013:Uchah, Sasnan says, He didn&#39;t remove you..I did..
+(((((OOC)))))Wed Mar 13 20:23:37 2013:Uchiha, IsOP says, oh
+(((((OOC)))))Wed Mar 13 20:23:37 2013:Uchah, Sasnan says, You were gone for like
+(((((OOC)))))Wed Mar 13 20:23:37 2013:Uchah, Sasnan says, what..two months?
+(((((OOC)))))Wed Mar 13 20:23:37 2013:Uchiha, IsOP says, 3 weeks
+(((((OOC)))))Wed Mar 13 20:23:37 2013:Uchah, Sasnan says, NO
+(((((OOC)))))Wed Mar 13 20:24:03 2013:Uchah, Sasnan says, I wouldn&#39;t have let you go that easily
+(((((OOC)))))Wed Mar 13 20:24:03 2013:Uchiha, IsOP says, 3-4
+(((((OOC)))))Wed Mar 13 20:24:03 2013:Uchiha, IsOP says, I played til like the end of jan
+(((((OOC)))))Wed Mar 13 20:24:03 2013:Uchiha, IsOP says, I was removed near the end of february
+(((((OOC)))))Wed Mar 13 20:24:28 2013:Uchah, Sasnan says, Don&#39;t even know waht key
+(((((OOC)))))Wed Mar 13 20:24:28 2013:Uchah, Sasnan says, u were onnnnnnnnn
+(((((OOC)))))Wed Mar 13 20:24:28 2013:Uchiha, IsOP says, Bebi vegeta28
+(((((OOC)))))Wed Mar 13 20:24:54 2013:Uchiha, IsOP says, like the FTG problem is more or less gone besides Sarah
+(((((OOC)))))Wed Mar 13 20:24:54 2013:Uchiha, IsOP says, My main reason for not playing as much was Aiichi situation
+(((((OOC)))))Wed Mar 13 20:24:54 2013:Uchiha, IsOP says, and FTG
+(((((OOC)))))Wed Mar 13 20:25:20 2013:Uchiha, IsOP says, But now that Aiichi is finally banned for his massive amount of abusing
+(((((OOC)))))Wed Mar 13 20:25:20 2013:Uchiha, IsOP says, its not bad anymore
+(((((OOC)))))Wed Mar 13 20:25:45 2013:Uchiha, IsOP says, lolololol
+(((((OOC)))))Wed Mar 13 20:26:11 2013:Uchiha, IsOP says, depression
+(((((OOC)))))Wed Mar 13 20:26:11 2013:Uchah, Sasnan says, so glad
+(((((OOC)))))Wed Mar 13 20:26:11 2013:Uchah, Sasnan says, not in those village
+(((((OOC)))))Wed Mar 13 20:26:11 2013:Uchiha, IsOP says, You target the Leaf Ninja.
+(((((OOC)))))Wed Mar 13 20:26:11 2013:Uchiha, IsOP says, ??
+(((((OOC)))))Wed Mar 13 20:26:36 2013:Uchah, Sasnan says, o=
+(((((OOC)))))Wed Mar 13 20:27:28 2013:Uchiha, IsOP says, resting is so slow now..
+(((((OOC)))))Wed Mar 13 20:27:53 2013:Uchiha, IsOP says, like for chakra res
+(((((OOC)))))Wed Mar 13 20:28:19 2013:Uchiha, IsOP says, Increased stamina across the board makes declining in age not so bad anymore
+(((((OOC)))))Wed Mar 13 20:28:19 2013:Uchiha, IsOP says, so thats not bad
+(((((OOC)))))Wed Mar 13 20:28:19 2013:Uchah, Sasnan says, ops
+(((((OOC)))))Wed Mar 13 20:28:19 2013:Uchah, Sasnan says, was din bug fxes
+(((((OOC)))))Wed Mar 13 20:28:44 2013:Uchah, Sasnan says, sry
+(((((OOC)))))Wed Mar 13 20:28:44 2013:Uchiha, IsOP says, Fuuton/Suiton still viable even with the increased stam
+(((((OOC)))))Wed Mar 13 20:28:44 2013:Uchah, Sasnan says, LOL NO
+(((((OOC)))))Wed Mar 13 20:28:44 2013:Uchah, Sasnan says, SUITON LAME
+(((((OOC)))))Wed Mar 13 20:28:44 2013:Uchiha, IsOP says, Oh yeah true
+(((((OOC)))))Wed Mar 13 20:29:10 2013:Uchiha, IsOP says, Suiton is so much weaker than Fuuton
+(((((OOC)))))Wed Mar 13 20:29:10 2013:Uchiha, IsOP says, its ridiculous lol
+(((((OOC)))))Wed Mar 13 20:29:10 2013:Uchiha, IsOP says, Daitoppa + anything else = GG
+(((((OOC)))))Wed Mar 13 20:29:10 2013:Uchah, Sasnan says, but yeah
+(((((OOC)))))Wed Mar 13 20:29:10 2013:Uchah, Sasnan says, I&#39;m willing to compromise with you
+(((((OOC)))))Wed Mar 13 20:29:36 2013:Uchah, Sasnan says, on the Jutsu 
+(((((OOC)))))Wed Mar 13 20:29:36 2013:Uchah, Sasnan says, Passive*
+(((((OOC)))))Wed Mar 13 20:29:36 2013:Uchah, Sasnan says, for suiton
+(((((OOC)))))Wed Mar 13 20:29:36 2013:Uchah, Sasnan says, remove it from being 10 to 5
+(((((OOC)))))Wed Mar 13 20:29:36 2013:Uchiha, IsOP says, Like.. Fuuton hits too hard with low cap
+(((((OOC)))))Wed Mar 13 20:29:36 2013:Uchiha, IsOP says, That would be better than 10 points
+(((((OOC)))))Wed Mar 13 20:29:36 2013:Uchah, Sasnan says, and just double the effectiveness
+(((((OOC)))))Wed Mar 13 20:29:36 2013:Uchah, Sasnan says, per each poitn
+(((((OOC)))))Wed Mar 13 20:30:01 2013:Uchiha, IsOP says, Anything is better than wasting 10 points to be -ALMOST- as good as fuuton
+(((((OOC)))))Wed Mar 13 20:30:01 2013:Uchah, Sasnan says, haven&#39;t seen much of fuuton tbh
+(((((OOC)))))Wed Mar 13 20:30:01 2013:Uchah, Sasnan says, mmk
+(((((OOC)))))Wed Mar 13 20:30:01 2013:Uchiha, IsOP says, Vacuum Cannon
+(((((OOC)))))Wed Mar 13 20:30:27 2013:Uchiha, IsOP says, Is better than teppou
+(((((OOC)))))Wed Mar 13 20:30:27 2013:Uchah, Sasnan says, You can stay on here if you want
+(((((OOC)))))Wed Mar 13 20:30:27 2013:Uchiha, IsOP says, in every way
+(((((OOC)))))Wed Mar 13 20:30:27 2013:Uchah, Sasnan says, i&#39;ll be back on
+(((((OOC)))))Wed Mar 13 20:30:27 2013:Uchah, Sasnan says, in like 10
+(((((OOC)))))Wed Mar 13 20:30:27 2013:Uchah, Sasnan says, after i nerf suiton/buff it
+(((((OOC)))))Wed Mar 13 20:30:27 2013:Uchah, Sasnan says, WE.E I JUST SAID
+(((((OOC)))))Wed Mar 13 20:30:27 2013:Uchiha, IsOP says, Well 
+(((((OOC)))))Wed Mar 13 20:30:27 2013:Uchah, Sasnan says, I WAS GOIGN TO DO
+(((((OOC)))))Wed Mar 13 20:30:52 2013:Uchiha, IsOP says, What suiton buffs do you plan on?
+(((((OOC)))))Wed Mar 13 20:30:52 2013:Uchah, Sasnan says, Well there&#39;s two things i acutally had in mind
+(((((OOC)))))Wed Mar 13 20:30:52 2013:Uchiha, IsOP says, Like mizurappa is trash weak
+(((((OOC)))))Wed Mar 13 20:30:52 2013:Uchah, Sasnan says, one the water pressure thing
+(((((OOC)))))Wed Mar 13 20:31:18 2013:Uchiha, IsOP says, teppous handseals are way too long to only be like 10% stronger than vacuum cannon
+(((((OOC)))))Wed Mar 13 20:31:18 2013:Uchah, Sasnan says, but I wanted toa cutally extend water dragon&#39;s handseals
+(((((OOC)))))Wed Mar 13 20:31:18 2013:Uchah, Sasnan says, and just make it faster in general
+(((((OOC)))))Wed Mar 13 20:31:18 2013:Uchiha, IsOP says, Understandable
+(((((OOC)))))Wed Mar 13 20:31:18 2013:Uchah, Sasnan says, Like i remember zabuza and kakashi
+(((((OOC)))))Wed Mar 13 20:31:18 2013:Uchah, Sasnan says, it took them forever to do the handseals
+(((((OOC)))))Wed Mar 13 20:31:18 2013:Uchiha, IsOP says, 2nd hokage
+(((((OOC)))))Wed Mar 13 20:31:18 2013:Uchah, Sasnan says, and they&#39;re jounin
+(((((OOC)))))Wed Mar 13 20:31:18 2013:Uchiha, IsOP says, could do it instantly
+(((((OOC)))))Wed Mar 13 20:31:18 2013:Uchah, Sasnan says, PRETTY SURE
+(((((OOC)))))Wed Mar 13 20:31:18 2013:Uchah, Sasnan says, WOW
+(((((OOC)))))Wed Mar 13 20:31:44 2013:Uchah, Sasnan says, NOT KAGE RANK K
+(((((OOC)))))Wed Mar 13 20:31:44 2013:Uchiha, IsOP says, ~
+(((((OOC)))))Wed Mar 13 20:31:44 2013:Uchiha, IsOP says, xD
+(((((OOC)))))Wed Mar 13 20:31:44 2013:Uchah, Sasnan says, wow
+(((((OOC)))))Wed Mar 13 20:31:44 2013:Uchah, Sasnan says, wanted to make its handseals longer
+(((((OOC)))))Wed Mar 13 20:31:44 2013:Uchah, Sasnan says, but make it&#39;s speed how it is
+(((((OOC)))))Wed Mar 13 20:31:44 2013:Uchiha, IsOP says, No its fine
+(((((OOC)))))Wed Mar 13 20:31:44 2013:Uchiha, IsOP says, make it longer
+(((((OOC)))))Wed Mar 13 20:31:44 2013:Uchah, Sasnan says, if you have over 4k suiton knowledge
+(((((OOC)))))Wed Mar 13 20:32:09 2013:Uchah, Sasnan says, so give it like
+(((((OOC)))))Wed Mar 13 20:32:09 2013:Uchiha, IsOP says, I mean its fine to increase its handseals
+(((((OOC)))))Wed Mar 13 20:32:09 2013:Uchah, Sasnan says, 2-4 second handseals
+(((((OOC)))))Wed Mar 13 20:32:09 2013:Uchiha, IsOP says, like i understand that
+(((((OOC)))))Wed Mar 13 20:32:09 2013:Uchah, Sasnan says, but it&#39;ll always be this fast
+(((((OOC)))))Wed Mar 13 20:32:09 2013:Uchiha, IsOP says, No
+(((((OOC)))))Wed Mar 13 20:32:09 2013:Uchiha, IsOP says, thats what made suiton
+(((((OOC)))))Wed Mar 13 20:32:35 2013:Uchah, Sasnan says, ?
+(((((OOC)))))Wed Mar 13 20:32:35 2013:Uchiha, IsOP says, ridicuslously OP
+(((((OOC)))))Wed Mar 13 20:32:35 2013:Uchiha, IsOP says, remember?
+(((((OOC)))))Wed Mar 13 20:32:35 2013:Uchah, Sasnan says, I know but if i make the suiton handseals really long for it.
+(((((OOC)))))Wed Mar 13 20:32:35 2013:Uchah, Sasnan says, they&#39;ll KNOW it&#39;s water dragon
+(((((OOC)))))Wed Mar 13 20:32:35 2013:Uchiha, IsOP says, Do you have speedy?
+(((((OOC)))))Wed Mar 13 20:32:35 2013:Uchah, Sasnan says, Yes.
+(((((OOC)))))Wed Mar 13 20:32:35 2013:Uchiha, IsOP says, on that character?
+(((((OOC)))))Wed Mar 13 20:32:35 2013:Uchiha, IsOP says, change speedy off
+(((((OOC)))))Wed Mar 13 20:33:00 2013:Uchiha, IsOP says, i want to see normal seals
+(((((OOC)))))Wed Mar 13 20:33:00 2013:Uchah, Sasnan says, LOl
+(((((OOC)))))Wed Mar 13 20:33:00 2013:Uchiha, IsOP says, maybe increase it&#39;s cooldown as well
+(((((OOC)))))Wed Mar 13 20:33:00 2013:Uchah, Sasnan says, edited my trait to obese
+(((((OOC)))))Wed Mar 13 20:33:00 2013:Uchah, Sasnan says, actually says obese
+(((((OOC)))))Wed Mar 13 20:33:26 2013:Uchah, Sasnan says, on trait tab
+(((((OOC)))))Wed Mar 13 20:33:26 2013:Uchiha, IsOP says, yeah lol
+(((((OOC)))))Wed Mar 13 20:33:26 2013:Uchah, Sasnan says, gg
+(((((OOC)))))Wed Mar 13 20:33:26 2013:Uchiha, IsOP says, It&#39;s cooldown is what... 45 secs?
+(((((OOC)))))Wed Mar 13 20:33:26 2013:Uchah, Sasnan says, water dragon?
+(((((OOC)))))Wed Mar 13 20:33:26 2013:Uchiha, IsOP says, Yeha
+(((((OOC)))))Wed Mar 13 20:33:26 2013:Uchah, Sasnan says, let me find the exact
+(((((OOC)))))Wed Mar 13 20:33:26 2013:Uchah, Sasnan says, hold on
+(((((OOC)))))Wed Mar 13 20:33:26 2013:Uchiha, IsOP says, ok
+(((((OOC)))))Wed Mar 13 20:34:17 2013:Uchah, Sasnan says, ACtually fun fact
+(((((OOC)))))Wed Mar 13 20:34:17 2013:Uchah, Sasnan says, jutsu CD&#39;s
+(((((OOC)))))Wed Mar 13 20:34:17 2013:Uchah, Sasnan says, also depend on Con Stat to an extent!
+(((((OOC)))))Wed Mar 13 20:34:17 2013:Uchiha, IsOP says, nice
+(((((OOC)))))Wed Mar 13 20:34:17 2013:Uchah, Sasnan says, Delay=Time-((M.NinjutsuMastery*2)+round(M.GenSkill*2.5)) 
+(((((OOC)))))Wed Mar 13 20:34:17 2013:Uchah, Sasnan says, Fun fact
+(((((OOC)))))Wed Mar 13 20:34:43 2013:Uchiha, IsOP says, loks like a bunch of mathematics
+(((((OOC)))))Wed Mar 13 20:34:43 2013:Uchiha, IsOP says, that I don&#39;t understand
+(((((OOC)))))Wed Mar 13 20:34:43 2013:Uchah, Sasnan says, it is
+(((((OOC)))))Wed Mar 13 20:34:43 2013:Uchiha, IsOP says, or want to try
+(((((OOC)))))Wed Mar 13 20:34:43 2013:Uchiha, IsOP says, to understand
+(((((OOC)))))Wed Mar 13 20:34:43 2013:Uchah, Sasnan says, k so
+(((((OOC)))))Wed Mar 13 20:34:43 2013:Uchah, Sasnan says, my trait is obese
+(((((OOC)))))Wed Mar 13 20:34:43 2013:Uchah, Sasnan says, test time
+(((((OOC)))))Wed Mar 13 20:34:43 2013:Uchiha, IsOP says, ok
+(((((OOC)))))Wed Mar 13 20:35:08 2013:Uchah, Sasnan says, see
+(((((OOC)))))Wed Mar 13 20:35:08 2013:Uchiha, IsOP says, yeah too short
+(((((OOC)))))Wed Mar 13 20:35:08 2013:Uchah, Sasnan says, still really fast
+(((((OOC)))))Wed Mar 13 20:35:08 2013:Uchiha, IsOP says, I thought was longer
+(((((OOC)))))Wed Mar 13 20:35:08 2013:Uchiha, IsOP says, you made Baku super weak too xD
+(((((OOC)))))Wed Mar 13 20:35:34 2013:Uchiha, IsOP says, 30 cap hits like 1700 on a jounin
+(((((OOC)))))Wed Mar 13 20:35:34 2013:Uchiha, IsOP says, with armor
+(((((OOC)))))Wed Mar 13 20:35:34 2013:Uchiha, IsOP says, but its range is huge
+(((((OOC)))))Wed Mar 13 20:35:34 2013:Uchiha, IsOP says, so I guess its good still
+(((((OOC)))))Wed Mar 13 20:35:34 2013:Uchah, Sasnan says, LOL
+(((((OOC)))))Wed Mar 13 20:35:34 2013:Uchah, Sasnan says, on natural water has
+(((((OOC)))))Wed Mar 13 20:35:34 2013:Uchah, Sasnan says, 2.5 seconds
+(((((OOC)))))Wed Mar 13 20:35:34 2013:Uchah, Sasnan says, wait no nvm
+(((((OOC)))))Wed Mar 13 20:36:00 2013:Uchah, Sasnan says, this char has edited handsael speed i think..
+(((((OOC)))))Wed Mar 13 20:36:00 2013:Uchah, Sasnan says, 45...SMFH.
+(((((OOC)))))Wed Mar 13 20:36:00 2013:Uchiha, IsOP says, LOL!
+(((((OOC)))))Wed Mar 13 20:36:00 2013:Uchah, Sasnan says, Let me edit it back to normal
+(((((OOC)))))Wed Mar 13 20:36:00 2013:Uchiha, IsOP says, I knew it seemed faster than normal
+(((((OOC)))))Wed Mar 13 20:36:00 2013:Uchiha, IsOP says, I coulda sworn it was shorter
+(((((OOC)))))Wed Mar 13 20:36:25 2013:Uchiha, IsOP says, longer**
+(((((OOC)))))Wed Mar 13 20:36:25 2013:Uchah, Sasnan says, yeah
+(((((OOC)))))Wed Mar 13 20:36:25 2013:Uchah, Sasnan says, it&#39;s legit
+(((((OOC)))))Wed Mar 13 20:36:25 2013:Uchiha, IsOP says, yeah see
+(((((OOC)))))Wed Mar 13 20:36:25 2013:Uchah, Sasnan says, nvm
+(((((OOC)))))Wed Mar 13 20:36:51 2013:Uchah, Sasnan says, kk what&#39;s the name of the water passive
+(((((OOC)))))Wed Mar 13 20:36:51 2013:Uchiha, IsOP says, water pressure
+(((((OOC)))))Wed Mar 13 20:36:51 2013:Uchah, Sasnan says, that takes 10 poitns
+(((((OOC)))))Wed Mar 13 20:36:51 2013:Uchiha, IsOP says, its suitons version of fuutons speed passive
+(((((OOC)))))Wed Mar 13 20:36:51 2013:Uchah, Sasnan says, Water Pressure or w.e right
+(((((OOC)))))Wed Mar 13 20:37:16 2013:Uchiha, IsOP says, Yeah
+(((((OOC)))))Wed Mar 13 20:37:42 2013:Uchiha, IsOP says, I still think if you give water dragon its super speed back
+(((((OOC)))))Wed Mar 13 20:37:42 2013:Uchiha, IsOP says, it needs the longer handseals even longer than it normally is
+(((((OOC)))))Wed Mar 13 20:38:08 2013:Uchiha, IsOP says, just a tad bit more
+(((((OOC)))))Wed Mar 13 20:38:08 2013:Uchah, Sasnan says, nah i&#39;m not gonna touch water dragon lul
+(((((OOC)))))Wed Mar 13 20:38:08 2013:Uchiha, IsOP says, ok
+(((((OOC)))))Wed Mar 13 20:38:08 2013:Uchiha, IsOP says, Mizurappa
+(((((OOC)))))Wed Mar 13 20:38:33 2013:Uchiha, IsOP says, slow moving projectile
+(((((OOC)))))Wed Mar 13 20:38:33 2013:Uchiha, IsOP says, hits like 500 with 30 cap on a jounin
+(((((OOC)))))Wed Mar 13 20:38:33 2013:Uchiha, IsOP says, stam..
+(((((OOC)))))Wed Mar 13 20:38:33 2013:Uchiha, IsOP says, 500-640 or some crap
+(((((OOC)))))Wed Mar 13 20:38:33 2013:Uchah, Sasnan says, Increases the pressure of water projectiles dealing 7.5% more damage for each point..
+(((((OOC)))))Wed Mar 13 20:38:59 2013:Uchah, Sasnan says, Mmk so if i remove it to 5
+(((((OOC)))))Wed Mar 13 20:38:59 2013:Uchah, Sasnan says, that&#39;s 15%
+(((((OOC)))))Wed Mar 13 20:38:59 2013:Uchiha, IsOP says, yeah
+(((((OOC)))))Wed Mar 13 20:39:50 2013:Uchiha, IsOP says, Just need to make suiton compete with fuuton without overbuffing it though
+(((((OOC)))))Wed Mar 13 20:40:41 2013:Uchiha, IsOP says, Daitoppa is fuutons main jutsu
+(((((OOC)))))Wed Mar 13 20:40:41 2013:Uchiha, IsOP says, Well, Daitoppa, and Vacuum cannon
+(((((OOC)))))Wed Mar 13 20:41:07 2013:Uchiha, IsOP says, Daitoppa ticks like 5-6 times in one second and hits for like 100 per tick at 25 cap against heavy armored genin
+(((((OOC)))))Wed Mar 13 20:41:32 2013:Uchah, Sasnan says, Mmk. Now just need to code in the auto give back EP for those who have it at 10
+(((((OOC)))))Wed Mar 13 20:41:32 2013:Uchah, Sasnan says, +5 EP in their pocket =)
+(((((OOC)))))Wed Mar 13 20:41:32 2013:Uchiha, IsOP says, and blocking inside is asking to get combo&#39;d with a nara shadow, vit hitter, kiro star, etc...
+(((((OOC)))))Wed Mar 13 20:41:32 2013:Uchiha, IsOP says, so you have to take a bunch of ticks and shushin out asap
+(((((OOC)))))Wed Mar 13 20:41:32 2013:Uchiha, IsOP says, thats what is making fuuton so strong
+(((((OOC)))))Wed Mar 13 20:41:32 2013:Uchah, Sasnan says, NERF DAITOPA?
+(((((OOC)))))Wed Mar 13 20:41:58 2013:Uchah, Sasnan says, ??
+(((((OOC)))))Wed Mar 13 20:41:58 2013:Uchiha, IsOP says, Idk about nerfing daitoppa
+(((((OOC)))))Wed Mar 13 20:41:58 2013:Uchiha, IsOP says, Vacuum Cannon, and Daitoppa are it&#39;s best jutsus
+(((((OOC)))))Wed Mar 13 20:42:24 2013:Uchiha, IsOP says, Fuuton in general hits pretty hard even with low cap
+(((((OOC)))))Wed Mar 13 20:42:24 2013:Uchah, Sasnan says, laggggggggg
+(((((OOC)))))Wed Mar 13 20:42:24 2013:Uchah, Sasnan says, yeah i just want to get
+(((((OOC)))))Wed Mar 13 20:42:24 2013:Uchah, Sasnan says, all elements
+(((((OOC)))))Wed Mar 13 20:42:24 2013:Uchah, Sasnan says, as balanced as possible
+(((((OOC)))))Wed Mar 13 20:42:24 2013:Uchiha, IsOP says, like give yourself teppoudama and vacuum cannon
+(((((OOC)))))Wed Mar 13 20:42:24 2013:Uchah, Sasnan says, so i can see variet
+(((((OOC)))))Wed Mar 13 20:42:49 2013:Uchah, Sasnan says, NOBODY USES
+(((((OOC)))))Wed Mar 13 20:42:49 2013:Uchah, Sasnan says, DOTON
+(((((OOC)))))Wed Mar 13 20:42:49 2013:Uchah, Sasnan says, SMFH
+(((((OOC)))))Wed Mar 13 20:42:49 2013:Uchiha, IsOP says, Swamp is
+(((((OOC)))))Wed Mar 13 20:42:49 2013:Uchiha, IsOP says, OP now...
+(((((OOC)))))Wed Mar 13 20:42:49 2013:Uchiha, IsOP says, its damage is so high
+(((((OOC)))))Wed Mar 13 20:42:49 2013:Uchah, Sasnan says, I know..but there&#39;s OTHER jutsu too..
+(((((OOC)))))Wed Mar 13 20:42:49 2013:Uchah, Sasnan says, like 10 other ones..
+(((((OOC)))))Wed Mar 13 20:42:49 2013:Uchah, Sasnan says, for Doton
+(((((OOC)))))Wed Mar 13 20:42:49 2013:Uchiha, IsOP says, no one uses doryuudon because they think its handseals are too long
+(((((OOC)))))Wed Mar 13 20:43:15 2013:Uchah, Sasnan says, and wowadderall working making me want to work
+(((((OOC)))))Wed Mar 13 20:43:15 2013:Uchah, Sasnan says, wow
+(((((OOC)))))Wed Mar 13 20:43:15 2013:Uchah, Sasnan says, doryudan handseals
+(((((OOC)))))Wed Mar 13 20:43:15 2013:Uchiha, IsOP says, I never see that crap anymore
+(((((OOC)))))Wed Mar 13 20:43:15 2013:Uchiha, IsOP says, it used to be so OP
+(((((OOC)))))Wed Mar 13 20:43:15 2013:Uchiha, IsOP says, Lots of people use doton though
+(((((OOC)))))Wed Mar 13 20:43:15 2013:Uchiha, IsOP says, its just not an offensive element
+(((((OOC)))))Wed Mar 13 20:43:40 2013:Uchiha, IsOP says, liuke the pillar spikes are only strong with 35+ cap
+(((((OOC)))))Wed Mar 13 20:44:06 2013:Uchiha, IsOP says, Remember how OP doton was at the beginning of last era?
+(((((OOC)))))Wed Mar 13 20:44:06 2013:Uchiha, IsOP says, Because damage was too high
+(((((OOC)))))Wed Mar 13 20:45:48 2013:Uchah, Sasnan says, kk about to set up the auto return for EP
+(((((OOC)))))Wed Mar 13 20:45:48 2013:Uchah, Sasnan says, brb in like 3 mins
+(((((OOC)))))Wed Mar 13 20:48:48 2013:Uchah, Sasnan says, mmk
+(((((OOC)))))Wed Mar 13 20:48:48 2013:Uchah, Sasnan says, src&lt;&lt;&#34;Because the Suiton Passive: Water Pressure&#39;s Cap has been lowered to five you have been refunded of your Elemental Points!&#34;
+(((((OOC)))))Wed Mar 13 20:48:48 2013:Uchah, Sasnan says, gg
+(((((OOC)))))Wed Mar 13 20:49:13 2013:Uchiha, IsOP says, lol
+(((((OOC)))))Wed Mar 13 20:49:13 2013:Uchiha, IsOP says, give yourself teppou and vacuum cannon on there
+(((((OOC)))))Wed Mar 13 20:49:13 2013:Uchiha, IsOP says, so you can compare the two
+(((((OOC)))))Wed Mar 13 20:49:39 2013:Uchiha, IsOP says, leave your handseal speed at 30/30 and no speedy
+(((((OOC)))))Wed Mar 13 20:51:21 2013:Uchah, Sasnan says, 1935
+(((((OOC)))))Wed Mar 13 20:51:21 2013:Uchiha, IsOP says, only like 10% weaker
+(((((OOC)))))Wed Mar 13 20:51:47 2013:Uchiha, IsOP says, but is instant
+(((((OOC)))))Wed Mar 13 20:51:47 2013:Uchiha, IsOP says, drains less chakra
+(((((OOC)))))Wed Mar 13 20:51:47 2013:Uchah, Sasnan says, yeah actually 25% weaker according to my calculator huehueheu
+(((((OOC)))))Wed Mar 13 20:51:47 2013:Uchah, Sasnan says, let me compare the chakra drains though
+(((((OOC)))))Wed Mar 13 20:52:12 2013:Uchiha, IsOP says, oh derp bad at math
+(((((OOC)))))Wed Mar 13 20:52:38 2013:Uchah, Sasnan says, Teppo is 25k chakra drain Cannon is 20k
+(((((OOC)))))Wed Mar 13 20:53:29 2013:Uchiha, IsOP says, daitoppa, cannon, renkuu, kaze gai
+(((((OOC)))))Wed Mar 13 20:53:29 2013:Uchiha, IsOP says, are fuutons best
+(((((OOC)))))Wed Mar 13 20:53:29 2013:Uchiha, IsOP says, baku,  shark bullet, and teppou
+(((((OOC)))))Wed Mar 13 20:53:29 2013:Uchiha, IsOP says, are suitons best
+(((((OOC)))))Wed Mar 13 20:53:55 2013:Uchiha, IsOP says, water gun is fine, the vit shark is fine
+(((((OOC)))))Wed Mar 13 20:54:20 2013:Uchah, Sasnan says, Meh..Suiton waterfall
+(((((OOC)))))Wed Mar 13 20:54:20 2013:Uchiha, IsOP says, sharks are fine
+(((((OOC)))))Wed Mar 13 20:54:20 2013:Uchah, Sasnan says, is actually pro
+(((((OOC)))))Wed Mar 13 20:54:20 2013:Uchah, Sasnan says, now I think..
+(((((OOC)))))Wed Mar 13 20:54:20 2013:Uchah, Sasnan says, i buffed it a while ago
+(((((OOC)))))Wed Mar 13 20:54:20 2013:Uchah, Sasnan says, god it&#39;s probably too OP now and no one knows
+(((((OOC)))))Wed Mar 13 20:54:20 2013:Uchiha, IsOP says, too situational
+(((((OOC)))))Wed Mar 13 20:54:20 2013:Uchah, Sasnan says, Gonna check
+(((((OOC)))))Wed Mar 13 20:57:45 2013:Uchah, Sasnan says, kindu q-q?
+(((((OOC)))))Wed Mar 13 20:57:45 2013:Uchiha, IsOP says, phone rang
+(((((OOC)))))Wed Mar 13 20:58:36 2013:Uchah, Sasnan says, yeah should remake the waterfall jutsu
+(((((OOC)))))Wed Mar 13 20:58:36 2013:Uchah, Sasnan says, like make the ones in the middle
+(((((OOC)))))Wed Mar 13 20:58:36 2013:Uchah, Sasnan says, a LOT stronger than the ones on the side
+(((((OOC)))))Wed Mar 13 20:58:36 2013:Uchah, Sasnan says, make the waterfall center sronger than the outside
+(((((OOC)))))Wed Mar 13 20:59:02 2013:Uchiha, IsOP says, lol
+(((((OOC)))))Wed Mar 13 20:59:28 2013:Uchah, Sasnan says, no really am open to suggestions q-q
+(((((OOC)))))Wed Mar 13 20:59:28 2013:Uchah, Sasnan says, want to get more players from eoxudsusus
+(((((OOC)))))Wed Mar 13 21:02:27 2013:Uchiha, IsOP says, gonna get off friend coming over
+(((((OOC)))))Wed Mar 13 21:02:27 2013:Uchiha, IsOP says, but really overall
+(((((OOC)))))Wed Mar 13 21:02:27 2013:Uchah, Sasnan says, ight ttyl ;o
+(((((OOC)))))Wed Mar 13 21:02:27 2013:Uchiha, IsOP says, I suggest
+(((((OOC)))))Wed Mar 13 21:02:52 2013:Uchiha, IsOP says, looking at all the elements
+(((((OOC)))))Wed Mar 13 21:02:52 2013:Uchiha, IsOP says, like elemental change is the biggest impact
+(((((OOC)))))Wed Mar 13 21:02:52 2013:Uchiha, IsOP says, thats the biggest priority
+(((((OOC)))))Wed Mar 13 21:03:18 2013:Uchiha, IsOP says, Ill be on later thogh if your still up
+(((((OOC)))))Wed Mar 13 21:03:18 2013:Uchiha, IsOP says, peace
+(((((OOC)))))Thu Mar 14 15:31:28 2013:Uchah, Sasnan says, first
+(((((OOC)))))Thu Mar 14 15:31:28 2013:Uchah, Sasnan says, last
+(((((OOC)))))Wed May 22 08:44:32 2013:Uchiha, Chosen says, .mouse-down
+(((((OOC)))))Mon Jun 17 15:04:48 2013:Uchiha, Chosen says, .alt 
+(((((OOC)))))Mon Jun 17 15:53:20 2013:Uchiha, Chosen says, 
+(((((OOC)))))Mon Jun 17 16:05:04 2013:Uchiha, Chosen says, 
+(((((OOC)))))Mon Jun 17 16:11:28 2013:Uchiha, Chosen says, test
+(((((OOC)))))Mon Jun 17 17:45:20 2013:Uchiha, Chosen says, test
+(((((OOC)))))Mon Jun 17 18:50:56 2013:Uchiha, Chosen says, test
+(((((OOC)))))Mon Jun 17 18:50:56 2013:Uchiha, Chosen says, 
+(((((OOC)))))Mon Jun 24 14:03:28 2013:Uchiha, Chosen says, G
+(((((OOC)))))Wed Jul 10 17:41:36 2013:Uchiha, Chosen says, Killer
+(((((OOC)))))Tue Sep 10 00:10:24 2013:Inuzuka, Sasuna says, optionsparty()
+(((((OOC)))))Fri Sep 20 12:58:56 2013:Inuzuka, Sasuna says, test
+(((((OOC)))))Fri Sep 20 12:58:56 2013:Inuzuka, Sasuna says, say 
+(((((OOC)))))Wed Sep 25 02:26:24 2013:Akimichi, 50 says, src&lt;&lt;browse({&#34;
+(((((OOC)))))Wed Sep 25 02:26:24 2013:Akimichi, 50 says, ooc
+(((((OOC)))))Mon Aug 25 09:24:25 2014:Inuzuka, Jukato says, Hai Marcus long time no see
+(((((OOC)))))Mon Aug 25 09:26:59 2014:Uchiha, Saturn says, Lol.
+(((((OOC)))))Mon Aug 25 09:26:59 2014:Kusakin, Rogue says, ..
+(((((OOC)))))Mon Aug 25 09:26:59 2014:Kusakin, Rogue says, gay.
+(((((OOC)))))Mon Aug 25 09:26:59 2014:Kumojin, Rebirthed says, Game really wiped again?
+(((((OOC)))))Mon Aug 25 09:26:59 2014:Uchiha, Saturn says, Marcus
+(((((OOC)))))Mon Aug 25 09:26:59 2014:Kusakin, Rogue says, Rebirthed
+(((((OOC)))))Mon Aug 25 09:26:59 2014:Uchiha, Saturn says, Everyones going to think this is the real NFF
+(((((OOC)))))Mon Aug 25 09:26:59 2014:Kusakin, Rogue says, shouldn&#39;t you quit?
+(((((OOC)))))Mon Aug 25 09:26:59 2014:Kumojin, Rebirthed says, Yes lol.
+(((((OOC)))))Mon Aug 25 09:26:59 2014:Kumojin, Rebirthed says, this is just a waste of time.
+(((((OOC)))))Mon Aug 25 09:26:59 2014:Kusakin, Rogue says, gtfo.
+(((((OOC)))))Mon Aug 25 09:26:59 2014:Uchiha, Saturn says, Should I tell them otherwise?
+(((((OOC)))))Mon Aug 25 09:27:50 2014:Kusakin, Rogue says, I&#39;ll buy edits.
+(((((OOC)))))Mon Aug 25 09:27:50 2014:Uchiha, Saturn says, Edits already being sold lol
+(((((OOC)))))Mon Aug 25 09:27:50 2014:Kusakin, Rogue says, Oh yeah.
+(((((OOC)))))Mon Aug 25 09:27:50 2014:Kusakin, Rogue says, I also want to buy admin rank on forum.
+(((((OOC)))))Mon Aug 25 09:27:50 2014:Kusakin, Rogue says, $300 right
+(((((OOC)))))Mon Aug 25 09:28:41 2014:Uchiha, Saturn says, No, why did he get admin though?
+(((((OOC)))))Mon Aug 25 09:28:41 2014:Kusakin, Rogue says, wait
+(((((OOC)))))Mon Aug 25 09:28:41 2014:Kusakin, Rogue says, it isn&#39;t dumbass to just admin someone who was banned?
+(((((OOC)))))Mon Aug 25 09:28:41 2014:Uchiha, Saturn says, rofl.
+(((((OOC)))))Mon Aug 25 09:28:41 2014:Kusakin, Rogue says, Is that why Kaio was dissing him yesterday
+(((((OOC)))))Mon Aug 25 09:28:41 2014:Uchiha, Saturn says, I didn&#39;t bash on him.
+(((((OOC)))))Mon Aug 25 09:29:32 2014:Uchiha, Saturn says, Whats this server for, I forgot
+(((((OOC)))))Mon Aug 25 09:29:32 2014:Kusakin, Rogue says, Why was Kaio mad or something on shoutbox?
+(((((OOC)))))Mon Aug 25 09:30:24 2014:Kusakin, Rogue says, Why did Argon admin him? o.o
+(((((OOC)))))Mon Aug 25 09:30:24 2014:Kusakin, Rogue says, Shouldn&#39;t Kaio give him admin?
+(((((OOC)))))Mon Aug 25 09:30:24 2014:Uchiha, Saturn says, Marcusssssss
+(((((OOC)))))Mon Aug 25 09:30:24 2014:Kusakin, Rogue says, He bought his way up.
+(((((OOC)))))Mon Aug 25 09:31:15 2014:Kusakin, Rogue says, You guys are dumbasses if you actually thought he bought admin. 
+(((((OOC)))))Mon Aug 25 09:31:15 2014:Kusakin, Rogue says, He did though.
+(((((OOC)))))Mon Aug 25 09:31:15 2014:Uchiha, Saturn says, Soooo, before you go
+(((((OOC)))))Mon Aug 25 09:31:15 2014:Uchiha, Saturn says, give me a short summary of what this server is about
+(((((OOC)))))Mon Aug 25 09:31:15 2014:Uchiha, Saturn says, ???
+(((((OOC)))))Mon Aug 25 09:31:15 2014:Kusakin, Rogue says, Stress Test Server - We&#39;ll be testing if the ANTI-DA system works, and the new way the hidden ninja scroll works.
+(((((OOC)))))Mon Aug 25 09:32:06 2014:Satou, CloudZ says, Woah srsly
+(((((OOC)))))Mon Aug 25 09:32:06 2014:Satou, CloudZ says, I don&#39;t care wat people said...
+(((((OOC)))))Mon Aug 25 09:32:06 2014:Toasty says, new way the hidden ninja scroll works 
+(((((OOC)))))Mon Aug 25 09:32:06 2014:Toasty says, What&#39;s this about?
+(((((OOC)))))Mon Aug 25 09:32:06 2014:Satou, CloudZ says, But srsly i don&#39;t buy admin
+(((((OOC)))))Mon Aug 25 09:32:06 2014:Uchiha, Saturn says, Tell me about the new scroll system o.o
+(((((OOC)))))Mon Aug 25 09:32:06 2014:Uchiha, Saturn says, Idgaf about this Cloud fool, he hasn&#39;t done anything to me
+(((((OOC)))))Mon Aug 25 09:32:57 2014:Satou, CloudZ says, It up to u if u want believe or not
+(((((OOC)))))Mon Aug 25 09:32:57 2014:Uchiha, Saturn says, his words never phased me.
+(((((OOC)))))Mon Aug 25 09:32:57 2014:Toasty says, Niice
+(((((OOC)))))Mon Aug 25 09:32:57 2014:Kusakin, Rogue says, ..
+(((((OOC)))))Mon Aug 25 09:32:57 2014:Kusakin, Rogue says, Instead of acting all mytstery
+(((((OOC)))))Mon Aug 25 09:32:57 2014:Kusakin, Rogue says, and drawing attention to yourself
+(((((OOC)))))Mon Aug 25 09:32:57 2014:Satou, CloudZ says, saturn?
+(((((OOC)))))Mon Aug 25 09:32:57 2014:Kusakin, Rogue says, you could&#39;ve explained, CloudZ.
+(((((OOC)))))Mon Aug 25 09:32:57 2014:Kusakin, Rogue says, Nobody would&#39;ve this &#39;misunderstanding&#39;.
+(((((OOC)))))Mon Aug 25 09:32:57 2014:Uchiha, Saturn says, Yeah?
+(((((OOC)))))Mon Aug 25 09:32:57 2014:Satou, CloudZ says, They won&#39;t believe...
+(((((OOC)))))Mon Aug 25 09:33:48 2014:Satou, CloudZ says, I told them like more then 10times that i don&#39;t buy this admin...
+(((((OOC)))))Mon Aug 25 09:34:40 2014:Satou, CloudZ says, btw 
+(((((OOC)))))Mon Aug 25 09:34:40 2014:Kusakin, Rogue says, Kaio was kind of dissing you in the chat.. 
+(((((OOC)))))Mon Aug 25 09:34:40 2014:Satou, CloudZ says, yeh misunderstanding
+(((((OOC)))))Mon Aug 25 09:35:31 2014:Uchiha, Saturn says, How much did you donate?
+(((((OOC)))))Mon Aug 25 09:35:31 2014:Uchiha, Saturn says, To fund Ninpo
+(((((OOC)))))Mon Aug 25 09:36:22 2014:Uchiha, Saturn says, Oh I see.
+(((((OOC)))))Mon Aug 25 09:36:22 2014:Uchiha, Saturn says, Too bad theres no diags in Ninpo.
+(((((OOC)))))Mon Aug 25 09:36:22 2014:Uchiha, Saturn says, Well
+(((((OOC)))))Mon Aug 25 09:36:22 2014:Uchiha, Saturn says, so i heard
+(((((OOC)))))Mon Aug 25 09:36:22 2014:Uchiha, Saturn says, Seeing as Kaio misinterpreted what was going on did he even know the money was ogign towards Ninpo
+(((((OOC)))))Mon Aug 25 09:36:22 2014:Uchiha, Saturn says, No Ninpo for me ^_^_^
+(((((OOC)))))Mon Aug 25 09:37:13 2014:Akimichi, Bushido says, soo everyone gotta start from the beginning now?
+(((((OOC)))))Mon Aug 25 09:37:13 2014:Uchiha, Saturn says, No
+(((((OOC)))))Mon Aug 25 09:37:13 2014:Akimichi, Bushido says, ??
+(((((OOC)))))Mon Aug 25 09:37:13 2014:Akimichi, Bushido says, my save file was gone...
+(((((OOC)))))Mon Aug 25 09:37:13 2014:Toasty says, My inventory doesn&#39;t want to close, so that&#39;s a thing
+(((((OOC)))))Mon Aug 25 09:37:13 2014:Toasty says, The main server is still there btw
+(((((OOC)))))Mon Aug 25 09:37:13 2014:Toasty says, I was just there
+(((((OOC)))))Mon Aug 25 09:38:04 2014:Toasty says, It just doesn&#39;t show up on the hub
+(((((OOC)))))Mon Aug 25 09:38:04 2014:Akimichi, Bushido says, give me link to the main server then
+(((((OOC)))))Mon Aug 25 09:38:56 2014:Toasty says, BTW are those jiongu icons gonna be used for NFF or Ninpo ( I know ninpo has a diffrent base but y&#39;know)
+(((((OOC)))))Mon Aug 25 09:38:56 2014:Akimichi, Bushido says, toasty
+(((((OOC)))))Mon Aug 25 09:38:56 2014:Akimichi, Bushido says, can you give link to main server
+(((((OOC)))))Mon Aug 25 09:38:56 2014:Akimichi, Bushido says, i have my account there
+(((((OOC)))))Mon Aug 25 09:39:47 2014:Toasty says, Can&#39;t atm, since i got into it by pressing replay
+(((((OOC)))))Mon Aug 25 09:39:47 2014:Uchiha, Saturn says, Sooooo, all the perma banned people can play this game?
+(((((OOC)))))Mon Aug 25 09:39:47 2014:Akimichi, Bushido says, damn 
+(((((OOC)))))Mon Aug 25 09:39:47 2014:Akimichi, Bushido says, oh well
+(((((OOC)))))Mon Aug 25 09:39:47 2014:Toasty says, Neb and Tangu are there
+(((((OOC)))))Mon Aug 25 09:39:47 2014:Akimichi, Bushido says, soo once you play this game
+(((((OOC)))))Mon Aug 25 09:39:47 2014:Akimichi, Bushido says, cant go back
+(((((OOC)))))Mon Aug 25 09:39:47 2014:Toasty says, try to ask them
+(((((OOC)))))Mon Aug 25 09:40:38 2014:Uchiha, Saturn says, Oh yeah
+(((((OOC)))))Mon Aug 25 09:40:38 2014:Akimichi, Bushido says, thats cool
+(((((OOC)))))Mon Aug 25 09:40:38 2014:Uchiha, Saturn says, you were talking about that runescape tomato island shit
+(((((OOC)))))Mon Aug 25 09:40:38 2014:Uchiha, Saturn says, So this is a game you&#39;re making with Argon?
+(((((OOC)))))Mon Aug 25 09:40:38 2014:Akimichi, Bushido says, yay
+(((((OOC)))))Mon Aug 25 09:40:38 2014:Akimichi, Bushido says, and a decent admin
+(((((OOC)))))Mon Aug 25 09:40:38 2014:Uchiha, Saturn says, Did you fix the ABC thing
+(((((OOC)))))Mon Aug 25 09:40:38 2014:Uchiha, Saturn says, I just tried it dont ban me
+(((((OOC)))))Mon Aug 25 09:41:29 2014:Uchiha, Saturn says, CallABC
+(((((OOC)))))Mon Aug 25 09:41:29 2014:Satou, CloudZ says, lol
+(((((OOC)))))Mon Aug 25 09:41:29 2014:Uchiha, Saturn says, ok
+(((((OOC)))))Mon Aug 25 09:41:29 2014:Satou, CloudZ says, How u guys know about CallABC?
+(((((OOC)))))Mon Aug 25 09:41:29 2014:Uchiha, Saturn says, Me or Cloud?
+(((((OOC)))))Mon Aug 25 09:42:20 2014:Akimichi, Bushido says, what clans are you adding?
+(((((OOC)))))Mon Aug 25 09:42:20 2014:Toasty says, I know Jashin is one
+(((((OOC)))))Mon Aug 25 09:42:20 2014:Akimichi, Bushido says, yay
+(((((OOC)))))Mon Aug 25 09:42:20 2014:Uchiha, Saturn says, I don&#39;t know if youre Marcus or Argon
+(((((OOC)))))Mon Aug 25 09:42:20 2014:Satou, CloudZ says, This nff version will be cooler then Sas NFF
+(((((OOC)))))Mon Aug 25 09:42:20 2014:Toasty says, Since apop&#39;s been bitching about it for quite some time
+(((((OOC)))))Mon Aug 25 09:42:20 2014:Akimichi, Bushido says, maybe you should add youthy non clan too
+(((((OOC)))))Mon Aug 25 09:42:20 2014:Akimichi, Bushido says, a clan that makes learning tai quicker
+(((((OOC)))))Mon Aug 25 09:43:12 2014:Satou, CloudZ says, don&#39;t worry guys alot of clan will be added
+(((((OOC)))))Mon Aug 25 09:43:12 2014:Akimichi, Bushido says, and for godsakes add defensive npcs in villages for the sake of the newbs
+(((((OOC)))))Mon Aug 25 09:43:12 2014:Akimichi, Bushido says, people should have an advantage on their home turf
+(((((OOC)))))Mon Aug 25 09:43:12 2014:Toasty says, just go afk
+(((((OOC)))))Mon Aug 25 09:43:12 2014:Toasty says, jeez
+(((((OOC)))))Mon Aug 25 09:44:03 2014:Uchiha, Saturn says, Can I get a passive max
+(((((OOC)))))Mon Aug 25 09:44:03 2014:Uchiha, Saturn says, So how exactly do we test the Anti DA system
+(((((OOC)))))Mon Aug 25 09:44:54 2014:Uchiha, Saturn says, Come fight me Marcus
+(((((OOC)))))Mon Aug 25 09:44:54 2014:Uchiha, Saturn says, Do I need to be hit or just koed
+(((((OOC)))))Mon Aug 25 09:44:54 2014:Uchiha, Saturn says, you can test it, i&#39;ll whoop your ass
+(((((OOC)))))Mon Aug 25 09:44:54 2014:Uchiha, Saturn says, wow pussy
+(((((OOC)))))Mon Aug 25 09:46:36 2014:Uchiha, Saturn says, So
+(((((OOC)))))Mon Aug 25 09:46:36 2014:Uchiha, Saturn says, It teleports you to the hosp
+(((((OOC)))))Mon Aug 25 09:46:36 2014:Uchiha, Saturn says, and struggles you
+(((((OOC)))))Mon Aug 25 09:46:36 2014:Uchiha, Saturn says, ??
+(((((OOC)))))Mon Aug 25 09:47:28 2014:Uchiha, Saturn says, Then Its fine for me to DA and not lose cl as long as you gain cl from it
+(((((OOC)))))Mon Aug 25 09:47:28 2014:Uchiha, Saturn says, That sounds so abusable
+(((((OOC)))))Mon Aug 25 09:47:28 2014:Uchiha, Saturn says, Lets make tons of CL right now Jash
+(((((OOC)))))Mon Aug 25 09:48:19 2014:Uchiha, Saturn says, Wait you have nothing to fight with
+(((((OOC)))))Mon Aug 25 09:48:19 2014:Uchiha, Saturn says, We gonna get MS right now ok
+(((((OOC)))))Mon Aug 25 09:48:19 2014:Uchiha, Saturn says, Bye bye other NFF
+(((((OOC)))))Mon Aug 25 09:49:10 2014:Akimichi, Bushido says, i want ms
+(((((OOC)))))Mon Aug 25 09:49:10 2014:Akimichi, Bushido says, you gotta get KS
+(((((OOC)))))Mon Aug 25 09:49:10 2014:Akimichi, Bushido says, i mean ms
+(((((OOC)))))Mon Aug 25 09:49:10 2014:Akimichi, Bushido says, for that i think you need class level
+(((((OOC)))))Mon Aug 25 09:49:10 2014:Akimichi, Bushido says, alot
+(((((OOC)))))Mon Aug 25 09:49:10 2014:Akimichi, Bushido says, not sure
+(((((OOC)))))Mon Aug 25 09:50:01 2014:Satou, CloudZ says, Yeh
+(((((OOC)))))Mon Aug 25 09:50:01 2014:Uchiha, Saturn says, Getting cl isnt a problem for me ;]
+(((((OOC)))))Mon Aug 25 09:50:52 2014:Satou, CloudZ says, 
+(((((OOC)))))Mon Aug 25 09:52:35 2014:Satou, CloudZ says, hmm lame i can&#39;t use fn + arrow key
+(((((OOC)))))Mon Aug 25 09:56:51 2014:Ketsueki, Sartorian says, Is the main server still up?
+(((((OOC)))))Mon Aug 25 09:56:51 2014:Akimichi, Bushido says, nobody has a link to it
+(((((OOC)))))Mon Aug 25 09:57:42 2014:Kusakin, Rose says, ...
+(((((OOC)))))Mon Aug 25 09:57:42 2014:Ketsueki, Sartorian says, There&#39;s one on the forums -_-
+(((((OOC)))))Mon Aug 25 09:57:42 2014:Kusakin, Rose says, test server?
+(((((OOC)))))Mon Aug 25 09:57:42 2014:Ketsueki, Sartorian says, Leroy, save this to a text file of some sort on your computer:  http://forums.ninpo-online.com/forum/37169/
+(((((OOC)))))Mon Aug 25 09:58:33 2014:Ketsueki, Sartorian says, links directly to the main server. Clicked here in case the main was down.
+(((((OOC)))))Mon Aug 25 09:58:33 2014:Akimichi, Bushido says, i see only one
+(((((OOC)))))Mon Aug 25 09:58:33 2014:Akimichi, Bushido says, with 7 players
+(((((OOC)))))Mon Aug 25 09:58:33 2014:Ketsueki, Sartorian says, 
+(((((OOC)))))Mon Aug 25 09:59:24 2014:Ketsueki, Sartorian says, I just sent a link noob
+(((((OOC)))))Mon Aug 25 09:59:24 2014:Satou, CloudZ says, People don&#39;t play sas nff anymore. This will be better 
+(((((OOC)))))Mon Aug 25 09:59:24 2014:Satou, CloudZ says, More clan
+(((((OOC)))))Tue Jul 02 14:10:17 2019:Yotsuki, Aiga says, yesss
+(((((OOC)))))Tue Jul 02 14:10:17 2019:Yotsuki, Aiga says, this is the base one we need to use
+(((((OOC)))))Tue Jul 02 14:11:08 2019:Yotsuki, Aiga says, this is the one right before they changed into fusions
+(((((OOC)))))Tue Jul 02 14:11:08 2019:Yotsuki, Aiga says, I knew ishuri had dis one lol
+(((((OOC)))))Tue Jul 02 14:11:08 2019:Uchiha, edqwewq says, yea this one good
+(((((OOC)))))Tue Jul 02 14:11:08 2019:Yotsuki, Aiga says, Make us owners real quick
+(((((OOC)))))Tue Jul 02 14:11:08 2019:Uchiha, edqwewq says, needs a screen size adjustment though
+(((((OOC)))))Tue Jul 02 14:11:08 2019:Yotsuki, Aiga says, and that 2
+(((((OOC)))))Tue Jul 02 14:11:08 2019:Yotsuki, Aiga says, and fps lel
+(((((OOC)))))Tue Jul 02 14:11:08 2019:Yotsuki, Aiga says, Well 
+(((((OOC)))))Tue Jul 02 14:12:00 2019:Yotsuki, Aiga says, Fps is fine tbh
+(((((OOC)))))Tue Jul 02 14:12:00 2019:Uchiha, edqwewq says, fps is fine
+(((((OOC)))))Tue Jul 02 14:12:00 2019:Yotsuki, Aiga says, just screen size
+(((((OOC)))))Tue Jul 02 14:12:00 2019:Uchiha, edqwewq says, kk gimme a min to change and compile
+(((((OOC)))))Tue Jul 02 14:12:00 2019:Yotsuki, Aiga says, kk 
+(((((OOC)))))Tue Jul 02 14:12:00 2019:Yotsuki, Aiga says, owners and screen size 
+(((((OOC)))))Tue Jul 02 14:12:00 2019:Yotsuki, Aiga says, kek
+(((((OOC)))))Tue Jul 02 14:12:51 2019:Uchiha, edqwewq says, shinger is admin on this
+(((((OOC)))))Tue Jul 02 14:12:51 2019:Uchiha, edqwewq says, xD
+(((((OOC)))))Tue Jul 02 14:13:42 2019:Yotsuki, Aiga says, LOL
+(((((OOC)))))Tue Jul 02 14:13:42 2019:Yotsuki, Aiga says, He cud come ban us 
+(((((OOC)))))Tue Jul 02 14:16:16 2019:Uchiha, edqwewq says, kk
+(((((OOC)))))Tue Jul 02 14:16:16 2019:Uchiha, edqwewq says, gonna compile and close this 1 sec
+(((((OOC)))))Tue Jul 02 14:16:16 2019:Yotsuki, Aiga says, kk
+(((((OOC)))))Tue Jul 02 14:23:05 2019:Uchiha, edqwewq says, screen isnt perfect rn
+(((((OOC)))))Tue Jul 02 14:23:05 2019:Uchiha, Aiga says, its fine i know how it will look eventually
+(((((OOC)))))Tue Jul 02 14:23:05 2019:Uchiha, edqwewq says, ill update it better nxt time
+(((((OOC)))))Tue Jul 02 14:24:48 2019:Uchiha, edqwewq says, lol
+(((((OOC)))))Tue Jul 02 14:29:04 2019:Uchiha, Aiga says, dis source so gud
+(((((OOC)))))Tue Jul 02 14:29:04 2019:Uchiha, edqwewq says, ya
+(((((OOC)))))Tue Jul 02 14:29:55 2019:Uchiha, Aiga says, i wonder what the major bugs are in this build
+(((((OOC)))))Tue Jul 02 14:29:55 2019:Uchiha, edqwewq says, probably wont find them untill we have play testers
+(((((OOC)))))Tue Jul 02 14:30:46 2019:Uchiha, edqwewq says, this version mostly needs quality of life updates rn
+(((((OOC)))))Tue Jul 02 14:30:46 2019:Uchiha, Aiga says, we just need someone 2 arena
+(((((OOC)))))Tue Jul 02 14:30:46 2019:Uchiha, Aiga says, xD
+(((((OOC)))))Tue Jul 02 14:31:37 2019:Uchiha, edqwewq says, are you trying to give regular players a max passive verb?
+(((((OOC)))))Tue Jul 02 14:32:28 2019:Uchiha, Aiga says, I do
+(((((OOC)))))Tue Jul 02 14:32:28 2019:Uchiha, Aiga says, tbh
+(((((OOC)))))Tue Jul 02 14:32:28 2019:Uchiha, Aiga says, just cause we&#39;re in testing phase anyways
+(((((OOC)))))Tue Jul 02 14:33:20 2019:Uchiha, Aiga says, i mostly plan to make PVE the focus anyways
+(((((OOC)))))Tue Jul 02 14:33:20 2019:Uchiha, edqwewq says, okay
+(((((OOC)))))Tue Jul 02 14:33:20 2019:Uchiha, Aiga says, PvP is the core but RPvP is what i want the game to go towards again
+(((((OOC)))))Tue Jul 02 14:33:20 2019:Uchiha, Aiga says, ppl making their own story
+(((((OOC)))))Tue Jul 02 14:33:20 2019:Uchiha, Aiga says, like runescape
+(((((OOC)))))Tue Jul 02 14:33:20 2019:Uchiha, edqwewq says, ill give everyone master jutsus and max passives and some scrolls for testing
+(((((OOC)))))Tue Jul 02 14:33:20 2019:Uchiha, edqwewq says, right now we only have an edit verb
+(((((OOC)))))Tue Jul 02 14:34:11 2019:Uchiha, Aiga says, Yea u can go ahead and do that and ill tell some ppl i know to join this host
+(((((OOC)))))Tue Jul 02 14:34:11 2019:Uchiha, Aiga says, I mostly just wanan see what we need rn
+(((((OOC)))))Tue Jul 02 14:34:11 2019:Uchiha, edqwewq says, mainly just the screen fix fr fr
+(((((OOC)))))Tue Jul 02 14:35:02 2019:Uchiha, edqwewq says, its pretty playable rn
+(((((OOC)))))Tue Jul 02 14:35:02 2019:Uchiha, Aiga says, I wanna add elemental fusion in 
+(((((OOC)))))Tue Jul 02 14:35:02 2019:Uchiha, Aiga says, But impliment it differently than shinger
+(((((OOC)))))Tue Jul 02 14:35:02 2019:Uchiha, Aiga says, CLans shouldnt be able to fuse it will be a basic thing
+(((((OOC)))))Tue Jul 02 14:35:02 2019:Uchiha, Aiga says, Proffessions should also come
+(((((OOC)))))Tue Jul 02 14:35:02 2019:Uchiha, Aiga says, but differentlyh
+(((((OOC)))))Tue Jul 02 14:35:02 2019:Uchiha, Aiga says, clans arent profession
+(((((OOC)))))Tue Jul 02 14:35:53 2019:Uchiha, edqwewq says, like fusions are for basics only
+(((((OOC)))))Tue Jul 02 14:35:53 2019:Uchiha, edqwewq says, but professions for everyone
+(((((OOC)))))Tue Jul 02 14:35:53 2019:Uchiha, Aiga says, Yes exactly
+(((((OOC)))))Tue Jul 02 14:35:53 2019:Uchiha, Aiga says, Professions should be utility
+(((((OOC)))))Tue Jul 02 14:36:44 2019:Uchiha, Aiga says, not a replacement for clan jutsus
+(((((OOC)))))Tue Jul 02 14:36:44 2019:Uchiha, Aiga says, like they are now
+(((((OOC)))))Tue Jul 02 14:36:44 2019:Uchiha, Aiga says, if u go basic and paper ur basically konan clan
+(((((OOC)))))Tue Jul 02 14:36:44 2019:Uchiha, Aiga says, konan is her own clan professions like sensory and poison should be that
+(((((OOC)))))Tue Jul 02 14:37:36 2019:Uchiha, edqwewq says, basically making basics a clan with more variety
+(((((OOC)))))Tue Jul 02 14:37:36 2019:Uchiha, Aiga says, Theres alot we can do alone with just those two ideas
+(((((OOC)))))Tue Jul 02 14:37:36 2019:Uchiha, Aiga says, also this source has crafting system
+(((((OOC)))))Tue Jul 02 14:45:16 2019:Uchiha, Aiga says, okay ima get a person here
+(((((OOC)))))Tue Jul 02 14:45:16 2019:Uchiha, Aiga says, and imma arena him
+(((((OOC)))))Tue Jul 02 14:51:15 2019:Uchiha, Aiga says, how did we play this shit without the target macro
+(((((OOC)))))Tue Jul 02 14:52:57 2019:Hoshigaki, Baby Dick says, ill be back gunna go walk my dogs
+(((((OOC)))))Tue Jul 02 14:52:57 2019:Uchiha, Aiga says, bet
+(((((OOC)))))Tue Jul 02 14:53:48 2019:Uchiha, edqwewq says, i can ad that bet
+(((((OOC)))))Tue Jul 02 14:53:48 2019:Uchiha, Aiga says, ya target with T and add a delay on it 
+(((((OOC)))))Tue Jul 02 14:53:48 2019:Uchiha, Aiga says, imma just make a list
+(((((OOC)))))Tue Jul 02 14:53:48 2019:Uchiha, Aiga says, i need to know how it plays tho
+(((((OOC)))))Tue Jul 02 14:53:48 2019:Uchiha, edqwewq says, i think last name should be re enabled
+(((((OOC)))))Tue Jul 02 14:53:48 2019:Uchiha, edqwewq says, that was cool
+(((((OOC)))))Tue Jul 02 14:54:40 2019:Uchiha, edqwewq says, also i just adddded testing verbs
+(((((OOC)))))Tue Jul 02 14:54:40 2019:Uchiha, edqwewq says, exp gain mastyer jutsus delay loss etc
+(((((OOC)))))Tue Jul 02 14:54:40 2019:Uchiha, Aiga says, k those are fine too
+(((((OOC)))))Tue Jul 02 14:55:31 2019:Uchiha, Aiga says, since all the jutsus cost EXP and CD to learn
+(((((OOC)))))Tue Jul 02 14:55:31 2019:Uchiha, Aiga says, we have scrolls but those are tedious
+(((((OOC)))))Tue Jul 02 14:55:31 2019:Uchiha, edqwewq says, max passives might not max everything
+(((((OOC)))))Tue Jul 02 14:56:22 2019:Uchiha, edqwewq says, prob needs an update
+(((((OOC)))))Tue Jul 02 14:56:22 2019:Uchiha, Aiga says, Max em only maxes passives that arent knowledge
+(((((OOC)))))Tue Jul 02 14:56:22 2019:Uchiha, Aiga says, like handseal speed etc
+(((((OOC)))))Tue Jul 02 14:56:22 2019:Uchiha, edqwewq says, yea that one sucks
+(((((OOC)))))Tue Jul 02 14:56:22 2019:Uchiha, edqwewq says, im ading the better one
+(((((OOC)))))Tue Jul 02 14:58:04 2019:Uchiha, Aiga says, omg
+(((((OOC)))))Tue Jul 02 14:58:04 2019:Uchiha, Aiga says, i think this one has the ASD problem
+(((((OOC)))))Tue Jul 02 14:58:56 2019:Uchiha, edqwewq says, seemed fine to me
+(((((OOC)))))Tue Jul 02 14:58:56 2019:Uchiha, Aiga says, Try spamming Asd on an NPC
+(((((OOC)))))Tue Jul 02 14:59:47 2019:Uchiha, Aiga says, on a diff one
+(((((OOC)))))Tue Jul 02 14:59:47 2019:Uchiha, Aiga says, try this one
+(((((OOC)))))Tue Jul 02 14:59:47 2019:Uchiha, edqwewq says, yea its fine
+(((((OOC)))))Tue Jul 02 14:59:47 2019:Uchiha, Aiga says, u dont see that?
+(((((OOC)))))Tue Jul 02 14:59:47 2019:Uchiha, edqwewq says, is it delayed?
+(((((OOC)))))Tue Jul 02 14:59:47 2019:Uchiha, edqwewq says, mine seems fine
+(((((OOC)))))Tue Jul 02 15:00:38 2019:Uchiha, Aiga says, like registering damage
+(((((OOC)))))Tue Jul 02 15:00:38 2019:Uchiha, Aiga says, causes huge lag
+(((((OOC)))))Tue Jul 02 15:00:38 2019:Uchiha, edqwewq says, not for me
+(((((OOC)))))Tue Jul 02 15:00:38 2019:Uchiha, edqwewq says, might be cause im hosting
+(((((OOC)))))Tue Jul 02 15:00:38 2019:Uchiha, Aiga says, hmm well it stopped
+(((((OOC)))))Tue Jul 02 15:00:38 2019:Uchiha, Aiga says, idk why it was doin that tho
+(((((OOC)))))Tue Jul 02 15:06:36 2019:Uchiha, edqwewq says, struggle me wana see if spacebar  is on repeat
+(((((OOC)))))Tue Jul 02 15:07:28 2019:Uchiha, edqwewq says, no ill change it
+(((((OOC)))))Tue Jul 02 15:16:51 2019:Uchiha, edqwewq says, ooc
+(((((OOC)))))Tue Jul 02 15:16:51 2019:Uchiha, edqwewq says, this game is linked to dark moon productions hub
+(((((OOC)))))Tue Jul 02 15:16:51 2019:Uchiha, edqwewq says, its v 3.9
+(((((OOC)))))Tue Jul 02 15:17:42 2019:Uchiha, Aiga says, ya
+(((((OOC)))))Tue Jul 02 15:17:42 2019:Uchiha, Aiga says, this the most updated one
+(((((OOC)))))Tue Jul 02 15:17:42 2019:Uchiha, Aiga says, before shingers fusion system
+(((((OOC)))))Tue Jul 02 15:17:42 2019:Uchiha, Aiga says, aka like the best one
+(((((OOC)))))Tue Jul 02 15:17:42 2019:Uchiha, edqwewq says, yea lol
+(((((OOC)))))Tue Jul 02 15:18:33 2019:Uchiha, edqwewq says, so far i aded a target verb testing passives verbs
+(((((OOC)))))Tue Jul 02 15:18:33 2019:Uchiha, edqwewq says, fixing the map screen rn
+(((((OOC)))))Tue Jul 02 15:18:33 2019:Uchiha, edqwewq says, anything else u can think of rn?
+(((((OOC)))))Tue Jul 02 15:20:16 2019:Uchiha, Aiga says, not really im gettin some play testers real quick to help 
+(((((OOC)))))Tue Jul 02 15:24:32 2019:Uchiha, Aiga says, i think swords are maybe op in this build
+(((((OOC)))))Tue Jul 02 15:24:32 2019:Uchiha, Aiga says, but i think we can just put a cap on that
+(((((OOC)))))Tue Jul 02 15:26:14 2019:Uchiha, edqwewq says, im gonna compile the updated version
+(((((OOC)))))Tue Jul 02 15:26:14 2019:Uchiha, edqwewq says, i need to stop hosting to do that
+(((((OOC)))))Tue Jul 02 15:26:14 2019:Uchiha, Aiga says, k compile and rehjost
+(((((OOC)))))Tue Jul 02 15:26:14 2019:Uchiha, edqwewq says, k
+(((((OOC)))))Tue Jul 02 15:37:20 2019:Uchiha, edqwewq says, ughh
+(((((OOC)))))Tue Jul 02 15:37:20 2019:Uchiha, edqwewq says, the map still has black boarders on the dges
+(((((OOC)))))Tue Jul 02 15:38:11 2019:Uchiha, edqwewq says, i need to look into that
+(((((OOC)))))Tue Jul 02 15:38:11 2019:Uchiha, Aiga says, Dont stress it 2 hard xD
+(((((OOC)))))Tue Jul 02 15:39:02 2019:Uchiha, Chara says, hi
+(((((OOC)))))Tue Jul 02 15:39:53 2019:Uchiha, Aiga says, Hello hello
+(((((OOC)))))Tue Jul 02 15:39:53 2019:Hoshigaki, Legit says, :o
+(((((OOC)))))Tue Jul 02 15:39:53 2019:Hoshigaki, Legit says, throwbak
+(((((OOC)))))Tue Jul 02 15:39:53 2019:Uchiha, Aiga says, ya this is 3.9
+(((((OOC)))))Tue Jul 02 15:39:53 2019:Uchiha, Aiga says, I want dis to be the NFF the community always wanted
+(((((OOC)))))Tue Jul 02 15:41:36 2019:Uchiha, edqwewq says, if your clan passives arent max
+(((((OOC)))))Tue Jul 02 15:42:27 2019:Uchiha, edqwewq says, tell me so i can fix the max passives verb
+(((((OOC)))))Tue Jul 02 15:43:18 2019:Hoshigaki, Legit says, im so used to the new nff
+(((((OOC)))))Tue Jul 02 15:43:18 2019:Hoshigaki, Legit says, that this feels crazy
+(((((OOC)))))Tue Jul 02 15:43:18 2019:Uchiha, Aiga says, xD thats why i need testers
+(((((OOC)))))Tue Jul 02 15:43:18 2019:Uchiha, Aiga says, to make it feel as smooth as possible
+(((((OOC)))))Tue Jul 02 15:44:09 2019:Uchiha, Aiga says, atleast u can learn choke slam and exp kawa in this buidl
+(((((OOC)))))Tue Jul 02 15:44:09 2019:Hoshigaki, Legit says, can lrn body swap and all that
+(((((OOC)))))Tue Jul 02 15:44:09 2019:Uchiha, edqwewq says, gotta fix the target
+(((((OOC)))))Tue Jul 02 15:45:00 2019:Uchiha, Aiga says, Yea all that shit legit
+(((((OOC)))))Tue Jul 02 15:45:00 2019:Uchiha, Aiga says, lol
+(((((OOC)))))Tue Jul 02 15:45:00 2019:Uchiha, Aiga says, dis da better build imo
+(((((OOC)))))Tue Jul 02 15:45:00 2019:Uchiha, Aiga says, its just new nff is smooth
+(((((OOC)))))Tue Jul 02 15:45:00 2019:Uchiha, Chara says, east is left or right?
+(((((OOC)))))Tue Jul 02 15:45:00 2019:Uchiha, Mister says, i actually miss this nff build lol
+(((((OOC)))))Tue Jul 02 15:45:00 2019:Uchiha, Aiga says, left
+(((((OOC)))))Tue Jul 02 15:45:00 2019:Uchiha, Chara says, thx
+(((((OOC)))))Tue Jul 02 15:45:00 2019:Uchiha, Aiga says, im saying miyagi
+(((((OOC)))))Tue Jul 02 15:45:00 2019:Uchiha, Aiga says, this game made more sense
+(((((OOC)))))Tue Jul 02 15:45:00 2019:Uchiha, Aiga says, Just gotta add da right stuff to it
+(((((OOC)))))Tue Jul 02 15:45:52 2019:Uchiha, edqwewq says, east is right
+(((((OOC)))))Tue Jul 02 15:45:52 2019:Uchiha, Aiga says, east is right omg my bad xD
+(((((OOC)))))Tue Jul 02 15:45:52 2019:Uchiha, Aiga says, im tripping
+(((((OOC)))))Tue Jul 02 15:45:52 2019:Uchiha, Aiga says, west is left
+(((((OOC)))))Tue Jul 02 15:45:52 2019:Uchiha, edqwewq says, lol
+(((((OOC)))))Tue Jul 02 15:46:43 2019:Uchiha, Chara says, o fuk
+(((((OOC)))))Tue Jul 02 15:46:43 2019:Uchiha, Mister says, HOW TO RUN 
+(((((OOC)))))Tue Jul 02 15:46:43 2019:Uchiha, Chara says, welp time to change macros again
+(((((OOC)))))Tue Jul 02 15:46:43 2019:Uchiha, Aiga says, press run bottom right
+(((((OOC)))))Tue Jul 02 15:46:43 2019:Uchiha, Aiga says, We also need run macro
+(((((OOC)))))Tue Jul 02 15:47:34 2019:Uchiha, Aiga says, das ez 2 change tho
+(((((OOC)))))Tue Jul 02 15:47:34 2019:Uchiha, Aiga says, Run macro on V
+(((((OOC)))))Tue Jul 02 15:48:25 2019:Uchiha, Mister says, game was so different wow
+(((((OOC)))))Tue Jul 02 15:48:25 2019:Uchiha, Aiga says, o shit
+(((((OOC)))))Tue Jul 02 15:49:16 2019:Uchiha, Aiga says, i have to learn the fuckin gates LMAO
+(((((OOC)))))Tue Jul 02 15:49:16 2019:Uchiha, Aiga says, dis build is awesome bruh
+(((((OOC)))))Tue Jul 02 15:49:16 2019:Uchiha, Aiga says, yall gotta come play it with me
+(((((OOC)))))Tue Jul 02 15:49:16 2019:Uchiha, edqwewq says, yea ill do that now
+(((((OOC)))))Tue Jul 02 15:49:16 2019:Uchiha, Mister says, if this gets players i will join
+(((((OOC)))))Tue Jul 02 15:49:16 2019:Uchiha, Aiga says, lemme know when yall ready to arena
+(((((OOC)))))Tue Jul 02 15:50:08 2019:Uchiha, Aiga says, It will since we&#39;re gonna be doing updates
+(((((OOC)))))Tue Jul 02 15:50:08 2019:Uchiha, Mister says, bro even game graphics were better here
+(((((OOC)))))Tue Jul 02 15:50:59 2019:Uchiha, Chara says, uh
+(((((OOC)))))Tue Jul 02 15:50:59 2019:Uchiha, Chara says, if i got sharingan mastery
+(((((OOC)))))Tue Jul 02 15:50:59 2019:Uchiha, Chara says, i cant unlock it?
+(((((OOC)))))Tue Jul 02 15:50:59 2019:Uchiha, Aiga says, Unlock mean
+(((((OOC)))))Tue Jul 02 15:50:59 2019:Uchiha, Aiga says, o u mean shar
+(((((OOC)))))Tue Jul 02 15:50:59 2019:Uchiha, Aiga says, u still gotta ko but ill just give it to u 
+(((((OOC)))))Tue Jul 02 15:51:50 2019:Uchiha, Chara says, o
+(((((OOC)))))Tue Jul 02 15:51:50 2019:Uchiha, Chara says, t
+(((((OOC)))))Tue Jul 02 15:51:50 2019:Uchiha, Chara says, thx
+(((((OOC)))))Tue Jul 02 15:51:50 2019:Uchiha, edqwewq says, ill change that too
+(((((OOC)))))Tue Jul 02 15:51:50 2019:Uchiha, edqwewq says, lol
+(((((OOC)))))Tue Jul 02 15:53:32 2019:Uchiha, Mister says, fyna
+(((((OOC)))))Tue Jul 02 15:53:32 2019:Uchiha, Mister says, plz give me mangekyou
+(((((OOC)))))Tue Jul 02 15:53:32 2019:Uchiha, Aiga says, ur a hoshi xD
+(((((OOC)))))Tue Jul 02 15:53:32 2019:Uchiha, Aiga says, make an uchiha
+(((((OOC)))))Tue Jul 02 15:53:32 2019:Hoshigaki, Legit says, thas me lol
+(((((OOC)))))Tue Jul 02 15:53:32 2019:Uchiha, Mister says, im uchiha
+(((((OOC)))))Tue Jul 02 15:53:32 2019:Uchiha, Aiga says, o word lol
+(((((OOC)))))Tue Jul 02 15:53:32 2019:Uchiha, Aiga says, IGN
+(((((OOC)))))Tue Jul 02 15:53:32 2019:Hoshigaki, Legit says, yea
+(((((OOC)))))Tue Jul 02 15:54:24 2019:Uchiha, Mister says, ign : uchiha, mister
+(((((OOC)))))Tue Jul 02 15:54:24 2019:Uchiha, Aiga says, Do u already have sharingan
+(((((OOC)))))Tue Jul 02 15:54:24 2019:Uchiha, Mister says, no
+(((((OOC)))))Tue Jul 02 15:55:15 2019:Uchiha, Mister says, hook me up with op edits bro
+(((((OOC)))))Tue Jul 02 15:55:15 2019:Uchiha, Aiga says, Only 1
+(((((OOC)))))Tue Jul 02 15:55:15 2019:Uchiha, Aiga says, per person rn
+(((((OOC)))))Tue Jul 02 15:55:15 2019:Uchiha, Aiga says, Gotta test stuff
+(((((OOC)))))Tue Jul 02 15:56:06 2019:Uchiha, Mister says, hook me up with ms lol
+(((((OOC)))))Tue Jul 02 15:56:06 2019:Uchiha, Aiga says, Press inventory
+(((((OOC)))))Tue Jul 02 15:56:06 2019:Uchiha, Chara says, hook me up with luna
+(((((OOC)))))Tue Jul 02 15:56:57 2019:Uchiha, Aiga says, Luna not in
+(((((OOC)))))Tue Jul 02 15:56:57 2019:Uchiha, Aiga says, its locked off by code
+(((((OOC)))))Tue Jul 02 15:56:57 2019:Uchiha, Chara says, sad
+(((((OOC)))))Tue Jul 02 15:56:57 2019:Uchiha, Aiga says, we gonna unlock it soon tho
+(((((OOC)))))Tue Jul 02 15:56:57 2019:Uchiha, Aiga says, i plan to unlock and finish all the stuff
+(((((OOC)))))Tue Jul 02 15:56:57 2019:Uchiha, Aiga says, that should have been done
+(((((OOC)))))Tue Jul 02 15:56:57 2019:Uchiha, Chara says, :D
+(((((OOC)))))Tue Jul 02 15:56:57 2019:Uchiha, Mister says, my ms came with no jutsu lol
+(((((OOC)))))Tue Jul 02 15:57:48 2019:Uchiha, Aiga says, save and relog and let me know if its still doin that
+(((((OOC)))))Tue Jul 02 15:59:31 2019:Uchiha, edqwewq says, if someone doesnt have potential
+(((((OOC)))))Tue Jul 02 15:59:31 2019:Uchiha, edqwewq says, itll be blank
+(((((OOC)))))Tue Jul 02 16:00:22 2019:Uchiha, edqwewq says, if u gave him skillcard
+(((((OOC)))))Tue Jul 02 16:01:13 2019:Uchiha, Aiga says, damn
+(((((OOC)))))Tue Jul 02 16:01:13 2019:Uchiha, Aiga says, no pot lmao
+(((((OOC)))))Tue Jul 02 16:05:29 2019:Uchiha, edqwewq says, yikes
+(((((OOC)))))Tue Jul 02 16:05:29 2019:Uchiha, edqwewq says, this edit verb is broken
+(((((OOC)))))Tue Jul 02 16:05:29 2019:Uchiha, edqwewq says, needs to be updated
+(((((OOC)))))Tue Jul 02 16:05:29 2019:Uchiha, Aiga says, how so?
+(((((OOC)))))Tue Jul 02 16:05:29 2019:Uchiha, Aiga says, aint it just a variable setter lol
+(((((OOC)))))Tue Jul 02 16:05:29 2019:Uchiha, edqwewq says, when you click a variable to edit
+(((((OOC)))))Tue Jul 02 16:05:29 2019:Uchiha, edqwewq says, it dont pop up
+(((((OOC)))))Tue Jul 02 16:07:12 2019:Uchiha, edqwewq says, theres an age up and max passives scroll
+(((((OOC)))))Tue Jul 02 16:07:12 2019:Uchiha, Aiga says, the age scroll sucks
+(((((OOC)))))Tue Jul 02 16:07:12 2019:Uchiha, Aiga says, it only increases the time
+(((((OOC)))))Tue Jul 02 16:07:12 2019:Uchiha, Aiga says, and is not a direct age increase
+(((((OOC)))))Tue Jul 02 16:07:12 2019:Uchiha, edqwewq says, use the age verb i made
+(((((OOC)))))Tue Jul 02 16:07:12 2019:Uchiha, edqwewq says, age up
+(((((OOC)))))Tue Jul 02 16:07:12 2019:Uchiha, Aiga says, it stops at 19
+(((((OOC)))))Tue Jul 02 16:07:12 2019:Uchiha, edqwewq says, yea
+(((((OOC)))))Tue Jul 02 16:11:28 2019:Uchiha, edqwewq says, i find it pretty smooth
+(((((OOC)))))Tue Jul 02 16:11:28 2019:Uchiha, edqwewq says, jus tneed to fix this ugly map screen
+(((((OOC)))))Tue Jul 02 16:12:19 2019:Uchiha, Aiga says, movement is mad enjoyable rn
+(((((OOC)))))Tue Jul 02 16:12:19 2019:Hoshigaki, Legit says, turn weather off
+(((((OOC)))))Tue Jul 02 16:13:10 2019:Hoshigaki, Legit says, all that shit does is make it lag lol
+(((((OOC)))))Tue Jul 02 16:13:10 2019:Uchiha, Aiga says, u rite
+(((((OOC)))))Tue Jul 02 16:13:10 2019:Hoshigaki, Legit says, sas dumbasss would never turn it off idk y
+(((((OOC)))))Tue Jul 02 16:13:10 2019:Uchiha, Nikola says, :o
+(((((OOC)))))Tue Jul 02 16:13:10 2019:Uchiha, Aiga says, its cause u can tell the weather system is coded out of try hard shit
+(((((OOC)))))Tue Jul 02 16:13:10 2019:Uchiha, Nikola says, this is a legit old source
+(((((OOC)))))Tue Jul 02 16:13:10 2019:Uchiha, Aiga says, he really wanted it to work lol
+(((((OOC)))))Tue Jul 02 16:14:01 2019:Uchiha, Aiga says, ya nik
+(((((OOC)))))Tue Jul 02 16:14:01 2019:Uchiha, Aiga says, this is dead ass 3.9
+(((((OOC)))))Tue Jul 02 16:14:01 2019:Uchiha, Nikola says, yea
+(((((OOC)))))Tue Jul 02 16:14:01 2019:Uchiha, Aiga says, the one right before shinger updated to fusion clans etc
+(((((OOC)))))Tue Jul 02 16:14:01 2019:Uchiha, Nikola says, at least its smooth
+(((((OOC)))))Tue Jul 02 16:14:01 2019:Uchiha, Aiga says, yea it kinda gave me hope to work on it
+(((((OOC)))))Tue Jul 02 16:14:01 2019:Uchiha, Aiga says, it also has diags
+(((((OOC)))))Tue Jul 02 16:14:01 2019:Uchiha, Nikola says, oh frrrr
+(((((OOC)))))Tue Jul 02 16:14:01 2019:Hoshigaki, Legit says, NA this gotta be older than that aiga
+(((((OOC)))))Tue Jul 02 16:14:01 2019:Uchiha, Nikola says, just noticed
+(((((OOC)))))Tue Jul 02 16:14:52 2019:Uchiha, Aiga says, nah cause yall know that update log in NFF discord
+(((((OOC)))))Tue Jul 02 16:14:52 2019:Uchiha, edqwewq says, this is 3.9
+(((((OOC)))))Tue Jul 02 16:14:52 2019:Uchiha, Aiga says, that states the first update
+(((((OOC)))))Tue Jul 02 16:14:52 2019:Uchiha, Aiga says, when they were down for like a month
+(((((OOC)))))Tue Jul 02 16:14:52 2019:Uchiha, Aiga says, then brought it back up
+(((((OOC)))))Tue Jul 02 16:14:52 2019:Uchiha, Aiga says, lmao this was when water creation was instant
+(((((OOC)))))Tue Jul 02 16:14:52 2019:Uchiha, Aiga says, old sharks 
+(((((OOC)))))Tue Jul 02 16:14:52 2019:Uchiha, Nikola says, k now i have hope lol
+(((((OOC)))))Tue Jul 02 16:14:52 2019:Uchiha, Nikola says, when do we start
+(((((OOC)))))Tue Jul 02 16:14:52 2019:Uchiha, Nikola says, xD
+(((((OOC)))))Tue Jul 02 16:22:33 2019:Uchiha, Aiga says, o wtf
+(((((OOC)))))Tue Jul 02 16:22:33 2019:Uchiha, Aiga says, aging also doesnt prompt the trait 
+(((((OOC)))))Tue Jul 02 16:23:24 2019:Hoshigaki, Legit says, i think u gta relog
+(((((OOC)))))Tue Jul 02 16:23:24 2019:Uchiha, Aiga says, I thought i did
+(((((OOC)))))Tue Jul 02 16:23:24 2019:Hoshigaki, Legit says, save tho
+(((((OOC)))))Tue Jul 02 16:23:24 2019:Uchiha, Aiga says, aight bet
+(((((OOC)))))Tue Jul 02 16:24:16 2019:Uchiha, Aiga says, I think one of the main issues with this build is hoshi regen
+(((((OOC)))))Tue Jul 02 16:24:16 2019:Uchiha, Aiga says, think tough hyper hoshi stacks
+(((((OOC)))))Tue Jul 02 16:30:14 2019:Uchiha, Aiga says, gotta spend MAD ep on stuff
+(((((OOC)))))Tue Jul 02 16:31:56 2019:Uchiha, Aiga says, smhhh
+(((((OOC)))))Tue Jul 02 16:37:55 2019:Uchiha, Test says, gunna get ready for test fighting
+(((((OOC)))))Tue Jul 02 16:37:55 2019:Uchiha, Aiga says, same
+(((((OOC)))))Tue Jul 02 16:39:37 2019:Hoshigaki, Legit says, the old jounin suits were lit lowkey
+(((((OOC)))))Tue Jul 02 16:39:37 2019:Hoshigaki, Legit says, idk y they never fixed sannin
+(((((OOC)))))Tue Jul 02 16:39:37 2019:Uchiha, Aiga says, Cause niggas lazy bro
+(((((OOC)))))Tue Jul 02 16:39:37 2019:Uchiha, Aiga says, simply the only answer
+(((((OOC)))))Tue Jul 02 16:39:37 2019:Uchiha, Aiga says, i wish we had shinobi conquest source
+(((((OOC)))))Tue Jul 02 16:39:37 2019:Uchiha, Aiga says, dat would really cherry this
+(((((OOC)))))Tue Jul 02 16:40:28 2019:Hoshigaki, Legit says, is the original same in?
+(((((OOC)))))Tue Jul 02 16:40:28 2019:Uchiha, Aiga says, Original what
+(((((OOC)))))Tue Jul 02 16:41:20 2019:Hoshigaki, Legit says, samehada
+(((((OOC)))))Tue Jul 02 16:41:20 2019:Uchiha, Aiga says, Sanin rank?
+(((((OOC)))))Tue Jul 02 16:41:20 2019:Uchiha, Aiga says, o
+(((((OOC)))))Tue Jul 02 16:41:20 2019:Uchiha, Aiga says, nah i think its locked
+(((((OOC)))))Tue Jul 02 16:41:20 2019:Uchiha, Aiga says, by code
+(((((OOC)))))Tue Jul 02 16:41:20 2019:Hoshigaki, Legit says, ahh
+(((((OOC)))))Tue Jul 02 16:41:20 2019:Hoshigaki, Legit says, wb the other 7sm shit or w/e
+(((((OOC)))))Tue Jul 02 16:41:20 2019:Hoshigaki, Legit says, if u know
+(((((OOC)))))Tue Jul 02 16:42:11 2019:Uchiha, Aiga says, They in im p sure
+(((((OOC)))))Tue Jul 02 16:42:11 2019:Uchiha, Aiga says, yea bro
+(((((OOC)))))Tue Jul 02 16:42:11 2019:Uchiha, Aiga says, there needs to be an entire system on nff
+(((((OOC)))))Tue Jul 02 16:42:11 2019:Uchiha, Aiga says, outside of jus the game
+(((((OOC)))))Tue Jul 02 16:43:02 2019:Uchiha, Aiga says, when ur done training what is there to do lmao
+(((((OOC)))))Tue Jul 02 16:43:02 2019:Hoshigaki, Legit says, o shit
+(((((OOC)))))Tue Jul 02 16:43:53 2019:Hoshigaki, Legit says, were u low?
+(((((OOC)))))Tue Jul 02 16:43:53 2019:Uchiha, Test says, i was full
+(((((OOC)))))Tue Jul 02 16:45:36 2019:Uchiha, Aiga says, are u not struggling
+(((((OOC)))))Tue Jul 02 16:45:36 2019:Uchiha, Aiga says, I think this one also has the KO bug
+(((((OOC)))))Tue Jul 02 16:45:36 2019:Hoshigaki, Legit says, u ddnt struggle i think or its the bug
+(((((OOC)))))Tue Jul 02 16:46:27 2019:Uchiha, Aiga says, ya struggle bug
+(((((OOC)))))Tue Jul 02 16:47:18 2019:Hoshigaki, Legit says, liger bomb bug
+(((((OOC)))))Tue Jul 02 16:47:18 2019:Uchiha, Aiga says, what bug
+(((((OOC)))))Tue Jul 02 16:47:18 2019:Hoshigaki, Legit says, i could move
+(((((OOC)))))Tue Jul 02 16:47:18 2019:Uchiha, Aiga says, o yha
+(((((OOC)))))Tue Jul 02 16:47:18 2019:Hoshigaki, Legit says, while u were using it on me
+(((((OOC)))))Tue Jul 02 16:49:00 2019:Uchiha, Aiga says, o i think i know whats happening
+(((((OOC)))))Tue Jul 02 16:49:00 2019:Uchiha, Aiga says, since ur water healing while koed it wont let me strug
+(((((OOC)))))Tue Jul 02 16:50:43 2019:Hoshigaki, Legit says,  i only heal while blocking i think
+(((((OOC)))))Tue Jul 02 16:54:08 2019:Hoshigaki, Legit says, the movement AHH
+(((((OOC)))))Tue Jul 02 16:54:08 2019:Hoshigaki, Legit says, 
+(((((OOC)))))Tue Jul 02 16:55:50 2019:Hoshigaki, Legit says, it actually took skill
+(((((OOC)))))Tue Jul 02 16:55:50 2019:Hoshigaki, Legit says, to play this shit at the time
+(((((OOC)))))Tue Jul 02 16:56:41 2019:Hoshigaki, Legit says, cause of the movement
+(((((OOC)))))Tue Jul 02 16:56:41 2019:Hoshigaki, Legit says, this shit feels so much fucking better its insane
+(((((OOC)))))Tue Jul 02 16:56:41 2019:Uchiha, Aiga says, Bro lmaoooo 
+(((((OOC)))))Tue Jul 02 16:56:41 2019:Uchiha, Aiga says, that was legit some good nff
+(((((OOC)))))Tue Jul 02 16:56:41 2019:Uchiha, Aiga says, i gotta learn to use my doton earlier
+(((((OOC)))))Tue Jul 02 16:56:41 2019:Hoshigaki, Legit says, i didnt wna spam water prison but that was some good old nff no fucking lie
+(((((OOC)))))Tue Jul 02 16:56:41 2019:Uchiha, Aiga says, yo water prison is OD
+(((((OOC)))))Tue Jul 02 16:56:41 2019:Hoshigaki, Legit says, and like that was a fight where doton isnt straight overwhelming
+(((((OOC)))))Tue Jul 02 16:57:32 2019:Hoshigaki, Legit says, ian wna spam it that woulda made it un fun
+(((((OOC)))))Tue Jul 02 16:57:32 2019:Uchiha, Aiga says, i forgot its broken on hoshi cause it only increase chakra drain and hoshis have inf chakra
+(((((OOC)))))Tue Jul 02 16:57:32 2019:Uchiha, Aiga says, Def gotta fix some things i saw tho
+(((((OOC)))))Tue Jul 02 16:57:32 2019:Hoshigaki, Legit says, ahh they do have a lot of chakra when born 
+(((((OOC)))))Tue Jul 02 16:57:32 2019:Hoshigaki, Legit says, u only regen when blocking i think
+(((((OOC)))))Tue Jul 02 16:57:32 2019:Uchiha, Aiga says, struggle doesnt have an icon, water prison needs a break out like syrup and not like nui 
+(((((OOC)))))Tue Jul 02 16:58:24 2019:Hoshigaki, Legit says, its not as good as the other one but its fine
+(((((OOC)))))Tue Jul 02 16:58:24 2019:Uchiha, Aiga says, I think axe kick is missing cause of the way it works
+(((((OOC)))))Tue Jul 02 16:58:24 2019:Hoshigaki, Legit says, my chakra was getting low using it
+(((((OOC)))))Tue Jul 02 16:58:24 2019:Uchiha, Aiga says, ye
+(((((OOC)))))Tue Jul 02 16:58:24 2019:Uchiha, Aiga says, i sure do miss
+(((((OOC)))))Tue Jul 02 16:58:24 2019:Uchiha, Aiga says, tai skill cards
+(((((OOC)))))Tue Jul 02 16:59:15 2019:Uchiha, Aiga says, But i like the charge system thats in place 
+(((((OOC)))))Tue Jul 02 16:59:15 2019:Uchiha, Aiga says, brb imma go smoke then we can rematch
+(((((OOC)))))Tue Jul 02 16:59:15 2019:Hoshigaki, Legit says, aiight
+(((((OOC)))))Tue Jul 02 17:07:47 2019:Uchiha, Aiga says, okay back
+(((((OOC)))))Tue Jul 02 17:12:54 2019:Uchiha, Chara says, wow
+(((((OOC)))))Tue Jul 02 17:12:54 2019:Uchiha, Chara says, this eye of kag can see anyone
+(((((OOC)))))Tue Jul 02 17:13:45 2019:Uchiha, Chara says, dont matter the map
+(((((OOC)))))Tue Jul 02 17:13:45 2019:Hoshigaki, Legit says, wat sage was that
+(((((OOC)))))Tue Jul 02 17:14:36 2019:Aiga says, hmm
+(((((OOC)))))Tue Jul 02 17:14:36 2019:Uchiha, Test says, slug
+(((((OOC)))))Tue Jul 02 17:18:52 2019:Hoshigaki, Legit says, dam im bugged
+(((((OOC)))))Tue Jul 02 17:18:52 2019:Hoshigaki, Legit says, if u use prison on a clone u get stuck 
+(((((OOC)))))Tue Jul 02 17:19:44 2019:Uchiha, Test says, gotta ko urself
+(((((OOC)))))Tue Jul 02 17:23:08 2019:Hoshigaki, Legit says, gg tf did i just walk into the amat?
+(((((OOC)))))Tue Jul 02 17:23:08 2019:Hoshigaki, Legit says, taht was just sitting there
+(((((OOC)))))Tue Jul 02 17:23:08 2019:Uchiha, Chara says, yes
+(((((OOC)))))Tue Jul 02 17:23:08 2019:Uchiha, Chara says, gf
+(((((OOC)))))Tue Jul 02 17:23:08 2019:Hoshigaki, Legit says, I forgot how annoying real amat is gf
+(((((OOC)))))Tue Jul 02 17:24:00 2019:Aiga says, smh
+(((((OOC)))))Tue Jul 02 17:24:00 2019:Aiga says, i think this the build BF is good
+(((((OOC)))))Tue Jul 02 17:24:00 2019:Uchiha, Chara says, i went magma
+(((((OOC)))))Tue Jul 02 17:24:00 2019:Aiga says, magma bro
+(((((OOC)))))Tue Jul 02 17:24:51 2019:Aiga says, pro
+(((((OOC)))))Tue Jul 02 17:24:51 2019:Hoshigaki, Legit says, i wish they had the moving water creation in this version
+(((((OOC)))))Tue Jul 02 17:24:51 2019:Uchiha, Chara says, dragon head dont explode
+(((((OOC)))))Tue Jul 02 17:24:51 2019:Aiga says, u need dragon tamer passive
+(((((OOC)))))Tue Jul 02 17:25:42 2019:Hoshigaki, Legit says, in bed 
+(((((OOC)))))Tue Jul 02 17:25:42 2019:Uchiha, Chara says, i got it
+(((((OOC)))))Tue Jul 02 17:25:42 2019:Uchiha, Test says, o
+(((((OOC)))))Tue Jul 02 17:25:42 2019:Hoshigaki, Legit says, same has jutsus on this version too instead of just slashin
+(((((OOC)))))Tue Jul 02 17:25:42 2019:Uchiha, Chara says, 3/3
+(((((OOC)))))Tue Jul 02 17:26:33 2019:Hoshigaki, Legit says, ahh speedy 50/30 handseals also resets
+(((((OOC)))))Tue Jul 02 17:26:33 2019:Hoshigaki, Legit says, innsta hs kinda cheap anyway
+(((((OOC)))))Tue Jul 02 17:28:16 2019:Aiga says, lol
+(((((OOC)))))Tue Jul 02 17:29:07 2019:Hoshigaki, Legit says, i lowkey wna go powerful damnit
+(((((OOC)))))Tue Jul 02 17:29:07 2019:Aiga says, powerful is clutch in this build
+(((((OOC)))))Tue Jul 02 17:29:58 2019:Hoshigaki, Legit says, hell yea caus im 5/25/15
+(((((OOC)))))Tue Jul 02 17:29:58 2019:Hoshigaki, Legit says, can use a actual sword lol
+(((((OOC)))))Tue Jul 02 17:29:58 2019:Hoshigaki, Legit says, ive always used em
+(((((OOC)))))Tue Jul 02 17:31:40 2019:Uchiha, Chara says, lmao
+(((((OOC)))))Tue Jul 02 17:31:40 2019:Uchiha, Asu says, yo
+(((((OOC)))))Tue Jul 02 17:31:40 2019:Aiga says, asu!
+(((((OOC)))))Tue Jul 02 17:31:40 2019:Uchiha, Asu says, o yall found a source
+(((((OOC)))))Tue Jul 02 17:31:40 2019:Aiga says, make a character 
+(((((OOC)))))Tue Jul 02 17:31:40 2019:Aiga says, hell ya
+(((((OOC)))))Tue Jul 02 17:31:40 2019:Aiga says, we boutta redo nff
+(((((OOC)))))Tue Jul 02 17:32:32 2019:Aiga says, we testing the source out now
+(((((OOC)))))Tue Jul 02 17:32:32 2019:Aiga says, for stupid bugs 2 fix
+(((((OOC)))))Tue Jul 02 17:32:32 2019:Uchiha, Asu says, i gotcha 
+(((((OOC)))))Tue Jul 02 17:32:32 2019:Uchiha, Asu says, i forgot you used to have to train runnin
+(((((OOC)))))Tue Jul 02 17:32:32 2019:Aiga says, max passives lol
+(((((OOC)))))Tue Jul 02 17:33:23 2019:Uchiha, Asu says, shhh
+(((((OOC)))))Tue Jul 02 17:33:23 2019:Aiga says, xD
+(((((OOC)))))Tue Jul 02 17:33:23 2019:Hoshigaki, Legit says, brb
+(((((OOC)))))Tue Jul 02 17:34:14 2019:Aiga says, im makin my new char
+(((((OOC)))))Tue Jul 02 17:34:14 2019:Aiga says, ^ LOL
+(((((OOC)))))Tue Jul 02 17:34:14 2019:Aiga says, i remmeber that
+(((((OOC)))))Tue Jul 02 17:35:05 2019:Uchiha, Chara says, aw
+(((((OOC)))))Tue Jul 02 17:35:05 2019:Uchiha, Chara says, gf
+(((((OOC)))))Tue Jul 02 17:35:05 2019:Aiga says, lol
+(((((OOC)))))Tue Jul 02 17:35:05 2019:Aiga says, im boutta smack u fyna :D
+(((((OOC)))))Tue Jul 02 17:35:05 2019:Uchiha, Test says, ms bugged
+(((((OOC)))))Tue Jul 02 17:35:05 2019:Uchiha, Test says, skillcards still here after disactivating
+(((((OOC)))))Tue Jul 02 17:35:56 2019:Uchiha, Test says, fixes with relog
+(((((OOC)))))Tue Jul 02 17:36:48 2019:Uchiha, Test says, yikes thats buggy
+(((((OOC)))))Tue Jul 02 17:36:48 2019:Aiga says, yea this was before it was fixed
+(((((OOC)))))Tue Jul 02 17:37:39 2019:Aiga says, wow
+(((((OOC)))))Tue Jul 02 17:37:39 2019:Aiga says, okay im fr boutta start compiling the list
+(((((OOC)))))Tue Jul 02 17:38:30 2019:Uchiha, Test says, yea just make a list and hand it over to me
+(((((OOC)))))Tue Jul 02 17:41:04 2019:Uchiha, Chara says, how much is cs req?
+(((((OOC)))))Tue Jul 02 17:41:04 2019:Aiga says, some stupid amount like 4K
+(((((OOC)))))Tue Jul 02 17:41:04 2019:Aiga says, what CS u want
+(((((OOC)))))Tue Jul 02 17:41:04 2019:Aiga says, only cause to me CS isnt an edit
+(((((OOC)))))Tue Jul 02 17:41:55 2019:Uchiha, Chara says, water or hell
+(((((OOC)))))Tue Jul 02 17:41:55 2019:Aiga says, fun fact u cant actually choose hell
+(((((OOC)))))Tue Jul 02 17:41:55 2019:Aiga says, u get a 1 in 7 chance 
+(((((OOC)))))Tue Jul 02 17:41:55 2019:Aiga says, thats how its coded xD
+(((((OOC)))))Tue Jul 02 17:41:55 2019:Uchiha, Chara says, 
+(((((OOC)))))Tue Jul 02 17:41:55 2019:Uchiha, Chara says, sad
+(((((OOC)))))Tue Jul 02 17:41:55 2019:Uchiha, Chara says, can i keep trying?
+(((((OOC)))))Tue Jul 02 17:42:46 2019:Aiga says, no lol
+(((((OOC)))))Tue Jul 02 17:42:46 2019:Uchiha, Chara says, ah
+(((((OOC)))))Tue Jul 02 17:42:46 2019:Uchiha, Chara says, and its 3k
+(((((OOC)))))Tue Jul 02 17:42:46 2019:Uchiha, Chara says, or 2k
+(((((OOC)))))Tue Jul 02 17:43:37 2019:Uchiha, Chara says, ok let me choose water
+(((((OOC)))))Tue Jul 02 17:43:37 2019:Aiga says, hold on fyna
+(((((OOC)))))Tue Jul 02 17:43:37 2019:Aiga says, im almost ready
+(((((OOC)))))Tue Jul 02 17:44:28 2019:Kyomou, Ukodo says, how old is this build?
+(((((OOC)))))Tue Jul 02 17:44:28 2019:Kyomou, Ukodo says, 2009?
+(((((OOC)))))Tue Jul 02 17:45:20 2019:Aiga says, nah bro like 2014 lol
+(((((OOC)))))Tue Jul 02 17:45:20 2019:Aiga says, its the one right before the fusions update
+(((((OOC)))))Tue Jul 02 17:45:20 2019:Aiga says, come make da most broken shit u can
+(((((OOC)))))Tue Jul 02 17:45:20 2019:Uchiha, Fuifu says, we get edits?
+(((((OOC)))))Tue Jul 02 17:46:11 2019:Aiga says, ONE.
+(((((OOC)))))Tue Jul 02 17:46:11 2019:Aiga says, Choose wisely
+(((((OOC)))))Tue Jul 02 17:46:11 2019:Kyomou, Ukodo says, 100k vit
+(((((OOC)))))Tue Jul 02 17:46:11 2019:Uchiha, Fuifu says, o,o
+(((((OOC)))))Tue Jul 02 17:46:11 2019:Kyomou, Ukodo says, easy
+(((((OOC)))))Tue Jul 02 17:46:11 2019:Uchiha, Fuifu says, pullup too me
+(((((OOC)))))Tue Jul 02 17:47:02 2019:Kyomou, Ukodo says, oh no Aiga
+(((((OOC)))))Tue Jul 02 17:47:02 2019:Kyomou, Ukodo says, I went to rock village
+(((((OOC)))))Tue Jul 02 17:47:02 2019:Kyomou, Ukodo says, this is old rock village
+(((((OOC)))))Tue Jul 02 17:47:02 2019:Aiga says, its lit
+(((((OOC)))))Tue Jul 02 17:47:02 2019:Aiga says, ign larn
+(((((OOC)))))Tue Jul 02 17:47:02 2019:Kyomou, Ukodo says, it is lit but jfc
+(((((OOC)))))Tue Jul 02 17:47:53 2019:Aiga says, blue fire is actually blue
+(((((OOC)))))Tue Jul 02 17:47:53 2019:Uchiha, Fuifu says, uchiha fuifu
+(((((OOC)))))Tue Jul 02 17:52:09 2019:Kyomou, Ukodo says, yo
+(((((OOC)))))Tue Jul 02 17:52:09 2019:Kyomou, Ukodo says, rock tai not here
+(((((OOC)))))Tue Jul 02 17:52:09 2019:Aiga says, ya it is
+(((((OOC)))))Tue Jul 02 17:52:09 2019:Kyomou, Ukodo says, where the teacher at?
+(((((OOC)))))Tue Jul 02 17:52:09 2019:Uchiha, Fuifu says, i know what i want
+(((((OOC)))))Tue Jul 02 17:52:09 2019:Aiga says, ign ukodo
+(((((OOC)))))Tue Jul 02 17:53:00 2019:Aiga says, remmeber one wish Larnell
+(((((OOC)))))Tue Jul 02 17:53:00 2019:Kyomou, Ukodo says, Ukodo
+(((((OOC)))))Tue Jul 02 17:53:00 2019:Uchiha, Fuifu says, EMS
+(((((OOC)))))Tue Jul 02 17:53:00 2019:Aiga says, ukodo what
+(((((OOC)))))Tue Jul 02 17:53:00 2019:Kyomou, Ukodo says, Kyomou, Ukodo
+(((((OOC)))))Tue Jul 02 17:53:00 2019:Kyomou, Ukodo says, I want the ability to edit myself
+(((((OOC)))))Tue Jul 02 17:53:00 2019:Hoshigaki, Legit says, lol
+(((((OOC)))))Tue Jul 02 17:53:00 2019:Kyomou, Ukodo says, gg
+(((((OOC)))))Tue Jul 02 17:53:52 2019:Uchiha, Fuifu says, hurd m
+(((((OOC)))))Tue Jul 02 17:53:52 2019:Aiga says, wtf
+(((((OOC)))))Tue Jul 02 17:58:59 2019:Uchiha, Fuifu says, which ms i got
+(((((OOC)))))Tue Jul 02 17:59:50 2019:Aiga says, ems is all shars
+(((((OOC)))))Tue Jul 02 17:59:50 2019:Uchiha, Fuifu says, lol test move with that lava i take niggas heads off
+(((((OOC)))))Tue Jul 02 18:00:41 2019:Uchiha, Test says, lol
+(((((OOC)))))Tue Jul 02 18:00:41 2019:Uchiha, Fuifu says, cs in?
+(((((OOC)))))Tue Jul 02 18:01:32 2019:Uchiha, Test says, yea
+(((((OOC)))))Tue Jul 02 18:04:06 2019:Uchiha, Fuifu says, wait u need certain nin too use jutsu here 
+(((((OOC)))))Tue Jul 02 18:04:06 2019:Aiga says, lol yea
+(((((OOC)))))Tue Jul 02 18:04:06 2019:Aiga says, like passives
+(((((OOC)))))Tue Jul 02 18:04:57 2019:Uchiha, Fuifu says, needa remake
+(((((OOC)))))Tue Jul 02 18:04:57 2019:Aiga says, okay
+(((((OOC)))))Tue Jul 02 18:04:57 2019:Aiga says, who ready to arena
+(((((OOC)))))Tue Jul 02 18:06:40 2019:Aiga says, jfc that shit is HUGE
+(((((OOC)))))Tue Jul 02 18:09:13 2019:Hoshigaki, Legit says, i mite remake for powerful
+(((((OOC)))))Tue Jul 02 18:10:04 2019:Aiga says, go for it
+(((((OOC)))))Tue Jul 02 18:16:03 2019:Fuifu says, yo
+(((((OOC)))))Tue Jul 02 18:16:03 2019:Fuifu says, i remade
+(((((OOC)))))Tue Jul 02 18:16:03 2019:Hoshigaki, Legit says, same
+(((((OOC)))))Tue Jul 02 18:16:54 2019:Uchiha, Test says, nice job aiga
+(((((OOC)))))Tue Jul 02 18:16:54 2019:Aiga says, healll
+(((((OOC)))))Tue Jul 02 18:16:54 2019:Aiga says, LOL
+(((((OOC)))))Tue Jul 02 18:17:45 2019:Aiga says, so fui
+(((((OOC)))))Tue Jul 02 18:22:01 2019:Aiga says, lol
+(((((OOC)))))Tue Jul 02 18:22:01 2019:Aiga says, keep remaking
+(((((OOC)))))Tue Jul 02 18:31:24 2019:Fuifu says, yo
+(((((OOC)))))Tue Jul 02 18:31:24 2019:Aiga says, yoo larnell brujh
+(((((OOC)))))Tue Jul 02 18:31:24 2019:Fuifu says, rdy
+(((((OOC)))))Tue Jul 02 18:31:24 2019:Fuifu says, fuifu
+(((((OOC)))))Tue Jul 02 18:32:16 2019:Aiga says, lmme fini
+(((((OOC)))))Tue Jul 02 18:32:16 2019:Aiga says, arena
+(((((OOC)))))Tue Jul 02 18:33:07 2019:Aiga says, oof WP damage is in game too
+(((((OOC)))))Tue Jul 02 18:33:07 2019:Hoshigaki, Legit says, finna restart my pc might need the link on pager
+(((((OOC)))))Tue Jul 02 18:33:07 2019:Aiga says, check discord
+(((((OOC)))))Tue Jul 02 18:33:58 2019:Hoshigaki, Legit says, aiight ill just go in there my comp is a potato so disc take forever to open
+(((((OOC)))))Tue Jul 02 18:33:58 2019:Hoshigaki, Legit says, brb
+(((((OOC)))))Tue Jul 02 18:33:58 2019:Fuifu says, o,o
+(((((OOC)))))Tue Jul 02 18:34:49 2019:Aiga says, Ign fui
+(((((OOC)))))Tue Jul 02 18:34:49 2019:Fuifu says, fuifu
+(((((OOC)))))Tue Jul 02 18:34:49 2019:Aiga says, whole name boi
+(((((OOC)))))Tue Jul 02 18:34:49 2019:Fuifu says, it is
+(((((OOC)))))Tue Jul 02 18:40:48 2019:Aiga says, arena
+(((((OOC)))))Tue Jul 02 18:44:12 2019:Uchiha, Test says, lol
+(((((OOC)))))Tue Jul 02 18:44:12 2019:Uchiha, Test says, thats op
+(((((OOC)))))Tue Jul 02 18:44:12 2019:Aiga says, i like it
+(((((OOC)))))Tue Jul 02 18:44:12 2019:Aiga says, its worth the risk
+(((((OOC)))))Tue Jul 02 18:45:55 2019:Aiga says, PHEW
+(((((OOC)))))Tue Jul 02 18:46:46 2019:Uchiha, Test says, oof
+(((((OOC)))))Tue Jul 02 18:48:28 2019:Aiga says, how tf did u get upppp
+(((((OOC)))))Tue Jul 02 18:48:28 2019:Aiga says, gf
+(((((OOC)))))Tue Jul 02 18:48:28 2019:Inuzuka, Asu says, fyna come here
+(((((OOC)))))Tue Jul 02 18:48:28 2019:Inuzuka, Asu says, pls
+(((((OOC)))))Tue Jul 02 18:48:28 2019:Inuzuka, Asu says, inu asu
+(((((OOC)))))Tue Jul 02 18:48:28 2019:Uchiha, Test says, bijuu heal
+(((((OOC)))))Tue Jul 02 18:48:28 2019:Aiga says, o wtf
+(((((OOC)))))Tue Jul 02 18:48:28 2019:Aiga says, give me a bijuu 
+(((((OOC)))))Tue Jul 02 18:48:28 2019:Aiga says, no fair &gt;:l
+(((((OOC)))))Tue Jul 02 18:51:02 2019:Aiga says, imma accept chara
+(((((OOC)))))Tue Jul 02 18:51:02 2019:Aiga says, but hold on cause im in bed
+(((((OOC)))))Tue Jul 02 18:51:02 2019:Aiga says, o
+(((((OOC)))))Tue Jul 02 18:51:02 2019:Inuzuka, Asu says, ez
+(((((OOC)))))Tue Jul 02 18:51:02 2019:Fuifu says, `
+(((((OOC)))))Tue Jul 02 18:51:53 2019:Fuifu says, lol yo aiga u bitch
+(((((OOC)))))Tue Jul 02 18:51:53 2019:Fuifu says, unfair
+(((((OOC)))))Tue Jul 02 18:51:53 2019:Aiga says, ??
+(((((OOC)))))Tue Jul 02 18:51:53 2019:Fuifu says, ppl got bijuu and ems
+(((((OOC)))))Tue Jul 02 18:51:53 2019:Fuifu says, Q_Q
+(((((OOC)))))Tue Jul 02 18:51:53 2019:Aiga says, who
+(((((OOC)))))Tue Jul 02 18:53:36 2019:Aiga says, omfdg
+(((((OOC)))))Tue Jul 02 18:53:36 2019:Aiga says, why
+(((((OOC)))))Tue Jul 02 18:53:36 2019:Aiga says, ??
+(((((OOC)))))Tue Jul 02 18:53:36 2019:Aiga says, LOL
+(((((OOC)))))Tue Jul 02 18:53:36 2019:Uchiha, Chara says, lmao
+(((((OOC)))))Tue Jul 02 18:53:36 2019:Aiga says, You were hit by the flames for 112170 vitality damage! (Protected from 100%)
+(((((OOC)))))Tue Jul 02 18:54:27 2019:Uchiha, Chara says, oh
+(((((OOC)))))Tue Jul 02 18:54:27 2019:Aiga says, omfg
+(((((OOC)))))Tue Jul 02 18:55:18 2019:Aiga says, my WP is shot
+(((((OOC)))))Tue Jul 02 18:55:18 2019:Aiga says, thats wild
+(((((OOC)))))Tue Jul 02 18:55:18 2019:Aiga says, Chara wtf did u do
+(((((OOC)))))Tue Jul 02 18:55:18 2019:Aiga says, to get that
+(((((OOC)))))Tue Jul 02 18:55:18 2019:Uchiha, Chara says, 4200k cap
+(((((OOC)))))Tue Jul 02 18:55:18 2019:Uchiha, Test says, lol
+(((((OOC)))))Tue Jul 02 18:55:18 2019:Aiga says, ._.
+(((((OOC)))))Tue Jul 02 18:55:18 2019:Uchiha, Chara says, xD
+(((((OOC)))))Tue Jul 02 18:55:18 2019:Uchiha, Test says, i gave him a busted  bijuu
+(((((OOC)))))Tue Jul 02 18:55:18 2019:Aiga says, Fyna why u give her bijuu smh
+(((((OOC)))))Tue Jul 02 18:55:18 2019:Aiga says, imma wipe ur char &gt;:l
+(((((OOC)))))Tue Jul 02 18:56:09 2019:Uchiha, Chara says, =(
+(((((OOC)))))Tue Jul 02 18:56:09 2019:Uchiha, Chara says, its speeding my age too
+(((((OOC)))))Tue Jul 02 18:56:09 2019:Uchiha, Chara says, Happy Birthday, you are now 38 years old!
+(((((OOC)))))Tue Jul 02 18:56:09 2019:Aiga says, lmao
+(((((OOC)))))Tue Jul 02 18:56:09 2019:Aiga says, Wtf is that cap damage omfg
+(((((OOC)))))Tue Jul 02 18:57:00 2019:Uchiha, Chara says, im 40 now
+(((((OOC)))))Tue Jul 02 18:57:00 2019:Aiga says, Chara team with Asu
+(((((OOC)))))Tue Jul 02 18:57:52 2019:Uchiha, Test says, chara op
+(((((OOC)))))Tue Jul 02 18:57:52 2019:Aiga says, Chara dont use ur bijuu
+(((((OOC)))))Tue Jul 02 18:57:52 2019:Uchiha, Chara says, aw
+(((((OOC)))))Tue Jul 02 18:57:52 2019:Aiga says, or i will wipe u &lt;:l
+(((((OOC)))))Tue Jul 02 18:57:52 2019:Uchiha, Chara says, can i use another?
+(((((OOC)))))Tue Jul 02 18:57:52 2019:Aiga says, As long as its not OHKO stupid shit 
+(((((OOC)))))Tue Jul 02 18:57:52 2019:Inuzuka, Asu says, this nibi draining me lol
+(((((OOC)))))Tue Jul 02 18:58:43 2019:Uchiha, Chara says, UHHH
+(((((OOC)))))Tue Jul 02 18:58:43 2019:Uchiha, Chara says, its not letting me turn it off
+(((((OOC)))))Tue Jul 02 18:58:43 2019:Aiga says, Chara tell ur friends to come 
+(((((OOC)))))Tue Jul 02 18:58:43 2019:Aiga says, Save and relog
+(((((OOC)))))Tue Jul 02 18:58:43 2019:Uchiha, Chara says, im 43 rn
+(((((OOC)))))Tue Jul 02 18:58:43 2019:Aiga says, LOL
+(((((OOC)))))Tue Jul 02 18:58:43 2019:Uchiha, Chara says, ok
+(((((OOC)))))Tue Jul 02 18:58:43 2019:Uchiha, Chara says, almost 10k chakra and stam
+(((((OOC)))))Tue Jul 02 18:59:34 2019:Aiga says, Larnell run this arena
+(((((OOC)))))Tue Jul 02 18:59:34 2019:Fuifu says, no jutsu
+(((((OOC)))))Tue Jul 02 18:59:34 2019:Fuifu says, one sec
+(((((OOC)))))Tue Jul 02 19:00:25 2019:Uchiha, Chara says, ooc 
+(((((OOC)))))Tue Jul 02 19:00:25 2019:Uchiha, Chara says, o
+(((((OOC)))))Tue Jul 02 19:00:25 2019:Uchiha, Chara says, wtf
+(((((OOC)))))Tue Jul 02 19:00:25 2019:Uchiha, Test says, ?
+(((((OOC)))))Tue Jul 02 19:01:16 2019:Uchiha, Chara says, so
+(((((OOC)))))Tue Jul 02 19:01:16 2019:Uchiha, Chara says, ems gave me some blindness
+(((((OOC)))))Tue Jul 02 19:01:16 2019:Uchiha, Test says, lol
+(((((OOC)))))Tue Jul 02 19:01:16 2019:Inuzuka, Asu says, lol
+(((((OOC)))))Tue Jul 02 19:01:16 2019:Uchiha, Chara says, my icon bugged
+(((((OOC)))))Tue Jul 02 19:02:08 2019:Uchiha, Chara says, hi?
+(((((OOC)))))Tue Jul 02 19:02:08 2019:Fuifu says, i got no jutsu
+(((((OOC)))))Tue Jul 02 19:02:08 2019:Fuifu says, but arena
+(((((OOC)))))Tue Jul 02 19:02:59 2019:Aiga says, go get jutsu fool
+(((((OOC)))))Tue Jul 02 19:02:59 2019:Fuifu says, dont need
+(((((OOC)))))Tue Jul 02 19:04:41 2019:Fuifu says, arena
+(((((OOC)))))Tue Jul 02 19:05:32 2019:Uchiha, Chara says, wtf is damaging me?
+(((((OOC)))))Tue Jul 02 19:06:24 2019:Uchiha, Chara says, imlosing 2% vit every sec
+(((((OOC)))))Tue Jul 02 19:06:24 2019:Uchiha, Test says, ms damages
+(((((OOC)))))Tue Jul 02 19:07:15 2019:Uchiha, Chara says, even ems?
+(((((OOC)))))Tue Jul 02 19:07:15 2019:Uchiha, Test says, yea
+(((((OOC)))))Tue Jul 02 19:07:15 2019:Uchiha, Test says, it hink
+(((((OOC)))))Tue Jul 02 19:07:15 2019:Uchiha, Test says, think
+(((((OOC)))))Tue Jul 02 19:08:06 2019:Uchiha, Chara says, nah its not ems
+(((((OOC)))))Tue Jul 02 19:08:06 2019:Fuifu says, arena me
+(((((OOC)))))Tue Jul 02 19:08:06 2019:Uchiha, Chara says, turned it off
+(((((OOC)))))Tue Jul 02 19:08:06 2019:Uchiha, Chara says, still died
+(((((OOC)))))Tue Jul 02 19:08:57 2019:Uchiha, Test says, idk
+(((((OOC)))))Tue Jul 02 19:09:48 2019:Uchiha, Test says, maybe that bijuu bugged you
+(((((OOC)))))Tue Jul 02 19:09:48 2019:Aiga says, LOL
+(((((OOC)))))Tue Jul 02 19:09:48 2019:Uchiha, Chara says, maybe
+(((((OOC)))))Tue Jul 02 19:10:40 2019:Uchiha, Chara says, o fuk
+(((((OOC)))))Tue Jul 02 19:10:40 2019:Uchiha, Chara says, 1 tail killing me
+(((((OOC)))))Tue Jul 02 19:10:40 2019:Uchiha, Chara says, can someone get me out of arena?
+(((((OOC)))))Tue Jul 02 19:10:40 2019:Uchiha, Chara says, bijuu revived me and im stuck on cd
+(((((OOC)))))Tue Jul 02 19:10:40 2019:Fuifu says, ewww 
+(((((OOC)))))Tue Jul 02 19:10:40 2019:Fuifu says, tf
+(((((OOC)))))Tue Jul 02 19:10:40 2019:Aiga says, lmao
+(((((OOC)))))Tue Jul 02 19:12:22 2019:Fuifu says, lol my wp fck
+(((((OOC)))))Tue Jul 02 19:12:22 2019:Aiga says, LOL
+(((((OOC)))))Tue Jul 02 19:13:13 2019:Fuifu says, lucky u couldnt catch youre head 
+(((((OOC)))))Tue Jul 02 19:13:13 2019:Aiga says, lmao i saw dat
+(((((OOC)))))Tue Jul 02 19:13:13 2019:Aiga says, man tried to mang me
+(((((OOC)))))Tue Jul 02 19:13:13 2019:Fuifu says, lol gotta play dirty
+(((((OOC)))))Tue Jul 02 19:26:01 2019:Uchiha, Chara says, Happy Birthday, you are now 60 years old!
+(((((OOC)))))Tue Jul 02 19:29:26 2019:Inuzuka, Asu says, smh
+(((((OOC)))))Tue Jul 02 19:29:26 2019:Aiga says, OOFG
+(((((OOC)))))Tue Jul 02 19:30:17 2019:Fuifu says, LOL WELL DAMN
+(((((OOC)))))Tue Jul 02 19:32:51 2019:Hoshigaki, jdog says, ooc aiga
+(((((OOC)))))Tue Jul 02 19:32:51 2019:Aiga says, ?
+(((((OOC)))))Tue Jul 02 19:32:51 2019:Hoshigaki, jdog says, ooc rb me
+(((((OOC)))))Tue Jul 02 19:32:51 2019:Hoshigaki, jdog says, lemme test smt
+(((((OOC)))))Tue Jul 02 19:32:51 2019:Aiga says, ihgn
+(((((OOC)))))Tue Jul 02 19:33:42 2019:Hoshigaki, jdog says, jdog
+(((((OOC)))))Tue Jul 02 19:33:42 2019:Aiga says, entire name
+(((((OOC)))))Tue Jul 02 19:33:42 2019:Hoshigaki, jdog says, jdog, hoshigaki
+(((((OOC)))))Tue Jul 02 19:33:42 2019:Hoshigaki, jdog says, or hoshigaki, jdog
+(((((OOC)))))Tue Jul 02 19:33:42 2019:Hoshigaki, jdog says, whats your disc?
+(((((OOC)))))Tue Jul 02 19:34:33 2019:Aiga says, its tiger mask
+(((((OOC)))))Tue Jul 02 19:34:33 2019:Aiga says, on discord group chat thing
+(((((OOC)))))Tue Jul 02 19:36:16 2019:Aiga says, asu arena 
+(((((OOC)))))Tue Jul 02 19:38:49 2019:Uchiha, Chara says, Happy Birthday, you are now 72 years old!
+(((((OOC)))))Tue Jul 02 19:39:40 2019:Aiga says, Chara u boutta die big fella
+(((((OOC)))))Tue Jul 02 19:39:40 2019:Uchiha, Chara says, rb time
+(((((OOC)))))Tue Jul 02 19:43:05 2019:Uchiha, Chara says, 
+(((((OOC)))))Tue Jul 02 19:43:05 2019:Uchiha, Chara says, the age you lose stam is random?
+(((((OOC)))))Tue Jul 02 19:46:30 2019:Inuzuka, Asu says, smmhh
+(((((OOC)))))Tue Jul 02 19:46:30 2019:Yotsuki, jdog says, help me out rq
+(((((OOC)))))Tue Jul 02 19:46:30 2019:Aiga says, bijuu straight OP op
+(((((OOC)))))Tue Jul 02 19:46:30 2019:Aiga says, wassup karsk
+(((((OOC)))))Tue Jul 02 19:47:21 2019:Yotsuki, jdog says, rb me again
+(((((OOC)))))Tue Jul 02 19:47:21 2019:Inuzuka, Asu says, fyna stay outta arena smh
+(((((OOC)))))Tue Jul 02 19:47:21 2019:Yotsuki, jdog says, im looking into some stuff
+(((((OOC)))))Tue Jul 02 19:47:21 2019:Aiga says, IGN
+(((((OOC)))))Tue Jul 02 19:47:21 2019:Yotsuki, jdog says, jdog yotsuki
+(((((OOC)))))Tue Jul 02 19:47:21 2019:Yotsuki, jdog says, yotsuki jdog
+(((((OOC)))))Tue Jul 02 19:47:21 2019:Inuzuka, Asu says, Aiga was hit by the Houka for 3561.6 stamina damage! 
+(((((OOC)))))Tue Jul 02 19:47:21 2019:Inuzuka, Asu says, lol
+(((((OOC)))))Tue Jul 02 19:49:55 2019:Uchiha, Chara says, Happy Birthday, you are now 90 years old!
+(((((OOC)))))Tue Jul 02 19:49:55 2019:Aiga says, chara lmao
+(((((OOC)))))Tue Jul 02 19:49:55 2019:Aiga says, all that abuse catching up with you
+(((((OOC)))))Tue Jul 02 19:49:55 2019:Uchiha, Chara says, lol
+(((((OOC)))))Tue Jul 02 19:49:55 2019:Yotsuki, jdog says, lmao
+(((((OOC)))))Tue Jul 02 19:50:46 2019:Uchiha, Chara says, Uchiha, Test hit Uchiha, Chara with their Rasen Shuriken for 8.06 damage!
+(((((OOC)))))Tue Jul 02 19:50:46 2019:Aiga says, U gotta do it manually karsk
+(((((OOC)))))Tue Jul 02 19:51:37 2019:Aiga says, do u normmaly play WASD
+(((((OOC)))))Tue Jul 02 19:51:37 2019:Aiga says, kk
+(((((OOC)))))Tue Jul 02 19:53:20 2019:Aiga says, arena
+(((((OOC)))))Tue Jul 02 19:54:11 2019:Uchiha, Test says, Uchiha, Chara&#39;s Death Age is 101
+(((((OOC)))))Tue Jul 02 19:54:11 2019:Uchiha, Chara says, well
+(((((OOC)))))Tue Jul 02 19:54:11 2019:Uchiha, Test says, Uchiha, Chara&#39;s max chakra is 20343
+(((((OOC)))))Tue Jul 02 19:54:11 2019:Inuzuka, Asu says, lolol
+(((((OOC)))))Tue Jul 02 19:55:53 2019:Uchiha, Chara says, Happy Birthday, you are now 100 years old!
+(((((OOC)))))Tue Jul 02 19:55:53 2019:Uchiha, Chara says, 1 year left
+(((((OOC)))))Tue Jul 02 19:55:53 2019:Inuzuka, Asu says, rip
+(((((OOC)))))Tue Jul 02 19:55:53 2019:Aiga says, lmao
+(((((OOC)))))Tue Jul 02 19:55:53 2019:Uchiha, Test says, lol
+(((((OOC)))))Tue Jul 02 19:56:44 2019:Aiga says, arena fyna
+(((((OOC)))))Tue Jul 02 19:56:44 2019:Uchiha, Test says, gotta go after this
+(((((OOC)))))Tue Jul 02 19:58:27 2019:Aiga says, ??
+(((((OOC)))))Tue Jul 02 19:58:27 2019:Aburame, Chara says, hi
+(((((OOC)))))Tue Jul 02 19:59:18 2019:Yotsuki, jdog says, yo my rb is bugged
+(((((OOC)))))Tue Jul 02 19:59:18 2019:Yotsuki, jdog says, rinnegan bug or
+(((((OOC)))))Tue Jul 02 19:59:18 2019:Aiga says, nah trust it just takes forever
+(((((OOC)))))Tue Jul 02 20:00:09 2019:Yotsuki, jdog says, Because your body escaped harm, the gods have decided to return you to life!
+(((((OOC)))))Tue Jul 02 20:00:09 2019:Aiga says, o
+(((((OOC)))))Tue Jul 02 20:01:00 2019:Aiga says, strg
+(((((OOC)))))Tue Jul 02 20:03:34 2019:Aburame, Chara says, max passives dindt max all aburame passives
+(((((OOC)))))Tue Jul 02 20:06:59 2019:Aiga says, Ama is so buggy
+(((((OOC)))))Tue Jul 02 20:06:59 2019:Aiga says, stops my jutsus from coming out and then bugs them
+(((((OOC)))))Tue Jul 02 20:07:50 2019:Aiga says, lol gf
+(((((OOC)))))Tue Jul 02 20:13:48 2019:Aiga says, one more arena
+(((((OOC)))))Tue Jul 02 20:19:47 2019:Inuzuka, Asu says, lol
+(((((OOC)))))Tue Jul 02 20:20:38 2019:Inuzuka, Asu says, i killed myself
+(((((OOC)))))Tue Jul 02 20:20:38 2019:Aiga says, lol
+(((((OOC)))))Tue Jul 02 20:21:29 2019:Aiga says, wtf
+(((((OOC)))))Tue Jul 02 20:21:29 2019:Aiga says, struggle up
+(((((OOC)))))Tue Jul 02 20:21:29 2019:Aiga says, o u dead...
+(((((OOC)))))Tue Jul 02 20:21:29 2019:Inuzuka, Asu says, i said i killed myself
+(((((OOC)))))Tue Jul 02 20:21:29 2019:Inuzuka, Asu says, im in hosp now
+(((((OOC)))))Tue Jul 02 20:26:36 2019:Aiga says, hmm
+(((((OOC)))))Tue Jul 02 20:26:36 2019:Aiga says, what else does dis nff need
+(((((OOC)))))Tue Jul 02 20:26:36 2019:Aiga says, any sugestions
+(((((OOC)))))Tue Jul 02 20:32:35 2019:Inuzuka, Asu says, the war map should have more obstacles. like lava pits n shit
+(((((OOC)))))Tue Jul 02 21:08:25 2019:Uchiha, Nikola says, this game running smooth af
+(((((OOC)))))Tue Jul 02 21:09:16 2019:Aiga says, lol
+(((((OOC)))))Wed Jul 03 14:44:00 2019:Inuzuka, Asu says, i think i wanna remake smh
+(((((OOC)))))Wed Jul 03 14:48:16 2019:Tester, Lodus says, is the update log up to date?
+(((((OOC)))))Wed Jul 03 14:49:07 2019:Sabaku, test says, ooc no
+(((((OOC)))))Wed Jul 03 14:51:40 2019:Sabaku, Asu says, my power just flickered twice 
+(((((OOC)))))Wed Jul 03 14:53:23 2019:Sabaku, Asu says, am top rockie
+(((((OOC)))))Wed Jul 03 16:45:10 2019:Haruno, Iraga says, yo
+(((((OOC)))))Wed Jul 03 16:45:10 2019:Sabaku, Asu says, yo
+(((((OOC)))))Wed Jul 03 16:46:01 2019:Haruno, Iraga says, jordan i legit just made
+(((((OOC)))))Wed Jul 03 16:46:01 2019:Sabaku, Asu says, you have max passive, exp gain n delay lose
+(((((OOC)))))Wed Jul 03 16:46:01 2019:Sabaku, Asu says, n master jutsu
+(((((OOC)))))Wed Jul 03 16:46:01 2019:Sabaku, Asu says, where are you
+(((((OOC)))))Wed Jul 03 16:46:52 2019:Haruno, Iraga says, sound 
+(((((OOC)))))Wed Jul 03 16:49:26 2019:Haruno, Iraga says, how do i get that 1 free edit you tyalked about&#39;
+(((((OOC)))))Wed Jul 03 17:04:48 2019:Sabaku, Asu says, where you go
+(((((OOC)))))Wed Jul 03 17:04:48 2019:Haruno, Iraga says, bench
+(((((OOC)))))Wed Jul 03 17:06:30 2019:Sabaku, Asu says, strug
+(((((OOC)))))Wed Jul 03 17:09:55 2019:Sabaku, Asu says, Haruno, Iraga was hit by the Renkuudan for 70372.9 stamina damage!
+(((((OOC)))))Wed Jul 03 17:09:55 2019:Sabaku, Asu says, oof
+(((((OOC)))))Wed Jul 03 17:10:46 2019:Haruno, Iraga says, fuuton was broken in this era
+(((((OOC)))))Sun Jul 07 12:47:56 2019:Aiga says, oh wow
+(((((OOC)))))Sun Jul 07 12:47:56 2019:Aiga says, I like this
+(((((OOC)))))Sun Jul 07 12:47:56 2019:Hatake, 2ewqeq says, check the help tab
+(((((OOC)))))Sun Jul 07 12:48:48 2019:Hatake, 2ewqeq says, for expiremental map changes
+(((((OOC)))))Sun Jul 07 12:48:48 2019:Aiga says, Oh wow
+(((((OOC)))))Sun Jul 07 12:49:39 2019:Hatake, 2ewqeq says, you lagging with the big map?
+(((((OOC)))))Sun Jul 07 12:49:39 2019:Aiga says, The zoom out is fine if we leavve it optional 
+(((((OOC)))))Sun Jul 07 12:49:39 2019:Aiga says, Nah let me see
+(((((OOC)))))Sun Jul 07 12:50:30 2019:Aiga says, I dont think its lagging i think we&#39;re used to how zoomed in the screen is so it looks slow while zoomed out cause of the units of speed u walk per walk
+(((((OOC)))))Sun Jul 07 12:50:30 2019:Hatake, 2ewqeq says, yea i think having both as an option is good
+(((((OOC)))))Sun Jul 07 12:51:21 2019:Hatake, 2ewqeq says, but u need to pick one as defualt so i can make minimizing and mazimizing the screen automatic
+(((((OOC)))))Sun Jul 07 12:51:21 2019:Aiga says, Keep the regular screen size
+(((((OOC)))))Sun Jul 07 12:51:21 2019:Aiga says, The zoom out is nice tho
+(((((OOC)))))Sun Jul 07 12:52:12 2019:Hatake, 2ewqeq says, also the hud isnt blocking anything because of the increased view
+(((((OOC)))))Sun Jul 07 12:53:04 2019:Aiga says, Hmm
+(((((OOC)))))Sun Jul 07 12:54:46 2019:Aiga says, Yea this is pretty good 
+(((((OOC)))))Sun Jul 07 12:54:46 2019:Aiga says, I like the regular screen size
+(((((OOC)))))Sun Jul 07 12:56:28 2019:Hatake, 2ewqeq says,  check the overlay icon i made for struggle
+(((((OOC)))))Sun Jul 07 12:56:28 2019:Aiga says, AYEEEE LOL
+(((((OOC)))))Sun Jul 07 12:56:28 2019:Hatake, 2ewqeq says, can be changed to something better but it works
+(((((OOC)))))Sun Jul 07 12:56:28 2019:Hatake, 2ewqeq says, lol
+(((((OOC)))))Sun Jul 07 12:57:20 2019:Aiga says, Nah this is pretty good
+(((((OOC)))))Sun Jul 07 12:57:20 2019:Aiga says, All we need right now
+(((((OOC)))))Sun Jul 07 12:57:20 2019:Aiga says, is for the ideas to be trasnlated 
+(((((OOC)))))Sun Jul 07 12:57:20 2019:Aiga says, we can worry about polish later
+(((((OOC)))))Sun Jul 07 12:58:11 2019:Hatake, 2ewqeq says, ya
+(((((OOC)))))Sun Jul 07 12:58:11 2019:Aiga says, have u checked up on the Ideas and To do list log 
+(((((OOC)))))Sun Jul 07 12:58:11 2019:Aiga says, Im gatherin the stuff i think needs immediate attention
+(((((OOC)))))Sun Jul 07 12:58:11 2019:Aiga says, This is a pretty polish source tho
+(((((OOC)))))Sun Jul 07 12:59:02 2019:Aiga says, we really can start adding ideas whenever
+(((((OOC)))))Sun Jul 07 12:59:02 2019:Hatake, 2ewqeq says, yea ive seen some of it
+(((((OOC)))))Sun Jul 07 12:59:02 2019:Hatake, 2ewqeq says, just really wanted to fix the screen first
+(((((OOC)))))Sun Jul 07 12:59:02 2019:Aiga says, Tell me any ideas u do like and dont like 
+(((((OOC)))))Sun Jul 07 12:59:53 2019:Aiga says, We prolly need to make the hot bar and HP bar more visible tho
+(((((OOC)))))Sun Jul 07 12:59:53 2019:Aiga says, ill have to recolor the old bar since i think its better
+(((((OOC)))))Sun Jul 07 12:59:53 2019:Aiga says, The long stam bar the long HP bar and the circle were pro
+(((((OOC)))))Sun Jul 07 12:59:53 2019:Aiga says, The only problem with it was knowing if u had enough chakra or not by visual which this new hud fixes by adding chakra circles every 10 pointts
+(((((OOC)))))Sun Jul 07 13:00:44 2019:Hatake, 2ewqeq says, i think the hud is fine tbh
+(((((OOC)))))Sun Jul 07 13:01:36 2019:Aiga says, Anything specific u want to add? if u think hud is fine we can keep it
+(((((OOC)))))Sun Jul 07 13:01:36 2019:Hatake, 2ewqeq says, uhhh
+(((((OOC)))))Sun Jul 07 13:02:27 2019:Hatake, 2ewqeq says, for sure the ingame map
+(((((OOC)))))Sun Jul 07 13:03:18 2019:Hatake, 2ewqeq says, its already ingame it just needs to be updated
+(((((OOC)))))Sun Jul 07 13:03:18 2019:Aiga says, Oh really? nice that would really make quality of life better
+(((((OOC)))))Sun Jul 07 13:03:18 2019:Aiga says, should make it a button to press
+(((((OOC)))))Sun Jul 07 13:03:18 2019:Hatake, 2ewqeq says, its under the browser tab
+(((((OOC)))))Sun Jul 07 13:03:18 2019:Aiga says, like how ff has buttons on full screen
+(((((OOC)))))Sun Jul 07 13:03:18 2019:Hatake, 2ewqeq says, ya that would be convienent
+(((((OOC)))))Sun Jul 07 13:04:09 2019:Aiga says, ya this is hella outdated xD
+(((((OOC)))))Sun Jul 07 13:04:09 2019:Aiga says, If u can somehow make it to where it tracks ur location 
+(((((OOC)))))Sun Jul 07 13:04:09 2019:Aiga says, that would be amazin
+(((((OOC)))))Sun Jul 07 13:05:00 2019:Hatake, 2ewqeq says, i was looking at some minimap libraries on byond
+(((((OOC)))))Sun Jul 07 13:05:00 2019:Hatake, 2ewqeq says, some of them generate your location but it might be laggy
+(((((OOC)))))Sun Jul 07 13:05:52 2019:Aiga says, I think lag will be harder to affect this version of NFF 
+(((((OOC)))))Sun Jul 07 13:05:52 2019:Aiga says, cause of the map refresh
+(((((OOC)))))Sun Jul 07 13:06:43 2019:Aiga says, Rasen shuriken really in da agme lel
+(((((OOC)))))Sun Jul 07 13:07:34 2019:Hatake, 2ewqeq says, ya
+(((((OOC)))))Sun Jul 07 13:07:34 2019:Aiga says, Oh ya we gotta decrease sage timer to like 10-15 secs
+(((((OOC)))))Sun Jul 07 13:07:34 2019:Aiga says, Sarutobi clan is also in the game... lol
+(((((OOC)))))Sun Jul 07 13:07:34 2019:Aiga says, so much random stuff
+(((((OOC)))))Sun Jul 07 13:07:34 2019:Hatake, 2ewqeq says, lol
+(((((OOC)))))Sun Jul 07 13:08:25 2019:Hatake, 2ewqeq says, i thinks age timer is 15 if mastered
+(((((OOC)))))Sun Jul 07 13:08:25 2019:Aiga says, nah its 25
+(((((OOC)))))Sun Jul 07 13:08:25 2019:Hatake, 2ewqeq says, o 
+(((((OOC)))))Sun Jul 07 13:09:16 2019:Aiga says, Did you put the boom box code in??
+(((((OOC)))))Sun Jul 07 13:09:16 2019:Hatake, 2ewqeq says, no whats that
+(((((OOC)))))Sun Jul 07 13:10:08 2019:Aiga says, idk i thought it was supposed to be a radio thing
+(((((OOC)))))Sun Jul 07 13:10:59 2019:Hatake, 2ewqeq says, ill look at it
+(((((OOC)))))Sun Jul 07 13:11:50 2019:Aiga says, We prolly need to resize the hot bar icons
+(((((OOC)))))Sun Jul 07 13:11:50 2019:Hatake, 2ewqeq says, i think theyre fine
+(((((OOC)))))Sun Jul 07 13:12:41 2019:Aiga says, I like the changes so far imma add whats been done to the update section
+(((((OOC)))))Sun Jul 07 13:13:32 2019:Aiga says, We also got a put a delay 
+(((((OOC)))))Sun Jul 07 13:13:32 2019:Aiga says, on the T to target timer
+(((((OOC)))))Sun Jul 07 13:13:32 2019:Aiga says, maybe like 5 secs
+(((((OOC)))))Sun Jul 07 13:13:32 2019:Hatake, 2ewqeq says, okay
+(((((OOC)))))Sun Jul 07 13:15:15 2019:Aiga says, ayyeee struggle timer works perfec too
+(((((OOC)))))Sun Jul 07 13:15:15 2019:Aiga says, Your current DC 2
+(((((OOC)))))Sun Jul 07 13:15:15 2019:Aiga says, i like dis 2
+(((((OOC)))))Sun Jul 07 13:16:06 2019:Aiga says, lol bf actually works 
+(((((OOC)))))Sun Jul 07 13:16:06 2019:Hatake, 2ewqeq says, just aded the delay to target 5 secs
+(((((OOC)))))Sun Jul 07 13:16:57 2019:Aiga says, oops
+(((((OOC)))))Sun Jul 07 13:16:57 2019:Aiga says, good shit tho
+(((((OOC)))))Sun Jul 07 13:16:57 2019:Aiga says, brb i gotta go get food
+(((((OOC)))))Sun Jul 07 13:44:16 2019:Aiga says, Okay
+(((((OOC)))))Sun Jul 07 13:44:16 2019:Aiga says, I have returned
+(((((OOC)))))Sun Jul 07 13:45:07 2019:Aiga says, lmao the old AFK check system
+(((((OOC)))))Sun Jul 07 13:45:58 2019:Aiga says, Jinton wave is pro
+(((((OOC)))))Sun Jul 07 13:45:58 2019:Kieru, soooo says, updated world map
+(((((OOC)))))Sun Jul 07 13:46:49 2019:Aiga says, what did u do to it
+(((((OOC)))))Sun Jul 07 13:47:40 2019:Kieru, soooo says, used the pivture from discord
+(((((OOC)))))Sun Jul 07 13:49:23 2019:Kieru, soooo says, rip
+(((((OOC)))))Sun Jul 07 13:49:23 2019:Kieru, soooo says, didnt work
+(((((OOC)))))Sun Jul 07 13:49:23 2019:Aiga says, I def wanna get back into making sure the sounds are seamless too when we have enough time
+(((((OOC)))))Sun Jul 07 13:50:14 2019:Aiga says, What didnt work
+(((((OOC)))))Sun Jul 07 13:50:14 2019:Kieru, soooo says, the map
+(((((OOC)))))Sun Jul 07 13:50:14 2019:Aiga says, o
+(((((OOC)))))Sun Jul 07 13:50:14 2019:Aiga says, it prolly isnt reading the dir file
+(((((OOC)))))Sun Jul 07 13:50:14 2019:Aiga says, cant load it or something
+(((((OOC)))))Sun Jul 07 13:51:05 2019:Kieru, soooo says, accidently deleted something
+(((((OOC)))))Sun Jul 07 13:51:56 2019:Kieru, soooo says, fixing
+(((((OOC)))))Sun Jul 07 13:56:12 2019:Aiga says, o wtf
+(((((OOC)))))Sun Jul 07 13:56:12 2019:Kieru, soooo says, works now
+(((((OOC)))))Sun Jul 07 13:56:12 2019:Aiga says, the new game load game del game are off center xD
+(((((OOC)))))Sun Jul 07 13:56:12 2019:Kieru, soooo says, lol
+(((((OOC)))))Sun Jul 07 13:57:04 2019:Kieru, soooo says, cuz of the view change
+(((((OOC)))))Sun Jul 07 13:57:04 2019:Kieru, soooo says, its center for me
+(((((OOC)))))Sun Jul 07 13:57:55 2019:Kieru, soooo says, the background is just smaller because it snot big enough
+(((((OOC)))))Sun Jul 07 13:58:46 2019:Aiga says, Keiru so fire
+(((((OOC)))))Sun Jul 07 14:01:20 2019:Aiga says, Lel
+(((((OOC)))))Sun Jul 07 14:05:36 2019:Aiga says, wow
+(((((OOC)))))Sun Jul 07 14:05:36 2019:Aiga says, This was before professions
+(((((OOC)))))Sun Jul 07 14:08:09 2019:Aiga says, Does that also do bleed damage
+(((((OOC)))))Sun Jul 07 14:08:09 2019:Aiga says, wtf
+(((((OOC)))))Sun Jul 07 14:09:52 2019:Aiga says, o okay
+(((((OOC)))))Sun Jul 07 14:10:43 2019:Aiga says, that bugs me
+(((((OOC)))))Sun Jul 07 14:10:43 2019:Aiga says, Palms on wake up bug u
+(((((OOC)))))Sun Jul 07 14:10:43 2019:Hyuuga, ewr says, yea im bugged too
+(((((OOC)))))Sun Jul 07 14:10:43 2019:Hyuuga, ewr says, lol
+(((((OOC)))))Sun Jul 07 14:10:43 2019:Aiga says, OP :(
+(((((OOC)))))Sun Jul 07 14:13:16 2019:Aiga says, Isnt this when rotations push back was based off of tai know
+(((((OOC)))))Sun Jul 07 14:13:16 2019:Aiga says, I liked the idea of hyuugas pressing X to increase rotation strength
+(((((OOC)))))Sun Jul 07 14:13:16 2019:Aiga says, idk why it was set to static
+(((((OOC)))))Sun Jul 07 14:14:08 2019:Hyuuga, ewr says, yea
+(((((OOC)))))Sun Jul 07 14:14:08 2019:Hyuuga, ewr says, based on tia knowledge
+(((((OOC)))))Sun Jul 07 14:14:59 2019:Aiga says, kk lets keep it that way
+(((((OOC)))))Sun Jul 07 14:14:59 2019:Aiga says, rotation has a use
+(((((OOC)))))Sun Jul 07 14:14:59 2019:Hyuuga, ewr says, no idea how to use 128
+(((((OOC)))))Sun Jul 07 14:14:59 2019:Aiga says, p sure u use 64 first then press 128 while 64 is on
+(((((OOC)))))Sun Jul 07 14:15:50 2019:Hyuuga, ewr says, tried
+(((((OOC)))))Sun Jul 07 14:16:41 2019:Hyuuga, ewr says, not working
+(((((OOC)))))Sun Jul 07 14:16:41 2019:Aiga says, dont use 64 trigams before u press 128
+(((((OOC)))))Sun Jul 07 14:16:41 2019:Aiga says, like use 64 then 128 then attack
+(((((OOC)))))Sun Jul 07 14:16:41 2019:Hyuuga, ewr says, tried that too
+(((((OOC)))))Sun Jul 07 14:16:41 2019:Aiga says, wow wtf
+(((((OOC)))))Sun Jul 07 14:21:48 2019:Hyuuga, ewr says, yea thats dumb
+(((((OOC)))))Sun Jul 07 14:21:48 2019:Hyuuga, ewr says, not working
+(((((OOC)))))Sun Jul 07 14:21:48 2019:Aiga says, Hmm
+(((((OOC)))))Sun Jul 07 14:21:48 2019:Aiga says, lemme test
+(((((OOC)))))Sun Jul 07 14:25:13 2019:Hyuuga, ewr says, how
+(((((OOC)))))Sun Jul 07 14:25:13 2019:Hyuuga, ewr says, lol
+(((((OOC)))))Sun Jul 07 14:27:47 2019:Hyuuga, Aiga says, U use
+(((((OOC)))))Sun Jul 07 14:27:47 2019:Hyuuga, Aiga says, 63 palms first
+(((((OOC)))))Sun Jul 07 14:27:47 2019:Hyuuga, Aiga says, then press 128
+(((((OOC)))))Sun Jul 07 14:27:47 2019:Hyuuga, Aiga says, 64*
+(((((OOC)))))Sun Jul 07 14:28:38 2019:Hyuuga, Aiga says, You strengthen your 8 trigrams stance to prepare for 128 Palms! You have 80 seconds!
+(((((OOC)))))Sun Jul 07 14:28:38 2019:Hyuuga, ewr says, 128 Palms
+(((((OOC)))))Sun Jul 07 14:28:38 2019:Hyuuga, ewr says, says not now
+(((((OOC)))))Sun Jul 07 14:29:29 2019:Hyuuga, ewr says, Not now.
+(((((OOC)))))Sun Jul 07 14:31:12 2019:Hyuuga, Aiga says, gotta use it before u attack u no
+(((((OOC)))))Sun Jul 07 14:31:12 2019:Hyuuga, Aiga says, u know how u press 64 
+(((((OOC)))))Sun Jul 07 14:31:12 2019:Hyuuga, Aiga says, just press 64 then 128
+(((((OOC)))))Sun Jul 07 14:31:12 2019:Hyuuga, Aiga says, then atttack
+(((((OOC)))))Sun Jul 07 14:31:12 2019:Hyuuga, ewr says, i did
+(((((OOC)))))Sun Jul 07 14:31:12 2019:Hyuuga, Aiga says, dont be in palms attacking
+(((((OOC)))))Sun Jul 07 14:31:12 2019:Hyuuga, Aiga says, its skill card u kno
+(((((OOC)))))Sun Jul 07 14:31:12 2019:Hyuuga, ewr says, it says not now
+(((((OOC)))))Sun Jul 07 14:32:03 2019:Hyuuga, Aiga says, ill show u
+(((((OOC)))))Sun Jul 07 14:32:54 2019:Hyuuga, Aiga says, Okay so
+(((((OOC)))))Sun Jul 07 14:32:54 2019:Hyuuga, Aiga says, imma press 63
+(((((OOC)))))Sun Jul 07 14:32:54 2019:Hyuuga, Aiga says, 64*
+(((((OOC)))))Sun Jul 07 14:32:54 2019:Hyuuga, Aiga says, I pressed it
+(((((OOC)))))Sun Jul 07 14:32:54 2019:Hyuuga, Aiga says, Now im pressing 128
+(((((OOC)))))Sun Jul 07 14:32:54 2019:Hyuuga, Aiga says, Pressed 128
+(((((OOC)))))Sun Jul 07 14:33:45 2019:Hyuuga, ewr says, it dont work for me
+(((((OOC)))))Sun Jul 07 14:33:45 2019:Hyuuga, ewr says, idk why lol
+(((((OOC)))))Sun Jul 07 14:33:45 2019:Hyuuga, Aiga says, whuttt
+(((((OOC)))))Sun Jul 07 14:33:45 2019:Hyuuga, ewr says, says not now
+(((((OOC)))))Sun Jul 07 14:33:45 2019:Hyuuga, Aiga says, Nah bruh u just press 64
+(((((OOC)))))Sun Jul 07 14:33:45 2019:Hyuuga, Aiga says, then when it says u change ur stance
+(((((OOC)))))Sun Jul 07 14:33:45 2019:Hyuuga, Aiga says, press 128
+(((((OOC)))))Sun Jul 07 14:33:45 2019:Hyuuga, Aiga says, And THEN attack
+(((((OOC)))))Sun Jul 07 14:33:45 2019:Uchiha, Nikola says, yooo this is dope
+(((((OOC)))))Sun Jul 07 14:34:36 2019:Hyuuga, ewr says, Not now.
+(((((OOC)))))Sun Jul 07 14:34:36 2019:Hyuuga, Aiga says, Change stance
+(((((OOC)))))Sun Jul 07 14:34:36 2019:Hyuuga, Aiga says, then ress 128
+(((((OOC)))))Sun Jul 07 14:34:36 2019:Hyuuga, Aiga says, then press A or S
+(((((OOC)))))Sun Jul 07 14:35:28 2019:Hyuuga, ewr says, is change stance a verb?
+(((((OOC)))))Sun Jul 07 14:35:28 2019:Hyuuga, ewr says, rip....
+(((((OOC)))))Sun Jul 07 14:35:28 2019:Hyuuga, Aiga says, Nah its a text
+(((((OOC)))))Sun Jul 07 14:35:28 2019:Hyuuga, Aiga says, u should see it when u press it
+(((((OOC)))))Sun Jul 07 14:36:19 2019:Hyuuga, ewr says, maybe i bugged my character some how
+(((((OOC)))))Sun Jul 07 14:36:19 2019:Hyuuga, Aiga says, I think ur jus doin it wrong xD
+(((((OOC)))))Sun Jul 07 14:36:19 2019:Uchiha, Nikola says, yo this screen honestly looks prettier than original
+(((((OOC)))))Sun Jul 07 14:36:19 2019:Uchiha, Nikola says, cuz its covering all
+(((((OOC)))))Sun Jul 07 14:36:19 2019:Hyuuga, Aiga says, Ya exactly nik
+(((((OOC)))))Sun Jul 07 14:36:19 2019:Hyuuga, Aiga says, feels natural
+(((((OOC)))))Sun Jul 07 14:36:19 2019:Uchiha, Nikola says, mhm
+(((((OOC)))))Sun Jul 07 14:37:10 2019:Hyuuga, ewr says, check the help tab nik
+(((((OOC)))))Sun Jul 07 14:37:10 2019:Hyuuga, ewr says, other screen options
+(((((OOC)))))Sun Jul 07 14:37:10 2019:Uchiha, Nikola says, :OO
+(((((OOC)))))Sun Jul 07 14:37:10 2019:Uchiha, Nikola says, dopeee
+(((((OOC)))))Sun Jul 07 14:37:10 2019:Uchiha, Nikola says, yo this is sick lol
+(((((OOC)))))Sun Jul 07 14:37:10 2019:Uchiha, Nikola says, sry ive been inactive
+(((((OOC)))))Sun Jul 07 14:38:01 2019:Uchiha, Nikola says, with the work here
+(((((OOC)))))Sun Jul 07 14:38:01 2019:Hyuuga, Aiga says, updatessssss
+(((((OOC)))))Sun Jul 07 14:38:01 2019:Uchiha, Nikola says, ill take a look at the suggestions and updates yall want
+(((((OOC)))))Sun Jul 07 14:38:01 2019:Hyuuga, Aiga says, its all good bro
+(((((OOC)))))Sun Jul 07 14:38:01 2019:Hyuuga, Aiga says, kk
+(((((OOC)))))Sun Jul 07 14:38:01 2019:Uchiha, Nikola says, yall sharing source now?
+(((((OOC)))))Sun Jul 07 14:38:01 2019:Uchiha, Nikola says, or still sending stuff
+(((((OOC)))))Sun Jul 07 14:38:01 2019:Hyuuga, Aiga says, we still sending but imma make a goolge drive today
+(((((OOC)))))Sun Jul 07 14:38:01 2019:Uchiha, Nikola says, aight bet
+(((((OOC)))))Sun Jul 07 14:38:01 2019:Uchiha, Nikola says, lmk when u do
+(((((OOC)))))Sun Jul 07 14:38:01 2019:Hyuuga, ewr says, ya ill send this updated one
+(((((OOC)))))Sun Jul 07 14:38:01 2019:Uchiha, Nikola says, this game honestly gonna be dope af
+(((((OOC)))))Sun Jul 07 14:38:52 2019:Uchiha, Nikola says, kk word
+(((((OOC)))))Sun Jul 07 14:38:52 2019:Hyuuga, Aiga says, The discord gets bigger like everyday
+(((((OOC)))))Sun Jul 07 14:38:52 2019:Hyuuga, Aiga says, im gettin ppl who also never heard of NFF before lol
+(((((OOC)))))Sun Jul 07 14:38:52 2019:Uchiha, Nikola says, dopee
+(((((OOC)))))Sun Jul 07 14:39:44 2019:Hyuuga, Aiga says, Once we get the mission system going and the org idea i have released
+(((((OOC)))))Sun Jul 07 14:39:44 2019:Hyuuga, Aiga says, I think we can start advertising
+(((((OOC)))))Sun Jul 07 14:39:44 2019:Uchiha, Nikola says, bet
+(((((OOC)))))Sun Jul 07 14:39:44 2019:Hyuuga, Aiga says, After that it will be PvE questline stuff we add
+(((((OOC)))))Sun Jul 07 14:40:35 2019:Uchiha, Nikola says, yea that&#39;ll help pb
+(((((OOC)))))Sun Jul 07 14:40:35 2019:Hyuuga, Aiga says, Different NPCs that give quests that reward u with certain things u would be able to get unless u did the quest
+(((((OOC)))))Sun Jul 07 14:40:35 2019:Uchiha, Nikola says, mhm
+(((((OOC)))))Sun Jul 07 14:40:35 2019:Hyuuga, Aiga says, wouldnt*
+(((((OOC)))))Sun Jul 07 14:40:35 2019:Hyuuga, Aiga says, certain legendary items maybe some SP 
+(((((OOC)))))Sun Jul 07 14:42:17 2019:Hyuuga, 31231 says, yea idk what im doing wrong
+(((((OOC)))))Sun Jul 07 14:43:08 2019:Uchiha, Nikola says, wym
+(((((OOC)))))Sun Jul 07 14:43:08 2019:Hyuuga, Aiga says, Fyna cant figure out how to use 128 palms xD
+(((((OOC)))))Sun Jul 07 14:43:08 2019:Uchiha, Nikola says, lol
+(((((OOC)))))Sun Jul 07 14:43:08 2019:Hyuuga, Aiga says, u gotta press the 64 palms skill card first and then 128 right after
+(((((OOC)))))Sun Jul 07 14:43:08 2019:Uchiha, Nikola says, mhm
+(((((OOC)))))Sun Jul 07 14:43:08 2019:Hyuuga, 31231 says, i am
+(((((OOC)))))Sun Jul 07 14:44:00 2019:Hyuuga, 31231 says, Not now.
+(((((OOC)))))Sun Jul 07 14:44:00 2019:Hyuuga, Aiga says, nah u pressin 64 then using it then pressing 128
+(((((OOC)))))Sun Jul 07 14:44:00 2019:Uchiha, Nikola says, yo we should add 7sm 
+(((((OOC)))))Sun Jul 07 14:44:00 2019:Hyuuga, Aiga says, u gotta do 64 128 then attack
+(((((OOC)))))Sun Jul 07 14:44:00 2019:Hyuuga, Aiga says, Yea we for sure will
+(((((OOC)))))Sun Jul 07 14:44:00 2019:Hyuuga, Aiga says, im p sure all the legendary swords work
+(((((OOC)))))Sun Jul 07 14:44:00 2019:Uchiha, Nikola says, yeah
+(((((OOC)))))Sun Jul 07 14:44:00 2019:Uchiha, Nikola says, i mean, some suck tbh
+(((((OOC)))))Sun Jul 07 14:44:00 2019:Uchiha, Nikola says, cuz some arent like in naruto
+(((((OOC)))))Sun Jul 07 14:44:00 2019:Hyuuga, 31231 says, 7sm is in i believe
+(((((OOC)))))Sun Jul 07 14:44:51 2019:Uchiha, Nikola says, the org itself?
+(((((OOC)))))Sun Jul 07 14:44:51 2019:Hyuuga, 31231 says, its a mist org 
+(((((OOC)))))Sun Jul 07 14:44:51 2019:Uchiha, Nikola says, mist in?
+(((((OOC)))))Sun Jul 07 14:44:51 2019:Hyuuga, 31231 says, rain i mean
+(((((OOC)))))Sun Jul 07 14:44:51 2019:Hyuuga, Aiga says, Yea i think its like
+(((((OOC)))))Sun Jul 07 14:44:51 2019:Hyuuga, Aiga says, Iron Gates in rock
+(((((OOC)))))Sun Jul 07 14:44:51 2019:Hyuuga, Aiga says, Yea org system
+(((((OOC)))))Sun Jul 07 14:44:51 2019:Hyuuga, Aiga says, I have a whole thing set for that
+(((((OOC)))))Sun Jul 07 14:45:42 2019:Uchiha, Nikola says, iron gatesss
+(((((OOC)))))Sun Jul 07 14:45:42 2019:Uchiha, Nikola says, that mask tho
+(((((OOC)))))Sun Jul 07 14:45:42 2019:Hyuuga, Aiga says, There will be village orgs and missing ninja orgs
+(((((OOC)))))Sun Jul 07 14:45:42 2019:Uchiha, Nikola says, bet
+(((((OOC)))))Sun Jul 07 14:45:42 2019:Hyuuga, Aiga says, some will do different things 
+(((((OOC)))))Sun Jul 07 14:45:42 2019:Uchiha, Nikola says, yeah
+(((((OOC)))))Sun Jul 07 14:45:42 2019:Uchiha, Nikola says, brb
+(((((OOC)))))Sun Jul 07 14:45:42 2019:Hyuuga, 31231 says, rip
+(((((OOC)))))Sun Jul 07 14:45:42 2019:Hyuuga, Aiga says, attack wit a n s
+(((((OOC)))))Sun Jul 07 14:45:42 2019:Hyuuga, Aiga says, until it rips
+(((((OOC)))))Sun Jul 07 14:45:42 2019:Hyuuga, 31231 says, either im slow or it just dont work for me
+(((((OOC)))))Sun Jul 07 14:46:33 2019:Hyuuga, Aiga says, ur jus thinkin about it wrong
+(((((OOC)))))Sun Jul 07 14:46:33 2019:Hyuuga, Aiga says, i wish i had a video xD
+(((((OOC)))))Sun Jul 07 14:49:07 2019:Hyuuga, 31231 says, how do i make a kage
+(((((OOC)))))Sun Jul 07 14:49:07 2019:Hyuuga, Aiga says, u already made em place votes
+(((((OOC)))))Sun Jul 07 14:49:07 2019:Hyuuga, Aiga says, its under a timer
+(((((OOC)))))Sun Jul 07 14:49:07 2019:Hyuuga, Aiga says, i think
+(((((OOC)))))Sun Jul 07 14:49:58 2019:Hyuuga, Aiga says, ya
+(((((OOC)))))Sun Jul 07 14:49:58 2019:Hyuuga, 31231 says, that verb bugged to hell
+(((((OOC)))))Sun Jul 07 14:49:58 2019:Hyuuga, Aiga says, xD i think its cause u pressed it twice
+(((((OOC)))))Sun Jul 07 14:52:32 2019:Hyuuga, 31231 says, cant nominate myself
+(((((OOC)))))Sun Jul 07 14:52:32 2019:Hyuuga, 31231 says, reeeeee
+(((((OOC)))))Sun Jul 07 14:52:32 2019:Fuuma, Gunto says, ppl on nff b liek
+(((((OOC)))))Sun Jul 07 14:52:32 2019:Hyuuga, Aiga says, Where is the verb?
+(((((OOC)))))Sun Jul 07 14:52:32 2019:Fuuma, Gunto says, old nff was laggier dey say
+(((((OOC)))))Sun Jul 07 14:52:32 2019:Hyuuga, Aiga says, O shit gunto when did u log in
+(((((OOC)))))Sun Jul 07 14:52:32 2019:Hyuuga, Aiga says, BRUH LOL
+(((((OOC)))))Sun Jul 07 14:52:32 2019:Hyuuga, Aiga says, Exactly
+(((((OOC)))))Sun Jul 07 14:52:32 2019:Hyuuga, 31231 says, nominate village leader
+(((((OOC)))))Sun Jul 07 14:53:23 2019:Hyuuga, Aiga says, Wtf lol
+(((((OOC)))))Sun Jul 07 14:53:23 2019:Hyuuga, Aiga says, Village nonimate is broken
+(((((OOC)))))Sun Jul 07 14:53:23 2019:Hyuuga, 31231 says, ye it is
+(((((OOC)))))Sun Jul 07 14:53:23 2019:Hyuuga, Aiga says, I think it was disabled cause of kage passing 
+(((((OOC)))))Sun Jul 07 14:53:23 2019:Fuuma, Gunto says, i fuk&#39;d up
+(((((OOC)))))Sun Jul 07 14:53:23 2019:Hyuuga, Aiga says, But i dont see anything wrong wit kage passing tbh
+(((((OOC)))))Sun Jul 07 14:53:23 2019:Fuuma, Gunto says, made my con 20 insetad of 15
+(((((OOC)))))Sun Jul 07 14:53:23 2019:Fuuma, Gunto says, ggg
+(((((OOC)))))Sun Jul 07 14:53:23 2019:Hyuuga, Aiga says, Wow gunto boutta remake
+(((((OOC)))))Sun Jul 07 14:54:14 2019:Hyuuga, Aiga says, Dis just for testing rn anyways so make ur chars as god mode as u can
+(((((OOC)))))Sun Jul 07 14:54:14 2019:Hyuuga, Aiga says, So gunto
+(((((OOC)))))Sun Jul 07 14:54:14 2019:Hyuuga, Aiga says, since ur here
+(((((OOC)))))Sun Jul 07 14:54:14 2019:Hyuuga, Aiga says, do u have any ideas u want to see added to NFF
+(((((OOC)))))Sun Jul 07 14:55:05 2019:Fuuma, Gunto says, u mean dis game
+(((((OOC)))))Sun Jul 07 14:55:05 2019:Hyuuga, Aiga says, Ye
+(((((OOC)))))Sun Jul 07 14:55:56 2019:Hyuuga, Aiga says, In general really
+(((((OOC)))))Sun Jul 07 14:55:56 2019:Fuuma, Gunto says, not rly sur atm
+(((((OOC)))))Sun Jul 07 14:55:56 2019:Fuuma, Gunto says, r u coding or just fyna
+(((((OOC)))))Sun Jul 07 14:56:48 2019:Hyuuga, Aiga says, Both of us but Fyna has more exp so im collecting the ideas rn and then coding later
+(((((OOC)))))Sun Jul 07 14:56:48 2019:Hyuuga, Aiga says, Fyna codes as i add stuff
+(((((OOC)))))Sun Jul 07 14:57:39 2019:Hyuuga, 31231 says, not seeing rain org verbs
+(((((OOC)))))Sun Jul 07 14:57:39 2019:Hyuuga, 31231 says, must not be in
+(((((OOC)))))Sun Jul 07 14:57:39 2019:Hyuuga, Aiga says, I dont think 7SM is in. they might be code locked
+(((((OOC)))))Sun Jul 07 14:57:39 2019:Hyuuga, Aiga says, like iron gates 
+(((((OOC)))))Sun Jul 07 14:58:30 2019:Hyuuga, Aiga says, I think Sound V is da only one dat still works
+(((((OOC)))))Sun Jul 07 14:58:30 2019:Hyuuga, Aiga says, And Konoha has Police
+(((((OOC)))))Sun Jul 07 14:59:21 2019:Hyuuga, 31231 says, welp
+(((((OOC)))))Sun Jul 07 14:59:21 2019:Hyuuga, 31231 says, hyuuga not for me :c
+(((((OOC)))))Sun Jul 07 14:59:21 2019:Hyuuga, 31231 says, it denies me the use of palms
+(((((OOC)))))Sun Jul 07 14:59:21 2019:Hyuuga, 31231 says, reeeee
+(((((OOC)))))Sun Jul 07 15:00:12 2019:Hyuuga, Aiga says, xD
+(((((OOC)))))Sun Jul 07 15:00:12 2019:Hyuuga, Aiga says, i swear ur jus usin it wrong
+(((((OOC)))))Sun Jul 07 15:01:55 2019:Hyuuga, 31231 says, i see whats going on
+(((((OOC)))))Sun Jul 07 15:01:55 2019:Hyuuga, Aiga says, See u perfected ur stance
+(((((OOC)))))Sun Jul 07 15:01:55 2019:Hyuuga, 31231 says, it works when i click but u can use it in the hotbar slot
+(((((OOC)))))Sun Jul 07 15:01:55 2019:Hyuuga, 31231 says, cant
+(((((OOC)))))Sun Jul 07 15:01:55 2019:Hyuuga, Aiga says, Ohhhh
+(((((OOC)))))Sun Jul 07 15:01:55 2019:Hyuuga, Aiga says, I was clicking it
+(((((OOC)))))Sun Jul 07 15:02:46 2019:Hyuuga, Aiga says, Wow wtf
+(((((OOC)))))Sun Jul 07 15:02:46 2019:Hyuuga, Aiga says, that is pretty weird
+(((((OOC)))))Sun Jul 07 15:02:46 2019:Hyuuga, 31231 says, lol
+(((((OOC)))))Sun Jul 07 15:02:46 2019:Hyuuga, 31231 says, knew i wasnt crazy :c
+(((((OOC)))))Sun Jul 07 15:02:46 2019:Hyuuga, Aiga says, XD
+(((((OOC)))))Sun Jul 07 15:10:27 2019:Hyuuga, Aiga says, o whut
+(((((OOC)))))Sun Jul 07 15:10:27 2019:Hyuuga, Aiga says, I have inf struggle timer
+(((((OOC)))))Sun Jul 07 15:10:27 2019:Hyuuga, 31231 says, restore gives infinite i think
+(((((OOC)))))Sun Jul 07 15:14:43 2019:Hyuuga, 31231 says, rebooting to see if i fix the palm skilcard bug
+(((((OOC)))))Sun Jul 07 15:17:16 2019:Hyuuga, Aiga says, it still says not now
+(((((OOC)))))Sun Jul 07 15:18:08 2019:Hyuuga, 31231 says, lol
+(((((OOC)))))Sun Jul 07 15:18:59 2019:Hyuuga, 31231 says, welp
+(((((OOC)))))Sun Jul 07 15:18:59 2019:Hyuuga, 31231 says, it still works so ill ignore it for now
+(((((OOC)))))Sun Jul 07 15:18:59 2019:Hyuuga, 31231 says, xD
+(((((OOC)))))Sun Jul 07 15:28:22 2019:Uchiha, Ryuu says, ooc ds
+(((((OOC)))))Sun Jul 07 15:28:22 2019:Uchiha, Ryuu says, Oh
+(((((OOC)))))Sun Jul 07 15:28:22 2019:Uchiha, Ryuu says, Hello
+(((((OOC)))))Sun Jul 07 15:28:22 2019:Namikaze, fyna says, hai
+(((((OOC)))))Sun Jul 07 15:29:13 2019:Uchiha, Ryuu says, new villages?
+(((((OOC)))))Sun Jul 07 15:29:13 2019:Namikaze, fyna says, no
+(((((OOC)))))Sun Jul 07 15:29:13 2019:Hyuuga, Aiga says, Hey Ryuu
+(((((OOC)))))Sun Jul 07 15:29:13 2019:Hyuuga, Aiga says, Whats up man
+(((((OOC)))))Sun Jul 07 15:30:04 2019:Uchiha, Ryuu says, What&#39;s up dude
+(((((OOC)))))Sun Jul 07 15:30:04 2019:Hyuuga, Aiga says, This is currently a test server for the direction of a new Naruto Final Fight
+(((((OOC)))))Sun Jul 07 15:30:04 2019:Uchiha, Ryuu says, Yeah, i&#39;ve been keeping up with it for the last few days
+(((((OOC)))))Sun Jul 07 15:30:04 2019:Uchiha, Ryuu says, seems very interesting
+(((((OOC)))))Sun Jul 07 15:30:56 2019:Hyuuga, Aiga says, Glad we&#39;ve kept u interested enough to stick around :) if u dont feel like training let me know, i need some people to test combat with soon
+(((((OOC)))))Sun Jul 07 15:30:56 2019:Uchiha, Ryuu says, I&#39;d love to be constantly testing but im filled with work. I&#39;ll keep logging though
+(((((OOC)))))Sun Jul 07 15:30:56 2019:Uchiha, Ryuu says, This already feels right
+(((((OOC)))))Sun Jul 07 15:30:56 2019:Uchiha, Ryuu says, New nff is eh
+(((((OOC)))))Sun Jul 07 15:32:38 2019:Hyuuga, Aiga says, Thats fine as long as u keep logging in and playing the test server 
+(((((OOC)))))Sun Jul 07 15:32:38 2019:Hyuuga, Aiga says, Glad u like it tho
+(((((OOC)))))Sun Jul 07 15:32:38 2019:Hyuuga, Aiga says, new NFF went into a direction that wasnt under the appreciation of the ppl who made it 
+(((((OOC)))))Sun Jul 07 15:32:38 2019:Hyuuga, Aiga says, I wanna bring that love here
+(((((OOC)))))Sun Jul 07 15:33:29 2019:Uchiha, Ryuu says, Damn
+(((((OOC)))))Sun Jul 07 15:33:29 2019:Uchiha, Ryuu says, it&#39;s sad to see the way that game turned out in the end
+(((((OOC)))))Sun Jul 07 15:34:20 2019:Hyuuga, Aiga says, It doesnt have to turn out the way that it will inevitably go
+(((((OOC)))))Sun Jul 07 15:34:20 2019:Hyuuga, Aiga says, if we return all the support to here
+(((((OOC)))))Sun Jul 07 15:39:28 2019:Hyuuga, Aiga says, lol man i love naruto
+(((((OOC)))))Sun Jul 07 15:39:28 2019:Hyuuga, Aiga says, Kakshi so frefsh
+(((((OOC)))))Sun Jul 07 15:39:28 2019:Uchiha, Ryuu says, 100%
+(((((OOC)))))Sun Jul 07 15:39:28 2019:Uchiha, Ryuu says, realest nigga there is
+(((((OOC)))))Sun Jul 07 15:40:19 2019:Namikaze, fyna says, flying thunder god is bugged
+(((((OOC)))))Sun Jul 07 15:40:19 2019:Namikaze, fyna says, u can teleport to players but not the turfs
+(((((OOC)))))Sun Jul 07 15:40:19 2019:Namikaze, fyna says, ill fix it then adddd it to the naamikaze last clan
+(((((OOC)))))Sun Jul 07 15:41:10 2019:Hyuuga, Aiga says, okay
+(((((OOC)))))Sun Jul 07 15:41:10 2019:Hyuuga, Aiga says, we will probably at some point later down the line
+(((((OOC)))))Sun Jul 07 15:41:10 2019:Hyuuga, Aiga says, seperate the last names into chooseable clans
+(((((OOC)))))Sun Jul 07 16:17:52 2019:Hyuuga, Aiga says, :O
+(((((OOC)))))Sun Jul 07 17:05:39 2019:Namikaze, fyna says, 
+(((((OOC)))))Sun Jul 07 17:09:04 2019:Hyuuga, Aiga says, Find anything new?
+(((((OOC)))))Sun Jul 07 17:09:55 2019:Namikaze, fyna says, no
+(((((OOC)))))Sun Jul 07 17:11:37 2019:Namikaze, fyna says, can u turn on ur byakugan
+(((((OOC)))))Sun Jul 07 17:12:28 2019:Namikaze, fyna says, that dont work
+(((((OOC)))))Sun Jul 07 17:12:28 2019:Hyuuga, Aiga says, lel
+(((((OOC)))))Sun Jul 07 17:12:28 2019:Hyuuga, Aiga says, Lodus can probably help with Eye steal code
+(((((OOC)))))Sun Jul 07 17:15:53 2019:Sabaku, Aiga says, gunto make a char
+(((((OOC)))))Sun Jul 07 17:21:52 2019:Fuuma, Gunto says, ya da ftg code
+(((((OOC)))))Sun Jul 07 17:21:52 2019:Fuuma, Gunto says, doesnt let u tele 2 turf
+(((((OOC)))))Sun Jul 07 17:21:52 2019:Fuuma, Gunto says, becos dey r dum
+(((((OOC)))))Sun Jul 07 17:21:52 2019:Fuuma, Gunto says, idk if dey did dat on purpose or wat
+(((((OOC)))))Sun Jul 07 17:21:52 2019:Fuuma, Gunto says, its ez fix tho
+(((((OOC)))))Sun Jul 07 17:22:43 2019:Fuuma, Gunto says, its stil broken on current nff
+(((((OOC)))))Sun Jul 07 17:24:25 2019:Sabaku, Aiga says, lol
+(((((OOC)))))Sun Jul 07 17:25:16 2019:Sabaku, Aiga says, did u make a char gunto
+(((((OOC)))))Sun Jul 07 17:25:16 2019:Fuuma, Gunto says,  You have -12 seconds left! Struggle: 86.25
+(((((OOC)))))Sun Jul 07 17:25:16 2019:Namikaze, fyna says, i gave you infinite struggle with restore
+(((((OOC)))))Sun Jul 07 17:25:16 2019:Fuuma, Gunto says, dont think ur dc stat works in stat tab
+(((((OOC)))))Sun Jul 07 17:25:16 2019:Namikaze, fyna says, xD
+(((((OOC)))))Sun Jul 07 17:26:08 2019:Fuuma, Gunto says, orite
+(((((OOC)))))Sun Jul 07 17:26:08 2019:Fuuma, Gunto says, dats why my dc 0 den
+(((((OOC)))))Sun Jul 07 17:26:08 2019:Namikaze, fyna says, do your fuma passives max with max passives?
+(((((OOC)))))Sun Jul 07 17:26:59 2019:Fuuma, Gunto says, no
+(((((OOC)))))Sun Jul 07 17:26:59 2019:Namikaze, fyna says, can you tell me the name of the passives
+(((((OOC)))))Sun Jul 07 17:27:50 2019:Fuuma, Gunto says, survivability
+(((((OOC)))))Sun Jul 07 17:27:50 2019:Fuuma, Gunto says, weapon master
+(((((OOC)))))Sun Jul 07 17:27:50 2019:Fuuma, Gunto says, chakra control
+(((((OOC)))))Sun Jul 07 17:27:50 2019:Namikaze, fyna says, thnx
+(((((OOC)))))Sun Jul 07 17:28:41 2019:Sabaku, Aiga says, ramen noodle time ;-;
+(((((OOC)))))Sun Jul 07 17:28:41 2019:Fuuma, Gunto says, wats dis source u hav
+(((((OOC)))))Sun Jul 07 17:28:41 2019:Fuuma, Gunto says, mine must b older
+(((((OOC)))))Sun Jul 07 17:28:41 2019:Fuuma, Gunto says, since it doesnt hav rasenshuriken
+(((((OOC)))))Sun Jul 07 17:28:41 2019:Fuuma, Gunto says, gg 
+(((((OOC)))))Sun Jul 07 17:28:41 2019:Sabaku, Aiga says, ya it is cause
+(((((OOC)))))Sun Jul 07 17:28:41 2019:Sabaku, Aiga says, i got dis source direct from ishuri :)
+(((((OOC)))))Sun Jul 07 17:28:41 2019:Fuuma, Gunto says, ofuk?
+(((((OOC)))))Sun Jul 07 17:28:41 2019:Fuuma, Gunto says, when did u get dis
+(((((OOC)))))Sun Jul 07 17:29:32 2019:Sabaku, Aiga says, couple days ago
+(((((OOC)))))Sun Jul 07 17:29:32 2019:Sabaku, Aiga says, me and fyna been working on it
+(((((OOC)))))Sun Jul 07 17:29:32 2019:Fuuma, Gunto says, l0l wtf
+(((((OOC)))))Sun Jul 07 17:29:32 2019:Fuuma, Gunto says, why did he even giv it
+(((((OOC)))))Sun Jul 07 17:29:32 2019:Sabaku, Aiga says, cause gunto dont u see
+(((((OOC)))))Sun Jul 07 17:29:32 2019:Sabaku, Aiga says, its another NFF seperation era
+(((((OOC)))))Sun Jul 07 17:29:32 2019:Sabaku, Aiga says, U force competiition to get them to update
+(((((OOC)))))Sun Jul 07 17:29:32 2019:Sabaku, Aiga says, ordey will die
+(((((OOC)))))Sun Jul 07 17:29:32 2019:Sabaku, Aiga says, like NST VS NFF
+(((((OOC)))))Sun Jul 07 17:30:24 2019:Sabaku, Aiga says, etc etc
+(((((OOC)))))Sun Jul 07 17:30:24 2019:Renden, Shojiki says, ooc i cant move
+(((((OOC)))))Sun Jul 07 17:30:24 2019:Renden, Shojiki says, ooc move keys not recognied
+(((((OOC)))))Sun Jul 07 17:30:24 2019:Fuuma, Gunto says, we got a spy on our hands
+(((((OOC)))))Sun Jul 07 17:30:24 2019:Fuuma, Gunto says, its staff member shojiki
+(((((OOC)))))Sun Jul 07 17:30:24 2019:Renden, Shojiki says, bruh y my movement inaccessible
+(((((OOC)))))Sun Jul 07 17:30:24 2019:Renden, Shojiki says, verb: south-v
+(((((OOC)))))Sun Jul 07 17:31:15 2019:Fuuma, Gunto says, its just u
+(((((OOC)))))Sun Jul 07 17:31:15 2019:Fuuma, Gunto says, it seems
+(((((OOC)))))Sun Jul 07 17:31:15 2019:Fuuma, Gunto says, ur using
+(((((OOC)))))Sun Jul 07 17:31:15 2019:Renden, Shojiki says, iooc is it cuz i made a basic
+(((((OOC)))))Sun Jul 07 17:31:15 2019:Fuuma, Gunto says, da old nff skin
+(((((OOC)))))Sun Jul 07 17:31:15 2019:Renden, Shojiki says, wooow
+(((((OOC)))))Sun Jul 07 17:31:15 2019:Sabaku, Aiga says, wtf sho
+(((((OOC)))))Sun Jul 07 17:31:15 2019:Fuuma, Gunto says, dis is nff source
+(((((OOC)))))Sun Jul 07 17:31:15 2019:Fuuma, Gunto says, its even using
+(((((OOC)))))Sun Jul 07 17:31:15 2019:Fuuma, Gunto says, da old nff hub
+(((((OOC)))))Sun Jul 07 17:31:15 2019:Fuuma, Gunto says, so u prob
+(((((OOC)))))Sun Jul 07 17:31:15 2019:Renden, Shojiki says, im using my old nff skin
+(((((OOC)))))Sun Jul 07 17:31:15 2019:Sabaku, Aiga says, ya its legit fool
+(((((OOC)))))Sun Jul 07 17:31:15 2019:Fuuma, Gunto says, hav ur old movement stoof
+(((((OOC)))))Sun Jul 07 17:31:15 2019:Renden, Shojiki says, from b4 new one
+(((((OOC)))))Sun Jul 07 17:31:15 2019:Fuuma, Gunto says, dats why its fuking with u
+(((((OOC)))))Sun Jul 07 17:31:15 2019:Renden, Shojiki says, my custom skin
+(((((OOC)))))Sun Jul 07 17:31:15 2019:Sabaku, Aiga says, sho u noob
+(((((OOC)))))Sun Jul 07 17:31:15 2019:Renden, Shojiki says, fk
+(((((OOC)))))Sun Jul 07 17:31:15 2019:Sabaku, Aiga says, u made a custom skin
+(((((OOC)))))Sun Jul 07 17:32:06 2019:Sabaku, Aiga says, dis an offical source
+(((((OOC)))))Sun Jul 07 17:32:06 2019:Sabaku, Aiga says, xD
+(((((OOC)))))Sun Jul 07 17:32:57 2019:Sabaku, Aiga says, Make a char yall
+(((((OOC)))))Sun Jul 07 17:32:57 2019:Sabaku, Aiga says, we gotta test combat
+(((((OOC)))))Sun Jul 07 17:32:57 2019:Sabaku, Aiga says, i know ders some buggy stuff i dont see
+(((((OOC)))))Sun Jul 07 17:33:48 2019:Fuuma, Gunto says, dis is being hosted
+(((((OOC)))))Sun Jul 07 17:33:48 2019:Fuuma, Gunto says, on one of ur comps rite
+(((((OOC)))))Sun Jul 07 17:33:48 2019:Sabaku, Aiga says, Ya Fynas
+(((((OOC)))))Sun Jul 07 17:33:48 2019:Sabaku, Aiga says, its just hosted for now
+(((((OOC)))))Sun Jul 07 17:33:48 2019:Sabaku, Aiga says, We also can change da hub lol
+(((((OOC)))))Sun Jul 07 17:33:48 2019:Fuuma, Gunto says, stil dont kno
+(((((OOC)))))Sun Jul 07 17:33:48 2019:Fuuma, Gunto says, why ishuri giving out
+(((((OOC)))))Sun Jul 07 17:33:48 2019:Fuuma, Gunto says, a source
+(((((OOC)))))Sun Jul 07 17:33:48 2019:Sabaku, Aiga says, cause ishuri fucks me wit me
+(((((OOC)))))Sun Jul 07 17:33:48 2019:Sabaku, Aiga says, simply
+(((((OOC)))))Sun Jul 07 17:33:48 2019:Sabaku, Aiga says, all u gotta know
+(((((OOC)))))Sun Jul 07 17:34:40 2019:Fuuma, Gunto says, wonda wat else
+(((((OOC)))))Sun Jul 07 17:34:40 2019:Fuuma, Gunto says, dis one has
+(((((OOC)))))Sun Jul 07 17:34:40 2019:Fuuma, Gunto says, difff rom mine
+(((((OOC)))))Sun Jul 07 17:34:40 2019:Fuuma, Gunto says, from
+(((((OOC)))))Sun Jul 07 17:38:56 2019:Sabaku, Aiga says, lol
+(((((OOC)))))Sun Jul 07 17:38:56 2019:Sabaku, Aiga says, i mean less find out
+(((((OOC)))))Sun Jul 07 17:39:47 2019:Sabaku, Aiga says, make a char &gt;:)
+(((((OOC)))))Sun Jul 07 17:42:20 2019:Uchiha, 3e3wr says, lol
+(((((OOC)))))Sun Jul 07 17:42:20 2019:Uchiha, 3e3wr says, my shar wont activate
+(((((OOC)))))Sun Jul 07 17:42:20 2019:Uchiha, 3e3wr says, reeeee
+(((((OOC)))))Sun Jul 07 17:43:12 2019:Sabaku, Aiga says, we need to just give shar to uchihas on birth lol
+(((((OOC)))))Sun Jul 07 17:43:12 2019:Uchiha, 3e3wr says, probably
+(((((OOC)))))Sun Jul 07 17:43:12 2019:Uchiha, 3e3wr says, and remove the random bs
+(((((OOC)))))Sun Jul 07 17:44:03 2019:Sabaku, Aiga says, what random bs
+(((((OOC)))))Sun Jul 07 17:44:54 2019:Uchiha, 3e3wr says, the random knockout sharingan
+(((((OOC)))))Sun Jul 07 17:44:54 2019:Uchiha, 3e3wr says, so people dont get 2 sharingan skillcards
+(((((OOC)))))Sun Jul 07 17:44:54 2019:Sabaku, Aiga says, oh yeah
+(((((OOC)))))Sun Jul 07 17:47:28 2019:Sabaku, Aiga says, okay
+(((((OOC)))))Sun Jul 07 17:47:28 2019:Sabaku, Aiga says, make a character yall
+(((((OOC)))))Sun Jul 07 17:47:28 2019:Sabaku, Aiga says, fr frt
+(((((OOC)))))Sun Jul 07 17:47:28 2019:Sabaku, Aiga says, i wanna fite
+(((((OOC)))))Sun Jul 07 17:48:19 2019:Uchiha, 3e3wr says, alright
+(((((OOC)))))Sun Jul 07 17:50:01 2019:Sabaku, Aiga says, U change somethin?
+(((((OOC)))))Sun Jul 07 17:50:52 2019:Uzumaki, Fyna says, ya addded planetary rasengan
+(((((OOC)))))Sun Jul 07 17:50:52 2019:Sabaku, Aiga says, !?
+(((((OOC)))))Sun Jul 07 17:50:52 2019:Uzumaki, Fyna says, already in just blocked off
+(((((OOC)))))Sun Jul 07 17:50:52 2019:Uzumaki, Fyna says, might be bugged
+(((((OOC)))))Sun Jul 07 17:50:52 2019:Sabaku, Aiga says, nice
+(((((OOC)))))Sun Jul 07 17:53:26 2019:Uzumaki, Fyna says, oof
+(((((OOC)))))Sun Jul 07 17:53:26 2019:Uzumaki, Fyna says, mustve misclicked something planarty aint here
+(((((OOC)))))Sun Jul 07 17:54:17 2019:Uzumaki, Fyna says, ah well ill ad it later
+(((((OOC)))))Sun Jul 07 17:57:42 2019:Sabaku, Aiga says, word
+(((((OOC)))))Sun Jul 07 18:02:49 2019:Sabaku, Aiga says, OOUUU
+(((((OOC)))))Sun Jul 07 18:17:20 2019:Sabaku, Aiga says, okay
+(((((OOC)))))Sun Jul 07 18:17:20 2019:Sabaku, Aiga says, imma make a char
+(((((OOC)))))Sun Jul 07 18:30:08 2019:Uzumaki, Aiga says, loool
+(((((OOC)))))Sun Jul 07 18:30:08 2019:Uzumaki, Aiga says, rasengan gates
+(((((OOC)))))Sun Jul 07 18:30:08 2019:Uzumaki, Fyna says, lol
+(((((OOC)))))Sun Jul 07 18:33:32 2019:Uzumaki, Aiga says, def gonna have to tweak
+(((((OOC)))))Sun Jul 07 18:33:32 2019:Uzumaki, Aiga says, the EP system too
+(((((OOC)))))Sun Jul 07 18:33:32 2019:Uzumaki, Fyna says, too much?
+(((((OOC)))))Sun Jul 07 18:33:32 2019:Uzumaki, Aiga says, ya stuff costs way too much
+(((((OOC)))))Sun Jul 07 18:34:24 2019:Uzumaki, Fyna says, lol
+(((((OOC)))))Sun Jul 07 18:36:06 2019:Uzumaki, Aiga says, LOL
+(((((OOC)))))Sun Jul 07 18:36:06 2019:Uzumaki, Aiga says, u could overcap damage by 1
+(((((OOC)))))Sun Jul 07 18:36:06 2019:Uzumaki, Fyna says, ya
+(((((OOC)))))Sun Jul 07 18:42:56 2019:Uzumaki, Aiga says, omfg.
+(((((OOC)))))Sun Jul 07 18:42:56 2019:Uzumaki, Fyna says, lol
+(((((OOC)))))Sun Jul 07 18:42:56 2019:Uzumaki, Aiga says, wtf did u just hit me weith
+(((((OOC)))))Sun Jul 07 18:42:56 2019:Uzumaki, Fyna says, tea tai
+(((((OOC)))))Sun Jul 07 18:43:47 2019:Uzumaki, Aiga says, it did vit
+(((((OOC)))))Sun Jul 07 18:43:47 2019:Uzumaki, Fyna says, lol
+(((((OOC)))))Sun Jul 07 18:43:47 2019:Uzumaki, Fyna says, toad sage op
+(((((OOC)))))Sun Jul 07 18:44:38 2019:Uzumaki, Aiga says, smh
+(((((OOC)))))Sun Jul 07 18:44:38 2019:Uzumaki, Aiga says, CLones with rock armor on
+(((((OOC)))))Sun Jul 07 18:44:38 2019:Uzumaki, Fyna says, lol
+(((((OOC)))))Sun Jul 07 18:46:20 2019:Uzumaki, Aiga says,  well thats bugged
+(((((OOC)))))Sun Jul 07 18:46:20 2019:Uzumaki, Fyna says, the wind wall
+(((((OOC)))))Sun Jul 07 18:46:20 2019:Uzumaki, Aiga says, yea
+(((((OOC)))))Sun Jul 07 18:50:36 2019:Uzumaki, Fyna says, lol
+(((((OOC)))))Sun Jul 07 18:52:19 2019:Uzumaki, Aiga says, wtf
+(((((OOC)))))Sun Jul 07 18:52:19 2019:Uzumaki, Aiga says, my hot slots bugged
+(((((OOC)))))Sun Jul 07 18:52:19 2019:Uzumaki, Fyna says, bugged how
+(((((OOC)))))Sun Jul 07 18:52:19 2019:Uzumaki, Aiga says, dont work
+(((((OOC)))))Sun Jul 07 18:52:19 2019:Uzumaki, Fyna says, relog?
+(((((OOC)))))Sun Jul 07 18:52:19 2019:Uzumaki, Fyna says, some skills dont work with hotslots for some reason too
+(((((OOC)))))Sun Jul 07 18:53:10 2019:Uzumaki, Fyna says, like my katon and fuutonr asengan dont
+(((((OOC)))))Sun Jul 07 19:10:14 2019:Uzumaki, Aiga says, lol rasengan OP
+(((((OOC)))))Sun Jul 07 19:10:14 2019:Uzumaki, Fyna says, lol
+(((((OOC)))))Sun Jul 07 19:18:46 2019:Momochi, Aiga says, U still there fyna
+(((((OOC)))))Sun Jul 07 19:18:46 2019:Uzumaki, Fyna says, ya
+(((((OOC)))))Sun Jul 07 19:19:37 2019:Momochi, Aiga says, kk i remade
+(((((OOC)))))Sun Jul 07 19:19:37 2019:Momochi, Aiga says, forgot last names were in
+(((((OOC)))))Sun Jul 07 19:21:20 2019:Uzumaki, Fyna says, claws op
+(((((OOC)))))Sun Jul 07 19:31:34 2019:Momochi, Aiga says, omfg
+(((((OOC)))))Sun Jul 07 19:31:34 2019:Momochi, Aiga says, need to remove that
+(((((OOC)))))Sun Jul 07 19:31:34 2019:Uzumaki, Fyna says, lol
+(((((OOC)))))Sun Jul 07 19:31:34 2019:Uzumaki, Fyna says, clones op
+(((((OOC)))))Sun Jul 07 19:34:59 2019:Momochi, Aiga says,  bed timers &gt;:l
+(((((OOC)))))Sun Jul 07 19:37:32 2019:Momochi, Aiga says,  ye
+(((((OOC)))))Sun Jul 07 19:38:24 2019:Momochi, Aiga says, wayy to much EP
+(((((OOC)))))Sun Jul 07 19:45:13 2019:Momochi, Aiga says, wtf
+(((((OOC)))))Sun Jul 07 19:46:56 2019:Uzumaki, Fyna says, oof
+(((((OOC)))))Sun Jul 07 19:49:29 2019:Momochi, Aiga says, i wonder what bushin trap is supposed to do
+(((((OOC)))))Sun Jul 07 19:50:20 2019:Uzumaki, Fyna says, basically the clones supposed to teleport behiond u and rasengan you
+(((((OOC)))))Sun Jul 07 19:50:20 2019:Uzumaki, Fyna says, unfinished or something
+(((((OOC)))))Sun Jul 07 19:50:20 2019:Momochi, Aiga says, intersting
+(((((OOC)))))Sun Jul 07 19:52:54 2019:Momochi, Aiga says, bruh
+(((((OOC)))))Sun Jul 07 19:53:45 2019:Momochi, Aiga says, kyuubi claws are OP
+(((((OOC)))))Sun Jul 07 19:53:45 2019:Uzumaki, Fyna says, lol
+(((((OOC)))))Sun Jul 07 19:53:45 2019:Momochi, Aiga says, good thing bijuu not in lol
+(((((OOC)))))Sun Jul 07 19:53:45 2019:Momochi, Aiga says, smh
+(((((OOC)))))Sun Jul 07 19:53:45 2019:Momochi, Aiga says, clones also shouldnt have reflex
+(((((OOC)))))Sun Jul 07 19:55:28 2019:Uzumaki, Fyna says, aoe claws too op
+(((((OOC)))))Sun Jul 07 19:55:28 2019:Momochi, Aiga says, &gt;:l
+(((((OOC)))))Sun Jul 07 19:56:19 2019:Uchiha, Fyna says, lol
+(((((OOC)))))Sun Jul 07 19:57:10 2019:Uchiha, Fyna says, too op
+(((((OOC)))))Sun Jul 07 19:57:10 2019:Momochi, Aiga says, what the fuck is this mapo
+(((((OOC)))))Sun Jul 07 19:58:01 2019:Momochi, Aiga says, Ohhh shit
+(((((OOC)))))Sun Jul 07 19:58:01 2019:Momochi, Aiga says, so thats what this map is?
+(((((OOC)))))Sun Jul 07 19:58:52 2019:Uchiha, Fyna says, lol
+(((((OOC)))))Sun Jul 07 20:00:35 2019:Momochi, Aiga says, Bone TP
+(((((OOC)))))Sun Jul 07 20:00:35 2019:Momochi, Aiga says, lol
+(((((OOC)))))Sun Jul 07 20:28:44 2019:Momochi, Aiga says, lol  
+(((((OOC)))))Sun Jul 07 20:28:44 2019:Momochi, Aiga says, why u keep remaking into hyuuga
+(((((OOC)))))Sun Jul 07 21:04:35 2019:Momochi, Aiga says, wya fyna
+(((((OOC)))))Sun Jul 07 21:17:23 2019:Momochi, Aiga says, roaaaaaad house
+(((((OOC)))))Sun Jul 07 21:22:30 2019:Renden, Shojiki says, almost rdy just need 2 learn tai
+(((((OOC)))))Sun Jul 07 21:22:30 2019:Momochi, Aiga says, do u have delay lose and gain
+(((((OOC)))))Sun Jul 07 21:22:30 2019:Renden, Shojiki says, yes
+(((((OOC)))))Sun Jul 07 21:22:30 2019:Momochi, Aiga says, o kk
+(((((OOC)))))Sun Jul 07 21:22:30 2019:Renden, Shojiki says, op xd
+(((((OOC)))))Sun Jul 07 21:25:04 2019:Momochi, Aiga says, reconnect op
+(((((OOC)))))Sun Jul 07 21:25:55 2019:Renden, Shojiki says, yh lool
+(((((OOC)))))Sun Jul 07 21:30:11 2019:Momochi, Aiga says, run me my fade boyyyy
+(((((OOC)))))Sun Jul 07 21:30:11 2019:Renden, Shojiki says, still getting my moves 
+(((((OOC)))))Sun Jul 07 21:34:27 2019:Momochi, Aiga says, xd
+(((((OOC)))))Sun Jul 07 21:38:43 2019:Momochi, Aiga says, omfg WP DAMAGE LMAOOOO
+(((((OOC)))))Sun Jul 07 21:38:43 2019:Renden, Shojiki says, xd
+(((((OOC)))))Sun Jul 07 21:41:16 2019:Renden, Shojiki says, gf
+(((((OOC)))))Sun Jul 07 21:41:16 2019:Momochi, Aiga says, lol gg 
+(((((OOC)))))Sun Jul 07 21:41:16 2019:Momochi, Aiga says, keep practicin
+(((((OOC)))))Sun Jul 07 21:42:08 2019:Momochi, Aiga says, This build is weird
+(((((OOC)))))Sun Jul 07 21:42:08 2019:Momochi, Aiga says, everything hits harder
+(((((OOC)))))Sun Jul 07 21:42:59 2019:Renden, Shojiki says, well ima go now i just wanted to help test rq, i had other things to do mb
+(((((OOC)))))Sun Jul 07 21:42:59 2019:Momochi, Aiga says, word
+(((((OOC)))))Sun Jul 07 22:05:10 2019:Momochi, Aiga says, lol gf
+(((((OOC)))))Sun Jul 07 22:05:10 2019:Hyuuga, Fyna says, :c
+(((((OOC)))))Sun Jul 07 22:06:52 2019:Hyuuga, Fyna says, we need testerssss
+(((((OOC)))))Sun Jul 07 22:06:52 2019:Momochi, Aiga says, yea we do
+(((((OOC)))))Sun Jul 07 22:07:44 2019:Momochi, Aiga says, lol u can jus add sagfe chakra
+(((((OOC)))))Sun Jul 07 22:07:44 2019:Momochi, Aiga says, to ras
+(((((OOC)))))Sun Jul 07 22:07:44 2019:Momochi, Aiga says, to instan charge
+(((((OOC)))))Sun Jul 07 22:09:26 2019:Momochi, Aiga says, lol
+(((((OOC)))))Sun Jul 07 22:10:17 2019:Hyuuga, Fyna says, xD
+(((((OOC)))))Sun Jul 07 22:12:51 2019:Hyuuga, Fyna says, lol
+(((((OOC)))))Sun Jul 07 22:13:42 2019:Hyuuga, Fyna says, gates drain 2 much :c
+(((((OOC)))))Sun Jul 07 22:13:42 2019:Momochi, Aiga says, lool
+(((((OOC)))))Sun Jul 07 22:13:42 2019:Momochi, Aiga says, Gates r op
+(((((OOC)))))Sun Jul 07 22:14:33 2019:Hyuuga, Fyna says, gonna get sword with gates
+(((((OOC)))))Sun Jul 07 22:14:33 2019:Hyuuga, Fyna says, huehuehue
+(((((OOC)))))Sun Jul 07 22:14:33 2019:Momochi, Aiga says, &gt;:l
+(((((OOC)))))Sun Jul 07 22:14:33 2019:Momochi, Aiga says, Abooze
+(((((OOC)))))Sun Jul 07 22:26:30 2019:Momochi, Aiga says, palm spammer smh
+(((((OOC)))))Mon Jul 08 01:23:08 2019:Hyuuga, Fyna says, o u still here
+(((((OOC)))))Mon Jul 08 01:23:08 2019:Hyuuga, Fyna says, i am going 2 sleep
+(((((OOC)))))Mon Jul 08 01:23:08 2019:Hyuuga, Fyna says, night
+(((((OOC)))))Mon Jul 08 09:06:30 2019:Momochi, Aiga says, o shit
+(((((OOC)))))Mon Jul 08 11:15:21 2019:Uchiha, Ryuu says, r
+(((((OOC)))))Mon Jul 08 11:19:37 2019:Uchiha, Ryuu says, r\Hello
+(((((OOC)))))Mon Jul 08 11:31:34 2019:Momochi, Aiga says, Yo
+(((((OOC)))))Mon Jul 08 11:32:25 2019:Momochi, Aiga says, ryuu damn
+(((((OOC)))))Mon Jul 08 11:33:16 2019:Momochi, Aiga says, DAMN
+(((((OOC)))))Mon Jul 08 19:08:06 2019:Yotsuki, eq says, dswe12e
+(((((OOC)))))Tue Jul 09 20:01:26 2019:Momochi, Aiga says, :D
+(((((OOC)))))Tue Jul 09 20:01:26 2019:Momochi, Aiga says, Sup fyna
+(((((OOC)))))Tue Jul 09 20:06:33 2019:Uchiha, Fyna says, hi
+(((((OOC)))))Tue Jul 09 20:12:32 2019:Momochi, Aiga says, Think we need a mapper and an iconner
+(((((OOC)))))Tue Jul 09 20:12:32 2019:Momochi, Aiga says, I been waiting on senso
+(((((OOC)))))Tue Jul 09 20:15:05 2019:Momochi, Aiga says, 7SM in source?
+(((((OOC)))))Tue Jul 09 20:15:05 2019:Momochi, Aiga says, Orgs and missions prolly gonna be the next focus
+(((((OOC)))))Tue Jul 09 20:15:05 2019:Uchiha, Fyna says, idk
+(((((OOC)))))Tue Jul 09 20:15:05 2019:Momochi, Aiga says, 
+(((((OOC)))))Tue Jul 09 20:21:55 2019:Momochi, Aiga says, we need testers &gt;:l
+(((((OOC)))))Tue Jul 09 20:25:20 2019:Momochi, Aiga says, that sword sux
+(((((OOC)))))Tue Jul 09 20:27:02 2019:Uchiha, Fyna says, this taking chakra?
+(((((OOC)))))Tue Jul 09 20:27:02 2019:Momochi, Aiga says, idk i got sage on so i got stupid amount of chakralol
+(((((OOC)))))Tue Jul 09 20:27:53 2019:Momochi, Aiga says, damn yea that shit takes chakra lol 
+(((((OOC)))))Tue Jul 09 20:28:44 2019:Momochi, Aiga says, yta a good amount
+(((((OOC)))))Tue Jul 09 20:28:44 2019:Uchiha, Fyna says, this op
+(((((OOC)))))Tue Jul 09 20:28:44 2019:Momochi, Aiga says, it takes chakra while ko too
+(((((OOC)))))Tue Jul 09 20:32:09 2019:Momochi, Aiga says, okay afk
+(((((OOC)))))Tue Jul 09 20:32:09 2019:Momochi, Aiga says, imma go write some more stuff down in the ideas area
+(((((OOC)))))Tue Jul 09 20:32:09 2019:Uchiha, Fyna says, k
+(((((OOC)))))Wed Jul 10 18:01:32 2019:Momochi, Aiga says, AYE!!!
+(((((OOC)))))Wed Jul 10 18:01:32 2019:Uchiha, Fyna says, ?
+(((((OOC)))))Wed Jul 10 18:01:32 2019:Momochi, Aiga says, its lit
+(((((OOC)))))Wed Jul 10 18:01:32 2019:Momochi, Aiga says, we on a hub
+(((((OOC)))))Wed Jul 10 18:01:32 2019:Uchiha, Fyna says, lol
+(((((OOC)))))Wed Jul 10 18:02:24 2019:Uchiha, Fyna says, hub robbin
+(((((OOC)))))Wed Jul 10 18:02:24 2019:Momochi, Aiga says, we on da come up fyna
+(((((OOC)))))Wed Jul 10 18:02:24 2019:Momochi, Aiga says, we just gotta code alil by lil everyday
+(((((OOC)))))Wed Jul 10 18:11:47 2019:Hoshigaki, Asu says, yo
+(((((OOC)))))Wed Jul 10 18:11:47 2019:???? says, hai
+(((((OOC)))))Wed Jul 10 18:12:38 2019:Hoshigaki, Asu says, wassup
+(((((OOC)))))Wed Jul 10 18:12:38 2019:???? says, nuthin
+(((((OOC)))))Wed Jul 10 18:12:38 2019:???? says, just testing stuffs
+(((((OOC)))))Wed Jul 10 18:54:27 2019:Momochi, Aiga says, Asu
+(((((OOC)))))Wed Jul 10 18:54:27 2019:Momochi, Aiga says, Wanna arena
+(((((OOC)))))Wed Jul 10 18:58:43 2019:Momochi, Aiga says, !
+(((((OOC)))))Wed Jul 10 19:15:47 2019:Momochi, Aiga says, it takes too long to seal as well
+(((((OOC)))))Wed Jul 10 19:16:38 2019:Uchiha, Fyna says, there are two rings
+(((((OOC)))))Wed Jul 10 19:17:29 2019:Uchiha, Fyna says, i think this set is unfinished
+(((((OOC)))))Wed Jul 10 19:17:29 2019:Uchiha, Fyna says, once i seal it i cant do anything else
+(((((OOC)))))Wed Jul 10 19:17:29 2019:Uchiha, Fyna says, the kage rings let you seal them in someone i think
+(((((OOC)))))Wed Jul 10 19:19:12 2019:Uchiha, Fyna says, says i took it
+(((((OOC)))))Wed Jul 10 19:20:03 2019:Uchiha, Fyna says, yea these ones suck
+(((((OOC)))))Wed Jul 10 19:20:03 2019:Uchiha, Fyna says, kage ones better
+(((((OOC)))))Wed Jul 10 19:32:51 2019:Momochi, Aiga says, yea
+(((((OOC)))))Wed Jul 10 19:47:21 2019:Momochi, Aiga says, oof
+(((((OOC)))))Wed Jul 10 19:49:04 2019:Momochi, Aiga says, wtf
+(((((OOC)))))Wed Jul 10 21:08:25 2019:Kaguya, Nikola says, supppp
+(((((OOC)))))Wed Jul 10 21:18:40 2019:Momochi, Aiga says, damn
+(((((OOC)))))Wed Jul 10 21:18:40 2019:Momochi, Aiga says, Log back IN!
+(((((OOC)))))Wed Jul 10 21:30:36 2019:Momochi, Aiga says, DAMN &gt;:l
+(((((OOC)))))Wed Jul 10 21:34:01 2019:Momochi, Aiga says, !!!
+(((((OOC)))))Sun Jul 14 20:01:00 2019:Namikaze, Minato says, Why is this being hosted under NDL&#39;s hub?
+(((((OOC)))))Sun Jul 14 20:01:00 2019:Uchiha, Fyna says, i dont know
+(((((OOC)))))Sun Jul 14 20:01:52 2019:Namikaze, Minato says, Thats really strange. Were you given a source before?
+(((((OOC)))))Sun Jul 14 20:01:52 2019:Uchiha, Fyna says, perhaps
+(((((OOC)))))Sun Jul 14 20:02:43 2019:Namikaze, Minato says, Damn
+(((((OOC)))))Sun Jul 14 20:02:43 2019:Namikaze, Minato says, But its like...
+(((((OOC)))))Sun Jul 14 20:02:43 2019:Namikaze, Minato says, this is a really outdated NDL
+(((((OOC)))))Sun Jul 14 20:02:43 2019:Uchiha, Fyna says, this is actually more updated than ndl
+(((((OOC)))))Sun Jul 14 20:02:43 2019:Uchiha, Fyna says, its v3.9 nff
+(((((OOC)))))Sun Jul 14 20:02:43 2019:Namikaze, Minato says, So is ndl
+(((((OOC)))))Sun Jul 14 20:02:43 2019:Namikaze, Minato says, tf
+(((((OOC)))))Sun Jul 14 20:03:34 2019:Namikaze, Minato says, the main NDL isnt even NDL anymore
+(((((OOC)))))Sun Jul 14 20:03:34 2019:Namikaze, Minato says, its SL 
+(((((OOC)))))Sun Jul 14 20:03:34 2019:Namikaze, Minato says, changed because of updates ig..
+(((((OOC)))))Sun Jul 14 20:03:34 2019:Uchiha, Fyna says, ndl doesnt even have arrows or fps
+(((((OOC)))))Sun Jul 14 20:03:34 2019:Uchiha, Fyna says, lol
+(((((OOC)))))Sun Jul 14 20:03:34 2019:Namikaze, Minato says, it does
+(((((OOC)))))Sun Jul 14 20:03:34 2019:Namikaze, Minato says, Lmfao
+(((((OOC)))))Sun Jul 14 20:03:34 2019:Namikaze, Minato says, you think we wouldn&#39;t code that after like
+(((((OOC)))))Sun Jul 14 20:03:34 2019:Namikaze, Minato says, 6 years?
+(((((OOC)))))Sun Jul 14 20:03:34 2019:Namikaze, Minato says, wtf
+(((((OOC)))))Sun Jul 14 20:04:25 2019:Uchiha, Fyna says, ive sen ndl it doesnt
+(((((OOC)))))Sun Jul 14 20:04:25 2019:Namikaze, Minato says, you&#39;re trying to tell
+(((((OOC)))))Sun Jul 14 20:04:25 2019:Namikaze, Minato says, an admin
+(((((OOC)))))Sun Jul 14 20:04:25 2019:Namikaze, Minato says, that NDL doesnt have fps control?
+(((((OOC)))))Sun Jul 14 20:04:25 2019:Namikaze, Minato says, when it literally got coded
+(((((OOC)))))Sun Jul 14 20:04:25 2019:Uchiha, Fyna says, or diagnal arrows
+(((((OOC)))))Sun Jul 14 20:04:25 2019:Namikaze, Minato says, to give it any number
+(((((OOC)))))Sun Jul 14 20:04:25 2019:Namikaze, Minato says, Yes, that got coded in 2 years ago already
+(((((OOC)))))Sun Jul 14 20:05:16 2019:Uchiha, Fyna says, sure
+(((((OOC)))))Sun Jul 14 20:05:16 2019:Namikaze, Minato says, bro..
+(((((OOC)))))Sun Jul 14 20:05:16 2019:Uchiha, Fyna says, whatever floats your boat
+(((((OOC)))))Sun Jul 14 20:05:16 2019:Namikaze, Minato says, Im not joking.
+(((((OOC)))))Sun Jul 14 20:05:16 2019:Namikaze, Minato says, anyway if you were able to code all this you got potential
+(((((OOC)))))Sun Jul 14 20:06:08 2019:Uchiha, Fyna says, lol
+(((((OOC)))))Sun Jul 14 20:06:59 2019:Namikaze, Minato says, is the moon system
+(((((OOC)))))Sun Jul 14 20:06:59 2019:Namikaze, Minato says, or w/e it is
+(((((OOC)))))Sun Jul 14 20:06:59 2019:Uchiha, Fyna says, moon tokens?
+(((((OOC)))))Sun Jul 14 20:06:59 2019:Namikaze, Minato says, meant to be something similar to donation?
+(((((OOC)))))Sun Jul 14 20:06:59 2019:Namikaze, Minato says, siii
+(((((OOC)))))Sun Jul 14 20:06:59 2019:Uchiha, Fyna says, yea thats in  
+(((((OOC)))))Sun Jul 14 20:07:50 2019:Namikaze, Minato says, oof
+(((((OOC)))))Sun Jul 14 20:07:50 2019:Uchiha, Fyna says, donator stuff
+(((((OOC)))))Sun Jul 14 20:07:50 2019:Namikaze, Minato says, no one in NFF donates anymore tbh
+(((((OOC)))))Sun Jul 14 20:07:50 2019:Uchiha, Fyna says, i removed the link though so you cant actually use it
+(((((OOC)))))Sun Jul 14 20:07:50 2019:Uchiha, Fyna says, :x
+(((((OOC)))))Sun Jul 14 20:07:50 2019:Namikaze, Minato says, oh
+(((((OOC)))))Sun Jul 14 20:07:50 2019:Uchiha, nigga says, no way to change the border sides
+(((((OOC)))))Sun Jul 14 20:07:50 2019:Uchiha, nigga says, excellent 
+(((((OOC)))))Sun Jul 14 20:07:50 2019:Namikaze, Minato says, hi pie
+(((((OOC)))))Sun Jul 14 20:08:41 2019:Uchiha, nigga says, so where&#39;s the &#34;more updated ndl&#34; i was hearing about sani
+(((((OOC)))))Sun Jul 14 20:08:41 2019:Uchiha, nigga says, ooc cant be this
+(((((OOC)))))Sun Jul 14 20:08:41 2019:Namikaze, Minato says, this is just a little older than the old ndl
+(((((OOC)))))Sun Jul 14 20:09:32 2019:Namikaze, Minato says, maybe like 2013
+(((((OOC)))))Sun Jul 14 20:09:32 2019:Namikaze, Minato says, i dunno
+(((((OOC)))))Sun Jul 14 20:09:32 2019:Uchiha, Fyna says, lol
+(((((OOC)))))Sun Jul 14 20:09:32 2019:Uchiha, Fyna says, except
+(((((OOC)))))Sun Jul 14 20:09:32 2019:Uchiha, Fyna says, its not
+(((((OOC)))))Sun Jul 14 20:09:32 2019:Namikaze, Minato says, dawg
+(((((OOC)))))Sun Jul 14 20:09:32 2019:Namikaze, Minato says, i dont even know how it ended up on this hub
+(((((OOC)))))Sun Jul 14 20:09:32 2019:Namikaze, Minato says, Lmfao
+(((((OOC)))))Sun Jul 14 20:10:24 2019:Namikaze, Minato says, i jus dont get it
+(((((OOC)))))Sun Jul 14 20:12:06 2019:Momochi, Aiga says, Out of all the other sources out there
+(((((OOC)))))Sun Jul 14 20:12:06 2019:Momochi, Aiga says, this is still the smoothest
+(((((OOC)))))Sun Jul 14 20:12:06 2019:Namikaze, Minato says, its pretty smooth
+(((((OOC)))))Sun Jul 14 20:12:06 2019:Momochi, Aiga says, Idk where tf Senso is
+(((((OOC)))))Sun Jul 14 20:12:06 2019:Namikaze, Minato says, but that can be altered with fps control
+(((((OOC)))))Sun Jul 14 20:12:06 2019:Momochi, Aiga says, I think he playing games 
+(((((OOC)))))Sun Jul 14 20:12:06 2019:Uchiha, Fyna says, ndl is choppy even with fps
+(((((OOC)))))Sun Jul 14 20:12:06 2019:Namikaze, Minato says, no it aint
+(((((OOC)))))Sun Jul 14 20:12:06 2019:Momochi, Aiga says, ^
+(((((OOC)))))Sun Jul 14 20:12:06 2019:Momochi, Aiga says, ya it is lol
+(((((OOC)))))Sun Jul 14 20:12:06 2019:Namikaze, Minato says, you havent even played NDL for like 1000 years
+(((((OOC)))))Sun Jul 14 20:12:06 2019:Momochi, Aiga says, i jus played it
+(((((OOC)))))Sun Jul 14 20:12:57 2019:Namikaze, Minato says, TF
+(((((OOC)))))Sun Jul 14 20:12:57 2019:Namikaze, Minato says, yall playing some 2013 ndl
+(((((OOC)))))Sun Jul 14 20:12:57 2019:Namikaze, Minato says, we literally got an FPS control verb and made the movement SMOOTH
+(((((OOC)))))Sun Jul 14 20:12:57 2019:Uchiha, Fyna says, ndl used that old ass shinobi conquest source
+(((((OOC)))))Sun Jul 14 20:12:57 2019:Momochi, Aiga says, I jus logged into that shit bruh
+(((((OOC)))))Sun Jul 14 20:12:57 2019:Uchiha, Fyna says, which is like 2007
+(((((OOC)))))Sun Jul 14 20:12:57 2019:Momochi, Aiga says, its still skippy
+(((((OOC)))))Sun Jul 14 20:12:57 2019:Namikaze, Minato says, this how i know yall aint looking at the right NDL
+(((((OOC)))))Sun Jul 14 20:12:57 2019:Namikaze, Minato says, Lmfao
+(((((OOC)))))Sun Jul 14 20:12:57 2019:Namikaze, Minato says, its not even called NDL anymore
+(((((OOC)))))Sun Jul 14 20:12:57 2019:Momochi, Aiga says, Ya its called shinobi legacy
+(((((OOC)))))Sun Jul 14 20:12:57 2019:Momochi, Aiga says, I jus logged into that shit boy
+(((((OOC)))))Sun Jul 14 20:13:48 2019:Namikaze, Minato says, alright bet
+(((((OOC)))))Sun Jul 14 20:13:48 2019:Namikaze, Minato says, and you didnt ask an admin to use fpscontrol
+(((((OOC)))))Sun Jul 14 20:13:48 2019:Uchiha, Fyna says, ill log on
+(((((OOC)))))Sun Jul 14 20:13:48 2019:Uchiha, Fyna says, just to prove 
+(((((OOC)))))Sun Jul 14 20:13:48 2019:Uchiha, Fyna says, its choppy
+(((((OOC)))))Sun Jul 14 20:13:48 2019:Namikaze, Minato says, i said
+(((((OOC)))))Sun Jul 14 20:13:48 2019:Namikaze, Minato says, USE FPS CONTROL
+(((((OOC)))))Sun Jul 14 20:13:48 2019:Namikaze, Minato says, lord
+(((((OOC)))))Sun Jul 14 20:13:48 2019:Uchiha, Fyna says, fps without world tick lag
+(((((OOC)))))Sun Jul 14 20:13:48 2019:Namikaze, Minato says, we made that verb so it can go from smooth to whatever pref
+(((((OOC)))))Sun Jul 14 20:14:40 2019:Uchiha, Fyna says, is uselss
+(((((OOC)))))Sun Jul 14 20:14:40 2019:Namikaze, Minato says, Okay, still makes it smooth
+(((((OOC)))))Sun Jul 14 20:14:40 2019:Momochi, Aiga says, lololol
+(((((OOC)))))Sun Jul 14 20:14:40 2019:Uchiha, Fyna says, except it dont
+(((((OOC)))))Sun Jul 14 20:14:40 2019:Momochi, Aiga says, ^
+(((((OOC)))))Sun Jul 14 20:14:40 2019:Uchiha, Fyna says, lol
+(((((OOC)))))Sun Jul 14 20:14:40 2019:Namikaze, Minato says, you aint even tried it
+(((((OOC)))))Sun Jul 14 20:14:40 2019:Momochi, Aiga says, Fyna xD
+(((((OOC)))))Sun Jul 14 20:14:40 2019:Momochi, Aiga says, He jus want us to play his game
+(((((OOC)))))Sun Jul 14 20:14:40 2019:Namikaze, Minato says, no
+(((((OOC)))))Sun Jul 14 20:14:40 2019:Uchiha, Fyna says, the menu is even lagging
+(((((OOC)))))Sun Jul 14 20:14:40 2019:Namikaze, Minato says, i aint playing SL rn
+(((((OOC)))))Sun Jul 14 20:14:40 2019:Namikaze, Minato says, bored of it
+(((((OOC)))))Sun Jul 14 20:14:40 2019:Namikaze, Minato says, yall ever realise
+(((((OOC)))))Sun Jul 14 20:14:40 2019:Uchiha, Fyna says, stop capping sani
+(((((OOC)))))Sun Jul 14 20:14:40 2019:Namikaze, Minato says, the host got a shitty
+(((((OOC)))))Sun Jul 14 20:14:40 2019:Uchiha, Fyna says, lol
+(((((OOC)))))Sun Jul 14 20:14:40 2019:Namikaze, Minato says, laptop
+(((((OOC)))))Sun Jul 14 20:14:40 2019:Momochi, Aiga says, Im tryna build dis NFF up sani 
+(((((OOC)))))Sun Jul 14 20:15:31 2019:Momochi, Aiga says, this a legit source bruh
+(((((OOC)))))Sun Jul 14 20:15:31 2019:Momochi, Aiga says, come help me and fyna
+(((((OOC)))))Sun Jul 14 20:15:31 2019:Namikaze, Minato says, why is it on NDL&#39;s hub though
+(((((OOC)))))Sun Jul 14 20:15:31 2019:Namikaze, Minato says, thats what im tryna find out
+(((((OOC)))))Sun Jul 14 20:15:31 2019:Namikaze, Minato says, naw im retired from iconning
+(((((OOC)))))Sun Jul 14 20:15:31 2019:Namikaze, Minato says, that shit tiring
+(((((OOC)))))Sun Jul 14 20:15:31 2019:Momochi, Aiga says, Cause we got access to it and we need a hub real quick lol
+(((((OOC)))))Sun Jul 14 20:15:31 2019:Uchiha, Fyna says, 
+(((((OOC)))))Sun Jul 14 20:15:31 2019:Namikaze, Minato says, oh thats cool
+(((((OOC)))))Sun Jul 14 20:15:31 2019:Momochi, Aiga says, just for testing anywys
+(((((OOC)))))Sun Jul 14 20:15:31 2019:Uchiha, Fyna says, This clan has been locked out by the admins.
+(((((OOC)))))Sun Jul 14 20:15:31 2019:Namikaze, Minato says, i just wanted to knock
+(((((OOC)))))Sun Jul 14 20:15:31 2019:Namikaze, Minato says, *know
+(((((OOC)))))Sun Jul 14 20:15:31 2019:Uchiha, Fyna says, that game trash
+(((((OOC)))))Sun Jul 14 20:15:31 2019:Namikaze, Minato says, my guy
+(((((OOC)))))Sun Jul 14 20:15:31 2019:Momochi, Aiga says, LMFAO FYNA
+(((((OOC)))))Sun Jul 14 20:15:31 2019:Namikaze, Minato says, its RP what did you expect
+(((((OOC)))))Sun Jul 14 20:15:31 2019:Momochi, Aiga says, Yooo
+(((((OOC)))))Sun Jul 14 20:15:31 2019:Uchiha, Fyna says, lol
+(((((OOC)))))Sun Jul 14 20:15:31 2019:Momochi, Aiga says, i no cap
+(((((OOC)))))Sun Jul 14 20:15:31 2019:Namikaze, Minato says, i aint out here calling your game trash
+(((((OOC)))))Sun Jul 14 20:15:31 2019:Momochi, Aiga says, did the same shit
+(((((OOC)))))Sun Jul 14 20:15:31 2019:Namikaze, Minato says, df?
+(((((OOC)))))Sun Jul 14 20:16:22 2019:Momochi, Aiga says, I was like bro why is uchiha locked
+(((((OOC)))))Sun Jul 14 20:16:22 2019:Momochi, Aiga says, okay...
+(((((OOC)))))Sun Jul 14 20:16:22 2019:Uchiha, Fyna says, cuz its not laggy u cant
+(((((OOC)))))Sun Jul 14 20:16:22 2019:Momochi, Aiga says, I like the effort put into the games story line but not much else
+(((((OOC)))))Sun Jul 14 20:16:22 2019:Momochi, Aiga says, yall game is the same as ours rn
+(((((OOC)))))Sun Jul 14 20:16:22 2019:Uchiha, Fyna says, chill its all constructive criticism
+(((((OOC)))))Sun Jul 14 20:16:22 2019:Namikaze, Minato says, calling a game trash constructive?
+(((((OOC)))))Sun Jul 14 20:16:22 2019:Namikaze, Minato says, bet
+(((((OOC)))))Sun Jul 14 20:16:22 2019:Momochi, Aiga says, LMAO
+(((((OOC)))))Sun Jul 14 20:16:22 2019:Namikaze, Minato says, this game got aids
+(((((OOC)))))Sun Jul 14 20:16:22 2019:Uchiha, Fyna says, like it slaggy
+(((((OOC)))))Sun Jul 14 20:17:13 2019:Uchiha, Fyna says, took 5 whole secons for the menu to load
+(((((OOC)))))Sun Jul 14 20:17:13 2019:Namikaze, Minato says, u really talking like this source dont have 1 million of those emote codes in it
+(((((OOC)))))Sun Jul 14 20:17:13 2019:Uchiha, Fyna says, like some powerpoint 2007 slideshow
+(((((OOC)))))Sun Jul 14 20:17:13 2019:Momochi, Aiga says, im pretty sure those are off
+(((((OOC)))))Sun Jul 14 20:17:13 2019:Momochi, Aiga says, lol
+(((((OOC)))))Sun Jul 14 20:17:13 2019:Uchiha, Fyna says, it dont
+(((((OOC)))))Sun Jul 14 20:17:13 2019:Namikaze, Minato says, i aint even remember them off by heart
+(((((OOC)))))Sun Jul 14 20:17:13 2019:Momochi, Aiga says, Make me like Argon
+(((((OOC)))))Sun Jul 14 20:17:13 2019:Namikaze, Minato says, you do that in emote
+(((((OOC)))))Sun Jul 14 20:17:13 2019:Uchiha, Fyna says, its not enabled
+(((((OOC)))))Sun Jul 14 20:18:04 2019:Namikaze, Minato says, and they&#39;re specific
+(((((OOC)))))Sun Jul 14 20:18:04 2019:Momochi, Aiga says, Yea i know
+(((((OOC)))))Sun Jul 14 20:18:04 2019:Momochi, Aiga says, i just remember one of the codes
+(((((OOC)))))Sun Jul 14 20:18:04 2019:Namikaze, Minato says, same letters and shit but i dunno them anymore
+(((((OOC)))))Sun Jul 14 20:18:04 2019:Momochi, Aiga says, Make me like Kaio
+(((((OOC)))))Sun Jul 14 20:18:04 2019:Namikaze, Minato says, well if this has ever branched from NDL in its life
+(((((OOC)))))Sun Jul 14 20:18:04 2019:Namikaze, Minato says, its been removed
+(((((OOC)))))Sun Jul 14 20:18:04 2019:Momochi, Aiga says, Ya lol
+(((((OOC)))))Sun Jul 14 20:18:04 2019:Momochi, Aiga says, This is the offical NFF source
+(((((OOC)))))Sun Jul 14 20:18:56 2019:Momochi, Aiga says, that was worked on before shinger changed it with the fusion system
+(((((OOC)))))Sun Jul 14 20:18:56 2019:Momochi, Aiga says, 3.9
+(((((OOC)))))Sun Jul 14 20:18:56 2019:Namikaze, Minato says, huh
+(((((OOC)))))Sun Jul 14 20:18:56 2019:Namikaze, Minato says, where yall get the RS from
+(((((OOC)))))Sun Jul 14 20:18:56 2019:Uchiha, Fyna says, yo its lagging badly
+(((((OOC)))))Sun Jul 14 20:19:47 2019:Momochi, Aiga says, I know a guy who know a guy
+(((((OOC)))))Sun Jul 14 20:19:47 2019:Namikaze, Minato says, from con4?
+(((((OOC)))))Sun Jul 14 20:19:47 2019:Namikaze, Minato says, ite
+(((((OOC)))))Sun Jul 14 20:19:47 2019:Namikaze, Minato says, SL been up for like a week now
+(((((OOC)))))Sun Jul 14 20:19:47 2019:Namikaze, Minato says, i dunno why that nigga just sdont get a shell
+(((((OOC)))))Sun Jul 14 20:19:47 2019:Namikaze, Minato says, he&#39;s deadass burning his comp
+(((((OOC)))))Sun Jul 14 20:19:47 2019:Namikaze, Minato says, no reboots
+(((((OOC)))))Sun Jul 14 20:19:47 2019:Namikaze, Minato says, no nothing
+(((((OOC)))))Sun Jul 14 20:20:38 2019:Momochi, Aiga says, Con aint give me this source lmao
+(((((OOC)))))Sun Jul 14 20:20:38 2019:Uchiha, Fyna says, cuz nobody on it
+(((((OOC)))))Sun Jul 14 20:20:38 2019:Namikaze, Minato says, not the source
+(((((OOC)))))Sun Jul 14 20:20:38 2019:Namikaze, Minato says, the RS
+(((((OOC)))))Sun Jul 14 20:20:38 2019:Momochi, Aiga says, LMAO fyna
+(((((OOC)))))Sun Jul 14 20:20:38 2019:Namikaze, Minato says, yeah cause everyone quit it
+(((((OOC)))))Sun Jul 14 20:20:38 2019:Momochi, Aiga says, tf is rs
+(((((OOC)))))Sun Jul 14 20:20:38 2019:Namikaze, Minato says, we had 20 players
+(((((OOC)))))Sun Jul 14 20:20:38 2019:Namikaze, Minato says, rasenshuriken
+(((((OOC)))))Sun Jul 14 20:20:38 2019:Namikaze, Minato says, yall aitn know bout the legacy of NDL bro..
+(((((OOC)))))Sun Jul 14 20:20:38 2019:Namikaze, Minato says, when we was hosting it back in 2017
+(((((OOC)))))Sun Jul 14 20:20:38 2019:Namikaze, Minato says, we was getting 40 players
+(((((OOC)))))Sun Jul 14 20:20:38 2019:Uchiha, Fyna says, the game flopped 
+(((((OOC)))))Sun Jul 14 20:20:38 2019:Namikaze, Minato says, No
+(((((OOC)))))Sun Jul 14 20:20:38 2019:Namikaze, Minato says, it still gets 20 players but
+(((((OOC)))))Sun Jul 14 20:20:38 2019:Uchiha, Fyna says, nobody coming for rp
+(((((OOC)))))Sun Jul 14 20:20:38 2019:Momochi, Aiga says, Lmfao fynaaaa 
+(((((OOC)))))Sun Jul 14 20:20:38 2019:Namikaze, Minato says, they sold the game
+(((((OOC)))))Sun Jul 14 20:21:29 2019:Momochi, Aiga says, tell emmm
+(((((OOC)))))Sun Jul 14 20:21:29 2019:Namikaze, Minato says, to some random nigga
+(((((OOC)))))Sun Jul 14 20:21:29 2019:Namikaze, Minato says, and that nigga is trash
+(((((OOC)))))Sun Jul 14 20:21:29 2019:Namikaze, Minato says, now they&#39;re tryna make SL open sourced
+(((((OOC)))))Sun Jul 14 20:21:29 2019:Namikaze, Minato says, know how much effort we put in that shit
+(((((OOC)))))Sun Jul 14 20:21:29 2019:Namikaze, Minato says, ashura mode
+(((((OOC)))))Sun Jul 14 20:21:29 2019:Namikaze, Minato says, KCM2
+(((((OOC)))))Sun Jul 14 20:21:29 2019:Namikaze, Minato says, KCM1
+(((((OOC)))))Sun Jul 14 20:21:29 2019:Namikaze, Minato says, all bijuu states
+(((((OOC)))))Sun Jul 14 20:21:29 2019:Namikaze, Minato says, toneri chakra mode
+(((((OOC)))))Sun Jul 14 20:21:29 2019:Namikaze, Minato says, susanos
+(((((OOC)))))Sun Jul 14 20:21:29 2019:Namikaze, Minato says, and some nigga runs up
+(((((OOC)))))Sun Jul 14 20:21:29 2019:Uchiha, Fyna says, i have that source
+(((((OOC)))))Sun Jul 14 20:21:29 2019:Namikaze, Minato says, Yeah sure you do
+(((((OOC)))))Sun Jul 14 20:21:29 2019:Uchiha, Fyna says, it schoppy
+(((((OOC)))))Sun Jul 14 20:22:20 2019:Namikaze, Minato says, you out here with a 2013
+(((((OOC)))))Sun Jul 14 20:22:20 2019:Namikaze, Minato says, df
+(((((OOC)))))Sun Jul 14 20:22:20 2019:Momochi, Aiga says, LMFAOOOOOOOOOO
+(((((OOC)))))Sun Jul 14 20:22:20 2019:Uchiha, Fyna says, lol.
+(((((OOC)))))Sun Jul 14 20:22:20 2019:Momochi, Aiga says, Fyna be killin me
+(((((OOC)))))Sun Jul 14 20:22:20 2019:Momochi, Aiga says, with the direct logic
+(((((OOC)))))Sun Jul 14 20:22:20 2019:Namikaze, Minato says, if it dont got ashura and sharrinegan in it
+(((((OOC)))))Sun Jul 14 20:22:20 2019:Namikaze, Minato says, its some 2013 source
+(((((OOC)))))Sun Jul 14 20:22:20 2019:Momochi, Aiga says, Sharinnegan he said
+(((((OOC)))))Sun Jul 14 20:22:20 2019:Namikaze, Minato says, that oldass one cole was using
+(((((OOC)))))Sun Jul 14 20:22:20 2019:Uchiha, Fyna says, i bet its a copy n pase of sharingan
+(((((OOC)))))Sun Jul 14 20:22:20 2019:Namikaze, Minato says, bro
+(((((OOC)))))Sun Jul 14 20:22:20 2019:Namikaze, Minato says, i aint even capping
+(((((OOC)))))Sun Jul 14 20:22:20 2019:Uchiha, Fyna says, nothing special
+(((((OOC)))))Sun Jul 14 20:23:12 2019:Namikaze, Minato says, you crazy
+(((((OOC)))))Sun Jul 14 20:23:12 2019:Namikaze, Minato says, we even added a 3x3 tile chakra absorb for rinnegan and chibaku tensei
+(((((OOC)))))Sun Jul 14 20:23:12 2019:Namikaze, Minato says, that shit fire
+(((((OOC)))))Sun Jul 14 20:23:12 2019:Uchiha, Fyna says, lol
+(((((OOC)))))Sun Jul 14 20:23:12 2019:Momochi, Aiga says, But how u made the game more fun
+(((((OOC)))))Sun Jul 14 20:23:12 2019:Momochi, Aiga says, ?
+(((((OOC)))))Sun Jul 14 20:23:12 2019:Uchiha, Fyna says, fire but died out
+(((((OOC)))))Sun Jul 14 20:23:12 2019:Namikaze, Minato says, literally by doing that
+(((((OOC)))))Sun Jul 14 20:23:12 2019:Uchiha, Fyna says, somethings not right
+(((((OOC)))))Sun Jul 14 20:23:12 2019:Namikaze, Minato says, ?
+(((((OOC)))))Sun Jul 14 20:23:12 2019:Namikaze, Minato says, that a random question bro
+(((((OOC)))))Sun Jul 14 20:23:12 2019:Namikaze, Minato says, you know the answer already
+(((((OOC)))))Sun Jul 14 20:24:03 2019:Momochi, Aiga says, Nah bro
+(((((OOC)))))Sun Jul 14 20:24:03 2019:Momochi, Aiga says, Theres gotta be a reason to play these games
+(((((OOC)))))Sun Jul 14 20:24:03 2019:Momochi, Aiga says, and NFF didnt have one
+(((((OOC)))))Sun Jul 14 20:24:03 2019:Namikaze, Minato says, Y&#39;all fixed hansha yet?
+(((((OOC)))))Sun Jul 14 20:24:03 2019:Namikaze, Minato says, thats why we made it RP
+(((((OOC)))))Sun Jul 14 20:24:03 2019:Namikaze, Minato says, and that shit was having 1 wipe last MONTHS
+(((((OOC)))))Sun Jul 14 20:24:54 2019:Uchiha, Fyna says, its not broken because this aint the 2013 source
+(((((OOC)))))Sun Jul 14 20:24:54 2019:Momochi, Aiga says, what kept NFF around before was the community striving for positions of power
+(((((OOC)))))Sun Jul 14 20:24:54 2019:Namikaze, Minato says, Yo just saying but
+(((((OOC)))))Sun Jul 14 20:24:54 2019:Namikaze, Minato says, you might wanna reconsider
+(((((OOC)))))Sun Jul 14 20:24:54 2019:Namikaze, Minato says, p2w mechanics
+(((((OOC)))))Sun Jul 14 20:24:54 2019:Momochi, Aiga says, What
+(((((OOC)))))Sun Jul 14 20:24:54 2019:Uchiha, Fyna says, theres nothing p2w in this game
+(((((OOC)))))Sun Jul 14 20:24:54 2019:Momochi, Aiga says, ^
+(((((OOC)))))Sun Jul 14 20:24:54 2019:Namikaze, Minato says, you said you can buy stuff right
+(((((OOC)))))Sun Jul 14 20:24:54 2019:Uchiha, Fyna says, no
+(((((OOC)))))Sun Jul 14 20:24:54 2019:Namikaze, Minato says, and the links not working rn
+(((((OOC)))))Sun Jul 14 20:24:54 2019:Momochi, Aiga says, Who said that
+(((((OOC)))))Sun Jul 14 20:24:54 2019:Uchiha, Fyna says, i said it was taken out
+(((((OOC)))))Sun Jul 14 20:25:45 2019:Uchiha, Fyna says, never said it would be replaced
+(((((OOC)))))Sun Jul 14 20:25:45 2019:Namikaze, Minato says, (Sani man) - ddd: meant to be something similar to donation?
+(((((OOC)))))Sun Jul 14 20:25:45 2019:Namikaze, Minato says, (Hugs N Kisses) - Fyna]: yea thats in  
+(((((OOC)))))Sun Jul 14 20:25:45 2019:Namikaze, Minato says, (Hugs N Kisses) - Fyna]: donator stuff
+(((((OOC)))))Sun Jul 14 20:25:45 2019:Namikaze, Minato says, really nigga?
+(((((OOC)))))Sun Jul 14 20:25:45 2019:Uchiha, Fyna says, ??
+(((((OOC)))))Sun Jul 14 20:25:45 2019:Namikaze, Minato says, you said the link aint working
+(((((OOC)))))Sun Jul 14 20:25:45 2019:Uchiha, Fyna says, i said its in the source but i removed it
+(((((OOC)))))Sun Jul 14 20:25:45 2019:Uchiha, Fyna says, not working becuase i took it out
+(((((OOC)))))Sun Jul 14 20:25:45 2019:Uchiha, Fyna says, lol
+(((((OOC)))))Sun Jul 14 20:26:36 2019:Namikaze, Minato says, fair enough then
+(((((OOC)))))Sun Jul 14 20:26:36 2019:Namikaze, Minato says, because p2w in nff
+(((((OOC)))))Sun Jul 14 20:26:36 2019:Namikaze, Minato says, just aint it chief
+(((((OOC)))))Sun Jul 14 20:26:36 2019:Uchiha, Fyna says, i agree
+(((((OOC)))))Sun Jul 14 20:26:36 2019:Uchiha, Fyna says, nobody paying for this game anyway
+(((((OOC)))))Sun Jul 14 20:26:36 2019:Momochi, Aiga says, Shiet
+(((((OOC)))))Sun Jul 14 20:26:36 2019:Momochi, Aiga says, U would be suprised
+(((((OOC)))))Sun Jul 14 20:26:36 2019:Momochi, Aiga says, at how much ppl hate training
+(((((OOC)))))Sun Jul 14 20:26:36 2019:Momochi, Aiga says, but we no where near done
+(((((OOC)))))Sun Jul 14 20:26:36 2019:Momochi, Aiga says, with stuff
+(((((OOC)))))Sun Jul 14 20:26:36 2019:Momochi, Aiga says, we barely started lol
+(((((OOC)))))Sun Jul 14 20:27:28 2019:Momochi, Aiga says, We def prolly gonna add dono stuff back in but not until we get way farther along
+(((((OOC)))))Sun Jul 14 20:27:28 2019:Momochi, Aiga says, and it will prolly be a diff system entirely
+(((((OOC)))))Sun Jul 14 20:27:28 2019:Namikaze, Minato says, it dont even matter just it cant be as bad as what they did in the official NFF
+(((((OOC)))))Sun Jul 14 20:27:28 2019:Namikaze, Minato says, back in like 2013
+(((((OOC)))))Sun Jul 14 20:27:28 2019:Namikaze, Minato says, who was that one nigga again
+(((((OOC)))))Sun Jul 14 20:27:28 2019:Namikaze, Minato says, i forgot his name 
+(((((OOC)))))Sun Jul 14 20:28:19 2019:Namikaze, Minato says, jebi or some shit
+(((((OOC)))))Sun Jul 14 20:28:19 2019:Namikaze, Minato says, running around with every edit and still getting clapped
+(((((OOC)))))Sun Jul 14 20:29:10 2019:???? says, lol
+(((((OOC)))))Sun Jul 14 20:29:10 2019:???? says, get your buddies on
+(((((OOC)))))Sun Jul 14 20:29:10 2019:Namikaze, Minato says, they defo aint playing
+(((((OOC)))))Sun Jul 14 20:29:10 2019:Namikaze, Minato says, we just finished an SL wipe
+(((((OOC)))))Sun Jul 14 20:29:10 2019:???? says, dis got max passives n stuff no effort required
+(((((OOC)))))Sun Jul 14 20:29:10 2019:???? says, This clan has been locked out by the admins.
+(((((OOC)))))Sun Jul 14 20:30:01 2019:Namikaze, Minato says, most nff rips around got that tbh...
+(((((OOC)))))Sun Jul 14 20:30:01 2019:???? says, thats funny af
+(((((OOC)))))Sun Jul 14 20:30:01 2019:Namikaze, Minato says, i said it already
+(((((OOC)))))Sun Jul 14 20:30:01 2019:Namikaze, Minato says, SL is rp
+(((((OOC)))))Sun Jul 14 20:30:01 2019:Namikaze, Minato says, we added a lock clan system to prevent uchihas from being the majority 24/7
+(((((OOC)))))Sun Jul 14 20:30:01 2019:???? says, thats just racist
+(((((OOC)))))Sun Jul 14 20:30:52 2019:Namikaze, Minato says, meh
+(((((OOC)))))Sun Jul 14 20:30:52 2019:Momochi, Aiga says, lmao
+(((((OOC)))))Sun Jul 14 20:30:52 2019:Momochi, Aiga says, Sani just slide up to rain hosp bro
+(((((OOC)))))Sun Jul 14 20:30:52 2019:Momochi, Aiga says, Im semi afk cause im doin a league game
+(((((OOC)))))Sun Jul 14 20:30:52 2019:Momochi, Aiga says, but imma be here
+(((((OOC)))))Sun Jul 14 20:33:26 2019:Momochi, Aiga says, Anything u wanna start on next fyna?
+(((((OOC)))))Sun Jul 14 20:33:26 2019:Momochi, Aiga says, specifically
+(((((OOC)))))Sun Jul 14 20:34:17 2019:???? says, uhhh idk
+(((((OOC)))))Sun Jul 14 20:34:17 2019:???? says, really just want people to play to get the balance stuff in
+(((((OOC)))))Sun Jul 14 20:35:08 2019:???? says, fixed the akat thing though
+(((((OOC)))))Sun Jul 14 20:36:00 2019:Momochi, Aiga says, yea me too honestly 
+(((((OOC)))))Sun Jul 14 20:36:51 2019:Momochi, Aiga says, its hard to know from a stand point what needs to be done game wise
+(((((OOC)))))Sun Jul 14 20:36:51 2019:Momochi, Aiga says, Imma learn how to make NPCs and shit 
+(((((OOC)))))Sun Jul 14 20:36:51 2019:Momochi, Aiga says, so we can start doing the quest system
+(((((OOC)))))Sun Jul 14 20:37:42 2019:???? says, kk
+(((((OOC)))))Sun Jul 14 20:38:33 2019:Uchiha, Fyna says, i know i need to fix the edit verb
+(((((OOC)))))Sun Jul 14 20:38:33 2019:Uchiha, Fyna says, for some reason you cant click stuff
+(((((OOC)))))Sun Jul 14 20:41:58 2019:Momochi, Aiga says, What do you mean
+(((((OOC)))))Sun Jul 14 20:42:49 2019:Uchiha, Fyna says, use it click a atarget to edit
+(((((OOC)))))Sun Jul 14 20:42:49 2019:Uchiha, Fyna says, when you try to change a variable you can&#39;t click it
+(((((OOC)))))Sun Jul 14 20:42:49 2019:Uchiha, Fyna says, nothing pops up
+(((((OOC)))))Sun Jul 14 20:53:55 2019:Momochi, Aiga says, hmm
+(((((OOC)))))Sun Jul 14 20:54:46 2019:Momochi, Aiga says, im really tryna find some extra coders so we can move stuff along faster
+(((((OOC)))))Sun Jul 14 21:39:08 2019:Momochi, Aiga says, Hmm
+(((((OOC)))))Sun Jul 14 22:14:08 2019:Momochi, Aiga says, Wanna arena
+(((((OOC)))))Sun Jul 14 22:19:15 2019:Momochi, Aiga says, i love naruto man
+(((((OOC)))))Sun Jul 14 22:19:15 2019:Momochi, Aiga says, why does everyone
+(((((OOC)))))Sun Jul 14 22:19:15 2019:Momochi, Aiga says, always treat me so mean...
+(((((OOC)))))Sun Jul 14 22:19:15 2019:Momochi, Aiga says, i just wanna HELP!
+(((((OOC)))))Sun Jul 14 22:45:42 2019:Momochi, Aiga says, woah
+(((((OOC)))))Sun Jul 14 22:45:42 2019:Momochi, Aiga says, melrose 
+(((((OOC)))))Sun Jul 14 22:45:42 2019:Momochi, Aiga says, wassup man
+(((((OOC)))))Sun Jul 14 22:45:42 2019:Momochi, Aiga says, make a character
+(((((OOC)))))Sun Jul 14 22:45:42 2019:Fuuma, Melrose says, lol i was bored and saw this up
+(((((OOC)))))Sun Jul 14 22:45:42 2019:Momochi, Aiga says, Ill give u some edits or whatever 
+(((((OOC)))))Sun Jul 14 22:45:42 2019:Momochi, Aiga says, i need to test the combat
+(((((OOC)))))Sun Jul 14 22:45:42 2019:Momochi, Aiga says, i wanna make a really amazing nff
+(((((OOC)))))Sun Jul 14 22:46:33 2019:Fuuma, Melrose says, alright i guess let me go pick a different kind of clan
+(((((OOC)))))Sun Jul 14 22:46:33 2019:Fuuma, Melrose says, i was just messing around and made a fuuma
+(((((OOC)))))Sun Jul 14 22:54:14 2019:Hyuuga, Melrose says, lol
+(((((OOC)))))Sun Jul 14 22:54:14 2019:Hyuuga, Melrose says, luckily karsumu lets me get a free RB for a clan
+(((((OOC)))))Sun Jul 14 22:54:14 2019:Hyuuga, Melrose says, and got lucky so ive got 5/15/40 on a hyuuga
+(((((OOC)))))Sun Jul 14 22:59:21 2019:Momochi, Aiga says, LOL
+(((((OOC)))))Sun Jul 14 22:59:21 2019:Momochi, Aiga says, lmk when ur ready
+(((((OOC)))))Sun Jul 14 22:59:21 2019:Hyuuga, Melrose says, yeah i guess im ready i think im good with a hyuuga
+(((((OOC)))))Sun Jul 14 23:00:12 2019:Momochi, Aiga says, ign
+(((((OOC)))))Sun Jul 14 23:00:12 2019:Hyuuga, Melrose says, Hyuuga, Melrose
+(((((OOC)))))Sun Jul 14 23:02:46 2019:Hyuuga, Melrose says, lol dont have any jutsus
+(((((OOC)))))Sun Jul 14 23:02:46 2019:Momochi, Aiga says, boy xD
+(((((OOC)))))Sun Jul 14 23:02:46 2019:Momochi, Aiga says, go learn them
+(((((OOC)))))Sun Jul 14 23:05:20 2019:Hyuuga, Melrose says, ouchie
+(((((OOC)))))Sun Jul 14 23:05:20 2019:Momochi, Aiga says, go learn ur jutsus wtf lol 
+(((((OOC)))))Sun Jul 14 23:05:20 2019:Momochi, Aiga says, U should have max passives and exp gain
+(((((OOC)))))Sun Jul 14 23:05:20 2019:Hyuuga, Melrose says, i ran over to see if dna stealing was a thing
+(((((OOC)))))Sun Jul 14 23:05:20 2019:Hyuuga, Melrose says, it wasnt lol
+(((((OOC)))))Sun Jul 14 23:06:11 2019:Momochi, Aiga says, i mean
+(((((OOC)))))Sun Jul 14 23:06:11 2019:Momochi, Aiga says, its a jutsu
+(((((OOC)))))Sun Jul 14 23:06:11 2019:Hyuuga, Melrose says, i like dna stacking lmao
+(((((OOC)))))Sun Jul 14 23:06:11 2019:Hyuuga, Melrose says, are you gonna try to get the other NDL source/SL source from julian?
+(((((OOC)))))Sun Jul 14 23:07:02 2019:Momochi, Aiga says, I already have it my guy
+(((((OOC)))))Sun Jul 14 23:07:02 2019:Hyuuga, Melrose says, the newest ones?
+(((((OOC)))))Sun Jul 14 23:07:02 2019:Momochi, Aiga says, Nah just an updated version of one
+(((((OOC)))))Sun Jul 14 23:07:02 2019:Momochi, Aiga says, this one has rasen shuriken 2
+(((((OOC)))))Sun Jul 14 23:07:02 2019:Hyuuga, Melrose says, lol hes selling the sources for 350 dollars
+(((((OOC)))))Sun Jul 14 23:07:02 2019:Momochi, Aiga says, Bro what?
+(((((OOC)))))Sun Jul 14 23:07:02 2019:Hyuuga, Melrose says, yeah
+(((((OOC)))))Sun Jul 14 23:07:53 2019:Momochi, Aiga says, Bro what...
+(((((OOC)))))Sun Jul 14 23:27:31 2019:Momochi, Aiga says, reconnect is life
+(((((OOC)))))Sun Jul 14 23:41:10 2019:Momochi, Aiga says, and added quests
+(((((OOC)))))Sun Jul 14 23:48:00 2019:Momochi, Aiga says, Why arent they just a clan with specific jutsu..  there should be a clear play style design in mind when creatin stuff yknow
+(((((OOC)))))Mon Jul 15 10:20:19 2019:Momochi, Aiga says, I sure do love the relog button
+(((((OOC)))))Mon Jul 15 10:20:19 2019:Uchiha, Fyna says, yep
+(((((OOC)))))Mon Jul 15 10:21:10 2019:Uchiha, Fyna says, no byond ads
+(((((OOC)))))Mon Jul 15 10:21:10 2019:Uchiha, Fyna says, :p
+(((((OOC)))))Mon Jul 15 10:21:10 2019:Momochi, Aiga says, Obama 2016 lmao
+(((((OOC)))))Mon Jul 15 10:22:01 2019:Karsumu, Obama2016 says, yeah i used to say that over voice chat to mess with people
+(((((OOC)))))Mon Jul 15 10:22:01 2019:Karsumu, Obama2016 says, it was even funnier when i explained how it was possible
+(((((OOC)))))Mon Jul 15 10:22:52 2019:Momochi, Aiga says, Yo
+(((((OOC)))))Mon Jul 15 10:22:52 2019:Momochi, Aiga says, they hella banned me
+(((((OOC)))))Mon Jul 15 10:22:52 2019:Momochi, Aiga says, SL lol
+(((((OOC)))))Mon Jul 15 10:22:52 2019:Karsumu, Obama2016 says, lol...
+(((((OOC)))))Mon Jul 15 10:23:44 2019:Momochi, Aiga says, Like from the discord
+(((((OOC)))))Mon Jul 15 10:23:44 2019:Uchiha, Fyna says, akatsuki cloak doesnt have an armor add on 
+(((((OOC)))))Mon Jul 15 10:23:44 2019:Uchiha, Fyna says, reee
+(((((OOC)))))Mon Jul 15 10:23:44 2019:Momochi, Aiga says, I was like yo we could merge and shit and he was like why would anyone play this shit game
+(((((OOC)))))Mon Jul 15 10:24:35 2019:Momochi, Aiga says, he was talkin about SL
+(((((OOC)))))Mon Jul 15 10:24:35 2019:Momochi, Aiga says, im like bro what are yall doing then? hosting it?
+(((((OOC)))))Mon Jul 15 10:24:35 2019:Uchiha, Fyna says, you still talking to that sl guy?
+(((((OOC)))))Mon Jul 15 10:24:35 2019:Uchiha, Fyna says, lol
+(((((OOC)))))Mon Jul 15 10:24:35 2019:Uchiha, Fyna says, that guy was all lost
+(((((OOC)))))Mon Jul 15 10:24:35 2019:Uchiha, Fyna says, talking about his server is NOT laggy
+(((((OOC)))))Mon Jul 15 10:25:26 2019:Karsumu, Obama2016 says, what the SL server?
+(((((OOC)))))Mon Jul 15 10:25:26 2019:Karsumu, Obama2016 says, im hosting that did it finally start lagging?
+(((((OOC)))))Mon Jul 15 10:25:26 2019:Uchiha, Fyna says, its always lagging
+(((((OOC)))))Mon Jul 15 10:25:26 2019:Uchiha, Fyna says, :c
+(((((OOC)))))Mon Jul 15 10:25:26 2019:Karsumu, Obama2016 says, it is?  i never noticed it lagging was it just FPS was low or actual lag
+(((((OOC)))))Mon Jul 15 10:26:17 2019:Uchiha, Fyna says, its choppy
+(((((OOC)))))Mon Jul 15 10:26:17 2019:Karsumu, Obama2016 says, well it has been up for nearly 3 days straight
+(((((OOC)))))Mon Jul 15 10:27:08 2019:Uchiha, Fyna says, yea its choppy
+(((((OOC)))))Mon Jul 15 10:27:08 2019:Momochi, Aiga says, Yea its hella choppy but
+(((((OOC)))))Mon Jul 15 10:27:08 2019:Momochi, Aiga says, ethan invited me cause he needed players
+(((((OOC)))))Mon Jul 15 10:27:08 2019:Momochi, Aiga says, And i was like okay
+(((((OOC)))))Mon Jul 15 10:27:08 2019:Momochi, Aiga says, Then i saw that no one was really playin but the server was active
+(((((OOC)))))Mon Jul 15 10:27:08 2019:Momochi, Aiga says, and then niggas was like they boutta sell the server
+(((((OOC)))))Mon Jul 15 10:28:00 2019:Momochi, Aiga says, I was like...?
+(((((OOC)))))Mon Jul 15 10:28:00 2019:Momochi, Aiga says, Well what if we merged and yall didnt do that
+(((((OOC)))))Mon Jul 15 10:28:00 2019:Karsumu, Obama2016 says, lol i told you julian wanted to sell it for 350 dollars
+(((((OOC)))))Mon Jul 15 10:28:00 2019:Momochi, Aiga says, and that man went ON and ON about how fyna called SL trash
+(((((OOC)))))Mon Jul 15 10:28:00 2019:Karsumu, Obama2016 says, sec
+(((((OOC)))))Mon Jul 15 10:28:00 2019:Uchiha, Fyna says, lol
+(((((OOC)))))Mon Jul 15 10:28:00 2019:Uchiha, Fyna says, i didnt
+(((((OOC)))))Mon Jul 15 10:28:00 2019:Uchiha, Fyna says, what an asshat
+(((((OOC)))))Mon Jul 15 10:28:00 2019:Momochi, Aiga says, and i was like fyna a better coder than yall bruh why u took that as offense fyna was jus jokin
+(((((OOC)))))Mon Jul 15 10:28:00 2019:Uchiha, Fyna says, i was just stating facts
+(((((OOC)))))Mon Jul 15 10:28:00 2019:Uchiha, Fyna says, it IS choppy
+(((((OOC)))))Mon Jul 15 10:28:51 2019:Momochi, Aiga says, Then he was like
+(((((OOC)))))Mon Jul 15 10:28:51 2019:Momochi, Aiga says, This game is shitty and an old source
+(((((OOC)))))Mon Jul 15 10:28:51 2019:Momochi, Aiga says, if u wanna advertise go somewhere else
+(((((OOC)))))Mon Jul 15 10:28:51 2019:Momochi, Aiga says, *ban*
+(((((OOC)))))Mon Jul 15 10:28:51 2019:Uchiha, Fyna says, lol
+(((((OOC)))))Mon Jul 15 10:29:42 2019:Uchiha, Fyna says, he was trying to start a fight since he logge don
+(((((OOC)))))Mon Jul 15 10:29:42 2019:Momochi, Aiga says, Yea exactly
+(((((OOC)))))Mon Jul 15 10:29:42 2019:Momochi, Aiga says, Im like what are u so self consious about bro
+(((((OOC)))))Mon Jul 15 10:29:42 2019:Uchiha, Fyna says, he ran up trying to compare this game and make it seem lesser
+(((((OOC)))))Mon Jul 15 10:29:42 2019:Uchiha, Fyna says, then got mad when i pointed out his flaws
+(((((OOC)))))Mon Jul 15 10:29:42 2019:Momochi, Aiga says, BRUH LMAO
+(((((OOC)))))Mon Jul 15 10:29:42 2019:Momochi, Aiga says, I did the exact same shit
+(((((OOC)))))Mon Jul 15 10:29:42 2019:Momochi, Aiga says, And he took so much offense
+(((((OOC)))))Mon Jul 15 10:29:42 2019:Momochi, Aiga says, he was like im talkin to a brick wall
+(((((OOC)))))Mon Jul 15 10:30:33 2019:Momochi, Aiga says, Im like what we not evven havin a convo
+(((((OOC)))))Mon Jul 15 10:30:33 2019:Momochi, Aiga says, ur just mad at facts
+(((((OOC)))))Mon Jul 15 10:30:33 2019:Uchiha, Fyna says, lol
+(((((OOC)))))Mon Jul 15 10:30:33 2019:Momochi, Aiga says, Lmao
+(((((OOC)))))Mon Jul 15 10:30:33 2019:Momochi, Aiga says, We get more ppl each day tho i guess
+(((((OOC)))))Mon Jul 15 10:30:33 2019:Momochi, Aiga says, We will eventually just take their players anyways
+(((((OOC)))))Mon Jul 15 10:31:24 2019:Uchiha, Fyna says, oof
+(((((OOC)))))Mon Jul 15 10:31:24 2019:Momochi, Aiga says, Dis source fps da best
+(((((OOC)))))Mon Jul 15 10:32:16 2019:Uchiha, Fyna says, rp is holding that game back
+(((((OOC)))))Mon Jul 15 10:32:16 2019:Momochi, Aiga says, Yea
+(((((OOC)))))Mon Jul 15 10:32:16 2019:Momochi, Aiga says, RP is what the world is built with
+(((((OOC)))))Mon Jul 15 10:32:16 2019:Momochi, Aiga says, not a premise
+(((((OOC)))))Mon Jul 15 10:34:49 2019:Momochi, Aiga says, hold on
+(((((OOC)))))Mon Jul 15 10:34:49 2019:???? says, one thing i think needdds to be changedd
+(((((OOC)))))Mon Jul 15 10:35:40 2019:???? says, is waking up with half vit
+(((((OOC)))))Mon Jul 15 10:35:40 2019:Fuuma, Melrose says, wew 5/20/40 fuuma
+(((((OOC)))))Mon Jul 15 10:35:40 2019:???? says, but then adamant would be useless
+(((((OOC)))))Mon Jul 15 10:37:23 2019:Momochi, Aiga says, Yea but
+(((((OOC)))))Mon Jul 15 10:37:23 2019:Momochi, Aiga says, adamant is usless in regular nff 2
+(((((OOC)))))Mon Jul 15 10:37:23 2019:Momochi, Aiga says, we just need to change how traits affect gameplay in general
+(((((OOC)))))Mon Jul 15 10:39:56 2019:Momochi, Aiga says, OOF
+(((((OOC)))))Mon Jul 15 10:40:48 2019:Momochi, Aiga says, Amaterasu create lag?
+(((((OOC)))))Mon Jul 15 10:40:48 2019:???? says, welp amat lags like hell
+(((((OOC)))))Mon Jul 15 10:41:39 2019:Momochi, Aiga says, Im pretty sure this is why they added the clean system to delete all created objects
+(((((OOC)))))Mon Jul 15 10:41:39 2019:???? says, amat isnt deleting itself properly
+(((((OOC)))))Mon Jul 15 10:41:39 2019:Fuuma, Melrose says, wew
+(((((OOC)))))Mon Jul 15 10:41:39 2019:Momochi, Aiga says, Its tryna process all this at once which is too hard for it to handle
+(((((OOC)))))Mon Jul 15 10:42:30 2019:???? says, it spawns an infinite amount and lags
+(((((OOC)))))Mon Jul 15 10:42:30 2019:???? says, gonna reboot
+(((((OOC)))))Mon Jul 15 10:45:55 2019:Uchiha, Fyna says, yikes
+(((((OOC)))))Mon Jul 15 10:45:55 2019:Uchiha, Fyna says, gotta fix that asap
+(((((OOC)))))Mon Jul 15 10:48:28 2019:Fuuma, Melrose says, hey aiga
+(((((OOC)))))Mon Jul 15 10:51:53 2019:Uchiha, Fyna says, okayyyyy
+(((((OOC)))))Mon Jul 15 10:51:53 2019:Uchiha, Fyna says, i think i fixed it :c
+(((((OOC)))))Mon Jul 15 13:28:54 2019:Kiro, qweqd says, d
+(((((OOC)))))Mon Jul 15 13:28:54 2019:Momochi, Aiga says, LOl
+(((((OOC)))))Mon Jul 15 13:28:54 2019:Momochi, Aiga says, Its that nigga oro
+(((((OOC)))))Mon Jul 15 13:28:54 2019:Kiro, qweqd says, lmaooooo
+(((((OOC)))))Mon Jul 15 13:28:54 2019:Momochi, Aiga says, Sup kid
+(((((OOC)))))Mon Jul 15 13:28:54 2019:Kiro, qweqd says, came to see ur game chill
+(((((OOC)))))Mon Jul 15 13:28:54 2019:Momochi, Aiga says, This aint much lol
+(((((OOC)))))Mon Jul 15 13:28:54 2019:Momochi, Aiga says, We just started doin changes
+(((((OOC)))))Mon Jul 15 13:29:45 2019:Momochi, Aiga says, Its really just test server atm
+(((((OOC)))))Mon Jul 15 13:29:45 2019:Kiro, qweqd says, k
+(((((OOC)))))Mon Jul 15 13:29:45 2019:Momochi, Aiga says, gotta remember what needs to be changed and what dont u kno
+(((((OOC)))))Mon Jul 15 13:29:45 2019:Momochi, Aiga says, u should have max passives and jutsu tho
+(((((OOC)))))Mon Jul 15 13:34:52 2019:Iwazuka, Oro says, aiga
+(((((OOC)))))Mon Jul 15 13:34:52 2019:Momochi, Aiga says, ?
+(((((OOC)))))Mon Jul 15 13:34:52 2019:Iwazuka, Oro says, u aint tryna go back to nff?
+(((((OOC)))))Mon Jul 15 13:34:52 2019:Momochi, Aiga says, No why would i lol
+(((((OOC)))))Mon Jul 15 13:34:52 2019:Momochi, Aiga says, They dont like me there
+(((((OOC)))))Mon Jul 15 13:35:44 2019:Iwazuka, Oro says, tbh i dnt think ppl will play this
+(((((OOC)))))Mon Jul 15 13:37:26 2019:Iwazuka, Oro says, should just try to get unbanned im sure its not perma rn u prob just need to talk to shinger
+(((((OOC)))))Mon Jul 15 13:38:17 2019:Momochi, Aiga says, Im not talkin to shinger bro
+(((((OOC)))))Mon Jul 15 13:38:17 2019:Momochi, Aiga says, The nigga is a beta male
+(((((OOC)))))Mon Jul 15 13:38:17 2019:Momochi, Aiga says, Who dont want to actually influence the direction of NFF
+(((((OOC)))))Mon Jul 15 13:39:08 2019:Momochi, Aiga says, ppl will play what seems like a good product 
+(((((OOC)))))Mon Jul 15 13:39:08 2019:Momochi, Aiga says, It takes work to do it 
+(((((OOC)))))Mon Jul 15 13:39:08 2019:Iwazuka, Oro says, damn
+(((((OOC)))))Mon Jul 15 13:39:08 2019:Iwazuka, Oro says, well if this ever takes off
+(((((OOC)))))Mon Jul 15 13:39:08 2019:Iwazuka, Oro says, :pray:
+(((((OOC)))))Mon Jul 15 13:40:00 2019:Iwazuka, Oro says, back to nff =(
+(((((OOC)))))Mon Jul 15 13:40:00 2019:Momochi, Aiga says, lol
+(((((OOC)))))Mon Jul 15 21:18:14 2019:Momochi, Aiga says, Hety
+(((((OOC)))))Mon Jul 15 21:18:14 2019:Momochi, Aiga says, Heyyy
+(((((OOC)))))Mon Jul 15 21:19:56 2019:Uchiha, Fyna says, hey
+(((((OOC)))))Mon Jul 15 21:23:21 2019:Uchiha, Fyna says, amat should be fixed now
+(((((OOC)))))Tue Jul 16 13:09:42 2019:Uchiha, Fyna says, o
+(((((OOC)))))Tue Jul 16 13:09:42 2019:Uchiha, Fyna says, wher eu going
+(((((OOC)))))Tue Jul 16 13:09:42 2019:Uchiha, Fyna says, ya they useless
+(((((OOC)))))Tue Jul 16 13:12:16 2019:Fuuma, Melrose says, hooray... now i gotta train them
+(((((OOC)))))Tue Jul 16 13:12:16 2019:Fuuma, Melrose says, lol
+(((((OOC)))))Tue Jul 16 13:14:49 2019:Uchiha, Fyna says, commands tab exp gaain delay lose
+(((((OOC)))))Tue Jul 16 13:14:49 2019:Uchiha, Fyna says, master jutsus
+(((((OOC)))))Tue Jul 16 13:14:49 2019:Fuuma, Melrose says, well its more i need fuuinjutsu knowledge
+(((((OOC)))))Tue Jul 16 13:14:49 2019:Uchiha, Fyna says, oof
+(((((OOC)))))Tue Jul 16 13:14:49 2019:Fuuma, Melrose says, sealing and poison knowledge doesnt go up with max passives sadly
+(((((OOC)))))Tue Jul 16 13:15:40 2019:Uchiha, Fyna says, check
+(((((OOC)))))Tue Jul 16 13:15:40 2019:Uchiha, Fyna says, i gave u  like 10000000
+(((((OOC)))))Tue Jul 16 13:15:40 2019:Fuuma, Melrose says, oh snap
+(((((OOC)))))Tue Jul 16 13:15:40 2019:Uchiha, Fyna says, ill fix the poison and fuuin thing in the code
+(((((OOC)))))Tue Jul 16 13:18:14 2019:Uchiha, Fyna says, works
+(((((OOC)))))Tue Jul 16 13:19:56 2019:Uchiha, Fyna says, how long these last
+(((((OOC)))))Tue Jul 16 13:19:56 2019:Uchiha, Fyna says, this op
+(((((OOC)))))Tue Jul 16 13:21:39 2019:Uchiha, Fyna says, think it lasts untill kod
+(((((OOC)))))Tue Jul 16 13:21:39 2019:Fuuma, Melrose says, yikes
+(((((OOC)))))Tue Jul 16 13:23:21 2019:Uchiha, Fyna says, raikage armor is op
+(((((OOC)))))Tue Jul 16 13:25:55 2019:Uchiha, Fyna says, i think it works on everything
+(((((OOC)))))Tue Jul 16 13:27:37 2019:Uchiha, Fyna says, o
+(((((OOC)))))Tue Jul 16 13:34:27 2019:Uchiha, Fyna says, oof
+(((((OOC)))))Tue Jul 16 13:37:52 2019:Uchiha, Fyna says, lol
+(((((OOC)))))Tue Jul 16 13:38:43 2019:Uchiha, Fyna says, think it has to be someone else
+(((((OOC)))))Tue Jul 16 13:48:06 2019:Uchiha, Fyna says, dat takes chakra too
+(((((OOC)))))Tue Jul 16 14:14:33 2019:Momochi, Aiga says, :o
+(((((OOC)))))Tue Jul 16 14:17:58 2019:Momochi, Aiga says, No one wants to test smh
+(((((OOC)))))Tue Jul 16 14:17:58 2019:Momochi, Aiga says, U online fyna?
+(((((OOC)))))Tue Jul 16 14:17:58 2019:Momochi, Aiga says, Did u fix amat
+(((((OOC)))))Tue Jul 16 15:48:25 2019:Uchiha, Fyna says, amat fixed
+(((((OOC)))))Thu Jul 25 13:53:39 2019:Uchiha, Nikola says, yo
+(((((OOC)))))Thu Jul 25 13:54:30 2019:Namikaze, Fyna says, hi
+(((((OOC)))))Thu Jul 25 13:54:30 2019:Uchiha, Nikola says, so what needs to be tested?
+(((((OOC)))))Thu Jul 25 13:54:30 2019:Namikaze, Fyna says, the new sage stuff
+(((((OOC)))))Thu Jul 25 13:55:21 2019:Uchiha, Nikola says, can u grant me it? just to test?
+(((((OOC)))))Thu Jul 25 13:55:21 2019:Namikaze, Fyna says, ya
+(((((OOC)))))Thu Jul 25 13:56:12 2019:Uchiha, Nikola says, 1 thing that needs to be added: auto rest when you go to chairs and shit
+(((((OOC)))))Thu Jul 25 13:56:12 2019:Namikaze, Fyna says, yeaa
+(((((OOC)))))Thu Jul 25 13:56:12 2019:Namikaze, Fyna says, o yea
+(((((OOC)))))Thu Jul 25 13:57:04 2019:Namikaze, Fyna says, well for one the rasengan icon seems to perma bug
+(((((OOC)))))Thu Jul 25 13:57:04 2019:Namikaze, Fyna says, lol
+(((((OOC)))))Thu Jul 25 13:58:46 2019:Namikaze, Fyna says, some wierd chakra rm
+(((((OOC)))))Thu Jul 25 13:58:46 2019:Namikaze, Fyna says, its already int he code buggy though
+(((((OOC)))))Thu Jul 25 13:59:37 2019:Namikaze, Fyna says, yea thats the one bugging the rasen icon
+(((((OOC)))))Thu Jul 25 14:00:28 2019:Namikaze, Fyna says, oof
+(((((OOC)))))Thu Jul 25 14:00:28 2019:Namikaze, Fyna says, thats bugged too
+(((((OOC)))))Thu Jul 25 14:01:20 2019:Namikaze, Fyna says, should be doing 6000
+(((((OOC)))))Thu Jul 25 14:01:20 2019:Namikaze, Fyna says, ya xD
+(((((OOC)))))Thu Jul 25 14:01:20 2019:Namikaze, Fyna says, 3k for normal
+(((((OOC)))))Thu Jul 25 14:01:20 2019:Namikaze, Fyna says, giant should be 6
+(((((OOC)))))Thu Jul 25 14:01:20 2019:Namikaze, Fyna says, yea
+(((((OOC)))))Thu Jul 25 14:01:20 2019:Namikaze, Fyna says, just add modified files instead of downloading the whole thing
+(((((OOC)))))Thu Jul 25 14:02:11 2019:Namikaze, Fyna says, o 
+(((((OOC)))))Thu Jul 25 14:02:11 2019:Namikaze, Fyna says, it works wierd
+(((((OOC)))))Thu Aug 08 15:05:20 2019:Uchiha, Fyna says, summon

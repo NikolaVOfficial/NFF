@@ -1,0 +1,19 @@
+// BEGIN_INTERNALS
+/*
+LAST_COMPILE_TIME: 1483690156
+PACKAGE_RSC_NAME: C:\Users\Dad\Desktop\Dropbox\Dropbox\NFFforthebored\NFF\NFF_rsc.zip
+DIR: _NinpoArt\Art _NinpoArt\Art\Effects _NinpoArt\Art\Equipment _NinpoArt\Art\Equipment\Tools _NinpoArt\Art\Equipment\Tools\Ranking _NinpoArt\Art\Equipment\Tools\Ranking\Gold Code Code\Engines Code\NPCs Code\OtherSystems Code\Techniques Code\Techniques\Clans Code\Techniques\Genjutsu Code\Techniques\Ninjutsu Code\Techniques\Taijutsu Code\VillageBasedSystems moon_tokens 
+AUTO_FILE_DIR: OFF
+PACKAGE_DMB_INFO: 
+MAP_ICON_TYPE: 0
+PACKAGE_DME_NAME: C:\Users\Dad\Desktop\Dropbox\Dropbox\NFFforthebored\NFF\NFF_src.zip
+LAST_COMPILE_VERSION: 511.1364
+PACKAGE_TYPE: 0
+PACKAGE_DME_START: 
+WINDOW: Code\Techniques\Taijutsu\Quick_Fist_Jutsu_Set.dm;Code\VillageBasedSystems\VillageSystem.dm;Code\Check Proc.dm;Code\Variables.dm;Code\OtherSystems\SaveSystem.dm;moon_tokens\moon_tokens.dm;Code\Admin.dm;Aburame.dm;Code\verbs.dm;Code\Techniques\Skillcards.dm;Code\Techniques\Ninjutsu\Ninjutsu.dm;Code\Techniques\Clans\Uchiha.dm;Code\Techniques\Clans\Uchiha_Jutsu_Set.dm;Code\Techniques\Genjutsu\Genjutsu.dm;Code\Techniques\Ninjutsu\Fushi Tensei.dm
+PACKAGE_DME_INFO: 
+FILE: Code\Techniques\Ninjutsu\Fushi Tensei.dm
+PACKAGE_DME_DEMO: 
+PACKAGE_DMB_NAME: C:\Users\Dad\Desktop\Dropbox\Dropbox\NFFforthebored\NFFHost.zip
+*/
+// END_INTERNALS

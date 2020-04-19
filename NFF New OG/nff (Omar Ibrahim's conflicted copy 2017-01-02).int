@@ -1,0 +1,19 @@
+// BEGIN_INTERNALS
+/*
+LAST_COMPILE_TIME: 1483101105
+DIR: _NinpoArt _NinpoArt\Art _NinpoArt\Art\Effects _NinpoArt\Art\Equipment _NinpoArt\Art\Equipment\Tools _NinpoArt\Art\Equipment\Tools\Ranking _NinpoArt\Art\Equipment\Tools\Ranking\Gold Code Code\Engines Code\NPCs Code\NPCs\AISystem Code\NPCs\MerchantsSystem Code\OtherSystems Code\Techniques Icons Icons\New Base Icons\New Base\Weapons moon_tokens 
+PACKAGE_RSC_NAME: C:\Users\Dad\Desktop\Dropbox\Dropbox\NFFforthebored\NFF\NFF_rsc.zip
+AUTO_FILE_DIR: OFF
+PACKAGE_DMB_INFO: 
+MAP_ICON_TYPE: 0
+PACKAGE_DME_NAME: C:\Users\Dad\Desktop\Dropbox\Dropbox\NFFforthebored\NFF\NFF_src.zip
+LAST_COMPILE_VERSION: 511.1364
+PACKAGE_DME_START: 
+PACKAGE_TYPE: 0
+WINDOW: Code\NFFD.dm;Code\Subscribers.dm;Code\Engines\(CaptFalcon33035)Radar_Demo.dm;Code\NPCs\GeninTeacher.dm;Code\NPCs\NPCs.dm;Code\Naruto Final Fight.dm;Aburame.dm;Code\OtherSystems\SaveSystem.dm;Code\Techniques\(Engine) Effects.dm;Code\Check Proc.dm;clientdirverb.dm;Code\Techniques\Attack2.dm;moon_tokens\moon_tokens.dm
+PACKAGE_DME_INFO: 
+FILE: moon_tokens\moon_tokens.dm
+PACKAGE_DMB_NAME: C:\Users\Dad\Desktop\Dropbox\Dropbox\NFFforthebored\NFFHost.zip
+PACKAGE_DME_DEMO: 
+*/
+// END_INTERNALS

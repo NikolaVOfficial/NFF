@@ -1,0 +1,86 @@
+"a" = (/turf/Blank{density = 0; layer = 5},/area)
+"b" = (/turf/Blank{density = 1},/area)
+"c" = (/turf/WallDownLeft{density = 1},/area)
+"d" = (/turf/wall{density = 1; opacity = 1},/area)
+"e" = (/turf/WallDownRight{density = 1},/area)
+"f" = (/turf/WallCornerLeft{density = 1},/area)
+"g" = (/turf/Mud,/turf/BoneClubOrg/StoreWallLeft{tag = "icon-0,1"; icon_state = "0,1"},/area)
+"h" = (/turf/Mud,/turf/BoneClubOrg/Store{tag = "icon-0,1"; icon_state = "0,1"},/area)
+"i" = (/turf/Mud,/turf/BoneClubOrg/StoreWallRight{tag = "icon-0,1"; icon_state = "0,1"},/area)
+"j" = (/turf/WallCornerRight{density = 1},/area)
+"k" = (/turf/BoneClubOrg/StoreWallLeft{tag = "icon-0,0"; icon_state = "0,0"},/area)
+"l" = (/turf/BoneClubOrg/Store{tag = "icon-0,0"; icon_state = "0,0"},/area)
+"m" = (/turf/BoneClubOrg/StoreWallRight{tag = "icon-0,0"; icon_state = "0,0"},/area)
+"n" = (/turf/Mud,/area)
+"o" = (/turf/RockFloor,/area)
+"p" = (/turf/WallFullDownLeft,/area)
+"q" = (/turf/WallFullDownRight{density = 1},/area)
+"r" = (/turf/Stair,/area)
+"s" = (/turf/WallStair{density = 1},/area)
+"t" = (/turf/ArenaFloor,/area)
+"u" = (/turf/WallFloor{density = 1},/area)
+"v" = (/turf/wall{density = 1},/area)
+"w" = (/turf/WallFullDownLeft{density = 1; opacity = 1},/area)
+"x" = (/turf/BlueChair,/area)
+"y" = (/turf/WallFullDownRight{density = 1; opacity = 1},/area)
+"z" = (/turf/Fence{density = 1},/area)
+"A" = (/turf/Fencewall{density = 1},/area)
+"B" = (/turf/OldGrave,/area)
+"C" = (/turf/SemiOldgrave,/area)
+"D" = (/turf/Grave,/area)
+"E" = (/turf/WallFullDownRightArena{density = 1},/area)
+"F" = (/turf/WallFullDownRight{density = 1; opacity = 1},/area{opacity = 1})
+"G" = (/turf/WallFullDownLeftContinued{density = 1; opacity = 1},/area)
+
+(1,1,1) = {"
+aaaaaaaaaabbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+aaaaaaaaaacddddddddddddddddebbbbbbbbbbbb
+aaaaaaaaaafghhhhhhhhhhhhhhijbbbbbbbbbbbb
+aaaaaaaaaafkllllllllllllllmjbbbbbbbbbbbb
+aaaaaaaaaafnoooooooooooooonjbbbbbbbbbbbb
+aaaaaaaacdfnoooooooooooooonjdebbbbbbbbbb
+aaaaaaaapnnnnoooooooooooonnnnqbbbbbbbbbb
+aaaaaaaapnnnnnnoooooooonnnnnnqbbbbbbbbbb
+aaaaaaaapnnnnnnnnoooonnnnnnnnqbbbbbbbbbb
+aaaaaaaapnnnnnnnnnoonnnnnnnnnqbbbbbbbbbb
+aaaaaaaapnnnnnnnnoooonnnnnnnnqbbbbbbbbbb
+aaaaaaaapnooooooooooooooooonnqbbbbbbbbbb
+aaaaaaaapnoooooooooooooooooonqbbbbbbbbbb
+aaaaaaaapnooonnnnnnnnnnnoooooqbbbbbbbbbb
+aaaaaaaapnoonnnnnnnnnnnnrrrrrsnnnnnnbbbb
+bbcdddddfnoonncdddddddddtototuvvvvvebbbb
+bbpnnnnnnnoonnwxxxxxxxxtotototxxxxxqbbbb
+bbpnnnnnnnoonnwttttttttttttttttttttqbbbb
+bbpnnnnnnnoonnwttttttttttttttttttttqbbbb
+bbpnnnnnnnoonnwttttttttttttttttttttqbbbb
+bbpnnnnnnooonnwttttttttttttttttttttqbbbb
+bbpnnnnnoooonnwttttttttttttttttttttqbbbb
+bbpnnnnooooonnwttttttttttttttttttttqbbbb
+nbpnnnoooooonnwnnnnnnnnnnnnnnnnnnnnqbbbb
+bbpnnooooooonnnnnnnnnnnnnnnnnnnnnnnnbbbb
+bbpnoooooooonndddddddddddddddddddddebbbb
+bbpoooooooooonnnnnnnnnnnnnnnnnnnnnnqbbbb
+bbpooooooooooooooooooooooooooooooooqbbbb
+bbpooooooooooooooooooooooooooooooooqbbbb
+bbpoooonnnnnnnnnnnnnnnnnooonnnnnnnnqbbbb
+bbpooonwnnnnnnnyzzzzzzzzzozzzzzzzzAqbbbb
+bbpooonwBnCnDnDyxxxxxxxxnonxxxxxxxxqbbbb
+bbpooonwnnnnnnnyxxxxxxxxnonxxxxxxxxqbbbb
+bbpooonwCnBnCnByzzzzzzzzzozzzzzzzzAqbbbb
+bbpooonwnnnnnnnytttttttttttttttttttqbbbb
+bbpooonwBnDnBnDytttttttttttttttttttEbbbb
+bbpooonwnnnnnnnytttttttttttttttttttqbbbb
+bbpooonwBnCnDnBytttttttttttttttttttEbbbb
+bbpooonwnnnnnnnytttttttttttttttttttqbbbb
+bbpooonwBnDnCnBytttttttttttttttttttEbbbb
+bbpooonwnnnnnnnytttttttttttttttttttqbbbb
+bbpooonwDnBnCnDytttttttttttttttttttEbbbb
+bbpooonwnnnnnnnytttttttttttttttttttqbbbb
+bbpooonwCnBnDnBytttttttttttttttttttEbbbb
+bbpooonwnnnnnnnytttttttttttttttttttqbbbb
+bbpooonwDnCnBnCytttttttttttttttttttEbbbb
+bbpooonwnnnnnnnytttttttttttttttttttqbbbb
+bbpooonwnnnnnnnFtttttttttttttttttttEbbbb
+bbpooonwnnnnnnnnnnnnnnnnnnnnnnnnnnnqbbbb
+bbpooonGddddddddddddddddddddddddddddbbbb
+"}

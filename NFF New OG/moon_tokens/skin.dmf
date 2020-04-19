@@ -1,0 +1,176 @@
+macro "macro"
+	elem 
+		name = "North+REP"
+		command = ".north"
+	elem 
+		name = "South+REP"
+		command = ".south"
+	elem 
+		name = "East+REP"
+		command = ".east"
+	elem 
+		name = "West+REP"
+		command = ".west"
+	elem 
+		name = "Northeast+REP"
+		command = ".northeast"
+	elem 
+		name = "Northwest+REP"
+		command = ".northwest"
+	elem 
+		name = "Southeast+REP"
+		command = ".southeast"
+	elem 
+		name = "Southwest+REP"
+		command = ".southwest"
+	elem 
+		name = "Center+REP"
+		command = ".center"
+
+
+menu "menu"
+	elem 
+		name = "&Quit"
+		command = ".quit"
+		category = "&File"
+		saved-params = "is-checked"
+
+
+window "token_shop"
+	elem "token_shop"
+		type = MAIN
+		pos = 281,0
+		size = 1025x500
+		anchor1 = none
+		anchor2 = none
+		background-color = #0a0a0a
+		saved-params = "pos;size;is-minimized;is-maximized"
+		title = "Cash Shop"
+		statusbar = false
+		can-resize = false
+	elem "greeting"
+		type = LABEL
+		pos = 0,0
+		size = 225x20
+		anchor1 = none
+		anchor2 = none
+		font-family = "@Malgun Gothic"
+		font-size = 11
+		font-style = "bold"
+		text-color = #4b4b4b
+		background-color = #fafafa
+		saved-params = ""
+		text = "Hello key!"
+	elem "token_balance"
+		type = LABEL
+		pos = 128,20
+		size = 97x20
+		anchor1 = none
+		anchor2 = none
+		font-family = "@Malgun Gothic"
+		font-size = 12
+		font-style = "bold"
+		text-color = #4b4b4b
+		background-color = #fafafa
+		saved-params = ""
+		text = "00"
+	elem "label2"
+		type = LABEL
+		pos = 0,20
+		size = 128x20
+		anchor1 = none
+		anchor2 = none
+		font-family = "@Malgun Gothic"
+		font-size = 12
+		font-style = "bold"
+		text-color = #4b4b4b
+		background-color = #fafafa
+		saved-params = ""
+		text = "Balance:"
+	elem "token_browser"
+		type = BROWSER
+		pos = 225,0
+		size = 800x500
+		anchor1 = none
+		anchor2 = none
+		background-color = none
+		is-default = true
+		saved-params = ""
+	elem "label3"
+		type = LABEL
+		pos = 0,22
+		size = 32x16
+		anchor1 = none
+		anchor2 = none
+		background-color = none
+		saved-params = ""
+		text = ""
+		image = 'moon_tokens_balance.dmi'
+	elem "purchase_tokens"
+		type = BUTTON
+		pos = 32,40
+		size = 193x32
+		anchor1 = none
+		anchor2 = none
+		font-family = "@Malgun Gothic"
+		font-style = "bold"
+		text-color = #4b4b4b
+		background-color = #fafafa
+		border = line
+		saved-params = "is-checked"
+		text = "Purchase Moon Tokens"
+		command = "purchase-moon-tokens"
+		is-flat = true
+	elem "label1"
+		type = LABEL
+		pos = 0,40
+		size = 32x32
+		anchor1 = none
+		anchor2 = none
+		background-color = #fafafa
+		border = line
+		saved-params = ""
+		text = ""
+		image = 'purchase_moon_tokens.dmi'
+
+window "window1"
+	elem "window1"
+		type = MAIN
+		pos = 281,0
+		size = 300x300
+		anchor1 = none
+		anchor2 = none
+		background-color = none
+		saved-params = "pos;size;is-minimized;is-maximized"
+		can-resize = false
+	elem "output1"
+		type = OUTPUT
+		pos = 0,0
+		size = 300x296
+		anchor1 = none
+		anchor2 = none
+		background-color = #ffffff
+		is-default = true
+		saved-params = "max-lines"
+
+window "window2"
+	elem "window2"
+		type = MAIN
+		pos = 281,0
+		size = 200x200
+		anchor1 = none
+		anchor2 = none
+		background-color = none
+		saved-params = "pos;size;is-minimized;is-maximized"
+	elem "info1"
+		type = INFO
+		pos = 0,0
+		size = 200x200
+		anchor1 = none
+		anchor2 = none
+		background-color = #ffffff
+		is-default = true
+		drop-zone = true
+		saved-params = ""
+		tab-background-color = none
+

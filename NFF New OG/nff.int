@@ -1,0 +1,20 @@
+// BEGIN_INTERNALS
+/*
+MAP_ZOOM: 1.000
+LAST_COMPILE_TIME: 1587227363
+PACKAGE_RSC_NAME: C:\Users\Dad\Desktop\Dropbox\Dropbox\NFFforthebored\NFF\NFF_rsc.zip
+DIR: _ninpoart _ninpoart\art _ninpoart\art\Effects _ninpoart\art\equipment code code\Engines code\NPCs code\NPCs\AISystem code\NPCs\MerchantsSystem code\OtherSystems code\Techniques code\Techniques\Clans code\Techniques\Ninjutsu Fyna Stuff map map\Turfs 
+AUTO_FILE_DIR: OFF
+PACKAGE_DMB_INFO: 
+MAP_ICON_TYPE: 0
+PACKAGE_DME_NAME: C:\Users\Dad\Desktop\Dropbox\Dropbox\NFFforthebored\NFF\NFF_src.zip
+LAST_COMPILE_VERSION: 512.1488
+PACKAGE_TYPE: 0
+PACKAGE_DME_START: 
+WINDOW: code\Naruto Final Fight.dm;code\ScreenStuff.dm;Fyna Stuff\MapResize.dm;code\objs.dm;map\Turfs\Buildings.dm;map\turf.dm;code\MovingSystem.dm;code\MovingSystem2.dm;code\Admin.dm;code\HostEventNew.dm;code\CTS.dm;code\Events.dm;code\Events2.dm;code\Free For All.dm;code\FFANew.dm;code\TDMNew.dm;code\Login2.dm;code\Login.dm;code\AISasuna.dm;code\NPCs\AISystem\AI_Enemies.dm;code\NPCs\AISystem\AI_Enemies2.dm;code\Techniques\Ninjutsu\Akatsuki.dm
+PACKAGE_DME_INFO: 
+FILE: code\Admin.dm
+PACKAGE_DME_DEMO: 
+PACKAGE_DMB_NAME: C:\Users\Dad\Desktop\Dropbox\Dropbox\NFFforthebored\NFFHost.zip
+*/
+// END_INTERNALS
