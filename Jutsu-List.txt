@@ -1,0 +1,6499 @@
+mob/var/tmp/DoingPalms=0
+mob/var/tmp/TrappedInGedoMazo=0
+/*
+mob/verb/CreateACustomJutsu()
+	name="Create a Custom Taijutsu"
+	set category="Attacks"
+	var/obj/SkillCards/Custom_Taijutsu/A=new()
+	switch(input(src,"Does this move require charging? Charging a technique increases the time of the Charge.",text)in list("Yes","No"))
+		if("Yes")
+			var/Amount=input(usr,"How long do you want it to Charge? Note, 100 will equal 10 seconds.","Combo") as num
+			A.Charge=Amount
+	if(usr.TaijutsuKnowledge>100)
+		switch(input(src,"Is this attack a Combo? .",text)in list("Yes","No"))
+			if("Yes")
+				A.Combo=1
+	switch(input(src,"Is this a Striker type move or a Teleporter type Move? Strike moves attack straightforward while Teleporter moves teleports to the enemy if you're running and attacks.",text)in list("Striker","Teleporter"))
+		if("Striker")
+			A.MoveType="Striker"
+		if("Teleporter")
+			A.MoveType="Teleporter"
+	switch(input(src,"Is this a Forward move or a Spinner move? Forward moves attack forward with a strong attack, Spinner move spins around and attacks.",text)in list("Forward","Spinner"))
+		if("Forward")
+			A.SpinerOrStriker="Striker"
+		if("Spinner")
+			A.SpinerOrStriker="Spinner"
+	switch(input(src,"Is this a push back move or a stunner? A Push back moves pushes back the enemy when they're hit while a Stunner stuns the enemy after their hit.",text)in list("Push Back","Stunner"))
+		if("Push Back")
+			A.StunOrPush="Push"
+		if("Stunner")
+			A.StunOrPush="Stun"
+	var/characterfirstname=input(src,"What is this technique's name?","Name")
+	A.name=characterfirstname
+	var/EXP=input(usr,"How much EXP is required to learn this technique? Note the higher EXP the harder it'll be to learn the technique but the stronger it'll be.","EXP Usage") as num
+	if(EXP<1000)
+		EXP=1000
+		usr<<"EXP automatically set to 1000."
+	if(EXP>200000)
+		EXP=200000
+		usr<<"EXP automatically set to 200,000."
+	A.ExpCost=round(EXP)
+	usr.JutsuInLearning=A
+	usr.JutsuEXPCost=0
+	usr.exp=0
+	usr.JutsuMEXPCost=A.ExpCost
+	src<<"You are in training for [A.name]."
+	src.TypeLearning="Taijutsu"
+*/
+
+
+
+
+
+
+
+mob/GainedAfterLogIn/verb
+	ChangeSlot()
+		set hidden=1
+		if(usr.SlotYourOn=="1")
+			usr.SlotYourOn="2"
+			usr.UpdateQuickSlots()
+			return
+		if(usr.SlotYourOn=="2")
+			usr.SlotYourOn="1"
+			usr.UpdateQuickSlots()
+			return
+	Slot1()
+		set hidden=1
+		for(var/obj/SkillCards/A in usr.LearnedJutsus)
+			if(usr.SlotYourOn=="1")
+				if(A.Slot==1)
+					if(A.TurnedOn)
+						A.TurnedOn=0
+						A.Deactivate(usr)
+						return
+					if(usr.resting||usr.meditating)
+						usr<<"You can't do this, you're resting or in chakra generation mode."
+						return
+					if(usr.Dead||usr.FrozenBind=="Dead"||usr.DoingPalms)
+						usr<<"Not now."
+						return
+					if(usr.Status=="Asleep")
+						usr<<"You're consumed with drowzy, beautiful sleep. Mmm, amazing."
+					if(A.Delay>0)
+						usr<<output("You must wait to use this technique.","Attack");return
+					if(A.BunshinAble)
+						if(usr.KBunshinOn)
+							var/C=usr.controlled
+							usr=C
+						else
+							usr=usr
+					A.Activate(usr)
+			if(usr.SlotYourOn=="2")
+				if(A.Slot==11)
+					if(A.TurnedOn)
+						A.TurnedOn=0
+						A.Deactivate(usr)
+						return
+					if(usr.resting||usr.meditating)
+						usr<<"You can't do this, you're resting or in chakra generation mode."
+						return
+					if(usr.Dead||usr.FrozenBind=="Dead"||usr.DoingPalms)
+						usr<<"Not now."
+						return
+					if(A.Delay>0)
+						usr<<output("You must wait to use this technique.","Attack");return
+					if(A.BunshinAble)
+						if(usr.KBunshinOn)
+							var/C=usr.controlled
+							usr=C
+						else
+							usr=usr
+					A.Activate(usr)
+	Slot2()
+		set hidden=1
+		for(var/obj/SkillCards/A in usr.LearnedJutsus)
+			if(usr.SlotYourOn=="1")
+				if(A.Slot==2)
+					if(A.TurnedOn)
+						A.TurnedOn=0
+						A.Deactivate(usr)
+						return
+					if(usr.resting||usr.meditating)
+						usr<<"You can't do this, you're resting or in chakra generation mode."
+						return
+					if(usr.Dead||usr.FrozenBind=="Dead"||usr.DoingPalms)
+						usr<<"Not now."
+						return
+					if(A.Delay>0)
+						usr<<output("You must wait to use this technique.","Attack");return
+					if(A.BunshinAble)
+						if(usr.KBunshinOn)
+							var/C=usr.controlled
+							usr=C
+						else
+							usr=usr
+					A.Activate(usr)
+			if(usr.SlotYourOn=="2")
+				if(A.Slot==12)
+					if(A.TurnedOn)
+						A.TurnedOn=0
+						A.Deactivate(usr)
+						return
+					if(usr.resting||usr.meditating)
+						usr<<"You can't do this, you're resting or in chakra generation mode."
+						return
+					if(usr.Dead||usr.FrozenBind=="Dead"||usr.DoingPalms)
+						usr<<"Not now."
+						return
+					if(A.Delay>0)
+						usr<<output("You must wait to use this technique.","Attack");return
+					if(A.BunshinAble)
+						if(usr.KBunshinOn)
+							var/C=usr.controlled
+							usr=C
+						else
+							usr=usr
+					A.Activate(usr)
+	Slot3()
+		set hidden=1
+		for(var/obj/SkillCards/A in usr.LearnedJutsus)
+			if(usr.SlotYourOn=="1")
+				if(A.Slot==3)
+					if(A.TurnedOn)
+						A.TurnedOn=0
+						A.Deactivate(usr)
+						return
+					if(usr.resting||usr.meditating)
+						usr<<"You can't do this, you're resting or in chakra generation mode."
+						return
+					if(usr.Dead||usr.FrozenBind=="Dead"||usr.DoingPalms)
+						usr<<"Not now."
+						return
+					if(A.Delay>0)
+						usr<<output("You must wait to use this technique.","Attack");return
+					if(A.BunshinAble)
+						if(usr.KBunshinOn)
+							var/C=usr.controlled
+							usr=C
+						else
+							usr=usr
+					A.Activate(usr)
+			if(usr.SlotYourOn=="2")
+				if(A.Slot==13)
+					if(A.TurnedOn)
+						A.TurnedOn=0
+						A.Deactivate(usr)
+						return
+					if(usr.resting||usr.meditating)
+						usr<<"You can't do this, you're resting or in chakra generation mode."
+						return
+					if(usr.Dead||usr.FrozenBind=="Dead"||usr.DoingPalms)
+						usr<<"Not now."
+						return
+					if(A.Delay>0)
+						usr<<output("You must wait to use this technique.","Attack");return
+					if(A.BunshinAble)
+						if(usr.KBunshinOn)
+							var/C=usr.controlled
+							usr=C
+						else
+							usr=usr
+					A.Activate(usr)
+	Slot4()
+		set hidden=1
+		for(var/obj/SkillCards/A in usr.LearnedJutsus)
+			if(usr.SlotYourOn=="1")
+				if(A.Slot==4)
+					if(A.TurnedOn)
+						A.TurnedOn=0
+						A.Deactivate(usr)
+						return
+					if(usr.resting||usr.meditating)
+						usr<<"You can't do this, you're resting or in chakra generation mode."
+						return
+					if(usr.Dead||usr.FrozenBind=="Dead"||usr.DoingPalms)
+						usr<<"Not now."
+						return
+					if(A.Delay>0)
+						usr<<output("You must wait to use this technique.","Attack");return
+					if(A.BunshinAble)
+						if(usr.KBunshinOn)
+							var/C=usr.controlled
+							usr=C
+						else
+							usr=usr
+					A.Activate(usr)
+			if(usr.SlotYourOn=="2")
+				if(A.Slot==14)
+					if(A.TurnedOn)
+						A.TurnedOn=0
+						A.Deactivate(usr)
+						return
+					if(usr.resting||usr.meditating)
+						usr<<"You can't do this, you're resting or in chakra generation mode."
+						return
+					if(usr.Dead||usr.FrozenBind=="Dead"||usr.DoingPalms)
+						usr<<"Not now."
+						return
+					if(A.Delay>0)
+						usr<<output("You must wait to use this technique.","Attack");return
+					if(A.BunshinAble)
+						if(usr.KBunshinOn)
+							var/C=usr.controlled
+							usr=C
+						else
+							usr=usr
+					A.Activate(usr)
+	Slot5()
+		set hidden=1
+		for(var/obj/SkillCards/A in usr.LearnedJutsus)
+			if(usr.SlotYourOn=="1")
+				if(A.Slot==5)
+					if(A.TurnedOn)
+						A.TurnedOn=0
+						A.Deactivate(usr)
+						return
+					if(usr.resting||usr.meditating)
+						usr<<"You can't do this, you're resting or in chakra generation mode."
+						return
+					if(usr.Dead||usr.FrozenBind=="Dead"||usr.DoingPalms)
+						usr<<"Not now."
+						return
+					if(A.Delay>0)
+						usr<<output("You must wait to use this technique.","Attack");return
+					if(A.BunshinAble)
+						if(usr.KBunshinOn)
+							var/C=usr.controlled
+							usr=C
+						else
+							usr=usr
+					A.Activate(usr)
+			if(usr.SlotYourOn=="2")
+				if(A.Slot==15)
+					if(A.TurnedOn)
+						A.TurnedOn=0
+						A.Deactivate(usr)
+						return
+					if(usr.resting||usr.meditating)
+						usr<<"You can't do this, you're resting or in chakra generation mode."
+						return
+					if(usr.Dead||usr.FrozenBind=="Dead"||usr.DoingPalms)
+						usr<<"Not now."
+						return
+					if(A.Delay>0)
+						usr<<output("You must wait to use this technique.","Attack");return
+					if(A.BunshinAble)
+						if(usr.KBunshinOn)
+							var/C=usr.controlled
+							usr=C
+						else
+							usr=usr
+					A.Activate(usr)
+	Slot6()
+		set hidden=1
+		for(var/obj/SkillCards/A in usr.LearnedJutsus)
+			if(usr.SlotYourOn=="1")
+				if(A.Slot==6)
+					if(A.TurnedOn)
+						A.TurnedOn=0
+						A.Deactivate(usr)
+						return
+					if(usr.resting||usr.meditating)
+						usr<<"You can't do this, you're resting or in chakra generation mode."
+						return
+					if(usr.Dead||usr.FrozenBind=="Dead"||usr.DoingPalms)
+						usr<<"Not now."
+						return
+					if(A.Delay>0)
+						usr<<output("You must wait to use this technique.","Attack");return
+					if(A.BunshinAble)
+						if(usr.KBunshinOn)
+							var/C=usr.controlled
+							usr=C
+						else
+							usr=usr
+					A.Activate(usr)
+			if(usr.SlotYourOn=="2")
+				if(A.Slot==16)
+					if(A.TurnedOn)
+						A.TurnedOn=0
+						A.Deactivate(usr)
+						return
+					if(usr.resting||usr.meditating)
+						usr<<"You can't do this, you're resting or in chakra generation mode."
+						return
+					if(usr.Dead||usr.FrozenBind=="Dead"||usr.DoingPalms)
+						usr<<"Not now."
+						return
+					if(A.Delay>0)
+						usr<<output("You must wait to use this technique.","Attack");return
+					if(A.BunshinAble)
+						if(usr.KBunshinOn)
+							var/C=usr.controlled
+							usr=C
+						else
+							usr=usr
+					A.Activate(usr)
+	Slot7()
+		set hidden=1
+		for(var/obj/SkillCards/A in usr.LearnedJutsus)
+			if(usr.SlotYourOn=="1")
+				if(A.Slot==7)
+					if(A.TurnedOn)
+						A.TurnedOn=0
+						A.Deactivate(usr)
+						return
+					if(usr.resting||usr.meditating)
+						usr<<"You can't do this, you're resting or in chakra generation mode."
+						return
+					if(usr.Dead||usr.FrozenBind=="Dead"||usr.DoingPalms)
+						usr<<"Not now."
+						return
+					if(A.Delay>0)
+						usr<<output("You must wait to use this technique.","Attack");return
+					if(A.BunshinAble)
+						if(usr.KBunshinOn)
+							var/C=usr.controlled
+							usr=C
+						else
+							usr=usr
+					A.Activate(usr)
+			if(usr.SlotYourOn=="2")
+				if(A.Slot==17)
+					if(A.TurnedOn)
+						A.TurnedOn=0
+						A.Deactivate(usr)
+						return
+					if(usr.resting||usr.meditating)
+						usr<<"You can't do this, you're resting or in chakra generation mode."
+						return
+					if(usr.Dead||usr.FrozenBind=="Dead"||usr.DoingPalms)
+						usr<<"Not now."
+						return
+					if(A.Delay>0)
+						usr<<output("You must wait to use this technique.","Attack");return
+					if(A.BunshinAble)
+						if(usr.KBunshinOn)
+							var/C=usr.controlled
+							usr=C
+						else
+							usr=usr
+					A.Activate(usr)
+	Slot8()
+		set hidden=1
+		for(var/obj/SkillCards/A in usr.LearnedJutsus)
+			if(usr.SlotYourOn=="1")
+				if(A.Slot==8)
+					if(A.TurnedOn)
+						A.TurnedOn=0
+						A.Deactivate(usr)
+						return
+					if(usr.resting||usr.meditating)
+						usr<<"You can't do this, you're resting or in chakra generation mode."
+						return
+					if(usr.Dead||usr.FrozenBind=="Dead"||usr.DoingPalms)
+						usr<<"Not now."
+						return
+					if(A.Delay>0)
+						usr<<output("You must wait to use this technique.","Attack");return
+					if(A.BunshinAble)
+						if(usr.KBunshinOn)
+							var/C=usr.controlled
+							usr=C
+						else
+							usr=usr
+					A.Activate(usr)
+			if(usr.SlotYourOn=="2")
+				if(A.Slot==18)
+					if(A.TurnedOn)
+						A.TurnedOn=0
+						A.Deactivate(usr)
+						return
+					if(usr.resting||usr.meditating)
+						usr<<"You can't do this, you're resting or in chakra generation mode."
+						return
+					if(usr.Dead||usr.FrozenBind=="Dead"||usr.DoingPalms)
+						usr<<"Not now."
+						return
+					if(A.Delay>0)
+						usr<<output("You must wait to use this technique.","Attack");return
+					if(A.BunshinAble)
+						if(usr.KBunshinOn)
+							var/C=usr.controlled
+							usr=C
+						else
+							usr=usr
+					A.Activate(usr)
+	Slot9()
+		set hidden=1
+		for(var/obj/SkillCards/A in usr.LearnedJutsus)
+			if(usr.SlotYourOn=="1")
+				if(A.Slot==9)
+					if(A.TurnedOn)
+						A.TurnedOn=0
+						A.Deactivate(usr)
+						return
+					if(usr.resting||usr.meditating)
+						usr<<"You can't do this, you're resting or in chakra generation mode."
+						return
+					if(usr.Dead||usr.FrozenBind=="Dead"||usr.DoingPalms)
+						usr<<"Not now."
+						return
+					if(A.Delay>0)
+						usr<<output("You must wait to use this technique.","Attack");return
+					if(A.BunshinAble)
+						if(usr.KBunshinOn)
+							var/C=usr.controlled
+							usr=C
+						else
+							usr=usr
+					A.Activate(usr)
+			if(usr.SlotYourOn=="2")
+				if(A.Slot==19)
+					if(A.TurnedOn)
+						A.TurnedOn=0
+						A.Deactivate(usr)
+						return
+					if(usr.resting||usr.meditating)
+						usr<<"You can't do this, you're resting or in chakra generation mode."
+						return
+					if(usr.Dead||usr.FrozenBind=="Dead"||usr.DoingPalms)
+						usr<<"Not now."
+						return
+					if(A.Delay>0)
+						usr<<output("You must wait to use this technique.","Attack");return
+					if(A.BunshinAble)
+						if(usr.KBunshinOn)
+							var/C=usr.controlled
+							usr=C
+						else
+							usr=usr
+					A.Activate(usr)
+	Slot10()
+		set hidden=1
+		for(var/obj/SkillCards/A in usr.LearnedJutsus)
+			if(usr.SlotYourOn=="1")
+				if(A.Slot==10)
+					if(A.TurnedOn)
+						A.TurnedOn=0
+						A.Deactivate(usr)
+						return
+					if(usr.resting||usr.meditating)
+						usr<<"You can't do this, you're resting or in chakra generation mode."
+						return
+					if(usr.Dead||usr.FrozenBind=="Dead"||usr.DoingPalms)
+						usr<<"Not now."
+						return
+					if(A.Delay>0)
+						usr<<output("You must wait to use this technique.","Attack");return
+					if(A.BunshinAble)
+						if(usr.KBunshinOn)
+							var/C=usr.controlled
+							usr=C
+						else
+							usr=usr
+					A.Activate(usr)
+			if(usr.SlotYourOn=="2")
+				if(A.Slot==20)
+					if(A.TurnedOn)
+						A.TurnedOn=0
+						A.Deactivate(usr)
+						return
+					if(usr.resting||usr.meditating)
+						usr<<"You can't do this, you're resting or in chakra generation mode."
+						return
+					if(usr.Dead||usr.FrozenBind=="Dead"||usr.DoingPalms)
+						usr<<"Not now."
+						return
+					if(A.Delay>0)
+						usr<<output("You must wait to use this technique.","Attack");return
+					if(A.BunshinAble)
+						if(usr.KBunshinOn)
+							var/C=usr.controlled
+							usr=C
+						else
+							usr=usr
+					A.Activate(usr)
+
+mob/proc/CustomTaijutsu(AttName,AttackIconState="Attack1",ChargeTime,MoveType,SpinerOrStriker,Combo,StunOrPush,EXPCost,CallOutName)
+	if(src.Stun>=1|src.DoingHandseals|src.doingG|src.inso|src.Kaiten|src.resting|src.meditating|src.sphere|src.ingat|src.firing|src.FrozenBind!=""|src.doingG)
+		return
+	else
+		var/ChargeLength
+		if(ChargeTime)
+			ChargeLength=ChargeTime
+		if(ChargeLength>=0)
+			src.icon_state="Power"
+		while(ChargeLength>0)
+			if(src.icon_state!="Power")
+				return
+			ChargeLength--
+			sleep(1)
+		if(CallOutName)
+			view<<"[usr]: [AttName]!"//Put them calling out the name.
+		MoveStart
+		if(src.target)
+			src.dir=get_dir(src,src.target)
+		var/Damage=src.tai
+		if(EXPCost>25000&&EXPCost<=75000)
+			Damage=Damage*rand(25,90)
+		if(EXPCost>75000&&EXPCost<=125000)
+			Damage=Damage*rand(90,150)
+		if(EXPCost>125000)
+			Damage=Damage*rand(150,300)
+		if(EXPCost>25000) Damage+=EXPCost*0.1
+		if(EXPCost>50000) Damage+=EXPCost*0.01
+		if(EXPCost>75000) Damage+=EXPCost*0.001
+		if(EXPCost>100000) Damage+=EXPCost*0.0001
+		if(EXPCost>125000) Damage+=EXPCost*0.00001
+		if(EXPCost>150000) Damage+=EXPCost*0.000001
+		if(EXPCost>200000) Damage+=EXPCost*0.0000001
+		Damage=Damage+Damage*(ChargeTime*0.01)
+		if(Combo>0)
+			Damage=Damage+1/Combo
+		if(MoveType=="Teleporter")
+			if(src.target&&src.Running)
+				var/mob/M=src.target;src.loc=locate(M.x,M.y-1,M.z)
+				Damage=Damage-Damage*0.1
+		if(SpinerOrStriker=="Striker")
+			flick(AttackIconState,src)
+			for(var/mob/M in get_step(src,src.dir))
+				Damage=((Damage/(M.Endurance+1))/(M.BaikaCharged+1))
+				src.DodgeCalculation(M)
+				if(M.Dodging)
+					M.Dodge();return
+				else
+					if(M.Guarding)
+						viewers()<<sound('Guard.wav',0)
+					else
+						viewers()<<sound('HitMedium.wav',0)
+					M.DamageProc(Damage,"Stamina",src)
+					if(StunOrPush=="Stun")
+						M.Stun+=5
+					if(StunOrPush=="Push")
+						flick("rasenganhit",M)
+						M.HitBack(rand(2,7),src.dir)
+		if(SpinerOrStriker=="Spinner")
+			var/SpinTime=8
+			while(SpinTime)
+				flick(AttackIconState,src)
+				for(var/mob/M in get_step(src,src.dir))
+					Damage=((Damage/(M.Endurance+1))/(M.BaikaCharged+1))
+					src.DodgeCalculation(M)
+					if(M.Dodging)
+						M.Dodge();return
+					else
+						Damage=Damage/4
+						M.DamageProc(Damage,"Stamina",src)
+						if(StunOrPush=="Stun")
+							M.Stun+=5
+						if(StunOrPush=="Push")
+							M.dir=usr.dir
+							flick("rasenganhit",M)
+							M.HitBack(rand(1,7),usr.dir)
+				src.dir--
+				if(src.dir<=0)
+					src.dir=8
+				//DamageThing
+				SpinTime--
+				sleep(1)
+		if(Combo>0)
+			Combo--
+			goto MoveStart
+obj/SkillCards
+	var
+		tmp/Delay=0
+		Uses=0
+		Mastered=0
+		BunshinAble=1
+		NonKeepable=0
+		TurnedOn=0
+
+		Slot=null
+	icon='Skillcards.dmi'
+	proc
+		Activate(mob/M)
+			..()
+		Deactivate(mob/M)
+			..()
+		DelayIt(Time,mob/M,Type="Nin")
+			var/Delay
+			if(Type=="Tai")
+				Delay=Time-M.TaijutsuMastery
+			if(Type=="Nin")
+				Delay=Time-M.NinjutsuMastery
+			if(Type=="Gen")
+				Delay=Time
+			if(M.Fuuma)
+				Delay=Delay*0.5
+			src.Delay=1
+			src.overlays+='Skillcards2.dmi'
+			if(M.client)
+				if(Slot==1)
+					for(var/obj/HUD/HotKeys/Slot1/A in M.client.screen)
+						A.overlays+='Skillcards2.dmi'
+				if(Slot==2)
+					for(var/obj/HUD/HotKeys/Slot2/A in M.client.screen)
+						A.overlays+='Skillcards2.dmi'
+				if(Slot==3)
+					for(var/obj/HUD/HotKeys/Slot3/A in M.client.screen)
+						A.overlays+='Skillcards2.dmi'
+				if(Slot==4)
+					for(var/obj/HUD/HotKeys/Slot4/A in M.client.screen)
+						A.overlays+='Skillcards2.dmi'
+				if(Slot==5)
+					for(var/obj/HUD/HotKeys/Slot5/A in M.client.screen)
+						A.overlays+='Skillcards2.dmi'
+				if(Slot==6)
+					for(var/obj/HUD/HotKeys/Slot6/A in M.client.screen)
+						A.overlays+='Skillcards2.dmi'
+				if(Slot==7)
+					for(var/obj/HUD/HotKeys/Slot7/A in M.client.screen)
+						A.overlays+='Skillcards2.dmi'
+				if(Slot==8)
+					for(var/obj/HUD/HotKeys/Slot8/A in M.client.screen)
+						A.overlays+='Skillcards2.dmi'
+				if(Slot==9)
+					for(var/obj/HUD/HotKeys/Slot9/A in M.client.screen)
+						A.overlays+='Skillcards2.dmi'
+				if(Slot==10)
+					for(var/obj/HUD/HotKeys/Slot10/A in M.client.screen)
+						A.overlays+='Skillcards2.dmi'
+				if(Slot==11)
+					for(var/obj/HUD/HotKeys/Slot11/A in M.client.screen)
+						A.overlays+='Skillcards2.dmi'
+				if(Slot==12)
+					for(var/obj/HUD/HotKeys/Slot12/A in M.client.screen)
+						A.overlays+='Skillcards2.dmi'
+				if(Slot==13)
+					for(var/obj/HUD/HotKeys/Slot13/A in M.client.screen)
+						A.overlays+='Skillcards2.dmi'
+				if(Slot==14)
+					for(var/obj/HUD/HotKeys/Slot14/A in M.client.screen)
+						A.overlays+='Skillcards2.dmi'
+				if(Slot==15)
+					for(var/obj/HUD/HotKeys/Slot15/A in M.client.screen)
+						A.overlays+='Skillcards2.dmi'
+				if(Slot==16)
+					for(var/obj/HUD/HotKeys/Slot16/A in M.client.screen)
+						A.overlays+='Skillcards2.dmi'
+				if(Slot==17)
+					for(var/obj/HUD/HotKeys/Slot17/A in M.client.screen)
+						A.overlays+='Skillcards2.dmi'
+				if(Slot==18)
+					for(var/obj/HUD/HotKeys/Slot18/A in M.client.screen)
+						A.overlays+='Skillcards2.dmi'
+				if(Slot==19)
+					for(var/obj/HUD/HotKeys/Slot19/A in M.client.screen)
+						A.overlays+='Skillcards2.dmi'
+				if(Slot==20)
+					for(var/obj/HUD/HotKeys/Slot20/A in M.client.screen)
+						A.overlays+='Skillcards2.dmi'
+			spawn(Delay)
+				src.Delay=0
+				src.overlays-='Skillcards2.dmi'
+				if(M.client)
+					if(Slot==1)
+						for(var/obj/HUD/HotKeys/Slot1/A in M.client.screen)
+							A.overlays-='Skillcards2.dmi'
+					if(Slot==2)
+						for(var/obj/HUD/HotKeys/Slot2/A in M.client.screen)
+							A.overlays-='Skillcards2.dmi'
+					if(Slot==3)
+						for(var/obj/HUD/HotKeys/Slot3/A in M.client.screen)
+							A.overlays-='Skillcards2.dmi'
+					if(Slot==4)
+						for(var/obj/HUD/HotKeys/Slot4/A in M.client.screen)
+							A.overlays-='Skillcards2.dmi'
+					if(Slot==5)
+						for(var/obj/HUD/HotKeys/Slot5/A in M.client.screen)
+							A.overlays-='Skillcards2.dmi'
+					if(Slot==6)
+						for(var/obj/HUD/HotKeys/Slot6/A in M.client.screen)
+							A.overlays-='Skillcards2.dmi'
+					if(Slot==7)
+						for(var/obj/HUD/HotKeys/Slot7/A in M.client.screen)
+							A.overlays-='Skillcards2.dmi'
+					if(Slot==8)
+						for(var/obj/HUD/HotKeys/Slot8/A in M.client.screen)
+							A.overlays-='Skillcards2.dmi'
+					if(Slot==9)
+						for(var/obj/HUD/HotKeys/Slot9/A in M.client.screen)
+							A.overlays-='Skillcards2.dmi'
+					if(Slot==10)
+						for(var/obj/HUD/HotKeys/Slot10/A in M.client.screen)
+							A.overlays-='Skillcards2.dmi'
+					if(Slot==11)
+						for(var/obj/HUD/HotKeys/Slot11/A in M.client.screen)
+							A.overlays-='Skillcards2.dmi'
+					if(Slot==12)
+						for(var/obj/HUD/HotKeys/Slot12/A in M.client.screen)
+							A.overlays-='Skillcards2.dmi'
+					if(Slot==13)
+						for(var/obj/HUD/HotKeys/Slot13/A in M.client.screen)
+							A.overlays-='Skillcards2.dmi'
+					if(Slot==14)
+						for(var/obj/HUD/HotKeys/Slot14/A in M.client.screen)
+							A.overlays-='Skillcards2.dmi'
+					if(Slot==15)
+						for(var/obj/HUD/HotKeys/Slot15/A in M.client.screen)
+							A.overlays-='Skillcards2.dmi'
+					if(Slot==16)
+						for(var/obj/HUD/HotKeys/Slot16/A in M.client.screen)
+							A.overlays-='Skillcards2.dmi'
+					if(Slot==17)
+						for(var/obj/HUD/HotKeys/Slot17/A in M.client.screen)
+							A.overlays-='Skillcards2.dmi'
+					if(Slot==18)
+						for(var/obj/HUD/HotKeys/Slot18/A in M.client.screen)
+							A.overlays-='Skillcards2.dmi'
+					if(Slot==19)
+						for(var/obj/HUD/HotKeys/Slot19/A in M.client.screen)
+							A.overlays-='Skillcards2.dmi'
+					if(Slot==20)
+						for(var/obj/HUD/HotKeys/Slot20/A in M.client.screen)
+							A.overlays-='Skillcards2.dmi'
+	//MouseDrag()
+	//	mouse_drag_pointer=icon(src.icon,src.icon_state)
+	//MouseDrop(over_location)
+	//	mouse_drag_pointer=null
+	//	if(istype(over_location,/obj/HUD/HotKeys))
+	//		var/obj/HUD/HotKeys/O=over_location
+	//		O.overlays=list(icon(src.icon,src.icon_state))
+	//		O.Skillcard=src
+	Click()
+		if(src.TurnedOn)
+			src.TurnedOn=0
+			src.Deactivate(usr)
+			return
+		if(usr.resting||usr.meditating)
+			usr<<"You can't do this, you're resting or in chakra generation mode."
+			return
+		if(usr.Dead||usr.FrozenBind=="Dead"||usr.DoingPalms)
+			usr<<"Not now."
+			return
+		if(src.Delay>0)
+			usr<<output("You must wait to use this technique.","Attack");return
+		if(src.BunshinAble)
+			if(usr.KBunshinOn)
+				var/A=usr.controlled
+				usr=A
+			else
+				usr=usr
+/*		if(usr.InKageMane)
+			for(var/mob/M in world)
+				if(M&&M.caughtby=="[O]"&&M!=O)
+					if(M.FrozenBind=="Mane")
+						for(var/obj/SkillCards/A in M.LearnedJutsus)
+							if(A.type==src.type*/
+		src.Activate(usr)
+		..()
+////////////////////////////////////////
+//Exclusive Stuff
+/////////////////////
+	Custom_Taijutsu
+		name="CustomJutsu"
+		icon_state="CustomJutsu"
+		var
+			ExpCost=0
+
+			Style
+			//If Style is Taijutsu
+			Charge=0//Charge time
+			Combo=0
+			MoveType="Striker"//Striker or Teleport. Striker = Asshou, Teleport like Senpuu that teleports if you're running
+			SpinerOrStriker="Spinner"//1 = Strike Forward
+			StunOrPush
+			AttackIconState
+
+			CallOutName=0
+		Click()
+			if(usr.resting||usr.meditating)
+				usr<<"You can't do this, you're resting or in chakra generation mode."
+				return
+			if(usr.Dead||usr.FrozenBind=="Dead"||usr.DoingPalms)
+				usr<<"Not now."
+				return
+			if(usr.KBunshinOn)
+				var/A=usr.controlled
+				usr=A
+			else
+				usr=usr
+			if(src.Delay>0)
+				usr<<output("You must wait to use this technique.","Attack");return
+			else
+				var/DelayTime=src.ExpCost*0.01
+				if(DelayTime>600)
+					DelayTime=600
+				src.DelayIt(DelayTime,usr)
+				var/AmountofCombos=0
+				if(Combo)
+					AmountofCombos=src.ExpCost/10000
+				usr.CustomTaijutsu(src.name,AttackIconState="Attack1",src.Charge,src.MoveType,src.SpinerOrStriker,AmountofCombos,src.StunOrPush,src.ExpCost,src.CallOutName)
+				src.Uses+=1
+	CustomJutsuNinjutsu
+		name="CustomJutsu"
+		icon_state="CustomJutsu"
+		var
+			ExpCost=0
+
+
+			//If Style is Ninjutsu
+			ChakraNature
+			Projectile
+			//If style is Projectile
+			ProjectilesIconState
+//Rinnegan Sh--/////////
+	ShinraTensei
+		name="Shinra Tensei"
+		icon_state="Rinnegan"
+		Activate(mob/M)
+			src.DelayIt(50,M)
+			src.Uses+=1
+			M.ShinraTensei()
+	ShinraTenseiObj
+		name="Shinra Tensei 2"
+		icon_state="Rinnegan"
+		Activate(mob/M)
+			src.DelayIt(50,M)
+			src.Uses+=1
+			M.ShinraTenseiObj(src.Uses)
+	BanshoTenin
+		name="Bansho Tenin"
+		icon_state="Rinnegan"
+		Activate(mob/M)
+			src.DelayIt(50,M)
+			src.Uses+=1
+			M.BanshoTenin()
+	BanshoTeninObj
+		name="Bansho Tenin 2"
+		icon_state="Rinnegan"
+		Activate(mob/M)
+			src.DelayIt(50,M)
+			M.BanshoTeninObj(src.Uses)
+			src.Uses+=1
+	SoulRip
+		name="Human: Soul Rip"
+		icon_state="Rinnegan"
+		Activate(mob/M)
+			src.DelayIt(600,usr)
+			M.SoulRipOut()
+			src.Uses+=1
+	ChakraDisruption
+		name="Chakra Disruption"
+		icon_state="Rinnegan"
+		Activate(mob/M)
+			src.DelayIt(600,M)
+			M.ChakraDisruption()
+			src.Uses+=1
+	GhostAbsorb
+		name="Ghost: Absorb"
+		icon_state="Rinnegan"
+		Activate(mob/M)
+			if(M.GhostRealmOn)
+				M.GhostRealmOn=0
+				src.DelayIt(600,M)
+				return
+			M.GhostRealm()
+			src.Uses+=1
+	AsuraSpeedBoost
+		name="Asura: Agility"
+		icon_state="Rinnegan"
+		Activate(mob/M)
+			M<<output("You release a jet of energy from your legs made of chakra, forcing you into tremendous speeds!","Attack");M.QuickFeet=1;src.Uses+=1
+			var/X=50+src.Uses
+			if(X>300)
+				X=300
+			spawn(X)
+				M.QuickFeet=0
+			src.Delay=1
+			spawn(300-M.TaijutsuMastery)
+				src.Delay=0
+			src.overlays+='Skillcards2.dmi'
+			spawn(300-M.TaijutsuMastery)
+				src.overlays-='Skillcards2.dmi'
+
+
+	SummonHumanRealm
+		name="Summon Human Realm"
+		icon_state="Rinnegan"
+		Activate(mob/M)
+			M.SummonHumanRealm()
+	SummonGhostRealm
+		name="Summon Ghost Realm"
+		icon_state="Rinnegan"
+		Activate(mob/M)
+			M.SummonGhostRealm()
+	SummonHellRealm
+		name="Summon Hell Realm"
+		icon_state="Rinnegan"
+		Activate(mob/M)
+			M.SummonHellRealm()
+	SummonAsuraRealm
+		name="Summon Asura Realm"
+		icon_state="Rinnegan"
+		Activate(mob/M)
+			M.SummonAsuraRealm()
+/*	SummonAnimalRealm
+		name="Summon Animal Realm"
+		icon_state="Rinnegan"
+		Click()
+			if(usr.resting||usr.meditating)
+				usr<<"You can't do this, you're resting or in chakra generation mode."
+				return
+			if(usr.Dead||usr.FrozenBind=="Dead"||usr.DoingPalms)
+				usr<<"Not now."
+				return
+			if(usr.KBunshinOn)
+				var/A=usr.controlled
+				usr=A
+			else
+				usr=usr
+			if(src.Delay>0)
+				usr<<output("You must wait to use this technique.","Attack");return
+			else
+				//
+				src.Uses+=1*/
+/*	CreateRealm
+		name="Create Realm"
+		icon_state="Rinnegan"
+		Click()
+			if(usr.resting||usr.meditating)
+				usr<<"You can't do this, you're resting or in chakra generation mode."
+				return
+			if(usr.Dead||usr.FrozenBind=="Dead"||usr.DoingPalms)
+				usr<<"Not now."
+				return
+			if(usr.KBunshinOn)
+				var/A=usr.controlled
+				usr=A
+			else
+				usr=usr
+			if(src.Delay>0)
+				usr<<output("You must wait to use this technique.","Attack");return
+			else
+				src.Uses+=1*/
+	SummonGedoMazo
+		name="Gedo Mazo"
+		icon_state="Rinnegan"
+		Activate(mob/M)
+			M<<"Disabled."
+//X Eye Sh--
+	Tremor
+		name="Chakra Release"
+		icon_state="XEye"
+		Activate(mob/M)
+			M<<"Disabled."
+	SpatialSeal
+		name="Spatial-Seal"
+		icon_state="XEye"
+		Activate(mob/M)
+			M<<"Disabled."
+	MizotonGap
+		name="Mizoton: Gap"
+		icon_state="XEye"
+		Activate(mob/M)
+			M<<"Disabled."
+	MizotonPhase
+		name="Mizoton: Phase"
+		icon_state="XEye"
+		Activate(mob/M)
+			M<<"Disabled."
+	MizotonEngulf
+		name="Mizoton: Engulf"
+		icon_state="XEye"
+		Activate(mob/M)
+			M<<"Disabled."
+	Xeidus
+		name="Xeidus"
+		icon_state="XEye"
+		Activate(mob/M)
+			M<<"Disabled."
+
+
+////////////////////////////////////////
+//Clans
+/////////////////////
+//Aburame//////////////
+	SummonKonchuu
+		name="Summon Kikaichuu"
+		icon_state="SummonKonchuu"
+		Activate(mob/M)
+			src.DelayIt(10,M)
+			src.Uses+=1
+			if(prob(15))
+				M.BugMastery+=0.1;if(M.BugMastery>50) M.BugMastery=50
+			if(prob(15))
+				if(M.BugMastery>=50)
+					M.BugKeeper+=0.1
+			M.SummonKonchuu()
+	UnsummonKonchuu
+		name="Unsummon Kikaichuu"
+		icon_state="UnsummonKonchuu"
+		Activate(mob/M)
+			M.unsummonkonchuu()
+	PlaceBug
+		name="Place Bug"
+		icon_state="PlaceBug"
+		Activate(mob/M)
+			src.DelayIt(200,M)
+			src.Uses+=1
+			if(prob(15))
+				M.BugMastery+=0.1;if(M.BugMastery>50) M.BugMastery=50
+			if(prob(15))
+				if(M.BugMastery>=50)
+					M.BugKeeper+=0.1
+			src.DelayIt(100,M)
+			M.Placekonchuu()
+	UnPlaceBug
+		name="Take-Off Bug"
+		icon_state="UnPlaceBug"
+		Activate(mob/M)
+			src.Uses+=1
+			M.DestroyKonchuu()
+	KonchuuTracking
+		name="Kikkaichu Tracking"
+		icon_state="KonchuuTracking"
+		Activate(mob/M)
+			src.DelayIt(350,M)
+			src.Uses+=1
+			if(prob(15))
+				M.BugMastery+=0.1;if(M.BugMastery>50) M.BugMastery=50
+			if(prob(15))
+				if(M.BugMastery>=50)
+					M.BugKeeper+=0.1
+			M.Konchuutracking()
+	KikkaichuDrain
+		name="Kikkaichu Drain"
+		icon_state="KikkaichuDrain"
+		Activate(mob/M)
+			src.Uses+=1
+			if(prob(15))
+				M.BugMastery+=0.1;if(M.BugMastery>50) M.BugMastery=50
+			if(prob(15))
+				if(M.BugMastery>=50)
+					M.BugKeeper+=0.1
+			M.KonchuuDrain()
+	KekkaiSheild
+		name="Kikaichuu Shield"
+		icon_state="KekkaiSheild"
+		Activate(mob/M)
+			src.Uses+=1
+			if(M.UsingBugShield)
+				M.UsingBugShield=0
+				for(var/mob/Bugs/BugShield/B in world)
+					if(B.Owner==usr)
+						walk_towards(B,M)
+						spawn(40)
+							if(B)
+								del(B)
+				src.DelayIt(300,M)
+				return
+			if(prob(15))
+				M.BugMastery+=0.1;if(M.BugMastery>50) M.BugMastery=50
+			if(prob(15))
+				if(M.BugMastery>=50)
+					M.BugKeeper+=0.1
+			M.KonchuuShield()
+	MushiDama
+		name="Insect Sphere"
+		icon_state="MushiDama"
+		Activate(mob/M)
+			src.Uses+=1
+			if(prob(15))
+				M.BugMastery+=0.1;if(M.BugMastery>50) M.BugMastery=50
+			if(prob(15))
+				if(M.BugMastery>=50)
+					M.BugKeeper+=0.1
+			src.DelayIt(300,M)
+			M.MushiDama()
+	KekkaiKonchuuBunshin
+		name="Insect Clone Jutsu"
+		icon_state="MushiBunshin"
+		Activate(mob/M)
+			if(prob(15))
+				M.BugMastery+=0.1;if(M.BugMastery>50) M.BugMastery=50
+			if(prob(15))
+				if(M.BugMastery>=50)
+					M.BugKeeper+=0.1
+			src.Uses+=1
+			src.DelayIt(300,M)
+			M.KekkaiKonchuuBunshinnoJutsu()
+	KekkaiArashi
+		name="Insect Storm"
+		icon_state="KekkaiArashi"
+		Activate(mob/M)
+			if(prob(15))
+				M.BugMastery+=0.1;if(M.BugMastery>50) M.BugMastery=50
+			if(prob(15))
+				if(M.BugMastery>=50)
+					M.BugKeeper+=0.5
+			src.Uses+=1
+			src.DelayIt(300,M)
+			M.KekkaiArashi()
+//Akimichi//////////////
+	Baika
+		name="Body Expansion"
+		icon_state="Baika"
+		Activate(mob/M)
+			if(prob(95-src.Uses)||M.Trait=="Speedy"&&prob(50)&&src.Uses<100)
+				M.SizeMastery+=pick(0.1,0.2);if(M.SizeMastery>50) M.SizeMastery=50
+			src.Uses+=1
+			src.DelayIt(600,M)
+			M.BaikaNoJutsu()
+	Nikudan
+		name="Rolling Meat Tank"
+		icon_state="Nikudan"
+		Activate(mob/M)
+			if(M.intank)
+				M.intank=0;M.Normal();M.overlays-='AkimichiTechniques.dmi';M.firing=0
+				walk(M,0)
+				src.DelayIt(250,M)
+				return
+			if(prob(95-src.Uses)||M.Trait=="Speedy"&&prob(50)&&src.Uses<100)
+				M.SizeMastery+=pick(0.1,0.2);if(M.SizeMastery>50) M.SizeMastery=50
+			src.Uses+=1
+			M.Nikudan()
+	BubunBaika
+		name="Partial Body Expansion"
+		icon_state="BubunBaika"
+		Activate(mob/M)
+			if(prob(95-src.Uses)||M.Trait=="Speedy"&&prob(50)&&src.Uses<100)
+				M.SizeMastery+=pick(0.1,0.2);if(M.SizeMastery>50) M.SizeMastery=50
+			src.DelayIt(450,M)
+			src.Uses+=1
+			M.BubunBaika()
+//Haku//////////////////
+	SensatsuSuishou
+		name="Ice Senbon"
+		icon_state="Sensatsu"
+		Activate(mob/M)
+			if(M.hyoushou)
+				if(!M.target)
+					M<<"You need to target them when in the mirrors!";return
+			if(prob(95-src.Uses)||M.Trait=="Speedy"&&prob(50)&&src.Uses<100)
+				M.IceRush+=pick(0.1,0.2);if(M.IceRush>100) M.IceRush=100
+			if(M.TypeLearning=="Hyouton")
+				M.exp+=rand(25,100)
+			src.DelayIt(150,M)
+			src.Uses+=1
+			M.SensatsuSuishou()
+	ISawarabi
+		name="Forest of Ice Sickles"
+		icon_state="AisuSawarabi"
+		Activate(mob/M)
+			if(prob(95-src.Uses)||M.Trait=="Speedy"&&prob(50)&&src.Uses<100)
+				M.IceRush+=pick(0.1,0.2);if(M.IceRush>100) M.IceRush=100
+			if(M.TypeLearning=="Hyouton")
+				M.exp+=rand(50,350)
+			src.DelayIt(550,M)
+			src.Uses+=1
+			M.ISawarabi(src.Uses)
+	MakyouHyoushou
+		name="Crystal Ice Mirrors"
+		icon_state="MakyouHyoushou"
+		BunshinAble=0
+		Activate(mob/M)
+			if(M.hyoushou)
+				for(var/obj/Elemental/Hyouton/DemonMirror/S in world)
+					if(S.Owner==M)
+						del(S)
+				sleep(1)
+				M.hyoushou=0
+				M.UnableToChargeChakra=0
+				src.DelayIt(600,M)
+				return
+			if(prob(95-src.Uses)||M.Trait=="Speedy"&&prob(50)&&src.Uses<100)
+				M.IceRush+=pick(0.1,0.2);if(M.IceRush>100) M.IceRush=100
+			if(M.TypeLearning=="Hyouton")
+				M.exp+=rand(50,350)
+			src.Uses+=1
+			M.MakyouHyoushou()
+	SnowShuriken
+		name="Ice Shuriken"
+		icon_state="YukiShuriken"
+		Activate(mob/M)
+			if(prob(95-src.Uses)||M.Trait=="Speedy"&&prob(50)&&src.Uses<100)
+				M.IceRush+=pick(0.1,0.2);if(M.IceRush>100) M.IceRush=100
+			if(M.TypeLearning=="Hyouton")
+				M.exp+=rand(50,350)
+			src.DelayIt(150,M)
+			src.Uses+=1
+			M.SnowShuriken(src.Uses)
+////Part2
+	IceShard
+		name="Ice Shard Jutsu"
+		icon_state="IceShard"
+		Activate(mob/M)
+			if(prob(95-src.Uses)||M.Trait=="Speedy"&&prob(50)&&src.Uses<100)
+				M.IceRush+=pick(0.1,0.2);if(M.IceRush>100) M.IceRush=100
+			if(M.TypeLearning=="Hyouton")
+				M.exp+=rand(50,350)
+			src.DelayIt(250,M)
+			src.Uses+=1
+			M.IceShard(Uses)
+
+//Hoshigaki/////////////
+	SamehadeReturn
+		icon_state="SamehadeReturn"
+		Activate(mob/M)
+			M<<"Disabled."
+//Hyuuga////////////////
+	Byakugan
+		icon_state="Byakugan"
+		Activate(mob/M)
+			src.Uses+=1
+			if(M.bya)
+				M.ByakuganOn()
+				src.DelayIt(100,M)
+				return
+			if(M.knockedout)
+				return
+			M.ByakuganOn()
+			src.Uses+=1
+	Kaiten
+		name="Rotation"
+		icon_state="Kaiten"
+		Activate(mob/M)
+			if(usr.DoingPalms) return
+			if(prob(15))
+				M.StanceMastery+=0.5;if(M.StanceMastery>75) M.StanceMastery=75
+			src.DelayIt(100,M)
+			for(var/obj/SkillCards/KaitenKizu/A in M.LearnedJutsus)
+				A.DelayIt(100,M)
+			src.Uses+=1
+			M.Kaiten()
+	KaitenKizu
+		name="Reverse Rotation"
+		icon_state="KaitenKizu"
+		Activate(mob/M)
+			if(usr.DoingPalms) return
+			if(prob(15))
+				M.StanceMastery+=0.5;if(M.StanceMastery>75) M.StanceMastery=75
+			src.DelayIt(600,M)
+			src.Uses+=1
+			usr.KaitenKizu()
+	Rokujuu
+		name="Sixty Four Palms"
+		icon_state="Rokujuu"
+		Activate(mob/M)
+			if(prob(15))
+				M.StanceMastery+=0.5;if(M.StanceMastery>75) M.StanceMastery=75
+			src.DelayIt(600,M)
+			src.Uses+=1
+			M.DoingPalms=1
+			M.HakkeRokujonyonshou()
+	Hyakuni
+		name="One Hundred Twenty Eight Palms"
+		icon_state="Hyakuni"
+		Activate(mob/M)
+			if(prob(15))
+				M.StanceMastery+=0.5;if(M.StanceMastery>75) M.StanceMastery=75
+			src.DelayIt(600,M)
+			src.Uses+=1
+			M.DoingPalms=1
+			M.HakkeHyakunijuuhachishouz()
+	TenketsuHagemi
+		name="Chakra Point Rejuvenation"
+		icon_state="TenketsuHagemi"
+		Activate(mob/M)
+			if(prob(15))
+				M.StanceMastery+=0.5;if(M.StanceMastery>75) M.StanceMastery=75
+			src.DelayIt(600,M)
+			src.Uses+=1
+			M.TenketsuHagemi()
+	Kuusho
+		name="Divine Air Palm"
+		icon_state="Kuusho"
+		Activate(mob/M)
+			if(prob(15))
+				M.StanceMastery+=0.5;if(M.StanceMastery>75) M.StanceMastery=75
+			src.DelayIt(170,M)
+			src.Uses+=1
+			M<<"Kuushou mode activated, use the A or S buttons to fire the Air Palm attack. Charging it increases its power."
+			M.Kuusho=1
+//Inuzuka///////////////
+	Shikyaku
+		name="Four-Legged Technique"
+		icon_state="Shikyaku"
+		Activate(mob/M)
+			if(prob(15))
+				M.Canine+=0.1;if(M.Canine>50) M.Canine=50
+			src.DelayIt(170,M)
+			src.Uses+=1
+			M.Shikyaku()
+	BeastClaws
+		name="Man-Beast Claws"
+		icon_state="BeastClaws"
+		Activate(mob/M)
+			if(prob(15))
+				M.Canine+=0.1;if(M.Canine>50) M.Canine=50
+	//		src.DelayIt(170,M)
+			src.Uses+=1
+			usr.ManBeastClaws();src.Uses+=1
+	JuujinBunshin
+		name="Man-Beast Clone"
+		icon_state="JuujinBunshin"
+		Activate(mob/M)
+			if(prob(15))
+				M.Training+=0.1;if(M.Training>50) M.Training=50
+			src.DelayIt(170,M)
+			src.Uses+=1
+			M.JuujinBunshin()
+	Tsuuga
+		name="Piercing Fang"
+		icon_state="Tsuuga"
+		Activate(mob/M)
+			if(prob(15))
+				M.Training+=0.1;if(M.Training>50) M.Training=50
+			if(prob(15))
+				M.Canine+=0.1;if(M.Canine>50) M.Canine=50
+			src.DelayIt(170,M)
+			src.Uses+=1
+			M.Tsuuga()
+	Gatsuuga
+		name="Dual Piercing Fang"
+		icon_state="Gatsuuga"
+		Activate(mob/M)
+			if(prob(15))
+				M.Training+=0.1;if(M.Training>50) M.Training=50
+			if(prob(15))
+				M.Canine+=0.1;if(M.Canine>50) M.Canine=50
+			src.DelayIt(230,M)
+			src.Uses+=1
+			M.Gatsuuga1()
+	ExplodingPuppy
+		name="Exploding Puppy Jutsu"
+		icon_state="ExplodingPuppy"
+		Activate(mob/M)
+			if(prob(15))
+				M.Training+=0.1;if(M.Training>50) M.Training=50
+			src.DelayIt(300,M)
+			src.Uses+=1
+			M.ExplodingPuppy()
+	DoubleHeadedWolf
+		name="Double-Headed Wolf"
+		icon_state="DoubleHeadedWolf"
+		Activate(mob/M)
+			M<<"Disabled because of stealing.";return
+
+			if(M.inso)
+				M.inso=0;src.DelayIt(600,M);return
+			if(prob(15))
+				M.Training+=0.1;if(M.Training>50) M.Training=50
+			if(prob(15))
+				M.Canine+=0.1;if(M.Canine>50) M.Canine=50
+			src.Uses+=1
+			M.Soutourou()
+	Garouga
+		name="Garouga"
+		icon_state="Garouga"
+		Activate(mob/M)
+			M<<"Disabled because of stealing.";return
+
+			if(prob(15))
+				M.Training+=0.1;if(M.Training>50) M.Training=50
+			if(prob(15))
+				M.Canine+=0.1;if(M.Canine>50) M.Canine=50
+			src.Uses+=1
+			M.Garouga()
+			src.DelayIt(300,M)
+//Iwazuka////////////////
+	Katsu
+		name="Katsu"
+		icon_state="Katsu"
+		Activate(mob/M)
+			if(prob(15))
+				M.ExplosiveMastery+=0.1;if(M.ExplosiveMastery>100) M.ExplosiveMastery=100
+			src.DelayIt(60,M)
+			src.Uses+=1
+			M.Katsu()
+
+	SetLeftHand
+		name="Set Left Hand"
+		icon_state="SetLeftHand"
+		Activate(mob/M)
+			usr.SetLeftHand()
+	SetRightHand
+		name="Set Right Hand"
+		icon_state="SetRightHand"
+		Activate(mob/M)
+			usr.SetRightHand()
+	C1
+		name="C1"
+		icon_state="C1"
+		Activate(mob/M)
+			usr.C1()
+	C2
+		name="C2"
+		icon_state="C2"
+		Activate(mob/M)
+			usr.C2()
+	C3
+		name="C3"
+		icon_state="C3"
+		Activate(mob/M)
+			if(prob(15))
+				M.ExplosiveMastery+=0.1;if(M.ExplosiveMastery>100) M.ExplosiveMastery=100
+			src.DelayIt(600,M)
+			src.Uses+=1
+			usr.CreateC3()
+	C4
+		name="C4"
+		icon_state="C4"
+		Activate(mob/M)
+			usr.C4()
+//Kaguya////////////////
+	Yanagi
+		name="Dance of the Willow"
+		icon_state="Yanagi"
+		BunshinAble=0
+		Activate(mob/M)
+			if(prob(15))
+				M.DanceMastery+=pick(0.1,0.01);if(M.DanceMastery>30) M.DanceMastery=30
+			if(prob(15))
+				M.BoneMastery+=pick(0.01,0.1);if(M.BoneMastery>100) M.BoneMastery=100
+			src.DelayIt(150,M)
+			src.Uses+=1
+			M.YanagiZ()
+	TenshiSendan
+		name="Bone Bullets"
+		icon_state="TenshiSendan"
+		BunshinAble=0
+		Activate(mob/M)
+			if(prob(15))
+				M.DanceMastery+=pick(0.1,0.01);if(M.DanceMastery>30) M.DanceMastery=30
+			if(prob(15))
+				M.BoneMastery+=pick(0.01,0.1);if(M.BoneMastery>100) M.BoneMastery=100
+			src.DelayIt(15,M)
+			src.Uses+=1
+			M.TenshiSendanAttack()
+	Tsubaki
+		name="Dance of the Camellia"
+		icon_state="Tsubaki"
+		BunshinAble=0
+		Activate(mob/M)
+			if(prob(15))
+				M.DanceMastery+=pick(0.1,0.01);if(M.DanceMastery>30) M.DanceMastery=30
+			if(prob(15))
+				M.BoneMastery+=pick(0.01,0.1);if(M.BoneMastery>100) M.BoneMastery=100
+			src.DelayIt(150,M)
+			src.Uses+=1
+			M.TsubakiZ()
+	Karamatsu
+		name="Dance of the Larch"
+		icon_state="Karamatsu"
+		BunshinAble=0
+		Activate(mob/M)
+			if(prob(15))
+				M.DanceMastery+=pick(0.1,0.01);if(M.DanceMastery>30) M.DanceMastery=30
+			if(prob(15))
+				M.BoneMastery+=pick(0.01,0.1);if(M.BoneMastery>100) M.BoneMastery=100
+			src.DelayIt(150,M)
+			src.Uses+=1
+			M.KaramatsuNoMai()
+	Ibara
+		name="Ibara"
+		icon_state="Ibara"
+		BunshinAble=0
+		Activate(mob/M)
+			if(M.KagDance!="Karamatsu")
+				M<<"You need to be in Karamatsu No Mai!";return
+			if(prob(15))
+				M.DanceMastery+=pick(0.1,0.01);if(M.DanceMastery>30) M.DanceMastery=30
+			src.DelayIt(150,M,"Tai")
+			src.Uses+=1
+			M.Ibara()
+	BoneMembrane
+		name="Bone Membrane"
+		icon_state="Karamatsu"
+		Activate(mob/M)
+			if(M.BoneMembrane)
+				M<<"You turn off the Membrane."
+				M.BoneMembrane=0
+				if(prob(15))
+					M.DanceMastery+=pick(0.01,0.1);if(M.DanceMastery>30) M.DanceMastery=30
+				if(prob(15))
+					M.BoneMastery+=pick(0.01,0.1);if(M.BoneMastery>100) M.BoneMastery=100
+				src.DelayIt(300,M,"Tai")
+				return
+			src.Uses+=1
+			M.BoneMembrane()
+	Tessenka
+		name="Dance of the Clematis"
+		icon_state="Tessenka"
+		BunshinAble=0
+		Activate(mob/M)
+			if(prob(15))
+				M.DanceMastery+=pick(0.1,0.01);if(M.DanceMastery>30) M.DanceMastery=30
+			if(prob(15))
+				M.BoneMastery+=pick(0.01,0.1);if(M.BoneMastery>100) M.BoneMastery=100
+			src.DelayIt(150,M)
+			src.Uses+=1
+			M.TessenkaNoMai()
+	ArmBone
+		name="Clematis: Flower"
+		icon_state="Drill"
+		BunshinAble=0
+		Activate(mob/M)
+			if(M.KagDance!="Tessenka")
+				M<<"You need to be in Tessenka No Mai!";return
+			if(prob(15))
+				M.DanceMastery+=pick(0.1,0.01);if(M.DanceMastery>30) M.DanceMastery=30
+			src.DelayIt(300,M,"Tai")
+			src.Uses+=1
+			M.ArmB()
+	Sawarabi
+		name="Dance of the Seedling Fern"
+		icon_state="Sawarabi"
+		BunshinAble=0
+		Activate(mob/M)
+			if(prob(15))
+				M.DanceMastery+=pick(0.1,0.01);if(M.DanceMastery>30) M.DanceMastery=30
+			if(prob(15))
+				M.BoneMastery+=pick(0.01,0.1);if(M.BoneMastery>100) M.BoneMastery=100
+			src.DelayIt(550,M)
+			src.Uses+=1
+			M.Sawarabi()
+//Kiro////////////////
+	ShurikenSoujuu
+		name="Shuriken Control Jutsu"
+		icon_state="ShurikenSoujuu"
+		Activate(mob/M)
+			if(M.ShurikenMode)
+				if(prob(15))
+					M.ShurikenMastery+=pick(0.1,0.2);if(M.ShurikenMastery>30) M.ShurikenMastery=30
+				src.DelayIt(250,M)
+				src.Uses+=1
+				M.ShurikenSoujuu()
+			else
+				M.ShurikenSoujuu()
+	ChakraShuriken
+		name="Chakra Shuriken Jutsu"
+		icon_state="ChakraShuriken"
+		Activate(mob/M)
+			if(prob(15))
+				M.ShurikenMastery+=pick(0.1,0.2);if(M.ShurikenMastery>30) M.ShurikenMastery=30
+			src.DelayIt(600,M)
+			src.Uses+=1
+			M.ChakraShuriken()
+	SpiralStar
+		name="Spiraling Star Jutsu"
+		icon_state="SpiralStar"
+		Activate(mob/M)
+			var/RasenHoshi=0
+			for(var/obj/Kiro/ShurikenStar/A in world)
+				if(A.Owner==M)
+					RasenHoshi=1
+					del(A)
+			if(RasenHoshi)
+				src.DelayIt(15,M)
+				return
+			if(prob(15))
+				M.ShurikenMastery+=pick(0.1,0.2);if(M.ShurikenMastery>30) M.ShurikenMastery=30
+			src.Uses+=1
+			M.RasenHoshi()
+	SpiralStarProjectile
+		name="Spiraling Projectile"
+		icon_state="SpiralStar"
+		Activate(mob/M)
+			if(prob(15))
+				M.ShurikenMastery+=pick(0.1,0.2);if(M.ShurikenMastery>30) M.ShurikenMastery=30
+			src.Uses+=1
+			src.DelayIt(15,M)
+			M.RasenHoshiProjectile()
+	ShurikenSmithyJutsu
+		name="Shuriken Smithy Jutsu"
+		icon_state="ChakraShuriken"
+		Activate(mob/M)
+			if(prob(15))
+				M.ShurikenMastery+=pick(0.1,0.2);if(M.ShurikenMastery>30) M.ShurikenMastery=30
+			src.Uses+=1
+			src.DelayIt(600,M)
+			M.ShurikenSmithyJutsu()
+
+
+
+//Ketsueki//////////////
+	firstSeal
+		name="1st Seal"
+		icon_state="1stSeal"
+		Activate(mob/M)
+			if(prob(15))
+				M.SealMastery+=1;if(M.SealMastery>100) M.SealMastery=100
+			src.Uses+=1
+			src.DelayIt(600,M)
+			M.FirstSeal()
+	secondSeal
+		name="2nd Seal"
+		icon_state="2ndSeal"
+		Activate(mob/M)
+			if(prob(15))
+				M.SealMastery+=1;if(M.SealMastery>100) M.SealMastery=100
+			src.Uses+=1
+			src.DelayIt(600,M)
+			M.SecondSeal()
+	thirdSeal
+		name="3rd Seal"
+		icon_state="3rdSeal"
+		Activate(mob/M)
+			if(prob(15))
+				M.SealMastery+=1;if(M.SealMastery>100) M.SealMastery=100
+			if(prob(15))
+				M.BloodManipulation+=pick(0.1,0.2);if(M.BloodManipulation>100) M.BloodManipulation=100
+			src.Uses+=1
+			src.DelayIt(600,M)
+			M.ThirdSeal()
+	fourthSeal
+		name="4th Seal"
+		icon_state="4thSeal"
+		Activate(mob/M)
+			if(prob(15))
+				M.SealMastery+=1;if(M.SealMastery>100) M.SealMastery=100
+			if(prob(15))
+				M.BloodManipulation+=pick(0.1,0.2);if(M.BloodManipulation>100) M.BloodManipulation=100
+			src.Uses+=1
+			src.DelayIt(600,M)
+			M.FourthSeal()
+	KetsuekiBunshin
+		name="Blood Clone Jutsu"
+		icon_state="KetsuekiBunshin"
+		Activate(mob/M)
+			if(prob(15))
+				M.SealMastery+=1;if(M.SealMastery>100) M.SealMastery=100
+			if(prob(15))
+				M.BloodManipulation+=pick(0.1,0.2);if(M.BloodManipulation>100) M.BloodManipulation=100
+			src.Uses+=1
+			src.DelayIt(250,M)
+			M.KetsuekiBunshin()
+	Feast
+		icon_state="Feast"
+		BunshinAble=0
+		Activate(mob/M)
+			if(prob(15))
+				M.ThirstHold+=pick(0.1,0.2);if(M.ThirstHold>3) M.ThirstHold=3
+			if(prob(15))
+				M.BloodManipulation+=pick(0.1,0.2);if(M.BloodManipulation>100) M.BloodManipulation=100
+			src.Uses+=1
+			src.DelayIt(600,M)
+			M.BloodDrain()
+//Kumojin///////////////
+	Kumosouiki
+		name="Spider Cobweb Region"
+		icon_state="Kumosouiki"
+		Activate(mob/M)
+			if(prob(15))
+				M.WebMastery+=pick(0.5,1); if(M.WebMastery>50) M.WebMastery=50
+			src.Uses+=1
+			src.DelayIt(150,M)
+			M.Kumosouiki()
+	SpiderSummon
+		name="SpiderSummon"
+		icon_state="SpiderSummon"
+		Activate(mob/M)
+			if(prob(15))
+				M.SpiderMastery+=pick(0.5,1); if(M.SpiderMastery>100) M.SpiderMastery=100
+			src.Uses+=1
+			src.DelayIt(10,M)
+			M.SpiderSummon()
+	Kumoshibari
+		name="Spider Bind"
+		icon_state="Kumoshibari"
+		Activate(mob/M)
+			if(prob(15))
+				M.WebMastery+=pick(0.5,1); if(M.WebMastery>50) M.WebMastery=50
+			src.Uses+=1
+			src.DelayIt(370,M)
+			for(var/obj/SkillCards/Kumosouka/A in M.LearnedJutsus)
+				A.DelayIt(370,M)
+			M.KumoshibariZ()
+	Kumosouka
+		name="Spider Cobweb Flower"
+		icon_state="Kumosouka"
+		Activate(mob/M)
+			if(prob(15))
+				M.WebMastery+=pick(0.5,1); if(M.WebMastery>50) M.WebMastery=50
+			src.Uses+=1
+			src.DelayIt(370,M)
+			for(var/obj/SkillCards/Kumoshibari/A in M.LearnedJutsus)
+				A.DelayIt(370,M)
+			M.KumosoukaZ()
+	NenkinYoroi
+		name="Armor of Sticky Gold"
+		icon_state="NenkinYoroi"
+		Activate(mob/M)
+			if(prob(15))
+				M.SpiderMastery+=pick(0.5,1); if(M.SpiderMastery>100) M.SpiderMastery=100
+			if(prob(15))
+				M.GoldenSpike+=pick(0.1,0.2);if(M.GoldenSpike>10) M.GoldenSpike=10
+			src.Uses+=1
+			src.DelayIt(10,M)
+			M.NenkinNoYoroi()
+	Nenkin
+		name="Spider Sticky Gold(Kunai)"
+		icon_state="Nenkin"
+		Activate(mob/M)
+			if(prob(15))
+				M.SpiderMastery+=pick(0.5,1); if(M.SpiderMastery>100) M.SpiderMastery=100
+			if(prob(15))
+				M.GoldenSpike+=pick(0.1,0.2);if(M.GoldenSpike>10) M.GoldenSpike=10
+			src.Uses+=1
+			src.DelayIt(30,M)
+			M.NenkinShoot()
+	Kumosenkyuu
+		name="Spider War Bow"
+		icon_state="Kumosenkyuu"
+		Activate(mob/M)
+			if(prob(15))
+				M.SpiderMastery+=pick(0.5,1); if(M.SpiderMastery>100) M.SpiderMastery=100
+			if(prob(15))
+				M.GoldenSpike+=pick(0.1,0.2);if(M.GoldenSpike>10) M.GoldenSpike=10
+			src.Uses+=1
+			src.DelayIt(30,M)
+			M.Kumosenkyuu()
+//Kusakin///////////////
+	Kamisoriha
+		name="Seasonal-Edged Leaf Jutsu"
+		icon_state="Kamisoriha"
+		Activate(mob/M)
+			if(prob(15))
+				M.GrassMastery+=pick(0.5,1);if(M.GrassMastery>100) M.GrassMastery=100
+			if(M.TypeLearning=="Mokuton")
+				M.exp+=rand(25,100)
+			src.Uses+=1
+			src.DelayIt(110,M)
+			M.kamisoriha()
+	Tsutakei
+		name="Ivy-Whip Jutsu"
+		icon_state="Tsutakei"
+		Activate(mob/M)
+			if(prob(15))
+				M.GrassMastery+=pick(0.5,1);if(M.GrassMastery>100) M.GrassMastery=100
+			if(M.TypeLearning=="Mokuton")
+				M.exp+=rand(25,100)
+			src.Uses+=1
+			src.DelayIt(210,M)
+			M.Tsutakei()
+	KusaBushi
+		name="Grass-Knot Jutsu"
+		icon_state="KusaBushi"
+		Activate(mob/M)
+			if(prob(15))
+				M.GrassMastery+=pick(0.5,1);if(M.GrassMastery>100) M.GrassMastery=100
+			if(M.TypeLearning=="Mokuton")
+				M.exp+=rand(25,100)
+			src.Uses+=1
+			src.DelayIt(250,M)
+			M.KusaBushi()
+	Kusahayashi
+		name="Ivy-Forest Jutsu"
+		icon_state="Kusahayashi"
+		Activate(mob/M)
+			if(prob(15))
+				M.GrassMastery+=pick(0.5,1);if(M.GrassMastery>100) M.GrassMastery=100
+			if(M.TypeLearning=="Mokuton")
+				M.exp+=rand(25,100)
+			src.Uses+=1
+			src.DelayIt(1200,M)
+			M.Kusahayashi()
+	MokuShouheki
+		name="Wood Barrier Jutsu"
+		icon_state="MokuShouheki"
+		Activate(mob/M)
+			if(prob(15))
+				M.Senju+=pick(0.5,1,2);if(M.Senju>100) M.Senju=100
+			if(M.TypeLearning=="Mokuton")
+				M.exp+=rand(250,300)
+			src.Uses+=1
+			src.DelayIt(100,M)
+			M.MokuShouheki()
+	JukaiKoutan
+		name="Birth of Dense Woodland Jutsu"
+		icon_state="JukaiKoutan"
+		Activate(mob/M)
+			if(prob(15))
+				M.Senju+=pick(0.5,1,2);if(M.Senju>100) M.Senju=100
+			if(M.TypeLearning=="Mokuton")
+				M.exp+=rand(300,1000)
+			src.Uses+=1
+			src.DelayIt(600,M)
+			M.JukaiKoutan()
+	WoodSpikes
+		name="Wood Spikes Jutsu"
+		icon_state="WoodSpikes"
+		Activate(mob/M)
+			if(prob(15))
+				M.Senju+=pick(0.5,1,2);if(M.Senju>100) M.Senju=100
+			if(M.TypeLearning=="Mokuton")
+				M.exp+=rand(450,300)
+			src.Uses+=1
+			src.DelayIt(450,M)
+			M.WoodSpikes()
+
+
+
+
+//Kyomou////////////////
+	Akametsuki
+		icon_state="Akametsuki"
+		Activate(mob/M)
+			if(M.Akametsuki)
+				M.Akametsuki()
+				src.DelayIt(100,M)
+				return
+			if(M.knockedout)
+				return
+			M.Akametsuki()
+			src.Uses+=1
+//Nara//////////////////
+	KageShibari
+		name="Shadow Possession Jutsu"
+		icon_state="KageShibari"
+		Activate(mob/M)
+			src.Uses+=1
+			src.DelayIt(60,M)
+			M.kageshibari()
+	KageMane
+		name="Shadow Mimic Jutsu"
+		icon_state="KageMane"
+		Deactivate(mob/M)
+			if(M.InKageMane)
+				M.InKageMane=0
+			src.DelayIt(60,M)
+		Activate(mob/M)
+			if(M.InKageMane)
+				src.Deactivate(M)
+			else
+				src.Uses+=1
+				M.KageMane()
+	KageKubiShibari
+		name="Shadow Neck-Bind Jutsu"
+		icon_state="KageKubiShibari"
+		Activate(mob/M)
+			src.Uses+=1
+			src.DelayIt(140,M)
+			M.KageKubiShibaru()
+	KageNui
+		name="Shadow Sewing Jutsu"
+		icon_state="KageNui"
+		Activate(mob/M)
+			src.Uses+=1
+			src.DelayIt(120,M)
+			M.KageNuiI()
+	KageHara
+		name="Shadow-Field Jutsu"
+		icon_state="KageHara"
+		Activate(mob/M)
+			src.Uses+=1
+			src.DelayIt(90,M)
+			M.KageHara()
+//Sabaku////////////////
+	SunaTate
+		name="Shield Of Sand"
+		icon_state="SunaTate"
+		Activate(mob/M)
+			if(prob(15))
+				M.SandMastery+=pick(0.01,0.2);if(M.SandMastery>100) M.SandMastery=100
+			src.Uses+=1
+			M.SunaNoTate()
+	Sandeye
+		name="The Third Eye"
+		icon_state="Sandeye"
+		Activate(mob/M)
+			if(prob(15))
+				M.SandMastery+=pick(0.01,0.2);if(M.SandMastery>100) M.SandMastery=100
+			src.Uses+=1
+			M.Sandeye()
+	SunaBunshin
+		name="Sand Clone Jutsu"
+		icon_state="SunaBunshin"
+		BunshinAble=0
+		Activate(mob/M)
+			if(prob(15))
+				M.SandMastery+=pick(0.01,0.2);if(M.SandMastery>100) M.SandMastery=100
+			src.Uses+=1
+			src.DelayIt(170,M)
+			M.SunaBunshin()
+	SunaSoujou
+		name="Sand Manipulation"
+		icon_state="SunaSoujou"
+		Activate(mob/M)
+			if(M.SunaMode)
+				if(M&&M.SunaMode)
+					M<<"You release the sand!"
+					src.DelayIt(100,M)
+					M.SunaMode=0
+					M.firing=0
+					M.controlled=null
+					M.client.perspective=MOB_PERSPECTIVE
+					M.client.eye=usr
+					for(var/mob/Sand/Suna/P in world) if(P.Owner == M) del(P)
+					for(var/obj/Sand/Suna2/MM in world) if(MM.Owner == M) del(MM)
+					return
+			else
+				if(prob(15))
+					M.SandMastery+=pick(0.01,0.1);if(M.SandMastery>100) M.SandMastery=100
+				M.Sunasoujuu()
+				src.Uses+=1
+	SabakuKyuu
+		name="Desert Coffin"
+		icon_state="SabakuKyuu"
+		Activate(mob/M)
+			if(prob(15))
+				M.SandMastery+=pick(0.01,0.2);if(M.SandMastery>100) M.SandMastery=100
+			src.Uses+=1
+			src.DelayIt(500,M)
+			M.SabakuKyuu()
+	SabakuSousou
+		name="Desert Funeral"
+		icon_state="SabakuSousou"
+		Activate(mob/M)
+			if(prob(15))
+				M.SandMastery+=pick(0.01,0.2);if(M.SandMastery>100) M.SandMastery=100
+			src.Uses+=1
+			src.DelayIt(500,M)
+			M.SabakuSousou()
+	BakuryuRyusa
+		name="Quicksand Waterfall Current"
+		icon_state="BakuryuRyusa"
+		Activate(mob/M)
+			if(prob(15))
+				M.SandMastery+=pick(0.01,0.2);if(M.SandMastery>100) M.SandMastery=100
+			src.Uses+=1
+			src.DelayIt(1200,M)
+			M.Bakuryu_Ryusa()
+	SunaShuriken
+		name="Sand Shuriken"
+		icon_state="SunaShuriken"
+		Activate(mob/M)
+			if(prob(15))
+				M.SandMastery+=pick(0.01,0.2);if(M.SandMastery>100) M.SandMastery=100
+			src.Uses+=1
+			src.DelayIt(120,M)
+			M.SunaShuriken(src.Uses)
+	SabakuTaisou
+		name="Desert Imperial Funeral"
+		icon_state="SabakuTaisou"
+		Activate(mob/M)
+			if(prob(15))
+				M.SandMastery+=pick(0.01,0.2);if(M.SandMastery>100) M.SandMastery=100
+			src.Uses+=1
+			src.DelayIt(1250,M)
+			M.Sabaku_Taisou()
+	SandArm
+		name="Sand Arm"
+		icon_state="SandArm"
+		Activate(mob/M)
+			if(prob(15))
+				M.SandMastery+=pick(0.01,0.2);if(M.SandMastery>100) M.SandMastery=100
+			src.Uses+=1
+			src.DelayIt(550,M)
+			M.SandArm()
+	SandSphere
+		name="Sand Sphere"
+		icon_state="SandSphere"
+		Activate(mob/M)
+			if(M.sphere)
+				M.Frozen2=0;M.firing=0
+				for(var/obj/Sand/Sphere/Zzz in world)
+					if(Zzz.Owner==M)
+						del(Zzz)
+				M.sphere=0;M<<"You take down the sand sphere.";M.usingS=0
+				src.DelayIt(250,M)
+				return
+			else
+				if(prob(15))
+					M.SandMastery+=pick(0.01,0.2);if(M.SandMastery>100) M.SandMastery=100
+				M.SandSphere()
+				src.Uses+=1
+
+
+	SandSword
+		name="Sword of Sand"
+		icon_state="SandSword"
+		Activate(mob/M)
+			if(prob(15))
+				M.SandMastery+=pick(0.01,0.2);if(M.SandMastery>100) M.SandMastery=100
+			src.Uses+=1
+			src.DelayIt(90,M)
+			M.ChakraDrainingSandSword()
+//Uchiha//////////////
+	Sharingan
+		icon_state="Sharingan"
+		Activate(mob/M)
+			if(M.shari)
+				M.Sharingan()
+				src.DelayIt(100,M)
+				return
+			if(M.knockedout)
+				return
+			M.Sharingan()
+			src.Uses+=1
+	SharinganCopy
+		name="Sharingan Copy"
+		icon_state="SharCopy"
+		BunshinAble=0
+		Activate(mob/M)
+			src.Uses+=1
+			src.DelayIt(100,M)
+			M.Sharingancopy()
+	GenjutsuCounter
+		name="Genjutsu Counter"
+		icon_state="GenjutsuCounter"
+		BunshinAble=0
+		Activate(mob/M)
+			src.Uses+=1
+			src.DelayIt(300,M)
+			M.GenjutsuCounter()
+	Kasegui
+		name="Demonic Illusion: Shackling Stakes"
+		icon_state="Kasegui"
+		Activate(mob/M)
+			src.Uses+=1
+			src.DelayIt(600,M)
+			M.Kasegui()
+	Konsui
+		name="Demonic Illusion: Hypnosis"
+		icon_state="Sleep"
+		Activate(mob/M)
+			src.Uses+=1
+			src.DelayIt(600,M)
+			M.Konsui()
+	Mangekyo
+		name="Mangekyo Sharingan"
+		icon_state="Mangekyo"
+		BunshinAble=0
+		Activate(mob/M)
+			if(M.knockedout)
+				return
+			src.Uses+=1
+			M.MangekyouPrep()
+			if(!M.mangekyou)
+				src.DelayIt(700,M)
+				src.Uses+=1
+	//MangAttacks
+	Amateratsu
+		name="Amateratsu"
+		icon_state="Amateratsu"
+		NonKeepable=1
+		BunshinAble=0
+		Activate(mob/M)
+			if(!M.mangekyou)
+				M<<"Mangekyo Sharingan needs to be on!";return
+			if(M.UsingAmaterasu)
+				src.DelayIt(1200,M)
+				M.UsingAmaterasu=0
+			else
+				src.Uses+=1
+				M.Amateratsu()
+	AmateratsuProjectile
+		name="Amateratsu(Projectile)"
+		icon_state="Amateratsu"
+		NonKeepable=1
+		BunshinAble=0
+		Activate(mob/M)
+			if(!M.mangekyou)
+				M<<"Mangekyo Sharingan needs to be on!";return
+			src.DelayIt(1200,M)
+			src.Uses+=1
+			M.ProjectileAmaterasu()
+	WhiteAmateratsuProjectile
+		name="White Flames"
+		icon_state="WhiteAmateratsu"
+		NonKeepable=1
+		BunshinAble=0
+		Activate(mob/M)
+			if(!M.mangekyou)
+				M<<"Mangekyo Sharingan needs to be on!";return
+			src.DelayIt(1200,M)
+			src.Uses+=1
+			M.WhiteProjectileAmaterasu()
+	Susanoo
+		name="Susanoo"
+		icon_state="Susanoo"
+		NonKeepable=1
+		BunshinAble=0
+		Activate(mob/M)
+			if(M.SusanooIn)
+				for(var/obj/Uchiha/Susanoo/A in world)
+					if(A.Owner==M)
+						del(A)
+				M.SusanooIn=0
+				src.DelayIt(1200,M)
+				return
+			if(!M.mangekyou)
+				M<<"Mangekyo Sharingan needs to be on!";return
+			else
+				src.Uses+=1
+				M.Susanoo(src.Uses)
+	Tsukiyomi
+		name="Tsukuyomi"
+		icon_state="Tsukiyomi"
+		NonKeepable=1
+		BunshinAble=0
+		Activate(mob/M)
+			if(!M.mangekyou)
+				M<<"Mangekyo Sharingan needs to be on!";return
+			src.DelayIt(600,M)
+			src.Uses+=1
+			for(var/obj/SkillCards/Kamui/A in M.LearnedJutsus)
+				A.DelayIt(300,M)
+			M.Tsukiyomi()
+	Kamui
+		name="God's Majetsy"
+		icon_state="GodsMajetsy"
+		NonKeepable=1
+		BunshinAble=0
+		Activate(mob/M)
+			if(PermDeath)
+				M<<"Disabled during Permanent death mode!"
+				return
+			if(!M.mangekyou)
+				M<<"Mangekyo Sharingan needs to be on!";return
+			src.DelayIt(600,M)
+			src.Uses+=1
+			for(var/obj/SkillCards/Tsukiyomi/A in M.LearnedJutsus)
+				A.DelayIt(300,M)
+			M.Kamui()
+	TimeCollaboration
+		name="Time Collaboration"
+		icon_state="TimeCollaboration"
+		NonKeepable=1
+		BunshinAble=0
+	Phase
+		name="Phase"
+		icon_state="Phase"
+		NonKeepable=1
+		BunshinAble=0
+		Activate(mob/M)
+			if(M.Phasing)
+				M<<"You release, beginning to solidify."
+				M.Phasing=0;usr.density=1;usr.firing=0
+				src.DelayIt(1,M)
+				return
+			if(!M.mangekyou)
+				M<<"Mangekyo Sharingan needs to be on!";return
+			else
+				src.Uses+=1
+				M.Phase()
+
+
+
+
+
+
+////////////////////////////////////////
+//Taijutsu
+/////////////////////
+	KonohaReppu
+		name="Leaf Violent Wind"
+		icon_state="Reppu"
+		Activate(mob/M)
+			if(prob(15))
+				M.TaijutsuMastery+=pick(0.01,0.1);if(M.TaijutsuMastery>10) M.TaijutsuMastery=10
+			if(prob(15))
+				M.TaijutsuKnowledge+=1
+
+
+			for(var/mob/A in oview(10))
+				if(A.CopyMode) A.SharinganCopy(src.type,src.Uses)
+
+			src.DelayIt(150,usr,"Tai")
+			src.Uses+=1
+			M.Reppu()
+	KonohaSenpuu
+		name="Leaf Whirlwind"
+		icon_state="Senpuu"
+		Activate(mob/M)
+			if(prob(15))
+				M.TaijutsuMastery+=pick(0.01,0.1);if(M.TaijutsuMastery>10) M.TaijutsuMastery=10
+			if(prob(15))
+				M.TaijutsuKnowledge+=1
+
+
+			for(var/mob/A in oview(10))
+				if(A.CopyMode) A.SharinganCopy(src.type,src.Uses)
+
+			src.DelayIt(230,usr,"Tai")
+			src.Uses+=1
+			M.Senpuu()
+	KonohaShofuu
+		name="Leaf Rising Wind"
+		icon_state="Shofuu"
+		Activate(mob/M)
+			if(prob(15))
+				M.TaijutsuMastery+=pick(0.01,0.1);if(M.TaijutsuMastery>10) M.TaijutsuMastery=10
+			if(prob(15))
+				M.TaijutsuKnowledge+=1
+
+
+			for(var/mob/A in oview(10))
+				if(A.CopyMode) A.SharinganCopy(src.type,src.Uses)
+
+			src.DelayIt(450,usr,"Tai")
+			src.Uses+=1
+			M.KonohaShofuu()
+	KonohaGenkurikiSenpuu
+		name="Leaf Strong Whirlwind"
+		icon_state="GenkurikiSenpuu"
+		Activate(mob/M)
+			if(prob(15))
+				M.TaijutsuMastery+=pick(0.01,0.1);if(M.TaijutsuMastery>10) M.TaijutsuMastery=10
+			if(prob(15))
+				M.TaijutsuKnowledge+=1
+
+
+			for(var/mob/A in oview(10))
+				if(A.CopyMode) A.SharinganCopy(src.type,src.Uses)
+
+			src.DelayIt(380,usr,"Tai")
+			src.Uses+=1
+			M.KonohaGenkurikiSenpuu()
+	KonohaDaiSenpuu
+		name="Leaf Great Whirlwind"
+		icon_state="DaiSenpuu"
+		Activate(mob/M)
+			if(prob(15))
+				M.TaijutsuMastery+=pick(0.01,0.1);if(M.TaijutsuMastery>10) M.TaijutsuMastery=10
+			if(prob(15))
+				M.TaijutsuKnowledge+=1
+
+
+			for(var/mob/A in oview(10))
+				if(A.CopyMode) A.SharinganCopy(src.type,src.Uses)
+
+			src.DelayIt(350,usr,"Tai")
+			src.Uses+=1
+			M.KonohaDaiSenpuu()
+	KonohaDaiSenkou
+		name="Leaf Great Light Rotation"
+		icon_state="DaiSenkou"
+		Activate(mob/M)
+			if(prob(15))
+				M.TaijutsuMastery+=pick(0.01,0.1);if(M.TaijutsuMastery>10) M.TaijutsuMastery=10
+			if(prob(15))
+				M.TaijutsuKnowledge+=1
+
+
+			for(var/mob/A in oview(10))
+				if(A.CopyMode) A.SharinganCopy(src.type,src.Uses)
+
+			src.DelayIt(400,usr,"Tai")
+			src.Uses+=1
+			M.KonohaDaiSenkou()
+	FingerPush
+		icon_state="FingerPush"
+		Activate(mob/M)
+			if(prob(15))
+				M.TaijutsuMastery+=pick(0.01,0.1);if(M.TaijutsuMastery>10) M.TaijutsuMastery=10
+			if(prob(15))
+				M.TaijutsuKnowledge+=1
+
+
+			for(var/mob/A in oview(10))
+				if(A.CopyMode) A.SharinganCopy(src.type,src.Uses)
+
+			src.DelayIt(150,usr,"Tai")
+			src.Uses+=1
+			M.TheFingerPush()
+	Choke
+		icon_state="Choke"
+		Activate(mob/M)
+			if(prob(15))
+				M.TaijutsuMastery+=pick(0.01,0.1);if(M.TaijutsuMastery>10) M.TaijutsuMastery=10
+			if(prob(15))
+				M.TaijutsuKnowledge+=1
+
+
+			for(var/mob/A in oview(10))
+				if(A.CopyMode) A.SharinganCopy(src.type,src.Uses)
+
+			src.DelayIt(300,usr,"Tai")
+			src.Uses+=1
+			M.Choke()
+	Shishi
+		name="Lions Barrage"
+		icon_state="Shi-shi"
+		Activate(mob/M)
+			if(prob(15))
+				M.TaijutsuMastery+=pick(0.01,0.1);if(M.TaijutsuMastery>10) M.TaijutsuMastery=10
+			if(prob(15))
+				M.TaijutsuKnowledge+=1
+
+
+			for(var/mob/A in oview(10))
+				if(A.CopyMode) A.SharinganCopy(src.type,src.Uses)
+
+			src.DelayIt(600,usr,"Tai")
+			src.Uses+=1
+			M.Shishi()
+	Asshou
+		name="Shoulder Thrust"
+		icon_state="Asshou"
+		Activate(mob/M)
+			if(prob(15))
+				M.TaijutsuMastery+=pick(0.01,0.1);if(M.TaijutsuMastery>10) M.TaijutsuMastery=10
+			if(prob(15))
+				M.TaijutsuKnowledge+=1
+
+
+			for(var/mob/A in oview(10))
+				if(A.CopyMode) A.SharinganCopy(src.type,src.Uses)
+
+			src.DelayIt(200,usr,"Tai")
+			src.Uses+=1
+			M.Asshou()
+	ChouAsshou
+		name="Great Shoulder Thrust"
+		icon_state="CAsshou"
+		Activate(mob/M)
+			if(prob(15))
+				M.TaijutsuMastery+=pick(0.01,0.1);if(M.TaijutsuMastery>10) M.TaijutsuMastery=10
+			if(prob(15))
+				M.TaijutsuKnowledge+=1
+
+
+			for(var/mob/A in oview(10))
+				if(A.CopyMode) A.SharinganCopy(src.type,src.Uses)
+
+			src.DelayIt(250,usr,"Tai")
+			src.Uses+=1
+			M.CAsshou()
+	Shoushitzu
+		name="High Leaping Slam"
+		icon_state="Shoushitzu"
+		Activate(mob/M)
+			if(prob(15))
+				M.TaijutsuMastery+=pick(0.01,0.1);if(M.TaijutsuMastery>10) M.TaijutsuMastery=10
+			if(prob(15))
+				M.TaijutsuKnowledge+=1
+
+
+			for(var/mob/A in oview(10))
+				if(A.CopyMode) A.SharinganCopy(src.type,src.Uses)
+
+			src.DelayIt(250,usr,"Tai")
+			src.Uses+=1
+			M.Shoushitzu()
+	KageBuyou
+		name="Shadow Dance"
+		icon_state="KageBuyou"
+		Activate(mob/M)
+			if(prob(15))
+				M.TaijutsuMastery+=pick(0.01,0.1);if(M.TaijutsuMastery>10) M.TaijutsuMastery=10
+			if(prob(15))
+				M.TaijutsuKnowledge+=1
+
+
+			for(var/mob/A in oview(10))
+				if(A.CopyMode) A.SharinganCopy(src.type,src.Uses)
+
+			src.DelayIt(300,usr,"Tai")
+			src.Uses+=1
+			M.KageBuyou()
+	QuickFeet
+		icon_state="QuickFoot"
+		Activate(mob/M)
+			if(M.QuickFeet)
+				M<<output("You get out of the Quick Feet fighting stance!","Attack");M.QuickFeet=0;M.Normal()
+				src.DelayIt(300,usr,"Tai")
+			else
+				M<<output("You enter the Quick Feet fighting stance!","Attack");M.QuickFeet=1;src.Uses+=1;M.Face()
+				spawn(50)
+					M.QuickFeet=0;M.Normal()
+				for(var/mob/A in oview(10))
+					if(A.CopyMode) A.SharinganCopy(src.type,src.Uses)
+	SoundSpinningKick
+		icon_state="Soundspinningkick"
+		Activate(mob/M)
+			if(M.SoundSpinningKick)
+				M.SoundSpinningKick=0;M.icon_state=""
+				src.DelayIt(250,M,"Tai")
+				return
+			if(prob(15))
+				M.TaijutsuMastery+=pick(0.01,0.1);if(M.TaijutsuMastery>10) M.TaijutsuMastery=10
+			if(prob(15))
+				M.TaijutsuKnowledge+=pick(0.1,0.2)
+
+			for(var/mob/A in oview(10))
+				if(A.CopyMode)A.SharinganCopy(src.type,src.Uses)
+
+			M.SoundSpinningKick()
+			src.Uses+=1
+	Karakuri
+		icon_state="Karakuri"
+		Activate(mob/M)
+			if(prob(1))
+				if(prob(1))
+					if(prob(1))
+						M.TaijutsuMastery+=pick(0.01,0.1);if(M.TaijutsuMastery>10) M.TaijutsuMastery=10
+			if(prob(1))
+				if(prob(1))
+					if(prob(1))
+						M.TaijutsuKnowledge+=pick(0.1,0.2)
+
+			for(var/mob/A in oview(10))
+				if(A.CopyMode)A.SharinganCopy(src.type,src.Uses)
+
+			M.Karakuri()
+			src.Uses+=1
+
+////////////////////////////////////////
+//Genjutsu
+/////////////////////
+	FalseBugSwarm
+		name="False Bug Swarm"
+		icon_state="FalseBugSwarm"
+		Activate(mob/M)
+			if(M.CastingGenjutsu)
+				return
+			if(src.Uses<100&&M.Trait!="Speedy")
+				if(prob(95-src.Uses))
+					M<<output("The jutsu failed.","Attack");return
+			else if(M.Trait=="Speedy"&&src.Uses<50)
+				if(prob(50-src.Uses))
+					M<<output("The jutsu failed.","Attack");return
+			if(M.GenSkill+(usr.ChakraC/10)<30)
+				M<<output("The jutsu failed.","Attack");return
+			if(prob(15))
+				M.GenjutsuMastery+=0.1;if(M.GenjutsuMastery>10) M.GenjutsuMastery=10
+			if(prob(15))
+				M.GenjutsuKnowledge+=1
+			src.DelayIt(600,M,"Gen")
+			M.GenjutsuProc("HekiKonchuu Ishuu","Affect","Target",300,30,15,50,(usr.gen+(usr.GenjutsuMastery*20)),0)
+			src.Uses+=1
+	BlazingBurn
+		name="Blazing Burn"
+		icon_state="BlazingBurn"
+		Activate(mob/M)
+			if(M.CastingGenjutsu)
+				return
+			if(src.Uses<100&&M.Trait!="Speedy")
+				if(prob(95-src.Uses))
+					M<<output("The jutsu failed.","Attack");return
+			else if(M.Trait=="Speedy"&&src.Uses<50)
+				if(prob(50-src.Uses))
+					M<<output("The jutsu failed.","Attack");return
+			if(M.GenSkill+(usr.ChakraC/10)<15)
+				M<<output("The jutsu failed.","Attack");return
+			if(prob(15))
+				usr.GenjutsuMastery+=0.1
+				if(M.Clan=="Basic"&&usr.GenjutsuMastery>20) usr.GenjutsuMastery=20
+				else if(M.Clan!="Basic"&&usr.GenjutsuMastery>10) usr.GenjutsuMastery=10
+			if(prob(15))
+				M.GenjutsuKnowledge+=1
+
+			for(var/mob/A in oview(10))
+				if(A.CopyMode) A.SharinganCopy(src.type,src.Uses)
+
+			src.DelayIt(600,M,"Gen")
+			src.Uses+=1
+			M.GenjutsuProc("Blazing Burn","Affect","Target",300,30,15,50,(M.gen+(M.GenjutsuMastery*10)),0)
+
+
+	Kokuangyo
+		name="Bringer of Darkness"
+		icon_state="Kokuangyo"
+		Activate(mob/M)
+			if(M.CastingGenjutsu)
+				return
+			if(src.Uses<100&&M.Trait!="Speedy")
+				if(prob(95-src.Uses))
+					M<<output("The jutsu failed.","Attack");return
+			else if(M.Trait=="Speedy"&&src.Uses<50)
+				if(prob(50-src.Uses))
+					M<<output("The jutsu failed.","Attack");return
+			if(M.GenSkill+(usr.ChakraC/10)<10)
+				M<<output("The jutsu failed.","Attack");return
+			if(prob(15))
+				usr.GenjutsuMastery+=0.1
+				if(M.Clan=="Basic"&&usr.GenjutsuMastery>20) usr.GenjutsuMastery=20
+				else if(M.Clan!="Basic"&&usr.GenjutsuMastery>10) usr.GenjutsuMastery=10
+			if(prob(15))
+				M.GenjutsuKnowledge+=1
+
+			for(var/mob/A in oview(10))
+				if(A.CopyMode) A.SharinganCopy(src.type,src.Uses)
+
+			src.DelayIt(600,M,"Gen")
+			src.Uses+=1
+			M.GenjutsuProc("Kokuangyo","Affect","Target",500,10,15,25,M.GenjutsuMastery,0)
+
+	Burizado
+		name="Blizzard Storm Illusion"
+		icon_state="Buriza-do"
+		Activate(mob/M)
+			if(M.CastingGenjutsu)
+				return
+			if(src.Uses<100&&M.Trait!="Speedy")
+				if(prob(95-src.Uses))
+					M<<output("The jutsu failed.","Attack");return
+			else if(M.Trait=="Speedy"&&src.Uses<50)
+				if(prob(50-src.Uses))
+					M<<output("The jutsu failed.","Attack");return
+			if(M.GenSkill+(usr.ChakraC/10)<10)
+				M<<output("The jutsu failed.","Attack");return
+			if(prob(15))
+				usr.GenjutsuMastery+=0.1
+				if(M.Clan=="Basic"&&usr.GenjutsuMastery>20) usr.GenjutsuMastery=20
+				else if(M.Clan!="Basic"&&usr.GenjutsuMastery>10) usr.GenjutsuMastery=10
+			if(prob(15))
+				M.GenjutsuKnowledge+=1
+
+			for(var/mob/A in oview(10))
+				if(A.CopyMode) A.SharinganCopy(src.type,src.Uses)
+
+			src.DelayIt(350,M,"Gen")
+			src.Uses+=1
+			M.GenjutsuProc("Burizado","Affect","Target",300,10,10,75,M.GenjutsuMastery+(M.gen/2),1)
+	Kasumi
+		name="Mist Servant Technique"
+		icon_state="Kasumi"
+		Activate(mob/M)
+			M<<"Disabled.";return
+	Nemurihane
+		name="Temple of Nirvana"
+		icon_state="Nemurihane"
+		BunshinAble=0
+		Activate(mob/M)
+			if(M.CastingGenjutsu)
+				return
+			if(src.Uses<100&&M.Trait!="Speedy")
+				if(prob(95-src.Uses))
+					M<<output("The jutsu failed.","Attack");return
+			else if(M.Trait=="Speedy"&&src.Uses<50)
+				if(prob(50-src.Uses))
+					M<<output("The jutsu failed.","Attack");return
+			if(M.GenSkill+(usr.ChakraC/10)<15)
+				M<<output("The jutsu failed.","Attack");return
+			if(prob(15))
+				usr.GenjutsuMastery+=0.1
+				if(M.Clan=="Basic"&&usr.GenjutsuMastery>20) usr.GenjutsuMastery=20
+				else if(M.Clan!="Basic"&&usr.GenjutsuMastery>10) usr.GenjutsuMastery=10
+			if(prob(15))
+				M.GenjutsuKnowledge+=1
+
+			for(var/mob/A in oview(10))
+				if(A.CopyMode) A.SharinganCopy(src.type,src.Uses)
+
+			src.DelayIt(550,M,"Gen")
+			src.Uses+=1
+			M.GenjutsuProc("Nemurihane",,"Area",250,,,,,)
+	Kiga
+		name="Hunger"
+		icon_state="Kiga"
+		Activate(mob/M)
+			if(M.CastingGenjutsu)
+				return
+			if(src.Uses<100&&M.Trait!="Speedy")
+				if(prob(95-src.Uses))
+					M<<output("The jutsu failed.","Attack");return
+			else if(M.Trait=="Speedy"&&src.Uses<50)
+				if(prob(50-src.Uses))
+					M<<output("The jutsu failed.","Attack");return
+			if(M.GenSkill+(usr.ChakraC/10)<5)
+				M<<output("The jutsu failed.","Attack");return
+			if(prob(15))
+				usr.GenjutsuMastery+=0.1
+				if(M.Clan=="Basic"&&usr.GenjutsuMastery>20) usr.GenjutsuMastery=20
+				else if(M.Clan!="Basic"&&usr.GenjutsuMastery>10) usr.GenjutsuMastery=10
+			if(prob(15))
+				M.GenjutsuKnowledge+=1
+
+			for(var/mob/A in oview(10))
+				if(A.CopyMode) A.SharinganCopy(src.type,src.Uses)
+
+			src.DelayIt(350,M,"Gen")
+			src.Uses+=1
+			M.GenjutsuProc("Kiga","Affect","Target",100,10,10,25,((M.gen/3)+M.GenjutsuMastery),1)
+	NodonoKawaki
+		name="Thirst"
+		icon_state="NodonoKawaki"
+		Activate(mob/M)
+			if(M.CastingGenjutsu)
+				return
+			if(src.Uses<100&&M.Trait!="Speedy")
+				if(prob(95-src.Uses))
+					M<<output("The jutsu failed.","Attack");return
+			else if(M.Trait=="Speedy"&&src.Uses<50)
+				if(prob(50-src.Uses))
+					M<<output("The jutsu failed.","Attack");return
+			if(M.GenSkill+(usr.ChakraC/10)<5)
+				M<<output("The jutsu failed.","Attack");return
+			if(prob(15))
+				usr.GenjutsuMastery+=0.1
+				if(M.Clan=="Basic"&&usr.GenjutsuMastery>20) usr.GenjutsuMastery=20
+				else if(M.Clan!="Basic"&&usr.GenjutsuMastery>10) usr.GenjutsuMastery=10
+			if(prob(15))
+				M.GenjutsuKnowledge+=1
+
+			for(var/mob/A in oview(10))
+				if(A.CopyMode) A.SharinganCopy(src.type,src.Uses)
+
+			src.DelayIt(350,M,"Gen")
+			src.Uses+=1
+			M.GenjutsuProc("Nodono Kawaki","Affect","Target",100,10,10,25,((M.gen/3)+M.GenjutsuMastery),1)
+	GyakuBijon
+		name="Daze"
+		icon_state="GyakuBijon"
+		Activate(mob/M)
+			if(M.CastingGenjutsu)
+				return
+			if(src.Uses<100&&M.Trait!="Speedy")
+				if(prob(95-src.Uses))
+					M<<output("The jutsu failed.","Attack");return
+			else if(M.Trait=="Speedy"&&src.Uses<50)
+				if(prob(50-src.Uses))
+					M<<output("The jutsu failed.","Attack");return
+			if(M.GenSkill+(usr.ChakraC/10)<10)
+				M<<output("The jutsu failed.","Attack");return
+			if(prob(15))
+				usr.GenjutsuMastery+=0.1
+				if(M.Clan=="Basic"&&usr.GenjutsuMastery>20) usr.GenjutsuMastery=20
+				else if(M.Clan!="Basic"&&usr.GenjutsuMastery>10) usr.GenjutsuMastery=10
+			if(prob(15))
+				M.GenjutsuKnowledge+=1
+
+			for(var/mob/A in oview(10))
+				if(A.CopyMode) A.SharinganCopy(src.type,src.Uses)
+
+			src.DelayIt(350,M,"Gen")
+			src.Uses+=1
+			M.GenjutsuProc("Gyaku Bijon","Affect","Target",250,10,10,25,((M.gen/2)+M.GenjutsuMastery),1)
+////////////////////////////////////////
+//Fuuinjutsu
+/////////////////////
+	FuuinjutsuHandseal
+		name="Fuuinjutsu: Handseal"
+		icon_state="FuuinjutsuHandseal"
+		Activate(mob/M)
+			if(src.Uses<100&&M.Trait!="Speedy")
+				if(prob(95-src.Uses))
+					M<<output("The jutsu failed.","Attack");return
+			else if(M.Trait=="Speedy"&&src.Uses<50)
+				if(prob(50-src.Uses))
+					M<<output("The jutsu failed.","Attack");return
+			if(prob(15))
+				M.NinjutsuMastery+=0.1;if(M.NinjutsuMastery>10) M.NinjutsuMastery=10
+			if(prob(15))
+				M.NinjutsuKnowledge+=1
+
+			src.DelayIt(100,M,"Nin")
+			src.Uses+=1
+			M.FuuinjutsuHandseal()
+	FuuinjutsuChakra
+		name="Fuuinjutsu: Chakra"
+		icon_state="FuuinjutsuChakra"
+		Activate(mob/M)
+			if(src.Uses<100&&M.Trait!="Speedy")
+				if(prob(95-src.Uses))
+					M<<output("The jutsu failed.","Attack");return
+			else if(M.Trait=="Speedy"&&src.Uses<50)
+				if(prob(50-src.Uses))
+					M<<output("The jutsu failed.","Attack");return
+			if(prob(15))
+				M.NinjutsuMastery+=0.1;if(M.NinjutsuMastery>10) M.NinjutsuMastery=10
+			if(prob(15))
+				M.NinjutsuKnowledge+=1
+
+			src.DelayIt(100,M,"Nin")
+			src.Uses+=1
+			M.FuuinjutsuChakra()
+////////////////////////////////////////
+//Ninjutsu
+/////////////////////
+	BunshinJutsu
+		name="Clone Jutsu"
+		icon_state="Bunshin"
+		Activate(mob/M)
+			if(src.Uses<100&&M.Trait!="Speedy")
+				if(prob(95-src.Uses))
+					M<<output("The jutsu failed.","Attack");return
+			else if(M.Trait=="Speedy"&&src.Uses<50)
+				if(prob(50-src.Uses))
+					M<<output("The jutsu failed.","Attack");return
+			if(prob(15))
+				M.NinjutsuMastery+=0.1;if(M.NinjutsuMastery>10) M.NinjutsuMastery=10
+			if(prob(15))
+				M.NinjutsuKnowledge+=1
+
+			src.DelayIt(100,M,"Nin")
+			src.Uses+=1
+			M.BunshinTechniques(src.Uses/2)
+	Henge
+		name="Transformation Jutsu"
+		icon_state="Henge"
+		Deactivate(mob/M)
+			if(M.InHenge)
+				M.HengeJutsu()
+		Activate(mob/M)
+			if(src.Uses<100&&M.Trait!="Speedy")
+				if(prob(95-src.Uses))
+					M<<output("The jutsu failed.","Attack");return
+			else if(M.Trait=="Speedy"&&src.Uses<50)
+				if(prob(50-src.Uses))
+					M<<output("The jutsu failed.","Attack");return
+			if(prob(15))
+				M.NinjutsuMastery+=0.1;if(M.NinjutsuMastery>10) M.NinjutsuMastery=10
+			if(prob(15))
+				M.NinjutsuKnowledge+=1
+
+			src.DelayIt(250,M,"Nin")
+			src.Uses+=1
+			src.TurnedOn=1
+			M.HengeJutsu()
+	Kawarimi
+		name="Substitution Jutsu"
+		icon_state="Kawarimi"
+		Deactivate(mob/M)
+			if(M.invisibility>0)
+				M.invisibility=0
+				M.firing=0
+		Activate(mob/M)
+			if(src.Uses<100&&M.Trait!="Speedy")
+				if(prob(95-src.Uses))
+					M<<output("The jutsu failed.","Attack");return
+			else if(M.Trait=="Speedy"&&src.Uses<50)
+				if(prob(50-src.Uses))
+					M<<output("The jutsu failed.","Attack");return
+			if(prob(15))
+				M.NinjutsuMastery+=0.1;if(M.NinjutsuMastery>10) M.NinjutsuMastery=10
+			if(prob(15))
+				M.NinjutsuKnowledge+=1
+
+			src.DelayIt(300,M,"Nin")
+			src.Uses+=1
+			src.TurnedOn=1
+			M.Kawa(src.Uses)
+	ExpKawarimi
+		name="Exploding Substitution Jutsu"
+		icon_state="ExpKawarimi"
+		Activate(mob/M)
+			if(src.Uses<100&&M.Trait!="Speedy")
+				if(prob(95-src.Uses))
+					M<<output("The jutsu failed.","Attack");return
+			else if(M.Trait=="Speedy"&&src.Uses<50)
+				if(prob(50-src.Uses))
+					M<<output("The jutsu failed.","Attack");return
+			if(prob(15))
+				M.NinjutsuMastery+=0.1;if(M.NinjutsuMastery>10) M.NinjutsuMastery=10
+			if(prob(15))
+				M.NinjutsuKnowledge+=1
+
+			src.DelayIt(300,M,"Nin")
+			src.Uses+=1
+			M.Kawa2(src.Uses)
+	Shushin
+		name="Body Flicker"
+		icon_state="Shushin"
+		Activate(mob/M)
+			if(src.Uses<100&&M.Trait!="Speedy")
+				if(prob(95-src.Uses))
+					M<<output("The jutsu failed.","Attack");return
+			else if(M.Trait=="Speedy"&&src.Uses<50)
+				if(prob(50-src.Uses))
+					M<<output("The jutsu failed.","Attack");return
+			if(prob(15))
+				M.NinjutsuMastery+=0.1;if(M.NinjutsuMastery>10) M.NinjutsuMastery=10
+			if(prob(15))
+				M.NinjutsuKnowledge+=1
+
+			if(M.UchihaMastery!=100)
+				src.DelayIt(10,M,"Tai")
+			src.Uses+=1
+			M.ShushinnoJutsu(src.Uses)
+	Nawanuke
+		name="Escaping Skill"
+		icon_state="Nawanuke"
+		Activate(mob/M)
+			if(src.Uses<100&&M.Trait!="Speedy")
+				if(prob(95-src.Uses))
+					M<<output("The jutsu failed.","Attack");return
+			else if(M.Trait=="Speedy"&&src.Uses<50)
+				if(prob(50-src.Uses))
+					M<<output("The jutsu failed.","Attack");return
+			if(prob(15))
+				M.NinjutsuMastery+=0.1;if(M.NinjutsuMastery>10) M.NinjutsuMastery=10
+			if(prob(15))
+				M.NinjutsuKnowledge+=1
+
+			src.DelayIt(50,M,"Nin")
+			src.Uses+=1
+			M.Nawanuke()
+	ExplodingFormation
+		name="Exploding Formation"
+		icon_state="ExplodingTagFormation"
+		Activate(mob/M)
+			if(src.Uses<100&&M.Trait!="Speedy")
+				if(prob(95-src.Uses))
+					M<<output("The jutsu failed.","Attack");return
+			else if(M.Trait=="Speedy"&&src.Uses<50)
+				if(prob(50-src.Uses))
+					M<<output("The jutsu failed.","Attack");return
+			if(prob(15))
+				M.NinjutsuMastery+=0.1;if(M.NinjutsuMastery>10) M.NinjutsuMastery=10
+			if(prob(15))
+				M.NinjutsuKnowledge+=1
+
+			src.DelayIt(80,M,"Nin")
+			src.Uses+=1
+			M.TagExplosion()
+	HariganeGappei
+		name="Meld Wire"
+		icon_state="HariganeGappei"
+		Activate(mob/M)
+			if(src.Uses<100&&M.Trait!="Speedy")
+				if(prob(95-src.Uses))
+					M<<output("The jutsu failed.","Attack");return
+			else if(M.Trait=="Speedy"&&src.Uses<50)
+				if(prob(50-src.Uses))
+					M<<output("The jutsu failed.","Attack");return
+			if(prob(15))
+				M.NinjutsuMastery+=0.1;if(M.NinjutsuMastery>10) M.NinjutsuMastery=10
+			if(prob(15))
+				M.NinjutsuKnowledge+=1
+
+			for(var/mob/A in oview(10))
+				if(A.CopyMode) A.SharinganCopy(src.type,src.Uses)
+
+			src.DelayIt(10,M,"Nin")
+			src.Uses+=1
+			M.HariganeGappei()
+	FuumaTeleportation
+		name="Fuuma Teleportation"
+		icon_state="FuumaTeleportation"
+		Activate(mob/M)
+			if(src.Uses<100&&M.Trait!="Speedy")
+				if(prob(95-src.Uses))
+					M<<output("The jutsu failed.","Attack");return
+			else if(M.Trait=="Speedy"&&src.Uses<50)
+				if(prob(50-src.Uses))
+					M<<output("The jutsu failed.","Attack");return
+			if(prob(15))
+				M.NinjutsuMastery+=0.1;if(M.NinjutsuMastery>10) M.NinjutsuMastery=10
+			if(prob(15))
+				M.NinjutsuKnowledge+=1
+
+			for(var/mob/A in oview(10))
+				if(A.CopyMode) A.SharinganCopy(src.type,src.Uses)
+
+			src.DelayIt(1000,M,"Nin")
+			src.Uses+=1
+			M.FuumaTeleport()
+	Ikusenhari
+		name="Rain of Needles"
+		icon_state="Ikusenhari"
+		Activate(mob/M)
+			if(src.Uses<100&&M.Trait!="Speedy")
+				if(prob(95-src.Uses))
+					M<<output("The jutsu failed.","Attack");return
+			else if(M.Trait=="Speedy"&&src.Uses<50)
+				if(prob(50-src.Uses))
+					M<<output("The jutsu failed.","Attack");return
+			if(prob(15))
+				M.NinjutsuMastery+=0.1;if(M.NinjutsuMastery>10) M.NinjutsuMastery=10
+			if(prob(15))
+				M.NinjutsuKnowledge+=1
+
+			for(var/mob/A in oview(10))
+				if(A.CopyMode) A.SharinganCopy(src.type,src.Uses)
+
+			src.DelayIt(600,M,"Nin")
+			src.Uses+=1
+			M.Ikusenhariz()
+	Kirigakure
+		name="Hidden Mist Jutsu"
+		icon_state="Kirigakure"
+		BunshinAble=0
+		Activate(mob/M)
+			if(M.KirigakureOn)
+				M<<"You release the mist."
+				for(var/obj/Jutsu/kriga/S2 in world)
+					if(S2.Owner==M)
+						del(S2)
+				M.KirigakureOn=0;return
+			else
+				if(src.Uses<100&&M.Trait!="Speedy")
+					if(prob(95-src.Uses))
+						M<<output("The jutsu failed.","Attack");return
+				else if(M.Trait=="Speedy"&&src.Uses<50)
+					if(prob(50-src.Uses))
+						M<<output("The jutsu failed.","Attack");return
+				if(prob(15))
+					M.NinjutsuMastery+=0.1;if(M.NinjutsuMastery>10) M.NinjutsuMastery=10
+				if(prob(15))
+					M.NinjutsuKnowledge+=1
+				for(var/mob/A in oview(10))
+					if(A.CopyMode) A.SharinganCopy(src.type,src.Uses)
+				src.DelayIt(300,M,"Nin")
+				src.Uses+=1
+	MurderCrows
+		name="Massacre of Crows Cloaking Jutsu"
+		icon_state="MurderCrows"
+		BunshinAble=0
+		Activate(mob/M)
+			if(M.usemurderofcrows)
+				M<<"You call back the crows!"
+				for(var/mob/Jutsu/MurderCrows/S2 in world)
+					if(S2.Owner==M)
+						del(S2)
+					M.usemurderofcrows=0
+				return
+			else
+				if(src.Uses<100&&M.Trait!="Speedy")
+					if(prob(95-src.Uses))
+						M<<output("The jutsu failed.","Attack");return
+				else if(M.Trait=="Speedy"&&src.Uses<50)
+					if(prob(50-src.Uses))
+						M<<output("The jutsu failed.","Attack");return
+				if(prob(15))
+					M.NinjutsuMastery+=0.1;if(M.NinjutsuMastery>10) M.NinjutsuMastery=10
+				if(prob(15))
+					M.NinjutsuKnowledge+=1
+
+				src.DelayIt(300,M,"Nin")
+				src.Uses+=1
+				usr.MurderofCrows()
+	Haruno
+		name="Hand of Nature Jutsu"
+		icon_state="Haruno"
+		Activate(mob/M)
+			if(src.Uses<100&&M.Trait!="Speedy")
+				if(prob(95-src.Uses))
+					M<<output("The jutsu failed.","Attack");return
+			else if(M.Trait=="Speedy"&&src.Uses<50)
+				if(prob(50-src.Uses))
+					M<<output("The jutsu failed.","Attack");return
+			if(prob(15))
+				M.NinjutsuMastery+=0.1;if(M.NinjutsuMastery>10) M.NinjutsuMastery=10
+			if(prob(15))
+				M.NinjutsuKnowledge+=1
+
+			for(var/mob/A in oview(10))
+				if(A.CopyMode) A.SharinganCopy(src.type,src.Uses)
+
+			src.DelayIt(600,M,"Nin")
+			src.Uses+=1
+			M.LeafBind()
+	KageBunshin
+		name="Shadow Clone Jutsu"
+		icon_state="KageBunshin"
+		BunshinAble=0
+		Deactivate(mob/M)
+			if(M.KBunshinOn)
+				M.firing=0
+				M.KBunshinOn=0
+				M.client.perspective=MOB_PERSPECTIVE
+				M.client.eye=usr
+				M.controlled=null
+//				for(var/mob/npcs/KBunshin2/M in world)
+//					if(M.Owner==usr)
+//						del(M)
+		Activate(mob/M)
+			if(src.Uses<100&&M.Trait!="Speedy")
+				if(prob(95-src.Uses))
+					M<<output("The jutsu failed.","Attack");return
+			else if(M.Trait=="Speedy"&&src.Uses<50)
+				if(prob(50-src.Uses))
+					M<<output("The jutsu failed.","Attack");return
+			if(prob(15))
+				M.NinjutsuMastery+=0.1;if(M.NinjutsuMastery>10) M.NinjutsuMastery=10
+			if(prob(15))
+				M.NinjutsuKnowledge+=1
+
+			for(var/mob/A in oview(10))
+				if(A.CopyMode) A.SharinganCopy(src.type,src.Uses)
+			if(src.Uses<5000) src.DelayIt(350,M,"Nin")
+			src.Uses+=1
+			src.TurnedOn=1
+			M.KageBunshin(src.Uses)
+	TKageBunshin
+		name="Mass Shadow Clone Jutsu"
+		icon_state="TKageBunshin"
+		BunshinAble=0
+		Activate(mob/M)
+			if(src.Uses<100&&M.Trait!="Speedy")
+				if(prob(95-src.Uses))
+					M<<output("The jutsu failed.","Attack");return
+			else if(M.Trait=="Speedy"&&src.Uses<50)
+				if(prob(50-src.Uses))
+					M<<output("The jutsu failed.","Attack");return
+			if(prob(15))
+				M.NinjutsuMastery+=0.1;if(M.NinjutsuMastery>10) M.NinjutsuMastery=10
+			if(prob(15))
+				M.NinjutsuKnowledge+=1
+
+			for(var/mob/A in oview(10))
+				if(A.CopyMode) A.SharinganCopy(src.type,src.Uses)
+
+			src.DelayIt(2000,M,"Nin")
+			src.Uses+=1
+			M.TKageBunshinnojutsu(src.Uses)
+	BakuretsuBunshin
+		name="Shadow Clone Explosion"
+		icon_state="BakuretsuBunshin"
+		BunshinAble=0
+		Activate(mob/M)
+			if(src.Uses<100&&M.Trait!="Speedy")
+				if(prob(95-src.Uses))
+					M<<output("The jutsu failed.","Attack");return
+			else if(M.Trait=="Speedy"&&src.Uses<50)
+				if(prob(50-src.Uses))
+					M<<output("The jutsu failed.","Attack");return
+			if(prob(15))
+				M.NinjutsuMastery+=0.1;if(M.NinjutsuMastery>10) M.NinjutsuMastery=10
+			if(prob(15))
+				M.NinjutsuKnowledge+=1
+
+			for(var/mob/A in oview(10))
+				if(A.CopyMode) A.SharinganCopy(src.type,src.Uses)
+
+			src.DelayIt(600,M,"Nin")
+			src.Uses+=1
+			M.BakuretsuBunshin()
+	KageShuriken
+		name="Shadow Shuriken"
+		icon_state="KageShuriken"
+		Activate(mob/M)
+			if(src.Uses<100&&M.Trait!="Speedy")
+				if(prob(95-src.Uses))
+					M<<output("The jutsu failed.","Attack");return
+			else if(M.Trait=="Speedy"&&src.Uses<50)
+				if(prob(50-src.Uses))
+					M<<output("The jutsu failed.","Attack");return
+			if(prob(15))
+				M.NinjutsuMastery+=0.1;if(M.NinjutsuMastery>10) M.NinjutsuMastery=10
+			if(prob(15))
+				M.NinjutsuKnowledge+=1
+
+			for(var/mob/A in oview(10))
+				if(A.CopyMode) A.SharinganCopy(src.type,src.Uses)
+
+			src.DelayIt(300,M,"Nin")
+			src.Uses+=1
+			M.KageShuriken()
+	Rasengan
+		icon_state="Rasengan"
+		Activate(mob/M)
+			if(M.Rasenganon)
+				M<<output("You're already using Rasengan!","Attack");return
+			else
+				if(src.Uses<100&&M.Trait!="Speedy")
+					if(prob(95-src.Uses))
+						M<<output("The jutsu failed.","Attack");return
+				else if(M.Trait=="Speedy"&&src.Uses<50)
+					if(prob(50-src.Uses))
+						M<<output("The jutsu failed.","Attack");return
+				if(prob(15))
+					M.NinjutsuMastery+=0.1;if(M.NinjutsuMastery>10) M.NinjutsuMastery=10
+				if(prob(15))
+					M.NinjutsuKnowledge+=1
+
+				src.DelayIt(1000,M,"Nin")
+				src.Uses+=1
+				M.Rasengan()
+	Shousen
+		name="Mystical Hand"
+		icon_state="Shousen"
+		Activate(mob/M)
+			if(src.Uses<100&&M.Trait!="Speedy")
+				if(prob(95-src.Uses))
+					M<<output("The jutsu failed.","Attack");return
+			else if(M.Trait=="Speedy"&&src.Uses<50)
+				if(prob(50-src.Uses))
+					M<<output("The jutsu failed.","Attack");return
+			if(prob(15))
+				M.NinjutsuMastery+=0.1;if(M.NinjutsuMastery>10) M.NinjutsuMastery=10
+			if(prob(15))
+				M.NinjutsuKnowledge+=1
+
+			src.DelayIt(100,M,"Nin")
+			src.Uses+=1
+			M.ShousenTechnique()
+	ChakraNoMesu
+		name="Chakra Scalpel"
+		icon_state="ChakraNoMesu"
+		Activate(mob/M)
+			M.ChakraMesuz()
+			src.Uses+=1
+	Ranshinshou
+		name="Chaotic Mental Collision"
+		icon_state="Ranshinshou"
+		Activate(mob/M)
+			if(src.Uses<100&&M.Trait!="Speedy")
+				if(prob(95-src.Uses))
+					M<<output("The jutsu failed.","Attack");return
+			else if(M.Trait=="Speedy"&&src.Uses<50)
+				if(prob(50-src.Uses))
+					M<<output("The jutsu failed.","Attack");return
+			if(prob(15))
+				M.NinjutsuMastery+=0.1;if(M.NinjutsuMastery>10) M.NinjutsuMastery=10
+			if(prob(15))
+				M.NinjutsuKnowledge+=1
+
+			src.DelayIt(350,M,"Nin")
+			src.Uses+=1
+			M.Ranshinshouz()
+	Oukashou
+		name="Cherry Blossom Collision"
+		icon_state="Oukashou"
+		Activate(mob/M)
+			if(src.Uses<100&&M.Trait!="Speedy")
+				if(prob(95-src.Uses))
+					M<<output("The jutsu failed.","Attack");return
+			else if(M.Trait=="Speedy"&&src.Uses<50)
+				if(prob(50-src.Uses))
+					M<<output("The jutsu failed.","Attack");return
+			if(prob(15))
+				M.NinjutsuMastery+=0.1;if(M.NinjutsuMastery>10) M.NinjutsuMastery=10
+			if(prob(15))
+				M.NinjutsuKnowledge+=1
+
+			src.DelayIt(600,M,"Nin")
+			src.Uses+=1
+			M.ChakraPunch()
+	Chikatsu
+		name="Healing Resuscitation Regeneration"
+		icon_state="Chikatsu"
+		Activate(mob/M)
+			if(src.Uses<100&&M.Trait!="Speedy")
+				if(prob(95-src.Uses))
+					M<<output("The jutsu failed.","Attack");return
+			else if(M.Trait=="Speedy"&&src.Uses<50)
+				if(prob(50-src.Uses))
+					M<<output("The jutsu failed.","Attack");return
+			if(prob(15))
+				M.NinjutsuMastery+=0.1;if(M.NinjutsuMastery>10) M.NinjutsuMastery=10
+			if(prob(15))
+				M.NinjutsuKnowledge+=1
+
+			src.DelayIt(1000,M,"Nin")
+			src.Uses+=1
+			M.ChikatsuTechnique()
+///
+	KujakuMyouhou
+		name="Mysterious Peacock Method"
+		icon_state="Kujaku"
+		BunshinAble=0
+		Activate(mob/M)
+			M.KujakuMyouhou()
+			while(M.KujakuMyouhouon)
+				if(prob(50))
+					src.Uses+=1
+				sleep(100)
+	StarShot
+		name="Star of the Peacock"
+		icon_state="HoshiBakuha"
+		NonKeepable=1
+		BunshinAble=0
+		Activate(mob/M)
+			if(!M.KujakuMyouhouon)
+				M<<"You must have Kujaku Myouhou on!";return
+
+			src.DelayIt(100,M)
+			M.StarShot()
+	StarBind
+		name="Bind of the Peacock"
+		icon_state="HoshiBakuha"
+		NonKeepable=1
+		BunshinAble=0
+		Activate(mob/M)
+			if(!M.KujakuMyouhouon)
+				M<<"You must have Kujaku Myouhou on!";return
+
+			src.DelayIt(300,M)
+			M.StarBind()
+	StarFeathers
+		name="Feathers of the Peacock"
+		icon_state="HoshiBakuha"
+		NonKeepable=1
+		BunshinAble=0
+		Activate(mob/M)
+			if(!M.KujakuMyouhouon)
+				M<<"You must have Kujaku Myouhou on!";return
+
+			src.DelayIt(350,M)
+			M.StarFeathers(src.Uses)
+
+///
+	Zankuuha
+		name="Decapitating Air Waves"
+		icon_state="Zankuuha"
+		Activate(mob/M)
+			if(!M.ZankuuhaOn)
+				M.ZankuuhaOn=1;M<<"You circulate the air vents through your hand!";return
+			else
+				M.ZankuuhaOn=0;M<<"You stop the air running through your hands."
+	ZankuuSpiralingSphere
+		name="Decapitating Air Sphere"
+		icon_state="ZankuuhaSphere"
+		Activate(mob/M)
+			if(!M.ZankuuhaOn)
+				M<<"You must have Zankuuha on!";return
+
+			src.DelayIt(1200,M,"Nin")
+			src.Uses+=1
+			M.ZankuuSpiralingSphere()
+///
+//Paper
+	PaperMode
+		name="Paper Style Mode"
+		icon_state="PaperMode"
+		BunshinAble=0
+		Activate(mob/M)
+			M.PaperStyleDance()
+			src.Uses+=1
+	PaperShuriken
+		name="Paper Shuriken"
+		icon_state="PaperShuriken"
+		Activate(mob/M)
+			src.DelayIt(50,M,"Nin")
+			src.Uses+=1
+			M.KamiShuriken()
+	PaperButterflies
+		name="Paper Butterflies"
+		icon_state="PaperShuriken"
+		var/ButterfliesAreOut=0
+		Activate(mob/M)
+			M<<"Disabled."
+
+	GodsDivineStrike
+		name="Gods Divine Strike"
+		icon_state="PaperFeathers"
+		Activate(mob/M)
+			src.DelayIt(250,M,"Nin")
+			src.Uses+=1
+			M.DivineStrike()
+	GodsDivineWrath
+		name="Gods Divine Wrath"
+		icon_state="PaperFeathers"
+		Activate(mob/M)
+			src.DelayIt(300,M,"Nin")
+			src.Uses+=1
+			M.DivineWrath(src.Uses)
+////////////////////////
+//Kenjutsu
+	SwiftSlash
+		name="Swift Slash"
+		icon_state="SwiftSlash"
+		var/Hand="Left"
+		verb/SetHand()
+			set src in usr.contents
+			switch(input(src,"Which hand would you like to set Swift Slash too?",text)in list("Left","Right"))
+				if("Left")
+					Hand="Left"
+				if("Right")
+					Hand="Right"
+		Activate(mob/M)
+			var/AOk=0
+			if(Hand=="Left")
+				var/obj/WEAPONS/A=M.WeaponInLeftHand
+				if(M.LeftHandSheath&&A.WhatDoesItDo=="Slash")
+					AOk=1
+			if(Hand=="Right")
+				var/obj/WEAPONS/A=M.WeaponInRightHand
+				if(M.RightHandSheath&&A.WhatDoesItDo=="Slash")
+					AOk=1
+			if(AOk)
+				src.DelayIt(100,M,"Tai")
+				src.Uses+=1
+				M.SwiftSlashTechnique("Hand")
+			else
+				M<<"You need to have a Sword in your hand, unsheathed!"
+				src.DelayIt(10,M,"Tai")
+	Impale
+		name="Impale"
+		icon_state="Impale"
+		var/Hand="Left"
+		verb/SetHand()
+			set src in usr.contents
+			switch(input(src,"Which hand would you like to set Swift Slash too?",text)in list("Left","Right"))
+				if("Left")
+					Hand="Left"
+				if("Right")
+					Hand="Right"
+		Activate(mob/M)
+			var/AOk=0
+			if(Hand=="Left")
+				var/obj/WEAPONS/A=M.WeaponInLeftHand
+				if(M.LeftHandSheath&&A.WhatDoesItDo=="Slash")
+					AOk=1
+			if(Hand=="Right")
+				var/obj/WEAPONS/A=M.WeaponInRightHand
+				if(M.RightHandSheath&&A.WhatDoesItDo=="Slash")
+					AOk=1
+			if(AOk)
+				src.DelayIt(300,M,"Tai")
+				src.Uses+=1
+				M.ImpaleTechnique(Hand)
+			else
+				M<<"You need to have a Sword in your hand, unsheathed!"
+				src.DelayIt(10,M,"Tai")
+	RapidStrike
+		name="Rapid Strike"
+		icon_state="RapidStrike"
+		var/Hand="Left"
+		verb/SetHand()
+			set src in usr.contents
+			switch(input(src,"Which hand would you like to set Swift Slash too?",text)in list("Left","Right"))
+				if("Left")
+					Hand="Left"
+				if("Right")
+					Hand="Right"
+		Activate(mob/M)
+			var/AOk=0
+			if(Hand=="Left")
+				var/obj/WEAPONS/A=M.WeaponInLeftHand
+				if(M.LeftHandSheath&&A.WhatDoesItDo=="Slash")
+					AOk=1
+			if(Hand=="Right")
+				var/obj/WEAPONS/A=M.WeaponInRightHand
+				if(M.RightHandSheath&&A.WhatDoesItDo=="Slash")
+					AOk=1
+			if(AOk)
+				src.DelayIt(250,M,"Tai")
+				src.Uses+=1
+				M.RapidStrike(Hand)
+			else
+				M<<"You need to have a Sword in your hand, unsheathed!"
+				src.DelayIt(10,M,"Tai")
+////////////////////////
+//Legendary Weapons
+//Dark Ryuzachi
+	LegendaryDragon
+		name="Kuchiyose: Black Flame"
+		icon_state="LegendaryDragon"
+		NonKeepable=1
+		Click()
+			if(usr.resting||usr.meditating)
+				usr<<"You can't do this, you're resting or in chakra generation mode."
+				return
+			if(usr.Dead||usr.FrozenBind=="Dead"||usr.DoingPalms)
+				usr<<"Not now."
+				return
+			if(usr.LegendaryDragon)
+				usr.LegendaryDragon=0
+				usr<<"You return the Dragon back into your sword!"
+				usr.firing=0
+				usr.controlled=null
+				usr.client.perspective=MOB_PERSPECTIVE
+				usr.client.eye=usr
+				for(var/mob/LegendaryWeapons/DarkDragon/P in world) if(P.owner == usr) del(P)
+				return
+			if(src.Delay>0)
+				usr<<output("You must wait to use this technique.","Attack");return
+			else
+				src.Delay=1;spawn(600-usr.NinjutsuMastery)
+					src.Delay=0
+				src.overlays+='Skillcards2.dmi'
+				spawn(600-usr.NinjutsuMastery)
+					src.overlays-='Skillcards2.dmi'
+				src.Uses+=1
+				usr.LegendaryDragon()
+	LegendaryFlameBreathe
+		name="Black Breathe"
+		icon_state="LegendaryDragon"
+		NonKeepable=1
+		Click()
+			if(usr.resting||usr.meditating)
+				usr<<"You can't do this, you're resting or in chakra generation mode."
+				return
+			if(usr.Dead||usr.FrozenBind=="Dead"||usr.DoingPalms)
+				usr<<"Not now."
+				return
+			if(src.Delay>0)
+				usr<<output("You must wait to use this technique.","Attack");return
+			else
+				src.Delay=1;spawn(600-usr.NinjutsuMastery)
+					src.Delay=0
+				src.overlays+='Skillcards2.dmi'
+				spawn(600-usr.NinjutsuMastery)
+					src.overlays-='Skillcards2.dmi'
+				src.Uses+=1
+				usr.BlackFlameBreath()
+
+
+//Rose Blade Sword
+	RosePetal
+		name="Petal Rose"
+		icon_state="PetalRose"
+		NonKeepable=1
+		Click()
+			if(usr.resting||usr.meditating)
+				usr<<"You can't do this, you're resting or in chakra generation mode."
+				return
+			if(usr.Dead||usr.FrozenBind=="Dead"||usr.DoingPalms)
+				usr<<"Not now."
+				return
+			if(usr.LegendaryPetals)
+				usr.LegendaryPetals=0
+				usr<<"You return the petals back into your sword!"
+				usr.firing=0
+				usr.controlled=null
+				usr.client.perspective=MOB_PERSPECTIVE
+				usr.client.eye=usr
+				for(var/mob/LegendaryWeapons/petals/P in world) if(P.owner == usr) del(P)
+				for(var/obj/LegendaryWeapons/Mpetal/P in world) if(P.Owner == usr) del(P)
+				return
+			if(src.Delay>0)
+				usr<<output("You must wait to use this technique.","Attack");return
+			else
+				src.Delay=1;spawn(600-usr.NinjutsuMastery)
+					src.Delay=0
+				src.overlays+='Skillcards2.dmi'
+				spawn(600-usr.NinjutsuMastery)
+					src.overlays-='Skillcards2.dmi'
+				src.Uses+=1
+				usr.SummonPetals()
+//Naga Sword
+	VoidOpen1
+		name="Naga; Reverse Warp"
+		icon_state="ReverseWarp"
+		NonKeepable=1
+		Click()
+			if(usr.resting||usr.meditating)
+				usr<<"You can't do this, you're resting or in chakra generation mode."
+				return
+			if(usr.Dead||usr.FrozenBind=="Dead"||usr.DoingPalms)
+				usr<<"Not now."
+				return
+			if(src.Delay>0)
+				usr<<output("You must wait to use this technique.","Attack");return
+			else
+				src.Delay=1;spawn(100)
+					src.Delay=0
+				src.overlays+='Skillcards2.dmi'
+				spawn(100-usr.NinjutsuMastery)
+					src.overlays-='Skillcards2.dmi'
+				src.Uses+=1
+				usr.OpenVoid()
+	VoidOpen2
+		name="Naga; Portal"
+		icon_state="Portal"
+		NonKeepable=1
+		Click()
+			if(usr.resting||usr.meditating)
+				usr<<"You can't do this, you're resting or in chakra generation mode."
+				return
+			if(usr.Dead||usr.FrozenBind=="Dead"||usr.DoingPalms)
+				usr<<"Not now."
+				return
+			if(src.Delay>0)
+				usr<<output("You must wait to use this technique.","Attack");return
+			else
+				src.Delay=1;spawn(50)
+					src.Delay=0
+				src.overlays+='Skillcards2.dmi'
+				spawn(50-usr.NinjutsuMastery)
+					src.overlays-='Skillcards2.dmi'
+				src.Uses+=1
+				usr.OpenVoid2()
+
+
+////////////////////////////////////////
+//Katon
+/////////////////////
+	Hikibou
+		name="Fire Trick"
+		icon_state="Hikibou"
+		Activate(mob/M)
+			if(src.Uses<100&&M.Trait!="Speedy")
+				if(prob(95-src.Uses))
+					M<<output("The jutsu failed.","Attack");return
+			else if(M.Trait=="Speedy"&&src.Uses<50)
+				if(prob(50-src.Uses))
+					M<<output("The jutsu failed.","Attack");return
+			if(prob(15))
+				M.NinjutsuMastery+=0.1;if(usr.NinjutsuMastery>10) usr.NinjutsuMastery=10
+			if(prob(15))
+				M.NinjutsuKnowledge+=1
+
+			if(prob(15))
+				M.KatonKnowledge+=1
+				if(src.Uses<100)
+					M.KatonKnowledge+=pick(1,1.2)
+			if(prob(15))
+				M.FireChakra+=pick(0.01,0.1)
+				var/Cap=20
+				if(M.ElementalCapacity==1) Cap=30
+				if(M.Clan=="Basic") Cap+=(10-(M.ElementalCapacity*2))
+				if(M.Clan=="Basic"&&M.ElementalCapacity==1) Cap+=2
+				if(M.FireChakra>Cap)
+					M.FireChakra=Cap
+
+			for(var/mob/A in oview(10))
+				if(A.CopyMode) A.SharinganCopy(src.type,src.Uses)
+			if(src.Uses>150)
+				src.DelayIt(140,M,"Nin")
+			else
+				src.DelayIt(100,M,"Nin")
+
+			if(M.TypeLearning=="Katon")
+				M.exp+=rand(25,100)
+			src.Uses+=1
+
+			M.Hikibou(src.Uses)
+	Goukakyuu
+		name="Great Fireball Jutsu"
+		icon_state="Goukakyuu"
+		Activate(mob/M)
+			if(src.Uses<100&&M.Trait!="Speedy")
+				if(prob(95-src.Uses))
+					M<<output("The jutsu failed.","Attack");return
+			else if(M.Trait=="Speedy"&&src.Uses<50)
+				if(prob(50-src.Uses))
+					M<<output("The jutsu failed.","Attack");return
+			if(prob(15))
+				M.NinjutsuMastery+=0.1;if(usr.NinjutsuMastery>10) usr.NinjutsuMastery=10
+			if(prob(15))
+				M.NinjutsuKnowledge+=1
+
+			if(prob(15))
+				M.KatonKnowledge+=1
+				if(src.Uses<100)
+					M.KatonKnowledge+=pick(1,1.2)
+			if(prob(15))
+				M.FireChakra+=pick(0.01,0.1)
+				var/Cap=20
+				if(M.ElementalCapacity==1) Cap=30
+				if(M.Clan=="Basic") Cap+=(10-(M.ElementalCapacity*2))
+				if(M.Clan=="Basic"&&M.ElementalCapacity==1) Cap+=2
+				if(M.FireChakra>Cap)
+					M.FireChakra=Cap
+
+			for(var/mob/A in oview(10))
+				if(A.CopyMode) A.SharinganCopy(src.type,src.Uses)
+			src.DelayIt(200,M,"Nin")
+
+			if(M.TypeLearning=="Katon")
+				M.exp+=rand(25,100)
+			src.Uses+=1
+
+			M.GoukakyuuNoJutsu(src.Uses)
+	Housenka
+		name="Mythical Fire Phoenix Jutsu"
+		icon_state="Housenka"
+		Activate(mob/M)
+			if(src.Uses<100&&M.Trait!="Speedy")
+				if(prob(95-src.Uses))
+					M<<output("The jutsu failed.","Attack");return
+			else if(M.Trait=="Speedy"&&src.Uses<50)
+				if(prob(50-src.Uses))
+					M<<output("The jutsu failed.","Attack");return
+			if(prob(15))
+				M.NinjutsuMastery+=0.1;if(usr.NinjutsuMastery>10) usr.NinjutsuMastery=10
+			if(prob(15))
+				M.NinjutsuKnowledge+=1
+
+			if(prob(15))
+				M.KatonKnowledge+=1
+				if(src.Uses<100)
+					M.KatonKnowledge+=pick(1,1.2)
+			if(prob(15))
+				M.FireChakra+=pick(0.01,0.1)
+				var/Cap=20
+				if(M.ElementalCapacity==1) Cap=30
+				if(M.Clan=="Basic") Cap+=(10-(M.ElementalCapacity*2))
+				if(M.Clan=="Basic"&&M.ElementalCapacity==1) Cap+=2
+				if(M.FireChakra>Cap)
+					M.FireChakra=Cap
+
+			for(var/mob/A in oview(10))
+				if(A.CopyMode) A.SharinganCopy(src.type,src.Uses)
+			src.DelayIt(150,M,"Nin")
+
+			if(M.TypeLearning=="Katon")
+				M.exp+=rand(25,100)
+			src.Uses+=1
+
+			M.KatonHousenkaNoJutsu(src.Uses)
+	Ryuuka
+		name="Dragon Fire Jutsu"
+		icon_state="Ryuuka"
+		Activate(mob/M)
+			if(src.Uses<100&&M.Trait!="Speedy")
+				if(prob(95-src.Uses))
+					M<<output("The jutsu failed.","Attack");return
+			else if(M.Trait=="Speedy"&&src.Uses<50)
+				if(prob(50-src.Uses))
+					M<<output("The jutsu failed.","Attack");return
+			if(prob(15))
+				M.NinjutsuMastery+=0.1;if(usr.NinjutsuMastery>10) usr.NinjutsuMastery=10
+			if(prob(15))
+				M.NinjutsuKnowledge+=1
+
+			if(prob(15))
+				M.KatonKnowledge+=1
+				if(src.Uses<100)
+					M.KatonKnowledge+=pick(1,1.2)
+			if(prob(15))
+				M.FireChakra+=pick(0.01,0.1)
+				var/Cap=20
+				if(M.ElementalCapacity==1) Cap=30
+				if(M.Clan=="Basic") Cap+=(10-(M.ElementalCapacity*2))
+				if(M.Clan=="Basic"&&M.ElementalCapacity==1) Cap+=2
+				if(M.FireChakra>Cap)
+					M.FireChakra=Cap
+
+			for(var/mob/A in oview(10))
+				if(A.CopyMode) A.SharinganCopy(src.type,src.Uses)
+			src.DelayIt(600,M,"Nin")
+
+			if(M.TypeLearning=="Katon")
+				M.exp+=rand(25,100)
+			src.Uses+=1
+
+			M.KatonRyuuka()
+	KaryuuEndan
+		name="Fire Dragon Flame Projectile Jutsu"
+		icon_state="KaryuuEndan"
+		Activate(mob/M)
+			if(src.Uses<100&&M.Trait!="Speedy")
+				if(prob(95-src.Uses))
+					M<<output("The jutsu failed.","Attack");return
+			else if(M.Trait=="Speedy"&&src.Uses<50)
+				if(prob(50-src.Uses))
+					M<<output("The jutsu failed.","Attack");return
+			if(prob(15))
+				M.NinjutsuMastery+=0.1;if(usr.NinjutsuMastery>10) usr.NinjutsuMastery=10
+			if(prob(15))
+				M.NinjutsuKnowledge+=1
+
+			if(prob(15))
+				M.KatonKnowledge+=1
+				if(src.Uses<100)
+					M.KatonKnowledge+=pick(1,1.2)
+			if(prob(15))
+				M.FireChakra+=pick(0.01,0.1)
+				var/Cap=20
+				if(M.ElementalCapacity==1) Cap=30
+				if(M.Clan=="Basic") Cap+=(10-(M.ElementalCapacity*2))
+				if(M.Clan=="Basic"&&M.ElementalCapacity==1) Cap+=2
+				if(M.FireChakra>Cap)
+					M.FireChakra=Cap
+
+			for(var/mob/A in oview(10))
+				if(A.CopyMode) A.SharinganCopy(src.type,src.Uses)
+			src.DelayIt(600,M,"Nin")
+
+			if(M.TypeLearning=="Katon")
+				M.exp+=rand(25,100)
+			src.Uses+=1
+			M.KKE()
+	KatonHouka
+		name="Fire Rocket Jutsu"
+		icon_state="Houka"
+		Activate(mob/M)
+			if(src.Uses<100&&M.Trait!="Speedy")
+				if(prob(95-src.Uses))
+					M<<output("The jutsu failed.","Attack");return
+			else if(M.Trait=="Speedy"&&src.Uses<50)
+				if(prob(50-src.Uses))
+					M<<output("The jutsu failed.","Attack");return
+			if(prob(15))
+				M.NinjutsuMastery+=0.1;if(usr.NinjutsuMastery>10) usr.NinjutsuMastery=10
+			if(prob(15))
+				M.NinjutsuKnowledge+=1
+
+			if(prob(15))
+				M.KatonKnowledge+=1
+				if(src.Uses<100)
+					M.KatonKnowledge+=pick(1,1.2)
+			if(prob(15))
+				M.FireChakra+=pick(0.01,0.1)
+				var/Cap=20
+				if(M.ElementalCapacity==1) Cap=30
+				if(M.Clan=="Basic") Cap+=(10-(M.ElementalCapacity*2))
+				if(M.Clan=="Basic"&&M.ElementalCapacity==1) Cap+=2
+				if(M.FireChakra>Cap)
+					M.FireChakra=Cap
+
+			for(var/mob/A in oview(10))
+				if(A.CopyMode) A.SharinganCopy(src.type,src.Uses)
+			src.DelayIt(700,M,"Nin")
+
+			if(M.TypeLearning=="Katon")
+				M.exp+=rand(25,100)
+			src.Uses+=1
+			M.KatonHouka(src.Uses)
+	ChouHouka
+		name="Super Fire Rocket Jutsu"
+		icon_state="ChouHouka"
+		Activate(mob/M)
+			if(src.Uses<100&&M.Trait!="Speedy")
+				if(prob(95-src.Uses))
+					M<<output("The jutsu failed.","Attack");return
+			else if(M.Trait=="Speedy"&&src.Uses<50)
+				if(prob(50-src.Uses))
+					M<<output("The jutsu failed.","Attack");return
+			if(prob(15))
+				M.NinjutsuMastery+=0.1;if(usr.NinjutsuMastery>10) usr.NinjutsuMastery=10
+			if(prob(15))
+				M.NinjutsuKnowledge+=1
+
+			if(prob(15))
+				M.KatonKnowledge+=1
+				if(src.Uses<100)
+					M.KatonKnowledge+=pick(1,1.2)
+			if(prob(15))
+				M.FireChakra+=pick(0.01,0.1)
+				var/Cap=20
+				if(M.ElementalCapacity==1) Cap=30
+				if(M.Clan=="Basic") Cap+=(10-(M.ElementalCapacity*2))
+				if(M.Clan=="Basic"&&M.ElementalCapacity==1) Cap+=2
+				if(M.FireChakra>Cap)
+					M.FireChakra=Cap
+
+			for(var/mob/A in oview(10))
+				if(A.CopyMode) A.SharinganCopy(src.type,src.Uses)
+			src.DelayIt(1500,M,"Nin")
+
+			if(M.TypeLearning=="Katon")
+				M.exp+=rand(25,100)
+			src.Uses+=1
+			M.ChouHouka(src.Uses)
+	Gouryuuka
+		name="Grand Dragon Fire"
+		icon_state="Gouryuuka"
+		BunshinAble=0
+		Activate(mob/M)
+			if(src.Uses<100&&M.Trait!="Speedy")
+				if(prob(95-src.Uses))
+					M<<output("The jutsu failed.","Attack");return
+			else if(M.Trait=="Speedy"&&src.Uses<50)
+				if(prob(50-src.Uses))
+					M<<output("The jutsu failed.","Attack");return
+			if(prob(15))
+				M.NinjutsuMastery+=0.1;if(usr.NinjutsuMastery>10) usr.NinjutsuMastery=10
+			if(prob(15))
+				M.NinjutsuKnowledge+=1
+
+			if(prob(15))
+				M.KatonKnowledge+=1
+				if(src.Uses<100)
+					M.KatonKnowledge+=pick(1,1.2)
+			if(prob(15))
+				M.FireChakra+=pick(0.01,0.1)
+				var/Cap=20
+				if(M.ElementalCapacity==1) Cap=30
+				if(M.Clan=="Basic") Cap+=(10-(M.ElementalCapacity*2))
+				if(M.Clan=="Basic"&&M.ElementalCapacity==1) Cap+=2
+				if(M.FireChakra>Cap)
+					M.FireChakra=Cap
+
+			for(var/mob/A in oview(10))
+				if(A.CopyMode) A.SharinganCopy(src.type,src.Uses)
+			src.DelayIt(1500,M,"Nin")
+
+			if(M.TypeLearning=="Katon")
+				M.exp+=rand(25,100)
+			src.Uses+=1
+
+			M.Gouryuuka(src.Uses)
+	KatonRasengan
+		icon_state="KatonRasengan"
+		Click()
+			if(usr.resting||usr.meditating)
+				usr<<"You can't do this, you're resting or in chakra generation mode."
+				return
+			if(usr.Dead||usr.FrozenBind=="Dead"||usr.DoingPalms)
+				usr<<"Not now."
+				return
+			if(usr.Rasenganon)
+				usr<<output("You're already using Rasengan!","Attack");return
+			if(src.Delay>0)
+				usr<<output("You must wait to use this technique.","Attack");return
+			else
+				if(src.Uses<100&&usr.Trait!="Speedy")
+					if(prob(95-src.Uses))
+						usr<<output("The jutsu failed.","Attack");return
+				else if(usr.Trait=="Speedy"&&src.Uses<50)
+					if(prob(50-src.Uses))
+						usr<<output("The jutsu failed.","Attack");return
+				if(prob(15))
+					usr.NinjutsuMastery+=0.1;if(usr.NinjutsuMastery>10) usr.NinjutsuMastery=10
+				if(prob(15))
+					usr.KatonKnowledge+=1
+
+				src.DelayIt(1000,usr,"Nin")
+				src.Uses+=1
+				usr.KRasengan()
+////////////////////////////////////////
+//Fuuton
+/////////////////////
+	WindTrick
+		name="Wind Trick"
+		icon_state="WindTrick"
+		Activate(mob/M)
+			if(src.Uses<100&&M.Trait!="Speedy")
+				if(prob(95-src.Uses))
+					M<<output("The jutsu failed.","Attack");return
+			else if(M.Trait=="Speedy"&&src.Uses<50)
+				if(prob(50-src.Uses))
+					M<<output("The jutsu failed.","Attack");return
+			if(prob(15))
+				M.NinjutsuMastery+=0.1;if(usr.NinjutsuMastery>10) usr.NinjutsuMastery=10
+			if(prob(15))
+				M.NinjutsuKnowledge+=1
+
+			if(prob(15))
+				M.FuutonKnowledge+=1
+				if(src.Uses<100)
+					M.FuutonKnowledge+=pick(1,1.2)
+			if(prob(15))
+				M.WindChakra+=pick(0.01,0.1)
+				var/Cap=20
+				if(M.ElementalCapacity==1) Cap=30
+				if(M.Clan=="Basic") Cap+=(10-(M.ElementalCapacity*2))
+				if(M.Clan=="Basic"&&M.ElementalCapacity==1) Cap+=2
+				if(M.WindChakra>Cap)
+					M.WindChakra=Cap
+
+			for(var/mob/A in oview(10))
+				if(A.CopyMode) A.SharinganCopy(src.type,src.Uses)
+
+			if(M.TypeLearning=="Fuuton")
+				M.exp+=rand(25,100)
+			src.Delay=1
+			src.DelayIt(400,M,"Nin")
+			src.Uses+=1
+			M.WindTrick(Uses)
+	SpinningWind
+		name="Spinning Wind"
+		icon_state="SpinningWind"
+		Activate(mob/M)
+			if(src.Uses<100&&M.Trait!="Speedy")
+				if(prob(95-src.Uses))
+					M<<output("The jutsu failed.","Attack");return
+			else if(M.Trait=="Speedy"&&src.Uses<50)
+				if(prob(50-src.Uses))
+					M<<output("The jutsu failed.","Attack");return
+			if(prob(15))
+				M.NinjutsuMastery+=0.1;if(usr.NinjutsuMastery>10) usr.NinjutsuMastery=10
+			if(prob(15))
+				M.NinjutsuKnowledge+=1
+
+			if(prob(15))
+				M.FuutonKnowledge+=1
+				if(src.Uses<100)
+					M.FuutonKnowledge+=pick(1,1.2)
+			if(prob(15))
+				M.WindChakra+=pick(0.01,0.1)
+				var/Cap=20
+				if(M.ElementalCapacity==1) Cap=30
+				if(M.Clan=="Basic") Cap+=(10-(M.ElementalCapacity*2))
+				if(M.Clan=="Basic"&&M.ElementalCapacity==1) Cap+=2
+				if(M.WindChakra>Cap)
+					M.WindChakra=Cap
+
+			for(var/mob/A in oview(10))
+				if(A.CopyMode) A.SharinganCopy(src.type,src.Uses)
+
+			if(M.TypeLearning=="Fuuton")
+				M.exp+=rand(25,100)
+			src.Delay=1
+			src.DelayIt(100,M,"Nin")
+			src.Uses+=1
+			M.SpinningWind(Uses)
+	SenbonDice
+		name="Senbon Dice"
+		icon_state="SenbonDice"
+		Activate(mob/M)
+			if(src.Uses<100&&M.Trait!="Speedy")
+				if(prob(95-src.Uses))
+					M<<output("The jutsu failed.","Attack");return
+			else if(M.Trait=="Speedy"&&src.Uses<50)
+				if(prob(50-src.Uses))
+					M<<output("The jutsu failed.","Attack");return
+			if(prob(15))
+				M.NinjutsuMastery+=0.1;if(usr.NinjutsuMastery>10) usr.NinjutsuMastery=10
+			if(prob(15))
+				M.NinjutsuKnowledge+=1
+
+			if(prob(15))
+				M.FuutonKnowledge+=1
+				if(src.Uses<100)
+					M.FuutonKnowledge+=pick(1,1.2)
+			if(prob(15))
+				M.WindChakra+=pick(0.01,0.1)
+				var/Cap=20
+				if(M.ElementalCapacity==1) Cap=30
+				if(M.Clan=="Basic") Cap+=(10-(M.ElementalCapacity*2))
+				if(M.Clan=="Basic"&&M.ElementalCapacity==1) Cap+=2
+				if(M.WindChakra>Cap)
+					M.WindChakra=Cap
+
+			for(var/mob/A in oview(10))
+				if(A.CopyMode) A.SharinganCopy(src.type,src.Uses)
+
+			if(M.TypeLearning=="Fuuton")
+				M.exp+=rand(25,100)
+			src.Delay=1
+			src.DelayIt(250,M,"Nin")
+			src.Uses+=1
+			M.FuutonSenbonDice(src.Uses)
+	Reppushou
+		name="Gale Wind Palm"
+		icon_state="Reppushou"
+		Activate(mob/M)
+			if(src.Uses<100&&M.Trait!="Speedy")
+				if(prob(95-src.Uses))
+					M<<output("The jutsu failed.","Attack");return
+			else if(M.Trait=="Speedy"&&src.Uses<50)
+				if(prob(50-src.Uses))
+					M<<output("The jutsu failed.","Attack");return
+			if(prob(15))
+				M.NinjutsuMastery+=0.1;if(usr.NinjutsuMastery>10) usr.NinjutsuMastery=10
+			if(prob(15))
+				M.NinjutsuKnowledge+=1
+
+			if(prob(15))
+				M.FuutonKnowledge+=1
+				if(src.Uses<100)
+					M.FuutonKnowledge+=pick(1,1.2)
+			if(prob(15))
+				M.WindChakra+=pick(0.01,0.1)
+				var/Cap=20
+				if(M.ElementalCapacity==1) Cap=30
+				if(M.Clan=="Basic") Cap+=(10-(M.ElementalCapacity*2))
+				if(M.Clan=="Basic"&&M.ElementalCapacity==1) Cap+=2
+				if(M.WindChakra>Cap)
+					M.WindChakra=Cap
+
+			for(var/mob/A in oview(10))
+				if(A.CopyMode) A.SharinganCopy(src.type,src.Uses)
+
+			if(M.TypeLearning=="Fuuton")
+				M.exp+=rand(25,100)
+			src.Delay=1
+			src.DelayIt(250,M,"Nin")
+			src.Uses+=1
+			M.FuutonReppushou()
+	KazeDangan
+		name="Thrusting Air"
+		icon_state="KazeDangan"
+		Activate(mob/M)
+			if(src.Uses<100&&M.Trait!="Speedy")
+				if(prob(95-src.Uses))
+					M<<output("The jutsu failed.","Attack");return
+			else if(M.Trait=="Speedy"&&src.Uses<50)
+				if(prob(50-src.Uses))
+					M<<output("The jutsu failed.","Attack");return
+			if(prob(15))
+				M.NinjutsuMastery+=0.1;if(usr.NinjutsuMastery>10) usr.NinjutsuMastery=10
+			if(prob(15))
+				M.NinjutsuKnowledge+=1
+
+			if(prob(15))
+				M.FuutonKnowledge+=1
+				if(src.Uses<100)
+					M.FuutonKnowledge+=pick(1,1.2)
+			if(prob(15))
+				var/Cap=20
+				if(M.ElementalCapacity==1) Cap=30
+				if(M.Clan=="Basic") Cap+=(10-(M.ElementalCapacity*2))
+				if(M.Clan=="Basic"&&M.ElementalCapacity==1) Cap+=2
+				if(M.WindChakra>Cap)
+					M.WindChakra=Cap
+
+			for(var/mob/A in oview(10))
+				if(A.CopyMode) A.SharinganCopy(src.type,src.Uses)
+
+			if(M.TypeLearning=="Fuuton")
+				M.exp+=rand(25,100)
+			src.Delay=1
+			src.DelayIt(350,M,"Nin")
+			src.Uses+=1
+			M.FuutonKazeDanganzz()
+	Daitoppa
+		name="Great Breakthrough Jutsu"
+		icon_state="Daitoppa"
+		Deactivate(mob/M)
+			if(M.UsingDaitoppa)
+				if(M.TypeLearning=="Fuuton")
+					M.exp+=rand(25,100)
+				M.Daitoppa()
+				return
+		Activate(mob/M)
+			if(src.Uses<100&&M.Trait!="Speedy")
+				if(prob(95-src.Uses))
+					M<<output("The jutsu failed.","Attack");return
+			else if(M.Trait=="Speedy"&&src.Uses<50)
+				if(prob(50-src.Uses))
+					M<<output("The jutsu failed.","Attack");return
+			if(prob(15))
+				M.NinjutsuMastery+=0.1;if(usr.NinjutsuMastery>10) usr.NinjutsuMastery=10
+			if(prob(15))
+				M.NinjutsuKnowledge+=1
+
+			if(prob(15))
+				M.FuutonKnowledge+=1
+				if(src.Uses<100)
+					M.FuutonKnowledge+=pick(1,1.2)
+			if(prob(15))
+				M.WindChakra+=pick(0.01,0.1)
+				var/Cap=20
+				if(M.ElementalCapacity==1) Cap=30
+				if(M.Clan=="Basic") Cap+=(10-(M.ElementalCapacity*2))
+				if(M.Clan=="Basic"&&M.ElementalCapacity==1) Cap+=2
+				if(M.WindChakra>Cap)
+					M.WindChakra=Cap
+
+			for(var/mob/A in oview(10))
+				if(A.CopyMode) A.SharinganCopy(src.type,src.Uses)
+
+			if(M.TypeLearning=="Fuuton")
+				M.exp+=rand(25,100)
+			src.DelayIt(300,M,"Nin")
+			src.TurnedOn=1
+			M.Daitoppa()
+			src.Uses+=1
+	Yaiba
+		name="Sword of the Wind"
+		icon_state="Yaiba"
+		Activate(mob/M)
+			if(src.Uses<100&&M.Trait!="Speedy")
+				if(prob(95-src.Uses))
+					M<<output("The jutsu failed.","Attack");return
+			else if(M.Trait=="Speedy"&&src.Uses<50)
+				if(prob(50-src.Uses))
+					M<<output("The jutsu failed.","Attack");return
+			if(prob(15))
+				M.NinjutsuMastery+=0.1;if(usr.NinjutsuMastery>10) usr.NinjutsuMastery=10
+			if(prob(15))
+				M.NinjutsuKnowledge+=1
+
+			if(prob(15))
+				M.FuutonKnowledge+=1
+				if(src.Uses<100)
+					M.FuutonKnowledge+=pick(1,1.2)
+			if(prob(15))
+				M.WindChakra+=pick(0.01,0.1)
+				var/Cap=20
+				if(M.ElementalCapacity==1) Cap=30
+				if(M.Clan=="Basic") Cap+=(10-(M.ElementalCapacity*2))
+				if(M.Clan=="Basic"&&M.ElementalCapacity==1) Cap+=2
+				if(M.WindChakra>Cap)
+					M.WindChakra=Cap
+
+			for(var/mob/A in oview(10))
+				if(A.CopyMode) A.SharinganCopy(src.type,src.Uses)
+
+			if(M.TypeLearning=="Fuuton")
+				M.exp+=rand(250,1000)
+			src.Delay=1
+			src.DelayIt(600,M,"Nin")
+			src.Uses+=1
+			M.KazeNoYaibaJutsu()
+	Renkuudan
+		name="Drilling Air Projectile Jutsu"
+		icon_state="Renkuudan"
+		Activate(mob/M)
+			if(M.ElementalCapacity!=1)
+				M<<"You have the capacity for more than 1 nature. This jutsu is only for 1 nature users.";return
+
+			if(src.Uses<100&&M.Trait!="Speedy")
+				if(prob(95-src.Uses))
+					M<<output("The jutsu failed.","Attack");return
+			else if(M.Trait=="Speedy"&&src.Uses<50)
+				if(prob(50-src.Uses))
+					M<<output("The jutsu failed.","Attack");return
+			if(prob(15))
+				M.NinjutsuMastery+=0.1;if(usr.NinjutsuMastery>10) usr.NinjutsuMastery=10
+			if(prob(15))
+				M.NinjutsuKnowledge+=1
+
+			if(prob(15))
+				M.FuutonKnowledge+=1
+				if(src.Uses<100)
+					M.FuutonKnowledge+=pick(1,1.2)
+			if(prob(15))
+				M.WindChakra+=pick(0.01,0.1)
+				var/Cap=20
+				if(M.ElementalCapacity==1) Cap=30
+				if(M.Clan=="Basic") Cap+=(10-(M.ElementalCapacity*2))
+				if(M.Clan=="Basic"&&M.ElementalCapacity==1) Cap+=2
+				if(M.WindChakra>Cap)
+					M.WindChakra=Cap
+
+			if(M.TypeLearning=="Fuuton")
+				M.exp+=rand(550,2000)
+			src.Delay=1
+			src.DelayIt(500,M,"Nin")
+			src.Uses+=1
+			M.RenkuudanJutsu()
+	KazeKiri
+		name="Great Windcutter Jutsu"
+		icon_state="Kazekiri"
+		Activate(mob/M)
+			if(src.Uses<100&&M.Trait!="Speedy")
+				if(prob(95-src.Uses))
+					M<<output("The jutsu failed.","Attack");return
+			else if(M.Trait=="Speedy"&&src.Uses<50)
+				if(prob(50-src.Uses))
+					M<<output("The jutsu failed.","Attack");return
+			if(prob(15))
+				M.NinjutsuMastery+=0.1;if(usr.NinjutsuMastery>10) usr.NinjutsuMastery=10
+			if(prob(15))
+				M.NinjutsuKnowledge+=1
+
+			if(prob(15))
+				M.FuutonKnowledge+=1
+				if(src.Uses<100)
+					M.FuutonKnowledge+=pick(1,1.2)
+			if(prob(15))
+				M.WindChakra+=pick(0.01,0.1)
+				var/Cap=20
+				if(M.ElementalCapacity==1) Cap=30
+				if(M.Clan=="Basic") Cap+=(10-(M.ElementalCapacity*2))
+				if(M.Clan=="Basic"&&M.ElementalCapacity==1) Cap+=2
+				if(M.WindChakra>Cap)
+					M.WindChakra=Cap
+
+			for(var/mob/A in oview(10))
+				if(A.CopyMode) A.SharinganCopy(src.type,src.Uses)
+
+			if(M.TypeLearning=="Fuuton")
+				M.exp+=rand(250,1500)
+			src.Delay=1
+			src.DelayIt(500,M,"Nin")
+			src.Uses+=1
+			M.FuutonKazeKiri()
+	KazeGai
+		name="Giant Windcutter Jutsu"
+		icon_state="KazeGai"
+		Activate(mob/M)
+			if(src.Uses<100&&M.Trait!="Speedy")
+				if(prob(95-src.Uses))
+					M<<output("The jutsu failed.","Attack");return
+			else if(M.Trait=="Speedy"&&src.Uses<50)
+				if(prob(50-src.Uses))
+					M<<output("The jutsu failed.","Attack");return
+			if(prob(15))
+				M.NinjutsuMastery+=0.1;if(usr.NinjutsuMastery>10) usr.NinjutsuMastery=10
+			if(prob(15))
+				M.NinjutsuKnowledge+=1
+
+			if(prob(15))
+				M.FuutonKnowledge+=1
+				if(src.Uses<100)
+					M.FuutonKnowledge+=pick(1,1.2)
+			if(prob(15))
+				M.WindChakra+=pick(0.01,0.1)
+				var/Cap=20
+				if(M.ElementalCapacity==1) Cap=30
+				if(M.Clan=="Basic") Cap+=(10-(M.ElementalCapacity*2))
+				if(M.Clan=="Basic"&&M.ElementalCapacity==1) Cap+=2
+				if(M.WindChakra>Cap)
+					M.WindChakra=Cap
+
+			for(var/mob/A in oview(10))
+				if(A.CopyMode) A.SharinganCopy(src.type,src.Uses)
+
+			if(M.TypeLearning=="Fuuton")
+				M.exp+=rand(2500,3500)
+			src.Delay=1
+			src.DelayIt(500,M,"Nin")
+			src.Uses+=1
+			M.KazeGai()
+	VacuumSphere
+		name="Vacuum Sphere"
+		icon_state="KazeNoSenbon"
+		Activate(mob/M)
+			if(src.Uses<100&&M.Trait!="Speedy")
+				if(prob(95-src.Uses))
+					M<<output("The jutsu failed.","Attack");return
+			else if(M.Trait=="Speedy"&&src.Uses<50)
+				if(prob(50-src.Uses))
+					M<<output("The jutsu failed.","Attack");return
+			if(prob(15))
+				M.NinjutsuMastery+=0.1;if(usr.NinjutsuMastery>10) usr.NinjutsuMastery=10
+			if(prob(15))
+				M.NinjutsuKnowledge+=1
+
+			if(prob(15))
+				M.FuutonKnowledge+=1
+				if(src.Uses<100)
+					M.FuutonKnowledge+=pick(1,1.2)
+			if(prob(15))
+				M.WindChakra+=pick(0.01,0.1)
+				var/Cap=20
+				if(M.ElementalCapacity==1) Cap=30
+				if(M.Clan=="Basic") Cap+=(10-(M.ElementalCapacity*2))
+				if(M.Clan=="Basic"&&M.ElementalCapacity==1) Cap+=2
+				if(M.WindChakra>Cap)
+					M.WindChakra=Cap
+
+			if(M.TypeLearning=="Fuuton")
+				M.exp+=rand(250,1500)
+			src.Delay=1
+			src.DelayIt(450,M,"Nin")
+			src.Uses+=1
+			M.FuutonVacuumSphere(src.Uses)
+//Last Airbender
+	Gust
+		name="Gust"
+		icon_state="MugenSaijinDaitoppa"
+		Activate(mob/M)
+			if(src.Uses<100&&M.Trait!="Speedy")
+				if(prob(95-src.Uses))
+					M<<output("The jutsu failed.","Attack");return
+			else if(M.Trait=="Speedy"&&src.Uses<50)
+				if(prob(50-src.Uses))
+					M<<output("The jutsu failed.","Attack");return
+			if(prob(15))
+				M.NinjutsuMastery+=0.1;if(usr.NinjutsuMastery>10) usr.NinjutsuMastery=10
+			if(prob(15))
+				M.NinjutsuKnowledge+=1
+
+			if(prob(15))
+				M.FuutonKnowledge+=1
+				if(src.Uses<100)
+					M.FuutonKnowledge+=pick(1,1.2)
+			if(prob(15))
+				M.WindChakra+=pick(0.01,0.1)
+				var/Cap=20
+				if(M.ElementalCapacity==1) Cap=30
+				if(M.Clan=="Basic") Cap+=(10-(M.ElementalCapacity*2))
+				if(M.Clan=="Basic"&&M.ElementalCapacity==1) Cap+=2
+				if(M.WindChakra>Cap)
+					M.WindChakra=Cap
+
+			for(var/mob/A in oview(10))
+				if(A.CopyMode) A.SharinganCopy(src.type,src.Uses)
+
+			if(M.TypeLearning=="Fuuton")
+				M.exp+=rand(250,1500)
+			src.DelayIt(300,M,"Nin")
+			src.Uses+=1
+			M.Gust()
+	Whirlwind
+		name="Whirlwind"
+		icon_state="TornadoTrap"
+		Activate(mob/M)
+			if(src.Uses<100&&M.Trait!="Speedy")
+				if(prob(95-src.Uses))
+					M<<output("The jutsu failed.","Attack");return
+			else if(M.Trait=="Speedy"&&src.Uses<50)
+				if(prob(50-src.Uses))
+					M<<output("The jutsu failed.","Attack");return
+			if(prob(15))
+				M.NinjutsuMastery+=0.1;if(usr.NinjutsuMastery>10) usr.NinjutsuMastery=10
+			if(prob(15))
+				M.NinjutsuKnowledge+=1
+
+			if(prob(15))
+				M.FuutonKnowledge+=1
+				if(src.Uses<100)
+					M.FuutonKnowledge+=pick(1,1.2)
+			if(prob(15))
+				M.WindChakra+=pick(0.01,0.1)
+				var/Cap=20
+				if(M.ElementalCapacity==1) Cap=30
+				if(M.Clan=="Basic") Cap+=(10-(M.ElementalCapacity*2))
+				if(M.Clan=="Basic"&&M.ElementalCapacity==1) Cap+=2
+				if(M.WindChakra>Cap)
+					M.WindChakra=Cap
+
+			for(var/mob/A in oview(10))
+				if(A.CopyMode) A.SharinganCopy(src.type,src.Uses)
+
+			if(M.TypeLearning=="Fuuton")
+				M.exp+=rand(250,1500)
+			src.DelayIt(300,M,"Nin")
+			src.Uses+=1
+			M.Whirlwind()
+	AirDash
+		name="Air Dash"
+		icon_state="Air Dash"
+		Activate(mob/M)
+			if(src.Uses<100&&M.Trait!="Speedy")
+				if(prob(95-src.Uses))
+					M<<output("The jutsu failed.","Attack");return
+			else if(M.Trait=="Speedy"&&src.Uses<50)
+				if(prob(50-src.Uses))
+					M<<output("The jutsu failed.","Attack");return
+			if(prob(15))
+				M.NinjutsuMastery+=0.1;if(usr.NinjutsuMastery>10) usr.NinjutsuMastery=10
+			if(prob(15))
+				M.NinjutsuKnowledge+=1
+
+			if(prob(15))
+				M.FuutonKnowledge+=1
+				if(src.Uses<100)
+					M.FuutonKnowledge+=pick(1,1.2)
+			if(prob(15))
+				M.WindChakra+=pick(0.01,0.1)
+				var/Cap=20
+				if(M.ElementalCapacity==1) Cap=30
+				if(M.Clan=="Basic") Cap+=(10-(M.ElementalCapacity*2))
+				if(M.Clan=="Basic"&&M.ElementalCapacity==1) Cap+=2
+				if(M.WindChakra>Cap)
+					M.WindChakra=Cap
+
+			for(var/mob/A in oview(10))
+				if(A.CopyMode) A.SharinganCopy(src.type,src.Uses)
+
+			if(M.TypeLearning=="Fuuton")
+				M.exp+=rand(250,1500)
+			src.DelayIt(60,M,"Nin")
+			src.Uses+=1
+			M.AirDash()
+	AirBall
+		name="Air Ball"
+		icon_state="KazeDangan"
+		Activate(mob/M)
+			if(src.Uses<100&&M.Trait!="Speedy")
+				if(prob(95-src.Uses))
+					M<<output("The jutsu failed.","Attack");return
+			else if(M.Trait=="Speedy"&&src.Uses<50)
+				if(prob(50-src.Uses))
+					M<<output("The jutsu failed.","Attack");return
+			if(prob(15))
+				M.NinjutsuMastery+=0.1;if(usr.NinjutsuMastery>10) usr.NinjutsuMastery=10
+			if(prob(15))
+				M.NinjutsuKnowledge+=1
+
+			if(prob(15))
+				M.FuutonKnowledge+=1
+				if(src.Uses<100)
+					M.FuutonKnowledge+=pick(1,1.2)
+			if(prob(15))
+				M.WindChakra+=pick(0.01,0.1)
+				var/Cap=20
+				if(M.ElementalCapacity==1) Cap=30
+				if(M.Clan=="Basic") Cap+=(10-(M.ElementalCapacity*2))
+				if(M.Clan=="Basic"&&M.ElementalCapacity==1) Cap+=2
+				if(M.WindChakra>Cap)
+					M.WindChakra=Cap
+
+			for(var/mob/A in oview(10))
+				if(A.CopyMode) A.SharinganCopy(src.type,src.Uses)
+
+			if(M.TypeLearning=="Fuuton")
+				M.exp+=rand(250,1500)
+			src.DelayIt(250,M,"Nin")
+			src.Uses+=1
+			M.FuutonAirBall()
+//////////////////////////////
+///Suiton
+//////////////////////////
+	Mizurappa
+		name="Violent Water Wave"
+		icon_state="Mizurappa"
+		Activate(mob/M)
+			if(src.Uses<100&&M.Trait!="Speedy")
+				if(prob(95-src.Uses))
+					M<<output("The jutsu failed.","Attack");return
+			else if(M.Trait=="Speedy"&&src.Uses<50)
+				if(prob(50-src.Uses))
+					M<<output("The jutsu failed.","Attack");return
+			if(prob(15))
+				M.NinjutsuMastery+=0.1;if(usr.NinjutsuMastery>10) usr.NinjutsuMastery=10
+			if(prob(15))
+				M.NinjutsuKnowledge+=1
+
+			if(prob(15))
+				M.SuitonKnowledge+=1
+				if(src.Uses<100)
+					M.SuitonKnowledge+=pick(1,1.2)
+			if(prob(15))
+				M.WaterChakra+=pick(0.01,0.1)
+				var/Cap=20
+				if(M.ElementalCapacity==1) Cap=30
+				if(M.Clan=="Basic") Cap+=(10-(M.ElementalCapacity*2))
+				if(M.Clan=="Basic"&&M.ElementalCapacity==1) Cap+=2
+				if(M.WaterChakra>Cap)
+					M.WaterChakra=Cap
+
+			for(var/mob/A in oview(10))
+				if(A.CopyMode) A.SharinganCopy(src.type,src.Uses)
+
+			if(M.TypeLearning=="Suiton")
+				M.exp+=rand(25,100)
+			src.DelayIt(250,M,"Nin")
+			src.Uses+=1
+			M.MizurappaNoJutsu()
+	MizuameNabara
+		name="Starch Syrup Capture Field"
+		icon_state="StickySyrup"
+		Activate(mob/M)
+			if(src.Uses<100&&M.Trait!="Speedy")
+				if(prob(95-src.Uses))
+					M<<output("The jutsu failed.","Attack");return
+			else if(M.Trait=="Speedy"&&src.Uses<50)
+				if(prob(50-src.Uses))
+					M<<output("The jutsu failed.","Attack");return
+			if(prob(15))
+				M.NinjutsuMastery+=0.1;if(usr.NinjutsuMastery>10) usr.NinjutsuMastery=10
+			if(prob(15))
+				M.NinjutsuKnowledge+=1
+
+			if(prob(15))
+				M.SuitonKnowledge+=1
+				if(src.Uses<100)
+					M.SuitonKnowledge+=pick(1,1.2)
+			if(prob(15))
+				M.WaterChakra+=pick(0.01,0.1)
+				var/Cap=20
+				if(M.ElementalCapacity==1) Cap=30
+				if(M.Clan=="Basic") Cap+=(10-(M.ElementalCapacity*2))
+				if(M.Clan=="Basic"&&M.ElementalCapacity==1) Cap+=2
+				if(M.WaterChakra>Cap)
+					M.WaterChakra=Cap
+
+			for(var/mob/A in oview(10))
+				if(A.CopyMode) A.SharinganCopy(src.type,src.Uses)
+
+			if(M.TypeLearning=="Suiton")
+				M.exp+=rand(25,100)
+			src.DelayIt(800,M,"Nin")
+			src.Uses+=1
+			M.MizuameNabaraz()
+	WaterCreation
+		name="Water Creation"
+		icon_state="WaterCreation"
+		Activate(mob/M)
+			if(src.Uses<100&&M.Trait!="Speedy")
+				if(prob(95-src.Uses))
+					M<<output("The jutsu failed.","Attack");return
+			else if(M.Trait=="Speedy"&&src.Uses<50)
+				if(prob(50-src.Uses))
+					M<<output("The jutsu failed.","Attack");return
+			if(prob(15))
+				M.NinjutsuMastery+=0.1;if(usr.NinjutsuMastery>10) usr.NinjutsuMastery=10
+			if(prob(15))
+				M.NinjutsuKnowledge+=1
+
+			if(prob(15))
+				M.SuitonKnowledge+=1
+				if(src.Uses<100)
+					M.SuitonKnowledge+=pick(1,1.2)
+			if(prob(15))
+				M.WaterChakra+=pick(0.01,0.1)
+				var/Cap=20
+				if(M.ElementalCapacity==1) Cap=30
+				if(M.Clan=="Basic") Cap+=(10-(M.ElementalCapacity*2))
+				if(M.Clan=="Basic"&&M.ElementalCapacity==1) Cap+=2
+				if(M.WaterChakra>Cap)
+					M.WaterChakra=Cap
+
+			for(var/mob/A in oview(10))
+				if(A.CopyMode) A.SharinganCopy(src.type,src.Uses)
+
+			if(M.TypeLearning=="Suiton")
+				M.exp+=rand(250,1000)
+			src.DelayIt(600,M,"Nin")
+			src.Uses+=1
+			M.CreateWater()
+	Suijinheki
+		name="Water Wall"
+		icon_state="Suijinheki"
+		Activate(mob/M)
+			if(src.Uses<100&&M.Trait!="Speedy")
+				if(prob(95-src.Uses))
+					M<<output("The jutsu failed.","Attack");return
+			else if(M.Trait=="Speedy"&&src.Uses<50)
+				if(prob(50-src.Uses))
+					M<<output("The jutsu failed.","Attack");return
+			if(prob(15))
+				M.NinjutsuMastery+=0.1;if(usr.NinjutsuMastery>10) usr.NinjutsuMastery=10
+			if(prob(15))
+				M.NinjutsuKnowledge+=1
+
+			if(prob(15))
+				M.SuitonKnowledge+=1
+				if(src.Uses<100)
+					M.SuitonKnowledge+=pick(1,1.2)
+			if(prob(15))
+				M.WaterChakra+=pick(0.01,0.1)
+				var/Cap=20
+				if(M.ElementalCapacity==1) Cap=30
+				if(M.Clan=="Basic") Cap+=(10-(M.ElementalCapacity*2))
+				if(M.Clan=="Basic"&&M.ElementalCapacity==1) Cap+=2
+				if(M.WaterChakra>Cap)
+					M.WaterChakra=Cap
+
+			for(var/mob/A in oview(10))
+				if(A.CopyMode) A.SharinganCopy(src.type,src.Uses)
+
+			if(M.TypeLearning=="Suiton")
+				M.exp+=rand(250,1000)
+			src.DelayIt(250,M,"Nin")
+			src.Uses+=1
+			M.Suijinheki(Uses)
+
+
+	Suiryuudan
+		name="Water Dragon Jutsu"
+		icon_state="Suiryuudan"
+		BunshinAble=0
+		Deactivate(mob/M)
+			M.SuiryuudanZ()
+			src.DelayIt(350,M,"Nin")
+		Activate(mob/M)
+			for(var/obj/Elemental/Suiton/Suiryedan/K in world)
+				if(K.Owner==M)
+					src.Deactivate(M)
+					return
+			if(src.Uses<100&&M.Trait!="Speedy")
+				if(prob(95-src.Uses))
+					M<<output("The jutsu failed.","Attack");return
+			else if(M.Trait=="Speedy"&&src.Uses<50)
+				if(prob(50-src.Uses))
+					M<<output("The jutsu failed.","Attack");return
+			if(prob(15))
+				M.NinjutsuMastery+=0.1;if(usr.NinjutsuMastery>10) usr.NinjutsuMastery=10
+			if(prob(15))
+				M.NinjutsuKnowledge+=1
+
+			if(prob(15))
+				M.SuitonKnowledge+=1
+				if(src.Uses<100)
+					M.SuitonKnowledge+=pick(1,1.2)
+			if(prob(15))
+				M.WaterChakra+=pick(0.01,0.1)
+				var/Cap=20
+				if(M.ElementalCapacity==1) Cap=30
+				if(M.Clan=="Basic") Cap+=(10-(M.ElementalCapacity*2))
+				if(M.Clan=="Basic"&&M.ElementalCapacity==1) Cap+=2
+				if(M.WaterChakra>Cap)
+					M.WaterChakra=Cap
+
+			for(var/mob/A in oview(10))
+				if(A.CopyMode) A.SharinganCopy(src.type,src.Uses)
+
+			if(M.TypeLearning=="Suiton")
+				M.exp+=rand(250,1000)
+			src.DelayIt(350,M,"Nin")
+			src.Uses+=1
+			M.SuiryuudanZ()
+	Suikoudan
+		name="Water Shark Jutsu"
+		icon_state="Suikoudan"
+
+		Activate(mob/M)
+			if(src.Uses<100&&M.Trait!="Speedy")
+				if(prob(95-src.Uses))
+					M<<output("The jutsu failed.","Attack");return
+			else if(M.Trait=="Speedy"&&src.Uses<50)
+				if(prob(50-src.Uses))
+					M<<output("The jutsu failed.","Attack");return
+			if(prob(15))
+				M.NinjutsuMastery+=0.1;if(usr.NinjutsuMastery>10) usr.NinjutsuMastery=10
+			if(prob(15))
+				M.NinjutsuKnowledge+=1
+
+			if(prob(15))
+				M.SuitonKnowledge+=1
+				if(src.Uses<100)
+					M.SuitonKnowledge+=pick(1,1.2)
+			if(prob(15))
+				M.WaterChakra+=pick(0.01,0.1)
+				var/Cap=20
+				if(M.ElementalCapacity==1) Cap=30
+				if(M.Clan=="Basic") Cap+=(10-(M.ElementalCapacity*2))
+				if(M.Clan=="Basic"&&M.ElementalCapacity==1) Cap+=2
+				if(M.WaterChakra>Cap)
+					M.WaterChakra=Cap
+
+			for(var/mob/A in oview(10))
+				if(A.CopyMode) A.SharinganCopy(src.type,src.Uses)
+
+			if(M.TypeLearning=="Suiton")
+				M.exp+=rand(25,100)
+			src.DelayIt(650,M,"Nin")
+			src.Uses+=1
+			M.SuikoudanZ()
+	Suigadan
+		name="Water Fang Jutsu"
+		icon_state="Suigadan"
+
+		Activate(mob/M)
+			if(src.Uses<100&&M.Trait!="Speedy")
+				if(prob(95-src.Uses))
+					M<<output("The jutsu failed.","Attack");return
+			else if(M.Trait=="Speedy"&&src.Uses<50)
+				if(prob(50-src.Uses))
+					M<<output("The jutsu failed.","Attack");return
+			if(prob(15))
+				M.NinjutsuMastery+=0.1;if(usr.NinjutsuMastery>10) usr.NinjutsuMastery=10
+			if(prob(15))
+				M.NinjutsuKnowledge+=1
+
+			if(prob(15))
+				M.SuitonKnowledge+=1
+				if(src.Uses<100)
+					M.SuitonKnowledge+=pick(1,1.2)
+			if(prob(15))
+				M.WaterChakra+=pick(0.01,0.1)
+				var/Cap=20
+				if(M.ElementalCapacity==1) Cap=30
+				if(M.Clan=="Basic") Cap+=(10-(M.ElementalCapacity*2))
+				if(M.Clan=="Basic"&&M.ElementalCapacity==1) Cap+=2
+				if(M.WaterChakra>Cap)
+					M.WaterChakra=Cap
+
+			for(var/mob/A in oview(10))
+				if(A.CopyMode) A.SharinganCopy(src.type,src.Uses)
+
+			if(M.TypeLearning=="Suiton")
+				M.exp+=rand(25,100)
+			src.DelayIt(250,M,"Nin")
+			src.Uses+=1
+			M.Suigadan()
+	Daibakufu
+		name="Grand Waterfall Jutsu"
+		icon_state="Daibakufu"
+
+		Activate(mob/M)
+			if(src.Uses<100&&M.Trait!="Speedy")
+				if(prob(95-src.Uses))
+					M<<output("The jutsu failed.","Attack");return
+			else if(M.Trait=="Speedy"&&src.Uses<50)
+				if(prob(50-src.Uses))
+					M<<output("The jutsu failed.","Attack");return
+			if(prob(15))
+				M.NinjutsuMastery+=0.1;if(usr.NinjutsuMastery>10) usr.NinjutsuMastery=10
+			if(prob(15))
+				M.NinjutsuKnowledge+=1
+
+			if(prob(15))
+				M.SuitonKnowledge+=1
+				if(src.Uses<100)
+					M.SuitonKnowledge+=pick(1,1.2)
+			if(prob(15))
+				M.WaterChakra+=pick(0.01,0.1)
+				var/Cap=20
+				if(M.ElementalCapacity==1) Cap=30
+				if(M.Clan=="Basic") Cap+=(10-(M.ElementalCapacity*2))
+				if(M.Clan=="Basic"&&M.ElementalCapacity==1) Cap+=2
+				if(M.WaterChakra>Cap)
+					M.WaterChakra=Cap
+
+			for(var/mob/A in oview(10))
+				if(A.CopyMode) A.SharinganCopy(src.type,src.Uses)
+
+			if(M.TypeLearning=="Suiton")
+				M.exp+=rand(2650,3200)
+			src.DelayIt(700,M,"Nin")
+			src.Uses+=1
+			M.DaibakufuZ()
+	BakuSuishouha
+		name="Bursting Collision Waves"
+		icon_state="BakuSuishou"
+		Activate(mob/M)
+			if(src.Uses<100&&M.Trait!="Speedy")
+				if(prob(95-src.Uses))
+					M<<output("The jutsu failed.","Attack");return
+			else if(M.Trait=="Speedy"&&src.Uses<50)
+				if(prob(50-src.Uses))
+					M<<output("The jutsu failed.","Attack");return
+			if(prob(15))
+				M.NinjutsuMastery+=0.1;if(usr.NinjutsuMastery>10) usr.NinjutsuMastery=10
+			if(prob(15))
+				M.NinjutsuKnowledge+=1
+
+			if(prob(15))
+				M.SuitonKnowledge+=1
+				if(src.Uses<100)
+					M.SuitonKnowledge+=pick(1,1.2)
+			if(prob(15))
+				M.WaterChakra+=pick(0.01,0.1)
+				var/Cap=20
+				if(M.ElementalCapacity==1) Cap=30
+				if(M.Clan=="Basic") Cap+=(10-(M.ElementalCapacity*2))
+				if(M.Clan=="Basic"&&M.ElementalCapacity==1) Cap+=2
+				if(M.WaterChakra>Cap)
+					M.WaterChakra=Cap
+
+			for(var/mob/A in oview(10))
+				if(A.CopyMode) A.SharinganCopy(src.type,src.Uses)
+
+			if(M.TypeLearning=="Suiton")
+				M.exp+=rand(725,1500)
+			src.DelayIt(1100,M,"Nin")
+			src.Uses+=1
+			M.BakuSuishouha(src.Uses)
+	Teppoudama
+		name="Water Bullet"
+		icon_state="Water Bullet"
+		Activate(mob/M)
+			if(src.Uses<100&&M.Trait!="Speedy")
+				if(prob(95-src.Uses))
+					M<<output("The jutsu failed.","Attack");return
+			else if(M.Trait=="Speedy"&&src.Uses<50)
+				if(prob(50-src.Uses))
+					M<<output("The jutsu failed.","Attack");return
+			if(prob(15))
+				M.NinjutsuMastery+=0.1;if(usr.NinjutsuMastery>10) usr.NinjutsuMastery=10
+			if(prob(15))
+				M.NinjutsuKnowledge+=1
+
+			if(prob(15))
+				M.SuitonKnowledge+=1
+				if(src.Uses<100)
+					M.SuitonKnowledge+=pick(1,1.2)
+			if(prob(15))
+				M.WaterChakra+=pick(0.01,0.1)
+				var/Cap=20
+				if(M.ElementalCapacity==1) Cap=30
+				if(M.Clan=="Basic") Cap+=(10-(M.ElementalCapacity*2))
+				if(M.Clan=="Basic"&&M.ElementalCapacity==1) Cap+=2
+				if(M.WaterChakra>Cap)
+					M.WaterChakra=Cap
+
+			if(M.TypeLearning=="Suiton")
+				M.exp+=rand(750,2000)
+			src.DelayIt(600,M,"Nin")
+			src.Uses+=1
+			M.Teppoudama()
+///////////////////////////////
+///Raiton
+//////////////////////////
+	Yoroi
+		name="Lightning Strike Armor"
+		icon_state="RaiYoroi"
+		Activate(mob/M)
+
+			if(M.RaiArmor)
+				M.overlays-='RaiArmor.dmi'
+				M.tempmix='ChakraAura.dmi';M.tempmix+=rgb(224,197,2)
+				var/icon/Q=icon(M.tempmix);M.overlays-=Q
+				M.RaiArmor=0;M.RaitonArmor=0
+				src.DelayIt(700,M,"Nin")
+				return
+
+
+			if(src.Uses<100&&M.Trait!="Speedy")
+				if(prob(95-src.Uses))
+					M<<output("The jutsu failed.","Attack");return
+			else if(M.Trait=="Speedy"&&src.Uses<50)
+				if(prob(50-src.Uses))
+					M<<output("The jutsu failed.","Attack");return
+			if(prob(15))
+				M.NinjutsuMastery+=0.1;if(usr.NinjutsuMastery>10) usr.NinjutsuMastery=10
+			if(prob(15))
+				M.NinjutsuKnowledge+=1
+
+			if(prob(15))
+				M.RaitonKnowledge+=1
+			if(prob(15))
+				M.LightningChakra+=pick(0.01,0.1)
+				var/Cap=20
+				if(M.ElementalCapacity==1) Cap=30
+				if(M.Clan=="Basic") Cap+=(10-(M.ElementalCapacity*2))
+				if(M.Clan=="Basic"&&M.ElementalCapacity==1) Cap+=2
+				if(M.LightningChakra>Cap)
+					M.LightningChakra=Cap
+
+			for(var/mob/A in oview(10))
+				if(A.CopyMode) A.SharinganCopy(src.type,src.Uses)
+
+			if(M.TypeLearning=="Raiton")
+				M.exp+=rand(25,100)
+			src.Uses+=1
+			M.RaigekiYoroiz(src.Uses)
+	Touei
+		name="Flicker of Light"
+		icon_state="Touei"
+		Activate(mob/M)
+			if(src.Uses<100&&M.Trait!="Speedy")
+				if(prob(95-src.Uses))
+					M<<output("The jutsu failed.","Attack");return
+			else if(M.Trait=="Speedy"&&src.Uses<50)
+				if(prob(50-src.Uses))
+					M<<output("The jutsu failed.","Attack");return
+			if(prob(15))
+				M.NinjutsuMastery+=0.1;if(usr.NinjutsuMastery>10) usr.NinjutsuMastery=10
+			if(prob(15))
+				M.NinjutsuKnowledge+=1
+
+			if(prob(15))
+				M.RaitonKnowledge+=1
+			if(prob(15))
+				M.LightningChakra+=pick(0.01,0.1)
+				var/Cap=20
+				if(M.ElementalCapacity==1) Cap=30
+				if(M.Clan=="Basic") Cap+=(10-(M.ElementalCapacity*2))
+				if(M.Clan=="Basic"&&M.ElementalCapacity==1) Cap+=2
+				if(M.LightningChakra>Cap)
+					M.LightningChakra=Cap
+
+			for(var/mob/A in oview(10))
+				if(A.CopyMode)
+					if(A.SharinganMastery<1000)
+						A<<"[M]'s handsigns were too fast for you to read.."
+					else
+						A.SharinganCopy(src.type,src.Uses)
+
+			if(M.TypeLearning=="Raiton")
+				M.exp+=rand(25,100)
+			src.DelayIt(450,usr,"Nin")
+			src.Uses+=1
+			M.Touei()
+	Raikyuu
+		name="Lightning Ball"
+		icon_state="Raikyu"
+		Activate(mob/M)
+			if(src.Uses<100&&M.Trait!="Speedy")
+				if(prob(95-src.Uses))
+					M<<output("The jutsu failed.","Attack");return
+			else if(M.Trait=="Speedy"&&src.Uses<50)
+				if(prob(50-src.Uses))
+					M<<output("The jutsu failed.","Attack");return
+			if(prob(15))
+				M.NinjutsuMastery+=0.1;if(usr.NinjutsuMastery>10) usr.NinjutsuMastery=10
+			if(prob(15))
+				M.NinjutsuKnowledge+=1
+
+			if(prob(15))
+				M.RaitonKnowledge+=1
+			if(prob(15))
+				M.LightningChakra+=pick(0.01,0.1)
+				var/Cap=20
+				if(M.ElementalCapacity==1) Cap=30
+				if(M.Clan=="Basic") Cap+=(10-(M.ElementalCapacity*2))
+				if(M.Clan=="Basic"&&M.ElementalCapacity==1) Cap+=2
+				if(M.LightningChakra>Cap)
+					M.LightningChakra=Cap
+
+			for(var/mob/A in oview(10))
+				if(A.CopyMode) A.SharinganCopy(src.type,src.Uses)
+
+			if(M.TypeLearning=="Raiton")
+				M.exp+=rand(25,100)
+
+			src.DelayIt(300,M,"Nin")
+			src.Uses+=1
+			M.Raikyuuz()
+	Tatsumaki
+		name="Lightning Dragon Tornado"
+		icon_state="Tatsumaki"
+		BunshinAble=0
+		Deactivate(mob/M)
+			M.Tatsumaki()
+			src.DelayIt(350,M,"Nin")
+		Activate(mob/M)
+			if(M.TatsumakiOn)
+				src.Deactivate(M)
+				return
+			if(src.Uses<100&&M.Trait!="Speedy")
+				if(prob(95-src.Uses))
+					M<<output("The jutsu failed.","Attack");return
+			else if(M.Trait=="Speedy"&&src.Uses<50)
+				if(prob(50-src.Uses))
+					M<<output("The jutsu failed.","Attack");return
+			if(prob(15))
+				M.NinjutsuMastery+=0.1;if(usr.NinjutsuMastery>10) usr.NinjutsuMastery=10
+			if(prob(15))
+				M.NinjutsuKnowledge+=1
+
+			if(prob(15))
+				M.RaitonKnowledge+=1
+			if(prob(15))
+				M.LightningChakra+=pick(0.01,0.1)
+				var/Cap=20
+				if(M.ElementalCapacity==1) Cap=30
+				if(M.Clan=="Basic") Cap+=(10-(M.ElementalCapacity*2))
+				if(M.Clan=="Basic"&&M.ElementalCapacity==1) Cap+=2
+				if(M.LightningChakra>Cap)
+					M.LightningChakra=Cap
+
+			for(var/mob/A in oview(10))
+				if(A.CopyMode) A.SharinganCopy(src.type,src.Uses)
+
+			if(M.TypeLearning=="Raiton")
+				M.exp+=rand(25,100)
+			src.DelayIt(350,M,"Nin")
+			src.Uses+=1
+			M.Tatsumaki()
+	IkazuchiKiba
+		name="Lightning Bolt Fang"
+		icon_state="Ikazuchi"
+		Activate(mob/M)
+			if(src.Uses<100&&M.Trait!="Speedy")
+				if(prob(95-src.Uses))
+					M<<output("The jutsu failed.","Attack");return
+			else if(M.Trait=="Speedy"&&src.Uses<50)
+				if(prob(50-src.Uses))
+					M<<output("The jutsu failed.","Attack");return
+			if(prob(15))
+				M.NinjutsuMastery+=0.1;if(usr.NinjutsuMastery>10) usr.NinjutsuMastery=10
+			if(prob(15))
+				M.NinjutsuKnowledge+=1
+
+			if(prob(15))
+				M.RaitonKnowledge+=1
+			if(prob(15))
+				M.LightningChakra+=pick(0.01,0.1)
+				var/Cap=20
+				if(M.ElementalCapacity==1) Cap=30
+				if(M.Clan=="Basic") Cap+=(10-(M.ElementalCapacity*2))
+				if(M.Clan=="Basic"&&M.ElementalCapacity==1) Cap+=2
+				if(M.LightningChakra>Cap)
+					M.LightningChakra=Cap
+
+			for(var/mob/A in oview(10))
+				if(A.CopyMode) A.SharinganCopy(src.type,src.Uses)
+
+			if(M.TypeLearning=="Raiton")
+				M.exp+=rand(25,100)
+			src.DelayIt(600,M,"Nin")
+			src.Uses+=1
+			M.IkazuchiKiba()
+	RairyuuGarou
+		name="Rotating Lightning"
+		icon_state="Garou"
+		Activate(mob/M)
+			if(src.Uses<100&&M.Trait!="Speedy")
+				if(prob(95-src.Uses))
+					M<<output("The jutsu failed.","Attack");return
+			else if(M.Trait=="Speedy"&&src.Uses<50)
+				if(prob(50-src.Uses))
+					M<<output("The jutsu failed.","Attack");return
+			if(prob(15))
+				M.NinjutsuMastery+=0.1;if(usr.NinjutsuMastery>10) usr.NinjutsuMastery=10
+			if(prob(15))
+				M.NinjutsuKnowledge+=1
+
+			if(prob(15))
+				M.RaitonKnowledge+=1
+			if(prob(15))
+				M.LightningChakra+=pick(0.01,0.1)
+				var/Cap=20
+				if(M.ElementalCapacity==1) Cap=30
+				if(M.Clan=="Basic") Cap+=(10-(M.ElementalCapacity*2))
+				if(M.Clan=="Basic"&&M.ElementalCapacity==1) Cap+=2
+				if(M.LightningChakra>Cap)
+					M.LightningChakra=Cap
+
+			for(var/mob/A in oview(10))
+				if(A.CopyMode) A.SharinganCopy(src.type,src.Uses)
+
+			if(M.TypeLearning=="Raiton")
+				M.exp+=rand(25,100)
+			src.DelayIt(450,M,"Nin")
+			src.Uses+=1
+			M.RairyuuGarou()
+	Jibashi
+		name="Electromagnetic Murder"
+		icon_state="Jibashi"
+		Activate(mob/M)
+			if(src.Uses<100&&M.Trait!="Speedy")
+				if(prob(95-src.Uses))
+					M<<output("The jutsu failed.","Attack");return
+			else if(M.Trait=="Speedy"&&src.Uses<50)
+				if(prob(50-src.Uses))
+					M<<output("The jutsu failed.","Attack");return
+			if(prob(15))
+				M.NinjutsuMastery+=0.1;if(usr.NinjutsuMastery>10) usr.NinjutsuMastery=10
+			if(prob(15))
+				M.NinjutsuKnowledge+=1
+
+			if(prob(15))
+				M.RaitonKnowledge+=1
+			if(prob(15))
+				M.LightningChakra+=pick(0.01,0.1)
+				var/Cap=20
+				if(M.ElementalCapacity==1) Cap=30
+				if(M.Clan=="Basic") Cap+=(10-(M.ElementalCapacity*2))
+				if(M.Clan=="Basic"&&M.ElementalCapacity==1) Cap+=2
+				if(M.LightningChakra>Cap)
+					M.LightningChakra=Cap
+
+			for(var/mob/A in oview(10))
+				if(A.CopyMode) A.SharinganCopy(src.type,src.Uses)
+
+			if(M.TypeLearning=="Raiton")
+				M.exp+=rand(250,1500)
+			src.DelayIt(500,M,"Nin")
+			src.Uses+=1
+			M.Jibashi()
+	Gian
+		name="False Darkness"
+		icon_state="Gian"
+		Activate(mob/M)
+			if(M.ElementalCapacity!=1)
+				M<<"You have the capacity for more than 1 nature. This jutsu is only for 1 nature users.";return
+			if(src.Uses<100&&M.Trait!="Speedy")
+				if(prob(95-src.Uses))
+					M<<output("The jutsu failed.","Attack");return
+			else if(M.Trait=="Speedy"&&src.Uses<50)
+				if(prob(50-src.Uses))
+					M<<output("The jutsu failed.","Attack");return
+			if(prob(15))
+				M.NinjutsuMastery+=0.1;if(usr.NinjutsuMastery>10) usr.NinjutsuMastery=10
+			if(prob(15))
+				M.NinjutsuKnowledge+=1
+
+			if(prob(15))
+				M.RaitonKnowledge+=1
+			if(prob(15))
+				M.LightningChakra+=pick(0.01,0.1)
+				var/Cap=20
+				if(M.ElementalCapacity==1) Cap=30
+				if(M.Clan=="Basic") Cap+=(10-(M.ElementalCapacity*2))
+				if(M.Clan=="Basic"&&M.ElementalCapacity==1) Cap+=2
+				if(M.LightningChakra>Cap)
+					M.LightningChakra=Cap
+
+			if(M.TypeLearning=="Raiton")
+				M.exp+=rand(2500,3500)
+			src.DelayIt(1200,M,"Nin")
+			src.Uses+=1
+			M.Gian()
+	Chidori
+		icon_state="Chidori"
+		Activate(mob/M)
+			if(src.Uses<100&&M.Trait!="Speedy")
+				if(prob(95-src.Uses))
+					M<<output("The jutsu failed.","Attack");return
+			else if(M.Trait=="Speedy"&&src.Uses<50)
+				if(prob(50-src.Uses))
+					M<<output("The jutsu failed.","Attack");return
+			if(prob(15))
+				M.NinjutsuMastery+=0.1;if(usr.NinjutsuMastery>10) usr.NinjutsuMastery=10
+			if(prob(15))
+				M.NinjutsuKnowledge+=1
+
+			if(prob(15))
+				M.RaitonKnowledge+=1
+			if(prob(15))
+				M.LightningChakra+=pick(0.01,0.1)
+				var/Cap=20
+				if(M.ElementalCapacity==1) Cap=30
+				if(M.Clan=="Basic") Cap+=(10-(M.ElementalCapacity*2))
+				if(M.Clan=="Basic"&&M.ElementalCapacity==1) Cap+=2
+				if(M.LightningChakra>Cap)
+					M.LightningChakra=Cap
+
+			if(M.TypeLearning=="Raiton")
+				M.exp+=rand(25,100)
+			src.DelayIt(350,M,"Nin")
+			src.Uses+=1
+			M.Chidoriz(0)
+			src.DelayIt(600,M,"Nin")
+			src.Uses+=1
+	ChidoriNagashi
+		icon_state="ChidoriNagashi"
+		name = "Chidori Current"
+		Activate(mob/M)
+			if(M.ElementalCapacity>2)
+				M<<"Not for people capable of learning more than 2 elements.";del(src);return
+			if(src.Uses<100&&M.Trait!="Speedy")
+				if(prob(95-src.Uses))
+					M<<output("The jutsu failed.","Attack");return
+			else if(M.Trait=="Speedy"&&src.Uses<50)
+				if(prob(50-src.Uses))
+					M<<output("The jutsu failed.","Attack");return
+			if(prob(15))
+				M.NinjutsuMastery+=0.1;if(usr.NinjutsuMastery>10) usr.NinjutsuMastery=10
+			if(prob(15))
+				M.NinjutsuKnowledge+=1
+
+			if(prob(15))
+				M.RaitonKnowledge+=1
+			if(prob(15))
+				M.LightningChakra+=pick(0.01,0.1)
+				var/Cap=20
+				if(M.ElementalCapacity==1) Cap=30
+				if(M.Clan=="Basic") Cap+=(10-(M.ElementalCapacity*2))
+				if(M.Clan=="Basic"&&M.ElementalCapacity==1) Cap+=2
+				if(M.LightningChakra>Cap)
+					M.LightningChakra=Cap
+
+			if(M.TypeLearning=="Raiton")
+				M.exp+=rand(250,1000)
+			src.DelayIt(500,M,"Nin")
+			src.Uses+=1
+			M.ChidoriNagashi()
+	ChidoriSenbon
+		icon_state="ChidoriSenbon"
+		name = "Chidori Senbon"
+		Activate(mob/M)
+			if(M.ElementalCapacity>2)
+				M<<"Not for people capable of learning more than 2 elements.";del(src);return
+			/*var/ChidoriOn
+			for(var/obj/SkillCards/Chidori/A in M.LearnedJutsus)
+				if(A.Delay)
+					ChidoriOn=1
+			if(ChidoriOn)
+				M<<"Chidori is under a delay already!";return*/
+			if(src.Uses<100&&M.Trait!="Speedy")
+				if(prob(95-src.Uses))
+					M<<output("The jutsu failed.","Attack");return
+			else if(M.Trait=="Speedy"&&src.Uses<50)
+				if(prob(50-src.Uses))
+					M<<output("The jutsu failed.","Attack");return
+			if(prob(15))
+				M.NinjutsuMastery+=0.1;if(usr.NinjutsuMastery>10) usr.NinjutsuMastery=10
+			if(prob(15))
+				M.NinjutsuKnowledge+=1
+
+			if(prob(15))
+				M.RaitonKnowledge+=1
+			if(prob(15))
+				M.LightningChakra+=pick(0.01,0.1)
+				var/Cap=20
+				if(M.ElementalCapacity==1) Cap=30
+				if(M.Clan=="Basic") Cap+=(10-(M.ElementalCapacity*2))
+				if(M.Clan=="Basic"&&M.ElementalCapacity==1) Cap+=2
+				if(M.LightningChakra>Cap)
+					M.LightningChakra=Cap
+
+			if(M.TypeLearning=="Raiton")
+				M.exp+=rand(250,1000)
+			src.DelayIt(150,M,"Nin")
+			src.Uses+=1
+			M.ChidoriSenbon()
+	ChidoriEisou
+		name = "Chidori Spear"
+		icon_state="ChidoriEisou"
+		Activate(mob/M)
+			if(M.ElementalCapacity>2)
+				M<<"Not for people capable of learning more than 2 elements.";del(src);return
+			/*var/ChidoriOn
+			for(var/obj/SkillCards/Chidori/A in M.LearnedJutsus)
+				if(A.Delay)
+					ChidoriOn=1
+			if(ChidoriOn)
+				M<<"Chidori is under a delay already!";return*/
+			if(src.Uses<100&&M.Trait!="Speedy")
+				if(prob(95-src.Uses))
+					M<<output("The jutsu failed.","Attack");return
+			else if(M.Trait=="Speedy"&&src.Uses<50)
+				if(prob(50-src.Uses))
+					M<<output("The jutsu failed.","Attack");return
+			if(prob(15))
+				M.NinjutsuMastery+=0.1;if(usr.NinjutsuMastery>10) usr.NinjutsuMastery=10
+			if(prob(15))
+				M.NinjutsuKnowledge+=1
+
+			if(prob(15))
+				M.RaitonKnowledge+=1
+			if(prob(15))
+				M.LightningChakra+=pick(0.01,0.1)
+				var/Cap=20
+				if(M.ElementalCapacity==1) Cap=30
+				if(M.Clan=="Basic") Cap+=(10-(M.ElementalCapacity*2))
+				if(M.Clan=="Basic"&&M.ElementalCapacity==1) Cap+=2
+				if(M.LightningChakra>Cap)
+					M.LightningChakra=Cap
+
+			if(M.TypeLearning=="Raiton")
+				M.exp+=rand(250,1000)
+			src.DelayIt(650,M,"Nin")
+			src.Uses+=1
+			M.ChidoriEisou()
+	Raikiri
+		icon_state="Raikiri"
+		Activate(mob/M)
+			if(M.ElementalCapacity>2)
+				M<<"Not for people capable of learning more than 2 elements.";del(src);return
+			if(src.Uses<100&&M.Trait!="Speedy")
+				if(prob(95-src.Uses))
+					M<<output("The jutsu failed.","Attack");return
+			else if(M.Trait=="Speedy"&&src.Uses<50)
+				if(prob(50-src.Uses))
+					M<<output("The jutsu failed.","Attack");return
+			if(prob(15))
+				M.NinjutsuMastery+=0.1;if(usr.NinjutsuMastery>10) usr.NinjutsuMastery=10
+			if(prob(15))
+				M.NinjutsuKnowledge+=1
+
+			if(prob(15))
+				M.RaitonKnowledge+=1
+			if(prob(15))
+				M.LightningChakra+=pick(0.01,0.1)
+				var/Cap=20
+				if(M.ElementalCapacity==1) Cap=30
+				if(M.Clan=="Basic") Cap+=(10-(M.ElementalCapacity*2))
+				if(M.Clan=="Basic"&&M.ElementalCapacity==1) Cap+=2
+				if(M.LightningChakra>Cap)
+					M.LightningChakra=Cap
+
+			if(M.TypeLearning=="Raiton")
+				M.exp+=rand(250,1000)
+			src.DelayIt(600,M,"Nin")
+			src.Uses+=1
+			M.Chidoriz(1)
+	RaikiriWolf
+		name="Raikiri Wolf"
+		icon_state="RaikiriWolf"
+		Activate(mob/M)
+			if(M.ElementalCapacity>2)
+				M<<"Not for people capable of learning more than 2 elements.";del(src);return
+			if(src.Uses<100&&M.Trait!="Speedy")
+				if(prob(95-src.Uses))
+					M<<output("The jutsu failed.","Attack");return
+			else if(M.Trait=="Speedy"&&src.Uses<50)
+				if(prob(50-src.Uses))
+					M<<output("The jutsu failed.","Attack");return
+			if(prob(15))
+				M.NinjutsuMastery+=0.1;if(usr.NinjutsuMastery>10) usr.NinjutsuMastery=10
+			if(prob(15))
+				M.NinjutsuKnowledge+=1
+
+			if(prob(15))
+				M.RaitonKnowledge+=1
+			if(prob(15))
+				M.LightningChakra+=pick(0.01,0.1)
+				var/Cap=20
+				if(M.ElementalCapacity==1) Cap=30
+				if(M.Clan=="Basic") Cap+=(10-(M.ElementalCapacity*2))
+				if(M.Clan=="Basic"&&M.ElementalCapacity==1) Cap+=2
+				if(M.LightningChakra>Cap)
+					M.LightningChakra=Cap
+
+			if(M.TypeLearning=="Raiton")
+				M.exp+=rand(250,1000)
+			src.DelayIt(380,M,"Nin")
+			src.Uses+=1
+			M.RaikiriWolf()
+/////////////////////////////
+///Doton
+///////////////////////
+	DoryoDango
+		name="Mausoleum Earth Dumpling"
+		icon_state="DoryoDango"
+		Activate(mob/M)
+			if(src.Uses<100&&M.Trait!="Speedy")
+				if(prob(95-src.Uses))
+					M<<output("The jutsu failed.","Attack");return
+			else if(M.Trait=="Speedy"&&src.Uses<50)
+				if(prob(50-src.Uses))
+					M<<output("The jutsu failed.","Attack");return
+			if(prob(15))
+				M.NinjutsuMastery+=0.1;if(usr.NinjutsuMastery>10) usr.NinjutsuMastery=10
+			if(prob(15))
+				M.NinjutsuKnowledge+=1
+
+			if(prob(15))
+				M.DotonKnowledge+=1
+			if(prob(15))
+				M.EarthChakra+=pick(0.01,0.1)
+				var/Cap=20
+				if(M.ElementalCapacity==1) Cap=30
+				if(M.Clan=="Basic") Cap+=(10-(M.ElementalCapacity*2))
+				if(M.Clan=="Basic"&&M.ElementalCapacity==1) Cap+=2
+				if(M.EarthChakra>Cap)
+					M.EarthChakra=Cap
+
+			for(var/mob/A in oview(10))
+				if(A.CopyMode) A.SharinganCopy(src.type,src.Uses)
+
+			if(M.TypeLearning=="Doton")
+				M.exp+=rand(25,100)
+			src.DelayIt(250,M,"Nin")
+			src.Uses+=1
+			M.DotonDoryoDangoz(src.Uses)
+	Doryuudan
+		name="Earth Dragon"
+		icon_state="Doryuudan"
+		Activate(mob/M)
+			if(src.Uses<100&&M.Trait!="Speedy")
+				if(prob(95-src.Uses))
+					M<<output("The jutsu failed.","Attack");return
+			else if(M.Trait=="Speedy"&&src.Uses<50)
+				if(prob(50-src.Uses))
+					M<<output("The jutsu failed.","Attack");return
+			if(prob(15))
+				M.NinjutsuMastery+=0.1;if(usr.NinjutsuMastery>10) usr.NinjutsuMastery=10
+			if(prob(15))
+				M.NinjutsuKnowledge+=1
+
+			if(prob(15))
+				M.DotonKnowledge+=1
+			if(prob(15))
+				M.EarthChakra+=pick(0.01,0.1)
+				var/Cap=20
+				if(M.ElementalCapacity==1) Cap=30
+				if(M.Clan=="Basic") Cap+=(10-(M.ElementalCapacity*2))
+				if(M.Clan=="Basic"&&M.ElementalCapacity==1) Cap+=2
+				if(M.EarthChakra>Cap)
+					M.EarthChakra=Cap
+
+			for(var/mob/A in oview(10))
+				if(A.CopyMode) A.SharinganCopy(src.type,src.Uses)
+
+			if(M.TypeLearning=="Doton")
+				M.exp+=rand(25,100)
+			src.DelayIt(450,M,"Nin")
+			src.Uses+=1
+			M.DotonDoryuudanTechnique()
+	Moguragakure
+		name="Hiding Mole"
+		icon_state="Moguragakure"
+		Activate(mob/M)
+			if(M.Mogu)
+				M.density=1;M.layer=M.SavedLayer;M.Frozen=0;M.firing=0;M.Mogu=0
+				M.CreateCrator();M.Mogu=0;src.DelayIt(450,M,"Nin");return
+			else
+				if(M.FrozenBind=="Wire")
+					src.DelayIt(150,M,"Nin")
+					return
+				if(src.Uses<100&&M.Trait!="Speedy")
+					if(prob(95-src.Uses))
+						M<<output("The jutsu failed.","Attack");return
+				else if(M.Trait=="Speedy"&&src.Uses<50)
+					if(prob(50-src.Uses))
+						M<<output("The jutsu failed.","Attack");return
+				if(prob(15))
+					M.NinjutsuMastery+=0.1;if(M.NinjutsuMastery>10) M.NinjutsuMastery=10
+				if(prob(15))
+					M.NinjutsuKnowledge+=1
+				if(prob(15))
+					M.DotonKnowledge+=1
+				if(prob(15))
+					M.EarthChakra+=pick(0.01,0.1)
+					var/Cap=20
+					if(M.ElementalCapacity==1) Cap=30
+					if(M.Clan=="Basic") Cap+=(10-(M.ElementalCapacity*2))
+					if(M.Clan=="Basic"&&M.ElementalCapacity==1) Cap+=2
+					if(M.EarthChakra>Cap)
+						M.EarthChakra=Cap
+
+				for(var/mob/A in oview(10))
+					if(A.CopyMode) A.SharinganCopy(src.type,src.Uses)
+
+				if(M.TypeLearning=="Doton")
+					M.exp+=rand(25,100)
+				if(!M.EarthE)
+					M<<"YOU DON'T HAVE DOTON!";del(src)
+
+				src.Uses+=1
+				M.Moguragakureno()
+	Taiga
+		name="Earth Flow River"
+		icon_state="Taiga"
+		Activate(mob/M)
+			if(src.Uses<100&&M.Trait!="Speedy")
+				if(prob(95-src.Uses))
+					M<<output("The jutsu failed.","Attack");return
+			else if(M.Trait=="Speedy"&&src.Uses<50)
+				if(prob(50-src.Uses))
+					M<<output("The jutsu failed.","Attack");return
+			if(prob(15))
+				M.NinjutsuMastery+=0.1;if(usr.NinjutsuMastery>10) usr.NinjutsuMastery=10
+			if(prob(15))
+				M.NinjutsuKnowledge+=1
+
+			if(prob(15))
+				M.DotonKnowledge+=1
+			if(prob(15))
+				M.EarthChakra+=pick(0.01,0.1)
+				var/Cap=20
+				if(M.ElementalCapacity==1) Cap=30
+				if(M.Clan=="Basic") Cap+=(10-(M.ElementalCapacity*2))
+				if(M.Clan=="Basic"&&M.ElementalCapacity==1) Cap+=2
+				if(M.EarthChakra>Cap)
+					M.EarthChakra=Cap
+
+			for(var/mob/A in oview(10))
+				if(A.CopyMode) A.SharinganCopy(src.type,src.Uses)
+
+			if(M.TypeLearning=="Doton")
+				M.exp+=rand(25,100)
+			src.DelayIt(600,M,"Nin")
+			src.Uses+=1
+			M.DoryuuTaiga()
+
+
+	YomiNuma
+		name="Swamp of the Underworld"
+		icon_state="YomiNuma"
+		Activate(mob/M)
+			if(src.Uses<100&&M.Trait!="Speedy")
+				if(prob(95-src.Uses))
+					M<<output("The jutsu failed.","Attack");return
+			else if(M.Trait=="Speedy"&&src.Uses<50)
+				if(prob(50-src.Uses))
+					M<<output("The jutsu failed.","Attack");return
+			if(prob(15))
+				M.NinjutsuMastery+=0.1;if(usr.NinjutsuMastery>10) usr.NinjutsuMastery=10
+			if(prob(15))
+				M.NinjutsuKnowledge+=1
+
+			if(prob(15))
+				M.DotonKnowledge+=1
+			if(prob(15))
+				M.EarthChakra+=pick(0.01,0.1)
+				var/Cap=20
+				if(M.ElementalCapacity==1) Cap=30
+				if(M.Clan=="Basic") Cap+=(10-(M.ElementalCapacity*2))
+				if(M.Clan=="Basic"&&M.ElementalCapacity==1) Cap+=2
+				if(M.EarthChakra>Cap)
+					M.EarthChakra=Cap
+
+			for(var/mob/A in oview(10))
+				if(A.CopyMode) A.SharinganCopy(src.type,src.Uses)
+
+			if(M.TypeLearning=="Doton")
+				M.exp+=rand(2500,3500)
+			src.DelayIt(1200,M,"Nin")
+			src.Uses+=1
+			M.DotonYomuNuma(src.Uses)
+	TsuchiWana
+		name="Mass Rock Collision Gathering"
+		icon_state="TsuchiWana"
+		Activate(mob/M)
+			if(src.Uses<100&&M.Trait!="Speedy")
+				if(prob(95-src.Uses))
+					M<<output("The jutsu failed.","Attack");return
+			else if(M.Trait=="Speedy"&&src.Uses<50)
+				if(prob(50-src.Uses))
+					M<<output("The jutsu failed.","Attack");return
+			if(prob(15))
+				M.NinjutsuMastery+=0.1;if(usr.NinjutsuMastery>10) usr.NinjutsuMastery=10
+			if(prob(15))
+				M.NinjutsuKnowledge+=1
+
+			if(prob(15))
+				M.DotonKnowledge+=1
+			if(prob(15))
+				M.EarthChakra+=pick(0.01,0.1)
+				var/Cap=20
+				if(M.ElementalCapacity==1) Cap=30
+				if(M.Clan=="Basic") Cap+=(10-(M.ElementalCapacity*2))
+				if(M.Clan=="Basic"&&M.ElementalCapacity==1) Cap+=2
+				if(M.EarthChakra>Cap)
+					M.EarthChakra=Cap
+
+			for(var/mob/A in oview(10))
+				if(A.CopyMode) A.SharinganCopy(src.type,src.Uses)
+
+			if(M.TypeLearning=="Doton")
+				M.exp+=rand(25,100)
+			src.DelayIt(1200,M,"Nin")
+			src.Uses+=1
+			M.TsuchiWana()
+	DorukiGaeshi
+		name="Mud Overturn"
+		icon_state="DorukiGaeshi"
+		Activate(mob/M)
+			if(src.Uses<100&&M.Trait!="Speedy")
+				if(prob(95-src.Uses))
+					M<<output("The jutsu failed.","Attack");return
+			else if(M.Trait=="Speedy"&&src.Uses<50)
+				if(prob(50-src.Uses))
+					M<<output("The jutsu failed.","Attack");return
+			if(prob(15))
+				M.NinjutsuMastery+=0.1;if(usr.NinjutsuMastery>10) usr.NinjutsuMastery=10
+			if(prob(15))
+				M.NinjutsuKnowledge+=1
+
+			if(prob(15))
+				M.DotonKnowledge+=1
+			if(prob(15))
+				M.EarthChakra+=pick(0.01,0.1)
+				var/Cap=20
+				if(M.ElementalCapacity==1) Cap=30
+				if(M.Clan=="Basic") Cap+=(10-(M.ElementalCapacity*2))
+				if(M.Clan=="Basic"&&M.ElementalCapacity==1) Cap+=2
+				if(M.EarthChakra>Cap)
+					M.EarthChakra=Cap
+
+			for(var/mob/A in oview(10))
+				if(A.CopyMode) A.SharinganCopy(src.type,src.Uses)
+
+			if(M.TypeLearning=="Doton")
+				M.exp+=rand(250,1000)
+			src.DelayIt(150,M,"Nin")
+			src.Uses+=1
+			M.DotonDorukiGaeshi()
+	MoveStopper
+		name="Move Stopper"
+		icon_state="DorukiGaeshi"
+		Activate(mob/M)
+			if(src.Uses<100&&M.Trait!="Speedy")
+				if(prob(95-src.Uses))
+					M<<output("The jutsu failed.","Attack");return
+			else if(M.Trait=="Speedy"&&src.Uses<50)
+				if(prob(50-src.Uses))
+					M<<output("The jutsu failed.","Attack");return
+			if(prob(15))
+				M.NinjutsuMastery+=0.1;if(usr.NinjutsuMastery>10) usr.NinjutsuMastery=10
+			if(prob(15))
+				M.NinjutsuKnowledge+=1
+
+			if(prob(15))
+				M.DotonKnowledge+=1
+			if(prob(15))
+				M.EarthChakra+=pick(0.01,0.1)
+				var/Cap=20
+				if(M.ElementalCapacity==1) Cap=30
+				if(M.Clan=="Basic") Cap+=(10-(M.ElementalCapacity*2))
+				if(M.Clan=="Basic"&&M.ElementalCapacity==1) Cap+=2
+				if(M.EarthChakra>Cap)
+					M.EarthChakra=Cap
+
+			for(var/mob/A in oview(10))
+				if(A.CopyMode) A.SharinganCopy(src.type,src.Uses)
+
+			if(M.TypeLearning=="Doton")
+				M.exp+=rand(250,1000)
+			src.DelayIt(600,M,"Nin")
+			src.Uses+=1
+			M.MoveStopper()
+	Doryuuheki
+		name="Earth Style Wall"
+		icon_state="Doryuuheki"
+		Activate(mob/M)
+			if(src.Uses<100&&M.Trait!="Speedy")
+				if(prob(95-src.Uses))
+					M<<output("The jutsu failed.","Attack");return
+			else if(M.Trait=="Speedy"&&src.Uses<50)
+				if(prob(50-src.Uses))
+					M<<output("The jutsu failed.","Attack");return
+			if(prob(15))
+				M.NinjutsuMastery+=0.1;if(usr.NinjutsuMastery>10) usr.NinjutsuMastery=10
+			if(prob(15))
+				M.NinjutsuKnowledge+=1
+
+			if(prob(15))
+				M.DotonKnowledge+=1
+			if(prob(15))
+				M.EarthChakra+=pick(0.01,0.1)
+				var/Cap=20
+				if(M.ElementalCapacity==1) Cap=30
+				if(M.Clan=="Basic") Cap+=(10-(M.ElementalCapacity*2))
+				if(M.Clan=="Basic"&&M.ElementalCapacity==1) Cap+=2
+				if(M.EarthChakra>Cap)
+					M.EarthChakra=Cap
+
+			for(var/mob/A in oview(10))
+				if(A.CopyMode) A.SharinganCopy(src.type,src.Uses)
+
+			if(M.TypeLearning=="Doton")
+				M.exp+=rand(250,1000)
+			src.DelayIt(650,M,"Nin")
+			src.Uses+=1
+			M.DotonWall()
+	DorouDomu
+		name="Earth Barrier"
+		icon_state="Domu"
+		Deactivate(mob/M)
+			M.DotonDorouDomu()
+		Activate(mob/M)
+			if(src.Uses<100&&M.Trait!="Speedy")
+				if(prob(95-src.Uses))
+					M<<output("The jutsu failed.","Attack");return
+			else if(M.Trait=="Speedy"&&src.Uses<50)
+				if(prob(50-src.Uses))
+					M<<output("The jutsu failed.","Attack");return
+			if(prob(15))
+				M.NinjutsuMastery+=0.1;if(usr.NinjutsuMastery>10) usr.NinjutsuMastery=10
+			if(prob(15))
+				M.NinjutsuKnowledge+=1
+
+			if(prob(15))
+				M.DotonKnowledge+=1
+			if(prob(15))
+				M.EarthChakra+=pick(0.01,0.1)
+				var/Cap=20
+				if(M.ElementalCapacity==1) Cap=30
+				if(M.Clan=="Basic") Cap+=(10-(M.ElementalCapacity*2))
+				if(M.Clan=="Basic"&&M.ElementalCapacity==1) Cap+=2
+				if(M.EarthChakra>Cap)
+					M.EarthChakra=Cap
+
+			for(var/mob/A in oview(10))
+				if(A.CopyMode) A.SharinganCopy(src.type,src.Uses)
+
+			if(M.TypeLearning=="Doton")
+				M.exp+=rand(250,1000)
+			src.DelayIt(650,M,"Nin")
+			src.Uses+=1
+			src.TurnedOn=1
+			M.DotonDorouDomu()
+	DorouDomuCrush
+		name="Earth Crush"
+		icon_state="DomuCrush"
+		BunshinAble=0
+		Deactivate(mob/M)
+			src.DelayIt(1200,M,"Nin")
+			M.DotonCrush()
+		Activate(mob/M)
+			if(src.Uses<100&&M.Trait!="Speedy")
+				if(prob(95-src.Uses))
+					M<<output("The jutsu failed.","Attack");return
+			else if(M.Trait=="Speedy"&&src.Uses<50)
+				if(prob(50-src.Uses))
+					M<<output("The jutsu failed.","Attack");return
+			if(prob(15))
+				M.NinjutsuMastery+=0.1;if(usr.NinjutsuMastery>10) usr.NinjutsuMastery=10
+			if(prob(15))
+				M.NinjutsuKnowledge+=1
+
+			if(prob(15))
+				M.DotonKnowledge+=1
+			if(prob(15))
+				M.EarthChakra+=pick(0.01,0.1)
+				var/Cap=20
+				if(M.ElementalCapacity==1) Cap=30
+				if(M.Clan=="Basic") Cap+=(10-(M.ElementalCapacity*2))
+				if(M.Clan=="Basic"&&M.ElementalCapacity==1) Cap+=2
+				if(M.EarthChakra>Cap)
+					M.EarthChakra=Cap
+
+			//for(var/mob/A in oview(10))
+			//	if(A.CopyMode)
+			//		A.SharinganCopy(src.type,src.Uses)
+
+			if(M.TypeLearning=="Doton")
+				M.exp+=rand(2500,5200)
+			src.Uses+=1
+			src.TurnedOn=1
+			if(src.TurnedOn)
+				src.Deactivate(M);return
+			M.DotonCrush()
+
+//Bijuu//////////////
+//Nibi
+	Nibi
+		name="Power State(Nibi)"
+		icon_state="Nibi"
+		Click()
+			if(usr.KBunshinOn)
+				var/A=usr.controlled
+				usr=A
+			else
+				usr=usr
+			if(src.Delay>0)
+				usr<<sound('Click2.wav');return
+			else
+				if(usr.Bijuu=="")
+					del(src)
+				if(usr.TailState!=0)
+					usr<<"You release the chakra cloak from your body."
+					usr.overlays-='cataura.dmi'
+					usr.overlays-='cataura1.dmi'
+					usr.overlays-='cataura2.dmi'
+					usr.TailState=0
+					src.Delay=1;spawn(60-usr.NinjutsuMastery)
+						src.Delay=0
+					src.overlays+='Skillcards2.dmi'
+					spawn(650-usr.NinjutsuMastery)
+						src.overlays-='Skillcards2.dmi'
+					return
+				else
+					var/Controllable=0
+					if(src.Uses>100)
+						Controllable=1
+					src.Uses++
+					usr.ReleaseNibi(Controllable)
+	Nibi1
+		name="One-Tailed(Nibi)"
+		icon_state="Nibi"
+		Click()
+			if(usr.KBunshinOn)
+				var/A=usr.controlled
+				usr=A
+			else
+				usr=usr
+			if(src.Delay>0)
+				usr<<sound('Click2.wav');return
+			else
+				if(usr.Bijuu=="")
+					del(src)
+				if(usr.TailState!=0&&usr.TailState!=0.5)
+					usr<<"You release the chakra cloak from your body."
+					usr.overlays-='cataura.dmi'
+					usr.overlays-='cataura1.dmi'
+					usr.overlays-='cataura2.dmi'
+					usr.TailState=0
+					src.Delay=1;spawn(60-usr.NinjutsuMastery)
+						src.Delay=0
+					src.overlays+='Skillcards2.dmi'
+					spawn(650-usr.NinjutsuMastery)
+						src.overlays-='Skillcards2.dmi'
+					return
+				else
+					var/Controllable=0
+					if(src.Uses>200)
+						Controllable=1
+					src.Uses++
+					usr.ReleaseNibi2(Controllable)
+	Nibi2
+		name="Two-Tailed(Nibi)"
+		icon_state="Nibi"
+		Click()
+			if(usr.KBunshinOn)
+				var/A=usr.controlled
+				usr=A
+			else
+				usr=usr
+			if(src.Delay>0)
+				usr<<sound('Click2.wav');return
+			else
+				if(usr.Bijuu=="")
+					del(src)
+				if(usr.TailState!=0&&usr.TailState!=1)
+					usr<<"You release the chakra cloak from your body."
+					usr.overlays-='cataura.dmi'
+					usr.overlays-='cataura1.dmi'
+					usr.overlays-='cataura2.dmi'
+					usr.TailState=0
+					src.Delay=1;spawn(60-usr.NinjutsuMastery)
+						src.Delay=0
+					src.overlays+='Skillcards2.dmi'
+					spawn(650-usr.NinjutsuMastery)
+						src.overlays-='Skillcards2.dmi'
+					return
+				else
+					var/Controllable=0
+					if(src.Uses>300)
+						Controllable=1
+					src.Uses++
+					usr.ReleaseNibi3(Controllable)
+	NibiFlame
+		name="Devastating Flame(Nibi)"
+		icon_state="Nibi"
+		Click()
+			if(usr.KBunshinOn)
+				var/A=usr.controlled
+				usr=A
+			else
+				usr=usr
+			if(src.Delay>0)
+				usr<<sound('Click2.wav');return
+			else
+				if(usr.Bijuu=="")
+					del(src)
+				if(usr.TailState!=2)
+					usr<<"You need to be in the second tailed form to use this attack!";return
+				src.Uses++
+				src.Delay=1;spawn(60-usr.NinjutsuMastery)
+					src.Delay=0
+				src.overlays+='Skillcards2.dmi'
+				spawn(650-usr.NinjutsuMastery)
+					src.overlays-='Skillcards2.dmi'
+				usr.NibiFlameProjectile()
+				return
+//Sanbi
+	Sanbi
+		name="Power State(Sanbi)"
+		icon_state="Sanbi"
+		Click()
+			if(usr.KBunshinOn)
+				var/A=usr.controlled
+				usr=A
+			else
+				usr=usr
+			if(src.Delay>0)
+				usr<<sound('Click2.wav');return
+			else
+				if(usr.Bijuu=="")
+					del(src)
+				if(usr.TailState!=0)
+					usr<<"You release the chakra cloak from your body."
+					usr.overlays-='kyuubi.dmi'
+					usr.overlays-='kyuubi1.dmi'
+					usr.overlays-='kyuubi2.dmi'
+					usr.overlays-='demonturtle.dmi'
+					usr.overlays-='demonturtletail1O.dmi'
+					usr.underlays-='demonturtletail1U.dmi'
+					usr.TailState=0
+					src.Delay=1;spawn(60-usr.NinjutsuMastery)
+						src.Delay=0
+					src.overlays+='Skillcards2.dmi'
+					spawn(650-usr.NinjutsuMastery)
+						src.overlays-='Skillcards2.dmi'
+					return
+				else
+					var/Controllable=0
+					if(src.Uses>100)
+						Controllable=1
+					src.Uses++
+					usr.ReleaseSanbi(Controllable)
+	Sanbi1
+		name="One-Tailed(Sanbi)"
+		icon_state="Sanbi"
+		Click()
+			if(usr.KBunshinOn)
+				var/A=usr.controlled
+				usr=A
+			else
+				usr=usr
+			if(src.Delay>0)
+				usr<<sound('Click2.wav');return
+			else
+				if(usr.Bijuu=="")
+					del(src)
+				if(usr.TailState!=0)
+					usr<<"You release the chakra cloak from your body."
+					usr.overlays-='kyuubi.dmi'
+					usr.overlays-='kyuubi1.dmi'
+					usr.overlays-='kyuubi2.dmi'
+					usr.overlays-='demonturtle.dmi'
+					usr.overlays-='demonturtletail1O.dmi'
+					usr.underlays-='demonturtletail1U.dmi'
+					usr.TailState=0
+					src.Delay=1;spawn(60-usr.NinjutsuMastery)
+						src.Delay=0
+					src.overlays+='Skillcards2.dmi'
+					spawn(650-usr.NinjutsuMastery)
+						src.overlays-='Skillcards2.dmi'
+					return
+				else
+					var/Controllable=0
+					if(src.Uses>100)
+						Controllable=1
+					src.Uses++
+					usr.ReleaseSanbi1(Controllable)
+//Yonbi
+	Yonbi
+		name="Power State(Yonbi)"
+		icon_state="Yonbi"
+		Click()
+			if(usr.KBunshinOn)
+				var/A=usr.controlled
+				usr=A
+			else
+				usr=usr
+			if(src.Delay>0)
+				usr<<sound('Click2.wav');return
+			else
+				if(usr.Bijuu=="")
+					del(src)
+				if(usr.TailState!=0)
+					usr<<"You release the chakra cloak from your body."
+					usr.overlays-='kyuubi.dmi'
+					usr.overlays-='Bijuu1.dmi'
+					usr.overlays-='Bijuu1.dmi'
+					usr.TailState=0
+					src.Delay=1;spawn(60-usr.NinjutsuMastery)
+						src.Delay=0
+					src.overlays+='Skillcards2.dmi'
+					spawn(650-usr.NinjutsuMastery)
+						src.overlays-='Skillcards2.dmi'
+					return
+				else
+					var/Controllable=0
+					if(src.Uses>100)
+						Controllable=1
+					src.Uses++
+					usr.ReleaseYonbi(Controllable)
+
+	LavaStream
+		name="Lava Stream"
+		icon_state="Yonbi"
+		Click()
+			if(usr.resting||usr.meditating)
+				usr<<"You can't do this, you're resting or in chakra generation mode."
+				return
+			if(usr.Dead||usr.FrozenBind=="Dead"||usr.DoingPalms)
+				usr<<"Not now."
+				return
+			if(usr.KBunshinOn)
+				var/A=usr.controlled
+				usr=A
+			else
+				usr=usr
+			if(src.Delay>0)
+				usr<<output("You must wait to use this technique.","Attack");return
+			else
+				if(src.Uses<100&&usr.Trait!="Speedy")
+					if(prob(95-src.Uses))
+						usr<<output("The jutsu failed.","Attack");return
+				else if(usr.Trait=="Speedy"&&src.Uses<50)
+					if(prob(50-src.Uses))
+						usr<<output("The jutsu failed.","Attack");return
+				if(prob(15))
+					usr.NinjutsuMastery+=0.1;if(usr.NinjutsuMastery>10) usr.NinjutsuMastery=10
+				if(prob(15))
+					usr.NinjutsuKnowledge+=1
+
+				src.DelayIt(600,usr,"Nin")
+				src.Uses+=1
+				usr.Lavastream()
+	LavaRiver
+		name="Lava River"
+		icon_state="Yonbi"
+		Click()
+			if(usr.resting||usr.meditating)
+				usr<<"You can't do this, you're resting or in chakra generation mode."
+				return
+			if(usr.Dead||usr.FrozenBind=="Dead"||usr.DoingPalms)
+				usr<<"Not now."
+				return
+			if(usr.KBunshinOn)
+				var/A=usr.controlled
+				usr=A
+			else
+				usr=usr
+			if(src.Delay>0)
+				usr<<output("You must wait to use this technique.","Attack");return
+			else
+				if(src.Uses<100&&usr.Trait!="Speedy")
+					if(prob(95-src.Uses))
+						usr<<output("The jutsu failed.","Attack");return
+				else if(usr.Trait=="Speedy"&&src.Uses<50)
+					if(prob(50-src.Uses))
+						usr<<output("The jutsu failed.","Attack");return
+				if(prob(15))
+					usr.NinjutsuMastery+=0.1;if(usr.NinjutsuMastery>10) usr.NinjutsuMastery=10
+				if(prob(15))
+					usr.NinjutsuKnowledge+=1
+
+				src.DelayIt(600,usr,"Nin")
+				src.Uses+=1
+				usr.LavaRiver(src.Uses)
+//Gobi
+	Gobi
+		name="Power State(Gobi)"
+		icon_state="Gobi"
+		Click()
+			if(usr.KBunshinOn)
+				var/A=usr.controlled
+				usr=A
+			else
+				usr=usr
+			if(src.Delay>0)
+				usr<<sound('Click2.wav');return
+			else
+				if(usr.Bijuu=="")
+					del(src)
+				if(usr.TailState!=0)
+					usr<<"You release the chakra cloak from your body."
+					usr.overlays-='kyuubi.dmi'
+					usr.overlays-='kyuubi1.dmi'
+					usr.overlays-='kyuubi2.dmi'
+					usr.TailState=0
+					src.Delay=1;spawn(60-usr.NinjutsuMastery)
+						src.Delay=0
+					src.overlays+='Skillcards2.dmi'
+					spawn(650-usr.NinjutsuMastery)
+						src.overlays-='Skillcards2.dmi'
+					return
+				else
+					var/Controllable=0
+					if(src.Uses>100)
+						Controllable=1
+					src.Uses++
+					usr.ReleaseGobi(Controllable)
+//Gobi2
+	GobiType2
+		name="Power State(Gobi)"
+		icon_state="Gobi"
+		Click()
+			if(usr.KBunshinOn)
+				var/A=usr.controlled
+				usr=A
+			else
+				usr=usr
+			if(src.Delay>0)
+				usr<<sound('Click2.wav');return
+			else
+				if(usr.Bijuu=="")
+					del(src)
+				if(usr.TailState!=0)
+					usr<<"You release the chakra cloak from your body."
+					usr.overlays-='kyuubi.dmi'
+					usr.overlays-='kyuubi1.dmi'
+					usr.overlays-='kyuubi2.dmi'
+					usr.TailState=0
+					src.Delay=1;spawn(60-usr.NinjutsuMastery)
+						src.Delay=0
+					src.overlays+='Skillcards2.dmi'
+					spawn(650-usr.NinjutsuMastery)
+						src.overlays-='Skillcards2.dmi'
+					return
+				else
+					var/Controllable=0
+					if(src.Uses>100)
+						Controllable=1
+					src.Uses++
+					usr.ReleaseGobiType2(Controllable)
+	GobiType21
+		name="One-Tailed(Gobi)"
+		icon_state="Gobi"
+		Click()
+			if(usr.KBunshinOn)
+				var/A=usr.controlled
+				usr=A
+			else
+				usr=usr
+			if(src.Delay>0)
+				usr<<sound('Click2.wav');return
+			else
+				if(usr.Bijuu=="")
+					del(src)
+				if(usr.TailState!=0)
+					usr<<"You release the chakra cloak from your body."
+					usr.overlays-='kyuubi.dmi'
+					usr.overlays-='kyuubi1.dmi'
+					usr.overlays-='kyuubi2.dmi'
+					usr.TailState=0
+					src.Delay=1;spawn(60-usr.NinjutsuMastery)
+						src.Delay=0
+					src.overlays+='Skillcards2.dmi'
+					spawn(650-usr.NinjutsuMastery)
+						src.overlays-='Skillcards2.dmi'
+					return
+				else
+					var/Controllable=0
+					if(src.Uses>100)
+						Controllable=1
+					src.Uses++
+					usr.ReleaseGobiType21(Controllable)
+//Rokubi
+	Rokubi
+		name="Power State(Rokubi)"
+		icon_state="Rokubi"
+		Click()
+			if(usr.KBunshinOn)
+				var/A=usr.controlled
+				usr=A
+			else
+				usr=usr
+			if(src.Delay>0)
+				usr<<sound('Click2.wav');return
+			else
+				if(usr.Bijuu=="")
+					del(src)
+				if(usr.TailState!=0)
+					usr<<"You release the chakra cloak from your body."
+					usr.overlays-='kyuubi.dmi'
+					usr.overlays-='Bijuu1.dmi'
+					usr.overlays-='Bijuu1.dmi'
+					usr.TailState=0
+					src.Delay=1;spawn(60-usr.NinjutsuMastery)
+						src.Delay=0
+					src.overlays+='Skillcards2.dmi'
+					spawn(650-usr.NinjutsuMastery)
+						src.overlays-='Skillcards2.dmi'
+					return
+				else
+					var/Controllable=0
+					if(src.Uses>100)
+						Controllable=1
+					if(src.Uses==550)
+						usr.LearnedJutsus+=new /obj/SkillCards/Rokubi1
+					src.Uses++
+					usr.ReleaseRokubi(Controllable)
+	Rokubi1
+		name="One-Tailed(Rokubi)"
+		icon_state="Rokubi"
+		Click()
+			if(usr.KBunshinOn)
+				var/A=usr.controlled
+				usr=A
+			else
+				usr=usr
+			if(src.Delay>0)
+				usr<<sound('Click2.wav');return
+			else
+				if(usr.Bijuu=="")
+					del(src)
+				if(usr.TailState!=0)
+					usr<<"You release the chakra cloak from your body."
+					usr.overlays-='kyuubi.dmi'
+					usr.overlays-='Bijuu1.dmi'
+					usr.overlays-='Bijuu1.dmi'
+					usr.TailState=0
+					src.Delay=1;spawn(60-usr.NinjutsuMastery)
+						src.Delay=0
+					src.overlays+='Skillcards2.dmi'
+					spawn(650-usr.NinjutsuMastery)
+						src.overlays-='Skillcards2.dmi'
+					return
+				else
+					var/Controllable=0
+					if(src.Uses>100)
+						Controllable=1
+					src.Uses++
+					usr.ReleaseRokubi1(Controllable)
+//Nanabi
+	Nanabi
+		name="Power State(Nanabi)"
+		icon_state="Nanabi"
+		Click()
+			if(usr.KBunshinOn)
+				var/A=usr.controlled
+				usr=A
+			else
+				usr=usr
+			if(src.Delay>0)
+				usr<<sound('Click2.wav');return
+			else
+				if(usr.Bijuu=="")
+					del(src)
+				if(usr.TailState!=0)
+					usr<<"You release the chakra cloak from your body."
+					usr.overlays-='kyuubi.dmi'
+					usr.overlays-='kyuubi1.dmi'
+					usr.overlays-='kyuubi2.dmi'
+					usr.TailState=0
+					src.Delay=1;spawn(60-usr.NinjutsuMastery)
+						src.Delay=0
+					src.overlays+='Skillcards2.dmi'
+					spawn(650-usr.NinjutsuMastery)
+						src.overlays-='Skillcards2.dmi'
+					return
+				else
+					var/Controllable=0
+					if(src.Uses>100)
+						Controllable=1
+					src.Uses++
+					usr.ReleaseNanabi(Controllable)
+//NanabiType2
+	NanabiType2
+		name="Power State(Nanabi)"
+		icon_state="Nanabi"
+		Click()
+			if(usr.KBunshinOn)
+				var/A=usr.controlled
+				usr=A
+			else
+				usr=usr
+			if(src.Delay>0)
+				usr<<sound('Click2.wav');return
+			else
+				if(usr.Bijuu=="")
+					del(src)
+				if(usr.TailState!=0)
+					usr<<"You release the chakra cloak from your body."
+					usr.overlays-='DemonAura0.dmi'
+					usr.overlays-='kyuubi1.dmi'
+					usr.overlays-='kyuubi2.dmi'
+					usr.TailState=0
+					src.Delay=1;spawn(60-usr.NinjutsuMastery)
+						src.Delay=0
+					src.overlays+='Skillcards2.dmi'
+					spawn(650-usr.NinjutsuMastery)
+						src.overlays-='Skillcards2.dmi'
+					return
+				else
+					var/Controllable=0
+					if(src.Uses>100)
+						Controllable=1
+					src.Uses++
+					usr.ReleaseNanabiType2(Controllable)
+	FlameFest
+		name="Flame Fest(Nanabi)"
+		icon_state="Nanabi"
+		Click()
+			if(usr.KBunshinOn)
+				var/A=usr.controlled
+				usr=A
+			else
+				usr=usr
+			if(src.Delay>0)
+				usr<<sound('Click2.wav');return
+			else
+				if(usr.Bijuu=="")
+					del(src)
+				if(usr.TailState>=0.5)
+					usr<<"You need to be in the tail form!";return
+				src.Uses++
+				src.Delay=1;spawn(60-usr.NinjutsuMastery)
+					src.Delay=0
+				src.overlays+='Skillcards2.dmi'
+				spawn(650-usr.NinjutsuMastery)
+					src.overlays-='Skillcards2.dmi'
+				usr.NanabiFlameFest()
+//Hachibi
+	Hachibi
+		name="Power State(Hachibi)"
+		icon_state="Hachibi"
+		Click()
+			if(usr.KBunshinOn)
+				var/A=usr.controlled
+				usr=A
+			else
+				usr=usr
+			if(src.Delay>0)
+				usr<<sound('Click2.wav');return
+			else
+				if(usr.Bijuu=="")
+					del(src)
+				if(usr.TailState!=0)
+					usr<<"You release the chakra cloak from your body."
+					usr.overlays-='kyuubi.dmi'
+					usr.overlays-='kyuubi1.dmi'
+					usr.overlays-='kyuubi2.dmi'
+					usr.TailState=0
+					src.Delay=1;spawn(60-usr.NinjutsuMastery)
+						src.Delay=0
+					src.overlays+='Skillcards2.dmi'
+					spawn(650-usr.NinjutsuMastery)
+						src.overlays-='Skillcards2.dmi'
+					return
+				else
+					var/Controllable=0
+					if(src.Uses>100)
+						Controllable=1
+					src.Uses++
+					usr.ReleaseHachibi(Controllable)
+//Hachibi
+	HachibiType2
+		name="Power State(Hachibi)"
+		icon_state="Hachibi"
+		Click()
+			if(usr.KBunshinOn)
+				var/A=usr.controlled
+				usr=A
+			else
+				usr=usr
+			if(src.Delay>0)
+				usr<<sound('Click2.wav');return
+			else
+				if(usr.Bijuu=="")
+					del(src)
+				if(usr.TailState!=0)
+					usr<<"You release the chakra cloak from your body."
+					usr.overlays-='kyuubi.dmi'
+					usr.overlays-='kyuubi1.dmi'
+					usr.overlays-='kyuubi2.dmi'
+					usr.TailState=0
+					src.Delay=1;spawn(60-usr.NinjutsuMastery)
+						src.Delay=0
+					src.overlays+='Skillcards2.dmi'
+					spawn(650-usr.NinjutsuMastery)
+						src.overlays-='Skillcards2.dmi'
+					return
+				else
+					var/Controllable=0
+					if(src.Uses>100)
+						Controllable=1
+					src.Uses++
+					usr.ReleaseHachibiType2(Controllable)
+//Kyuubi
+	Kyuubi
+		name="Power State(Kyuubi)"
+		icon_state="Kyuubi"
+		Click()
+			if(usr.KBunshinOn)
+				var/A=usr.controlled
+				usr=A
+			else
+				usr=usr
+			if(src.Delay>0)
+				usr<<sound('Click2.wav');return
+			else
+				if(usr.Bijuu=="")
+					del(src)
+				if(usr.TailState!=0)
+					usr<<"You release the chakra cloak from your body."
+					usr.overlays-='kyuubi.dmi'
+					usr.overlays-='kyuubi1.dmi'
+					usr.overlays-='kyuubi2.dmi'
+					usr.TailState=0
+					src.Delay=1;spawn(60-usr.NinjutsuMastery)
+						src.Delay=0
+					src.overlays+='Skillcards2.dmi'
+					spawn(650-usr.NinjutsuMastery)
+						src.overlays-='Skillcards2.dmi'
+					return
+				else
+					var/Controllable=0
+					if(src.Uses>100)
+						Controllable=1
+					src.Uses++
+					usr.ReleaseKyuubi(Controllable)
+	Kyuubi1
+		name="One-Tailed(Kyuubi)"
+		icon_state="Kyuubi"
+		Click()
+			if(usr.KBunshinOn)
+				var/A=usr.controlled
+				usr=A
+			else
+				usr=usr
+			if(src.Delay>0)
+				usr<<sound('Click2.wav');return
+			else
+				if(usr.Bijuu=="")
+					del(src)
+				if(usr.TailState!=0&&usr.TailState!=0.5)
+					usr<<"You release the chakra cloak from your body."
+					usr.overlays-='kyuubi.dmi'
+					usr.overlays-='kyuubi1.dmi'
+					usr.overlays-='kyuubi2.dmi'
+					usr.TailState=0
+					src.Delay=1;spawn(60-usr.NinjutsuMastery)
+						src.Delay=0
+					src.overlays+='Skillcards2.dmi'
+					spawn(650-usr.NinjutsuMastery)
+						src.overlays-='Skillcards2.dmi'
+					return
+				else
+					var/Controllable=0
+					if(src.Uses>200)
+						Controllable=1
+					src.Uses++
+					usr.ReleaseKyuubi2(Controllable)
+	Kyuubi2
+		name="Two-Tailed(Kyuubi)"
+		icon_state="Kyuubi"
+		Click()
+			if(usr.KBunshinOn)
+				var/A=usr.controlled
+				usr=A
+			else
+				usr=usr
+			if(src.Delay>0)
+				usr<<sound('Click2.wav');return
+			else
+				if(usr.Bijuu=="")
+					del(src)
+				if(usr.TailState!=0&&usr.TailState!=0.5&&usr.TailState!=1)
+					usr<<"You release the chakra cloak from your body."
+					usr.overlays-='kyuubi.dmi'
+					usr.overlays-='kyuubi1.dmi'
+					usr.overlays-='kyuubi2.dmi'
+					usr.TailState=0
+					src.Delay=1;spawn(60-usr.NinjutsuMastery)
+						src.Delay=0
+					src.overlays+='Skillcards2.dmi'
+					spawn(650-usr.NinjutsuMastery)
+						src.overlays-='Skillcards2.dmi'
+					return
+				else
+					var/Controllable=0
+					if(src.Uses>200)
+						Controllable=1
+					src.Uses++
+					usr.ReleaseKyuubi3(Controllable)
+
+
+
+//Summoning
+
+//Summoning
+	Rashoumon
+		name="Rashoumon"
+		icon_state="Rashoumon"
+		Click()
+			if(usr.resting||usr.meditating)
+				usr<<"You can't do this, you're resting or in chakra generation mode."
+				return
+			if(usr.Dead||usr.FrozenBind=="Dead"||usr.DoingPalms)
+				usr<<"Not now."
+				return
+			if(usr.KBunshinOn)
+				var/A=usr.controlled
+				usr=A
+			else
+				usr=usr
+			if(src.Delay>0)
+				usr<<output("You must wait to use this technique.","Attack");return
+			else
+				if(src.Uses<100&&usr.Trait!="Speedy")
+					if(prob(95-src.Uses))
+						usr<<output("The jutsu failed.","Attack");return
+				else if(usr.Trait=="Speedy"&&src.Uses<50)
+					if(prob(50-src.Uses))
+						usr<<output("The jutsu failed.","Attack");return
+				if(prob(15))
+					usr.NinjutsuMastery+=0.1;if(usr.NinjutsuMastery>10) usr.NinjutsuMastery=10
+				if(prob(15))
+					usr.NinjutsuKnowledge+=1
+
+				src.Delay=1;spawn(600-usr.NinjutsuMastery)
+					src.Delay=0
+				src.overlays+='Skillcards2.dmi'
+				spawn(600-usr.NinjutsuMastery)
+					src.overlays-='Skillcards2.dmi'
+				src.Uses+=1
+				usr.RashoumonSummon()
+//Animals
+	SageModeApe
+		name="Sage Mode"
+		icon_state="SageModeApe"
+		Click()
+			if(usr.resting||usr.meditating)
+				usr<<"You can't do this, you're resting or in chakra generation mode."
+				return
+			if(usr.Dead||usr.FrozenBind=="Dead"||usr.DoingPalms)
+				usr<<"Not now."
+				return
+			if(usr.KBunshinOn)
+				var/A=usr.controlled
+				usr=A
+			else
+				usr=usr
+			if(src.Delay>0)
+				usr<<output("You must wait to use this technique.","Attack");return
+			else
+				if(usr.SageMode!="")
+					usr.icon_state="handseal"
+					usr<<"You disactivate Sage Mode."
+					if(usr.SageMode=="Monkey")
+						usr.overlays-='SageMonkeyTail.dmi'
+						var/icon/A='Base.dmi'
+						A+=rgb(usr.BaseR,usr.BaseG,usr.BaseB)
+						usr.icon=null
+						usr.icon=A
+						usr.nin=usr.Mnin
+						usr.gen=usr.Mgen
+						usr.tai=usr.Mtai
+						usr.Swift=6
+						usr.SpeedDice=6
+						usr.Reflex=100
+					usr.SageMode=""
+					usr.icon_state=""
+					src.Delay=1;spawn(250)
+						src.Delay=0
+					src.overlays+='Skillcards2.dmi'
+					spawn(250)
+						src.overlays-='Skillcards2.dmi'
+					return
+				var/A=src.Uses+30
+				var/T=120-src.Uses
+				if(A>360)
+					A=360
+				if(T<60)
+					T=60
+				usr.SageMode(T,A,"Monkey")
+				src.Uses+=1
+	MeltingAcidWave
+		name="Acid Spit Jutsu"
+		icon_state="MeltingAcidWave"
+		Click()
+			if(usr.resting||usr.meditating)
+				usr<<"You can't do this, you're resting or in chakra generation mode."
+				return
+			if(usr.Dead||usr.FrozenBind=="Dead"||usr.DoingPalms)
+				usr<<"Not now."
+				return
+			if(usr.KBunshinOn)
+				var/A=usr.controlled
+				usr=A
+			else
+				usr=usr
+			if(src.Delay>0)
+				usr<<output("You must wait to use this technique.","Attack");return
+			else
+				if(src.Uses<100&&usr.Trait!="Speedy")
+					if(prob(95-src.Uses))
+						usr<<output("The jutsu failed.","Attack");return
+				else if(usr.Trait=="Speedy"&&src.Uses<50)
+					if(prob(50-src.Uses))
+						usr<<output("The jutsu failed.","Attack");return
+				if(prob(15))
+					usr.NinjutsuMastery+=0.1;if(usr.NinjutsuMastery>10) usr.NinjutsuMastery=10
+				if(prob(15))
+					usr.NinjutsuKnowledge+=1
+
+				src.DelayIt(600,usr,"Nin")
+				src.Uses+=1
+				usr.AcidWave()
+
+
+
+
+
+
+mob/proc/SharinganCopy(Type,Uses)
+	var/A = new Type
+	if(A)
+		if((Type in src.LearnedJutsus)==0)
+			src.LearnedJutsus+=A
+			A:NonKeepable=1;A:Uses=Uses
+			src<<"You have copied [src]!"
+			src.CopyMode=0
+
